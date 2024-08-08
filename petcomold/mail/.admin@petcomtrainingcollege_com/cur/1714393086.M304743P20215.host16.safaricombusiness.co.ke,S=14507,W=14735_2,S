@@ -1,0 +1,228 @@
+Return-Path: <johnkaranja199900@gmail.com>
+Delivered-To: admin@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id +FuhCv6PL2b3TgAAz9s6Ng
+	(envelope-from <johnkaranja199900@gmail.com>)
+	for <admin@petcomtrainingcollege.com>; Mon, 29 Apr 2024 15:18:06 +0300
+Return-path: <johnkaranja199900@gmail.com>
+Envelope-to: admin@petcomtrainingcollege.com
+Delivery-date: Mon, 29 Apr 2024 15:18:06 +0300
+Received: from athi-ecisp-rat01.safaricombusiness.co.ke ([197.248.128.5]:6419)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <johnkaranja199900@gmail.com>)
+	id 1s1PwF-0005l7-04
+	for admin@petcomtrainingcollege.com;
+	Mon, 29 Apr 2024 15:18:04 +0300
+IronPort-SDR: 662f8ffa_Xuhm1SeNUApKBQVUy0NZW4I0isgXO9TXV1gjMdbhSvTSiXB
+ tYw4iZpH3YgWwMJJKUwONICmND2SP8nqurfLxkA==
+X-IPAS-Result: =?us-ascii?q?A0H6igBSr/Vk/yvZVdFaHAEBATwBAQQEAQECAQEHAQGBZ?=
+ =?us-ascii?q?AKBMhsCAQEBAWlvVRIuR4RSgSOCLItugTKCGooaMgUCh0ADg3GDAIR0AgFWD?=
+ =?us-ascii?q?wEBAQEBAQEBAQkUAQEBAiQBBgQBAQQ7hAFGhnACJTcGDgECBAEBAQEDAgMBA?=
+ =?us-ascii?q?QEBAQEDAQEFAQEBAgEBBgUBAoEGCAuFLzkNgjcMghosgR4RHQEbHgMSAw03A?=
+ =?us-ascii?q?iMBAREBBQEWBAgTCBqCXTGBeAEDMQMRBosyjRCCIIEFQos7gRUFAhaBATuBT?=
+ =?us-ascii?q?waBCK5NChkoDWoDgVwCBxKBGhYDAQEBAQGESCNXgiIeAYFLAQGCYYRXeieCK?=
+ =?us-ascii?q?DSBF4QzgSBCAgGCDIMugmcEiUqFQQcygiqDNCqIcyYBBwsHAwMBBAMCAwIBC?=
+ =?us-ascii?q?AcCAwICBAgDAQICAQYCAwECAQIBCwEBAgMFAgIRAQICAgICAQECAwIDAQcBA?=
+ =?us-ascii?q?gIYBgQFAwMEAgIBBAEGBAoCBAMBAQICAgIDAgsDBQMBBQMKAwQEAQYCBQMEA?=
+ =?us-ascii?q?gUGBAQCAgICAgEEAQQKAwQEAwMGAwkCAgoCEwIDDwYBBAsLBAECAgIMAQICB?=
+ =?us-ascii?q?gIDAwIFCAQCAgICAgIGAgcEAgIBAwICAwMGAgEIBgMCBAIBAgQCAgYDCQICA?=
+ =?us-ascii?q?gIEAQIBBgICAgECAgEIAgMCAgICAwMMAQEBBQMCAQIBBwIHAQICAgILAwICA?=
+ =?us-ascii?q?gMCBAMCAgMOCwECBAIFAgICAgICAQICAgMFBAEDAwUDAwICAwQDBAUEAgIGA?=
+ =?us-ascii?q?gIFBgICBQMEAg8DBAIBAgEDBwsCBwIBDwgDBAIEAwICAwIBBQMEAgkRAgICA?=
+ =?us-ascii?q?wQFDAQGBAUCAgMCAgMCBgMDCwEBAQIBCwUBBAECAQMDAwsCAgEBAgEDAgIBA?=
+ =?us-ascii?q?gEHAQoKBgIFAQ0CAQEBAgQCAwYCAgEFAwUCAgcGAwEBBgEGAgQEBQIDBAICA?=
+ =?us-ascii?q?gIEAhEHAQMCAwMEBAEDCQQCAgMCAQECAQMCAQMDAgUEAwMDAgUCBQECAQQBA?=
+ =?us-ascii?q?wMCAwIDAwMEAQICARMDAwICAgQCAgMDAwMBDQMBAwECAgMCAQMRBAQBAgECA?=
+ =?us-ascii?q?QQBAwMDAhACAwMDAQQBAgMCAgICBQUFCwQCAQMDAgUCAgICAgIGBgkCAgEBA?=
+ =?us-ascii?q?QECAQEBAQECBwMCAQECAgMHBgIJAgIBAQMCAQIBBwgBBAICAgICAwIDAgICA?=
+ =?us-ascii?q?QIMCAIBBgEEAxUCEwEBBgUDBgcCBQEDBQECAgIDBQQBBAMDAgUCAgMCAgIDF?=
+ =?us-ascii?q?AQBAwsDAwEBAgEEAwMCAgMCBAECEAUDAxMNAQUCAgICEAYCBgUKAwcEBAMGF?=
+ =?us-ascii?q?QwCCAECAQECAgILAQIEAQICAgICAgICAgECBgMGAwIFAgIDAwICAgMCBAIJA?=
+ =?us-ascii?q?gICBAIBBQICAwIFAgQGAQICAgMDAwMDAgkIBQMDAQcCBAgDAgUDBQEHBwIEA?=
+ =?us-ascii?q?gIBAQsDBgMDAgMDBwUJBAkHAgICAgIKAwcDAiwDAQYKAQQBCQECAgUDAgIDA?=
+ =?us-ascii?q?gUIBwEDAgICCwERAgIJEwUCAgMCBAIDAQIBAQkSAwIDBQIeBAIDAwIDAwMDA?=
+ =?us-ascii?q?wMDAwEGAgMDAgMDAwMbAgMDAgMDAwMCAgUFCQUCAgICBQQGCAICFAIBAQcCB?=
+ =?us-ascii?q?AICAgUBGQYDCwMFAQIEAgQCBgQDAwUEAgIGBQEBAQECBAICCgMDAgIDAgMDA?=
+ =?us-ascii?q?QUFAQMBAwECAgEEAwQCDgUlEQIDCwUJBRgDAgIDAwQJAgIEAgICDwEMHQ8QC?=
+ =?us-ascii?q?AIDAgkCBQYIBQICBAIBAwUBAgQBAgsGAQkLAQMGBQICAQcKAQgNBQcCAwICB?=
+ =?us-ascii?q?QMDAQEGAgMDAwUBAgMDAgMDAgIIAwMCBAECAgIDBAICAgIHBAIQAREIAwMBB?=
+ =?us-ascii?q?AUCAgUKGAQBAwIDAwMDAgEDAwMBDQgDBAIKAQIFAwICAQUTAgIEEAYCAQEVA?=
+ =?us-ascii?q?RIIAQsEAwkCBwECFQMBAQEIAQMEDgECAwUBAQEBBQICAQIGAgUCAgEECAQEA?=
+ =?us-ascii?q?QwDAwIJAQQBAwQBCwIBAwQCAgICAQICAwICBgIDAgQBAwMDAgMBAgEDAgIMA?=
+ =?us-ascii?q?gMDAggDAwUBAgMCAgIEAgICAgIDBAEEBAUCAQIDAgYGAwQDAgUCAwUBAQQCC?=
+ =?us-ascii?q?AYBAwIDAgcLAgEGAgIBBAEBAhQBBAEBAgMFAgIGAwMDAgMCAggFCAMCAQECA?=
+ =?us-ascii?q?QQDAQIBARsCAgwHAwEFAgIBBQMHAQQBAQEDBwEDAwICDgICCgUFAgYCBAIcA?=
+ =?us-ascii?q?gICEAECAQIBAwsDBwICAQIRAgIBAgoHAgMCBQUBBQEEAgECBgEIAgISBQYIA?=
+ =?us-ascii?q?gEBBAILAwIBAQICAgYHAgUFAwMEAg8HBQIBAgQCAQEDEAgHAQIOBgIDBAICB?=
+ =?us-ascii?q?QIBAgMCCQMHEgIQAQQBBQICBQEHAgEBAgMDBQYCAQMIAgIGAwcBAgUHBQEGA?=
+ =?us-ascii?q?gEHAwYCDAIcAQIBQxoDAgkDIw8DCwkIEz0BCwcuBAQMKAEUFActFwsKFEYQA?=
+ =?us-ascii?q?wKfVgNwhA4Fg0kBAQGRZZE1n1IrOgkBBgJegWKBBhEKLIFeiiGPE4YMM4VXk?=
+ =?us-ascii?q?VySJQeGJIFKiTKHDI1hg3WWXxAjEoFEJ4FZMxojgQFtBoFDCQo/Cw4PkhEGh?=
+ =?us-ascii?q?AlQiyNBMgIbAQEeBwELi1UBAQ?=
+IronPort-PHdr: A9a23:YYHNoBWRoa6oj9QYOCSIT5OlMcjV8KyHUjF92vMcY1JmTK2v8tzYM
+ VDF4r011RmVB9udsq4UwLCI+4nbGkU4qa6bt34DdJEeHzQksu4x2zIaPcieFEfgJ+TrZSFpV
+ O5LVVti4m3peRMNQJW2aFLduGC94iAPERvjKwV1Ov71GonPhMiryuy+4ZLebxtJiTanfL9/I
+ xa7oQrPusQXnIBvNrs/xhzVr3VSZu9Y33loJVWdnxb94se/4ptu+DlOtvwi6sBNT7z0c7w3Q
+ rJEAjsmNXs15NDwuhnYUQSP/HocXX4InRdOHgPI8Qv1Xpb1siv9q+p9xCyXNtD4QLwoRTiv6
+ bpgRxj1hicaLD456H/YhdBsjKxVpxKhogZww4/SYIqIMPZzcafQcdYcSGFcXMheSjZBD5uzY
+ IUPAeQPPvtWoZfhqFYVtxSyGROhCfnzxjNUhHL727Ax3eQ7EQHB2QwtB9YAsHPUrNXzKawcV
+ Pq6zLPSwjXFbfNZwyr25Y/KchAmofGMW7FwftDLyUY1EQPFjE+fpZHhMj6R0ukBr3SX4vFvV
+ eKqkWEnqgVxriKzyccrj4nEn4QYwU3L+itl2og6P8G4SFJlbt6+Fptdry+XOpZ5T84/R2xmt
+ iQ3x7wEtJC0ciUHyooqyhzQZfCafIWF/xLuWeWNLDp3i3xoeLKyiwix/EWv1ODxSsa53UpMo
+ yFYnNfMsXUN2AbS6siBUvZ94l2t1iqI1wzL9uFFL0E0lbbHK5E/2L48jIYcsUPGHiPuhEn6k
+ LOad0s69eez6+TnZa7mpoOGOI9skgHyKLghmsu6AeggPAkBRXKX+eGi27Dl4Eb3Q61Kg+Uon
+ qXFtJ3WP8cWq66jDwNLz4ou6QyzAjio3dkegHIJNkhKeAidgIjsI1zOIO73DfO4g1m0lTdk3
+ fHGPrn4DpXTNXjPja7tfbhy5kNS0gYzwtdf55VbCrEFPv3/QFP+tNvdDhMhMgy0xfjoCMll2
+ 48ARW6CBrWVPaDSvFOS+O4jPuuBaJUatTvzM/Ql4uThjX49mV8TZ6mp2p4XZWi6HvRhI0WZZ
+ 3nsjc0bEWgQuAo+TvblhECGXDNXY3u+Q74w6yo0CIKjF4jDR4StjKad0ye8G51afmZGBUuUH
+ nfya4qEQ+sMaD6VIsJ5jzAITaKhRJM51RGyqA/6zKJqIfDJ9S0dtJLj0sN45/XNmhEu6TN0C
+ MGd032XT25un2MIQT423KZwoUNhzVeD1ax4jOJXFdNN/f9GTgA6NZuPh9B9Xuj/RgnGe5+1U
+ l+nRNSgDnk6SdY1ztADKxJ0F9CjiDjb0jahBLoJjbWKAp0y/anb23z8KMs7wHHDgvoPlV4jF
+ +lINWvupadl/g7RDsadkUKZkaWjb60a3ieUpTbSlTKms0RRUQo2WqLACyNMLnDKpMj0sxuRB
+ 4SlDq4qZ1cQofM=
+IronPort-Data: A9a23:d8giH68TwsVvQoDln3VKDrUD33+TJUtcMsCJ2f8bNWPcYEJGY0x3y
+ DAbDWmFbqrfZTb1LdtyPoW2p0hTu5fWx4BjS1Y9qClEQiMRo6IpJzg7wmTYZHrOc5KZHCqLy
+ +1EN7Es+ehtFie0Si+Fa+Sn9z8lvU2xbuKUIPbePSxsThNTRi4kiBZy88Y0mYcAbeKRWmthg
+ vus5ZWFULOZ82QsaDlMuvrf8EoHUMna4Vv0gHRvPZing3eDzxH5PLpHTYmtIn3xRJVjH+LSb
+ 44vG5ngows1Vz90Yj+Uuu6Tnn8iG9Y+DiDS4pZiYJVOtzAZzsAEPgbXA9JHAatfo23hc9mcU
+ 7yhv7ToIesiFvWkdOjwz3C0usyxVEFL0OavHJSxjSCc53HYSSvt+fUpNnwRGZcT5PQqDmRPq
+ +NNfVjhbjjb7w636LeyS+0pmN96ace3Z8UQvXZvyTyfBvEjKXzBa/+StJkIgXFq358IQa22i
+ 8kxMVKDaDzCZB1JOV4NAZQ8lb751yinKxVXrVuUoew85G27IAlZgOO8YIqEIrRmQ+1Uh0u6i
+ UmB9FjCKSMeCoCPkxi09Wuj07qncSTTHdh6+KeD3vdmhVyV7nQeFBYRUEehqPi/i0ixUNVbL
+ 0Eb92wlqq1ayaCwZtz0Xhn9vmXd+xBAAJxfFOo17AzLwa3Ri+qEOlU5ovd6QIROnKcLqfYCj
+ zdlMvuwbdCzmNV5gk5xOltZQf1e9MTVwaI/ifc4cDY4
+IronPort-HdrOrdr: A9a23:l66kBKvCgm4LHKbTUITaayRf7skDe9V00zEX/kB9WHVpm62j5q
+ eTdZEgvyMc5wxhO03I9erhBEDiexLhHPxOkOss1N6ZNWGMhILCFvAG0WKN+UyFJ8Q8zIJgPG
+ VbHpSWxOeeMbGyt6jH3DU=
+X-Talos-CUID: 9a23:VSNe32F+mrlr8oZ2qmJb6nREG/olNUfg61PKKFGqVGlsSeOKHAo=
+X-Talos-MUID: 9a23:lTE2mQn4/7U7ecBSSF6adnpjLcpKzI/pA3w2uqcChZWUbw5BPC6S2WE=
+X-IronPort-Anti-Spam-Filtered: true
+X-URL-LookUp-ScanningError: 1
+Subject: [SUSPECTED SPAM] tr
+X-IronPort-AV: E=Sophos;i="6.02,226,1688418000"; 
+   d="scan'208,217";a="8398890"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+Received: from mail-vs1-f43.google.com ([209.85.217.43])
+  by athi-ecisp-rat01.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 29 Apr 2024 15:18:01 +0300
+Received: by mail-vs1-f43.google.com with SMTP id ada2fe7eead31-47c26f67c7eso696741137.0
+        for <admin@petcomtrainingcollege.com>; Mon, 29 Apr 2024 05:18:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1714393079; x=1714997879; darn=petcomtrainingcollege.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=aaRy4Byb2LO/XeCX2ixqH4iZuov6NKisl1w+Ua6REp8=;
+        b=GMF/NpOcm90ttCa4i5hgt84h8uZV23GhLqCZ2FastizdbzHBIRkxF34D73dCSQ7lRZ
+         /beM+1w6I2PSzcZ3a6EMZ69534xaxPVrJoMd5qvl3+k6blqZiRkUO4wMv4df8hK+23Wc
+         gixDikMFByv5gWQWyjiS+g283djQT67pylIfg5JmeNUbF23Y9PEJTgUYoAleABIN9gCg
+         TpipTIyux5pKWX+5YA6RuWc9LmNYIgcORWfnUL8XMW3aXaUY8cWZ1sGqkJ0Toh0jB2kN
+         8/t+Fr6kYjScMIJRi/OjpOKwAVNjjLQNPsPsk9m1Zo6kqXobA/EAAat0H92f+MPSlvoX
+         0HBQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1714393079; x=1714997879;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=aaRy4Byb2LO/XeCX2ixqH4iZuov6NKisl1w+Ua6REp8=;
+        b=D4Rwj7iAyng+XuCKx9zzUWFLM4YKA43vtD/r/6Eop0MWo2pMglUzqKziJNvJCs5iXH
+         5Sj3xx2pAagfL1OdvXvZtdWTOnMGLQRMpO7IMPvid9OHd5oy0ZFryn0vlnOUwLLAJGUZ
+         +vNHIdzDmHtDwldUuergBUr+MyTymCkrsNk3tahXp7o3rnMYa6Ym/y9wp92xGzh45TGx
+         PBo5QtEUYmEx6gIi2h+as56qJFgrptQsinWjnVD5C0qeLiZxzV4STmsoTcR2uMys/C9i
+         yvvC+K7KIlzN24gVkNMrjsa/wAfEnkxcXAgQR4oCw3w9LWHqnQXeMrnISqLnFanI8eHh
+         XonA==
+X-Gm-Message-State: AOJu0YzBh4+/sc4PowYCMsaM/5bwUPQlA59TS1sXDlxjKFMuGEhGkF40
+	oU9Rw2dWYJT2+KbU5AqBqftMwMxB0DhjiWNv9ti0G48fXqz39yC7ASpBdE5iiVRPmn63YWX68go
+	VJ1uqUEdbW3bU9W93IOG/fIt0qn2H8gpo2u8=
+X-Google-Smtp-Source: AGHT+IHl4O2kpKvXXMdcszXMID+UrTUgzTadmaygZ+2FM70Qm9j9CvdTWTrgzRcNnQi+U9icZjfRZsSuBbc4sv/j2AY=
+X-Received: by 2002:a67:bc08:0:b0:47c:2013:9d3e with SMTP id
+ t8-20020a67bc08000000b0047c20139d3emr11214662vsn.10.1714393077400; Mon, 29
+ Apr 2024 05:17:57 -0700 (PDT)
+MIME-Version: 1.0
+From: John Karanja <johnkaranja199900@gmail.com>
+Date: Mon, 29 Apr 2024 15:17:45 +0300
+Message-ID: <CALU29eM2ev11kGWAs1q49W97GFV_DiD2JObrSuvu4LeOf0dzmg@mail.gmail.com>
+To: Petcom Training college <admin@petcomtrainingcollege.com>
+Content-Type: multipart/alternative; boundary="000000000000624b9a06173b3e72"
+
+--000000000000624b9a06173b3e72
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Omwamba =F0=9F=87=B0=F0=9F=87=AA on X: "Yaani we're busy concerned with the=
+ Situation at Mahi
+Mahiu right now but Siah is Busy uniting Kenyans even during Floods. We
+don't have a country here! https://t.co/vYXXTExmKr" / X (twitter.com)
+<https://twitter.com/omwambaKE/status/1784835244392153184/photo/1>
+
+--=20
+
+[image: photo]
+
+John Karanja
+* Full-stack Web developer (**Laravel**), Computer* *Trainer,
+Graphic** Designer
+| Programming Trainer *
+
+0725 152  <0725152865>865 | JohnFullProfile.com
+<https://johnkaranja.000webhostapp.com/>  | WhatsApp
+<https://wa.me/+254725152865> | johnkaranja199900@gmail.com |
+
+--000000000000624b9a06173b3e72
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:comic sa=
+ns ms,sans-serif;font-size:large"><a href=3D"https://twitter.com/omwambaKE/=
+status/1784835244392153184/photo/1">Omwamba =F0=9F=87=B0=F0=9F=87=AA on X: =
+&quot;Yaani we&#39;re busy concerned with the Situation at Mahi Mahiu right=
+ now but Siah is Busy uniting Kenyans even during Floods. We don&#39;t have=
+ a country here! https://t.co/vYXXTExmKr&quot; / X (twitter.com)</a><br cle=
+ar=3D"all"></div><div><br></div><span class=3D"gmail_signature_prefix">-- <=
+/span><br><div dir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"gmai=
+l_signature"><div dir=3D"ltr"><div dir=3D"ltr">=C2=A0<table style=3D"direct=
+ion:ltr;border-collapse:collapse"><tbody><tr><td style=3D"font-size:0;heigh=
+t:12px;line-height:0"></td></tr><tr><td><table cellpadding=3D"0" cellspacin=
+g=3D"0" border=3D"0" style=3D"width:100%" width=3D"100%"><tbody><tr><td><ta=
+ble cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;f=
+ont-family:Arial;line-height:1.15;color:#000"><tbody><tr><td style=3D"verti=
+cal-align:top;padding:.01px 14px 0.01px 1px;width:65px;text-align:center"><=
+img src=3D"https://d36urhup7zbd7q.cloudfront.net/a/112b5254-8c31-4196-98cc-=
+32adb60027a9.jpeg" height=3D"68" width=3D"65" alt=3D"photo" style=3D"width:=
+65px;vertical-align:middle;border-radius:0;height:68px"></td><td valign=3D"=
+top" style=3D"padding:.01px 0.01px 0.01px 14px;vertical-align:top;border-le=
+ft:solid 1px #bdbdbd"><table cellpadding=3D"0" cellspacing=3D"0" style=3D"b=
+order-collapse:collapse"><tbody><tr><td style=3D"padding:0.01px"><p style=
+=3D"margin:0.1px;line-height:120%"><span style=3D"font-family:Arial;font-si=
+ze:16px;text-transform:initial;font-weight:bold;font-style:normal;color:rgb=
+(100,100,100);letter-spacing:0px;white-space:nowrap"> John Karanja </span><=
+br><font color=3D"#646464"><span style=3D"text-transform:initial"><b> Full-=
+stack Web developer (</b></span><span><b>Laravel</b></span><b>), Computer</=
+b><b style=3D"text-transform:initial">=C2=A0</b><b>Trainer, Graphic</b><b s=
+tyle=3D"text-transform:initial">=C2=A0Designer | Programming Trainer </b></=
+font></p></td></tr><tr><td><table cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"border-collapse:collapse"><tbody><tr><td nowrap width=3D"315" style=3D"=
+padding-top:14px;width:315px"><p style=3D"margin:1px;line-height:99%"><a hr=
+ef=3D"tel:0725152865" style=3D"color:rgb(33,33,33);font-family:Arial;font-s=
+ize:11px;white-space:nowrap;text-decoration:unset" rel=3D"nofollow noreferr=
+er" target=3D"_blank"><span style=3D"line-height:120%;font-family:Arial;col=
+or:#212121;white-space:nowrap"> 0725 152=C2=A0</span></a><font color=3D"#21=
+2121"><span style=3D"font-size:11px">865 |</span></font><font color=3D"#212=
+121"><span style=3D"font-size:11px">=C2=A0</span></font><a href=3D"https://=
+johnkaranja.000webhostapp.com/" style=3D"color:rgb(33,33,33);font-size:11px=
+" target=3D"_blank">JohnFullProfile.com</a><font color=3D"#212121"><span st=
+yle=3D"font-size:11px">=C2=A0 |=C2=A0</span></font><a href=3D"https://wa.me=
+/+254725152865" style=3D"color:rgb(33,33,33);font-size:11px" target=3D"_bla=
+nk">WhatsApp</a><font color=3D"#212121"><span style=3D"font-size:11px">=C2=
+=A0</span></font><font color=3D"#212121"><span style=3D"font-size:11px">| <=
+a href=3D"mailto:johnkaranja199900@gmail.com" target=3D"_blank">johnkaranja=
+199900@gmail.com</a>=C2=A0|=C2=A0</span></font></p></td></tr></tbody></tabl=
+e></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></t=
+able>=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0<img src=3D"http=
+s://ci3.googleusercontent.com/mail-sig/AIorK4y9Jwr8JwBdqgv_cvxrj1-5mv8K4KuH=
+2IasP9F2-z2QADaFsMSg8JZPGgtk2TrWQ4-CfbIaGt0" width=3D"420" height=3D"75"><b=
+r></td></tr><tr><td style=3D"font-family:&#39;ws-id bkK3YnKk&#39;;font-size=
+:.01px;line-height:0">=C2=A0</td></tr></tbody></table></div></div></div></d=
+iv>
+
+--000000000000624b9a06173b3e72--

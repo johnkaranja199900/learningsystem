@@ -1,0 +1,536 @@
+Return-Path: <32j4WZg0KAOcLUXdM-WXaNYUhPXXPUN.LXV@scoutcamp.bounces.google.com>
+Delivered-To: admin@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id gMpXOuE+FmZpWQAAz9s6Ng
+	(envelope-from <32j4WZg0KAOcLUXdM-WXaNYUhPXXPUN.LXV@scoutcamp.bounces.google.com>)
+	for <admin@petcomtrainingcollege.com>; Wed, 10 Apr 2024 10:25:21 +0300
+Return-path: <32j4WZg0KAOcLUXdM-WXaNYUhPXXPUN.LXV@scoutcamp.bounces.google.com>
+Envelope-to: admin@petcomtrainingcollege.com
+Delivery-date: Wed, 10 Apr 2024 10:25:21 +0300
+Received: from thk-tes-rat05.safaricombusiness.co.ke ([41.203.208.141]:13251)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <32j4WZg0KAOcLUXdM-WXaNYUhPXXPUN.LXV@scoutcamp.bounces.google.com>)
+	id 1ruSIL-0006KE-1K
+	for admin@petcomtrainingcollege.com;
+	Wed, 10 Apr 2024 10:25:21 +0300
+IronPort-SDR: 66163edf_hc4Jz81kwbdfMJzbcdOqNruIwlmun2HKBw6UpO5gWCUut87
+ boh5UrfjvKkCHIvv0nTgir1NdyPIW+pRRxxNF3g==
+X-IPAS-Result: =?us-ascii?q?A0ENAADMrvVkf0XeVdFRCQYVAQEBAQEBAQEFAQEBEgEBA?=
+ =?us-ascii?q?QMDAQEBgXsGAQEBCwGBM4EcAVyBFUeEUoEjhnqHIIIjgx6OIIprgVYUgREDG?=
+ =?us-ascii?q?BYfGAEBAQEBAQEBAQkuAQkMBAEBAwSEfwKGbgIlNAkOAQIEAQEBAQMCAwEBA?=
+ =?us-ascii?q?QEBAQMBAQUBAQECAQEGBQECEAEBIhkHDg4phTsBAQEBBCUNgjciGWRQAzUBA?=
+ =?us-ascii?q?QEBAQEBAQEBAQEBAQEBAQEBAQEBAQERAiYXCj4BGBEKEwEBBisHGBcCDggDE?=
+ =?us-ascii?q?gI2AQUBFCEiUoFGRAGCXgMRBAI/inaBDo4igQVCikABAQF4XVWBAYIJAQEGY?=
+ =?us-ascii?q?msBgQAYsA8DBhKBGhgBgV+Da4IjGgFlZgEBhwM1eidbgU00YTOBeQJMgkKBD?=
+ =?us-ascii?q?wIBARh+AQERAQgDBwEKRBIRgwsZgjQahTCBWoJEgWSCG4FCBzKCKoM2FRM4X?=
+ =?us-ascii?q?YgEBwsYgQgIXoFqPQINVAsLXYEVTYFFNQICETkUR3ELEAMHA4ECECsHBDIiB?=
+ =?us-ascii?q?gkXLSUGUQQtJAkTEj4EcoJKCoECPwoHDhGCRis2NhlLT1GBRgkVBgI4TlElE?=
+ =?us-ascii?q?CsEFBiBDQhuHxUeNxESGQ0DCHYdAhEjPAMFAwQ2ChUNCyEFVwNIBkwLAwIcB?=
+ =?us-ascii?q?QMDBIE2BQ8fAhAuPAMzER03CQMLbT01CAwbBkhHHRKfQxcDcIFQDAUCAW8RL?=
+ =?us-ascii?q?zIDHSkJRgEQH0QRBg8BAxYQFAURCwIcAg8LgWOMBAGEXi0BkHugO4QVAwIBg?=
+ =?us-ascii?q?gGGSAaDKoJPiXSIXDOEAZMykiyYLIJPiipolHMrBAQghQ4QIzwFUi06PDBwT?=
+ =?us-ascii?q?SOCHIEbTwMZDx98PYIqgkmGM0dbBz2DM5AZJDICNgMCBwEKAQEDCYhuAg8VA?=
+ =?us-ascii?q?oIWHAEB?=
+IronPort-PHdr: A9a23:JL5rZRVDBH6gRXUacdikb/J6QkDV8KzRUjF92vMcY1JmTK2v8tzYM
+ VDF4r011RmVB9udsq4UwLCI+4nbGkU4qa6bt34DdJEeHzQksu4x2zIaPcieFEfgJ+TrZSFpV
+ O5LVVti4m3peRMNQJW2aFLduGC94iAPERvjKwV1Ov71GonPhMiryuy+4ZLebxtJiTanfL9/I
+ xa7oQrPusQXnIBvNrs/xhzVr3VSZu9Y33loJVWdnxb94se/4ptu+DlOtvwi6sBNT7z0c7w3Q
+ rJEAjsmNXs15NDwuhnYUQSP/HocXX4InRdOHgPI8Qv1Xpb1siv9q+p9xCyXNtD4QLwoRTiv6
+ bpgRRn1gykFKjE56nnahcN+gqJBoxyvuhxxzZDIb4yOLvVyYrnQcMkGSWZdXMtcUTFKDIOmb
+ 4sICuoMJfhWr4njqFATrBW+Ag6sBOzryjBWm3T7w6k60+M8EQ7bwQcuAcwBv27RrN7oM6odT
+ eS1zK7VzTredv9W3zD96JLWfRA5pfGNXal9ccXWyUkoGAPFikufpZb5MDOS0+QAqm6W5PdvW
+ uyzkWAosR1xoiSxycc2jInEnp8YxF/Z+Cll3Ys7K9+1Rk56bNO4E5Zcqi6XOYVoTs4hQWxlp
+ SQ3x6EatZO/YiQHx5spygLCZvGbbYWF5h3uWeSXLDxlinxlf7e/iAyz8Uim0uD8Wc600FFFr
+ ipBjNbArGwC1xvW6sSfRft9+UCh2TmL1w/N8O1IO1w7la3eK5Mn37U+lYITvFzdEiPqnEj6l
+ qybe0U+9uS29ejrfK/qq56YOoJylwrwKL4hmtalDuQ9KgUOX3aU+eC71LD7+E32WrRKjvkvn
+ qnEqp/WON0XpqC4DgJRyIoj5BG/DzCp0NQcg3YLNk5KeBWCj4TxOlHOJu73DeunjliyjDtmw
+ +rKM77hD5nXMHTPjqntcax85kNY0AYzyMpQ55NQCrEPOvLzXUrxucTWAxMnMQy5zOboB9Zy1
+ o8CXGyCHraXP7/Uv1CG5+0gPu6CaJYVtzn8Mfcr//zhgnE5mVEHfKam3IEZZ36gEPh8JUuWY
+ HXjj8waEWgWuQo+UfDqh0GYXj5Wf3a+Rbkz5jYmCIKgEYjMWJutjKaO3Ce8GZ1WaWRGBU6WH
+ Xj0cIWEXu8AaCSJLcB5iDwLSaChS5M91RGprAL21qJrLvDI9S0AqZLjyN916vXJmh4v8Dx0D
+ sKd3nqVT25qgmMHWzg23KVjoUxn0FiD0K54g/1eFdxc+/xJVQM6NZrCwOx1Fd/+QB7OftCMS
+ AXuftLzCD00T9QZ29ISaEF4B8+rjxbC2SWhBLsRmrOGQpcz9/Hm0mD1Nvp6nkrG2eEOiF4pR
+ sYHHmmhm6I3ywXaAsadmEGeiqrvc6MG0TbJ5U+Mym2BuEweWwl1B/brR3caM3fWoJzW4UTNS
+ 7LmIrAgLwcJ9cOLL+MeYdnukFkDQvD5Nczackq+nGC/ARvOzbSJOtm5M14B1TnQXRBX2zsY+
+ myLYFBWOw==
+IronPort-Data: A9a23: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
+ rqm04wBFxsf64TqeBysSA==
+IronPort-HdrOrdr: A9a23:fjZvVquNDzlImakcPU0wjWS+7skDhtV00zEX/kB9WHVpm62j5r
+ qTdZEgvyMc5wxwZJheo6HkBEDtewKlyXcX2+cs1NWZLW/bUQKTRekI0WKF+UyCJ8SUzJ8l6U
+ 4PSdkENDQyNzRHZATBjTWQIpIPxt+I9aztpeq29QYOceinUc5dxjY8LQCHEkJ3TgFaBZw/Dv
+ Onl656jgvlXnILbsu6DHEZX+7FvZnhko7gaxJDJxkp7mC1/FSVAXfBciSl4g==
+X-Talos-CUID: =?us-ascii?q?9a23=3A5giIZ2iADN7TUNypi5WeR83SxzJud3jczFzBDlW?=
+ =?us-ascii?q?BBTw1bLaYanic1IFJjJ87?=
+X-Talos-MUID: =?us-ascii?q?9a23=3ArnV1Fg5fB0sNMC//ekO8Vxc0xow2oIu/LUICkqk?=
+ =?us-ascii?q?vosqtCDdhCmytozKeF9o=3D?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.02,226,1688418000"; 
+   d="scan'208,217";a="5695639"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+Received: from mail-ua1-f69.google.com ([209.85.222.69])
+  by thk-tes-rat05.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 10 Apr 2024 10:25:18 +0300
+Received: by mail-ua1-f69.google.com with SMTP id a1e0cc1a2514c-7e046990b4fso3080603241.1
+        for <admin@petcomtrainingcollege.com>; Wed, 10 Apr 2024 00:25:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20230601; t=1712733914; x=1713338714; darn=petcomtrainingcollege.com;
+        h=to:from:subject:message-id:feedback-id:reply-to:date:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=kDFCYCqc0kPERm59772FfN6vPCEIJhesOnkMkVgNftM=;
+        b=R61B1kJNUnpMwqUTQ1Xo668qWi3KIIr+Dg1dr38xnwBS43UuaMCaiVmwbwgMU6QUdh
+         Z/O2GDqVAGHDVKYuuhd2eonaYOPucCxsEuYfHUGI/jCZd4jlWnZqFd5IfUpytytiryQN
+         0m/tbr8bQ74UV9niolcUZSKI2HnoWnl2GUq12isflLlDYVRkWTO/usNxxhxb3vFlqkvJ
+         SxeUenG1j0/jD7CKngi+YSA4l+fu6OGx4FwLnL8BipWppDp9KvzkzMmIjF+RSkf+n9od
+         B5XmqKMGJryAUhvzZ0o0sTa+3VZGjmkqY7J5jc8QoDH+sK+6GoEQCU//qwIQjf/zfRPY
+         S2FA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1712733914; x=1713338714;
+        h=to:from:subject:message-id:feedback-id:reply-to:date:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=kDFCYCqc0kPERm59772FfN6vPCEIJhesOnkMkVgNftM=;
+        b=vlwNCqS4HYQ1EpqmEri3CfBbRzbyeAjKi4856nzG2L/N+Zi2C9nBLTmUWGHCLJ9D6C
+         Et2ftHnJmh9n6I1/nMysIlviDifhAFfLHp4GTsFLpi9G2y8Jy9cfhDz9moQCYf8wVGNM
+         RhrBbb4R3xVuZ6iEbnDEY/iz4FDLrQ9c7s5F08b3OIqnMmQ89rQJaVMY4EMVAUYJKGQi
+         dq9me6VpyD++a6XNlDOc0lTj/Gbs9ZwQ4lQWH7m6GFa5st5lkj/0LS1gQoFqqEAqGpg/
+         GVdcW/a3Fpj65PjtlWCp3EENsxsdQ/kERwr9RXYpkQGp2KMKHInuY5OMNp6ui0xUzEtb
+         h2iA==
+X-Gm-Message-State: AOJu0YwsBOYCPpxUr60DJJYEDGtmBa/NaOkhtrPxgADLIeYPct/25aNW
+	shb053g9KQGZwqrBjdgG0lWAj4LC+qMtnCzdNI2XSOab4J8=
+X-Google-Smtp-Source: AGHT+IEtBB7cL3NatQO6Gzj+4V2c+Haq+ZojZRY1mp2V6LKQID+fW+Zk/bHLQmKtvtAl6PoCcyvRXCU=
+MIME-Version: 1.0
+X-Received: by 2002:a05:6102:d8b:b0:47a:2696:53fe with SMTP id
+ d11-20020a0561020d8b00b0047a269653femr662056vst.7.1712733914581; Wed, 10 Apr
+ 2024 00:25:14 -0700 (PDT)
+Date: Wed, 10 Apr 2024 00:25:14 -0700
+Reply-To: The Google Cloud Team <cloud-noreply@google.com>
+X-Google-Id: 4198012
+Feedback-ID: P-10-0:C20226036:M110590031-en:gamma
+X-Notifications: GAMMA:<c96edcaf84a37fa500107f207100973ac3ab23a3-20226036-111192358@google.com>
+X-Notifications-Bounce-Info: AaJ7rEps-69WeIHP4D7VtwXfX9HByXeL0_D2uHPQ1mWBeUNsqrZykgo53Q8c_EG0EraUL553Y2sa50wd3sVunJoggpLRV1XioUBhpWv9QOg7lwOyU1CF61c_qQByeOILHdc9GGxNZpl3zeOFEvtLECe5A8uQbRCQ7vRVP4XkwN9gpxshZ3Cdk-rR1-MQsoVZcV7-tGdugcrMODl1Am-ME0LuXongGV_0fLF5Fma-XFTsySaZV5v52GxafEKbZxFB9eOlLRdR9R4QmCrlPcl4EoCCfvzWRp5bu44Ikc13p8xLRCiQlQZCuNZ5MBofsFkNvaI2J4Vd7hhFX3Tkb0H49LgwlOnJTy2VWNWcZ-uQnohY6W7nnqJ9ESiL8FbnRpE-YsYKuZ4uRPdL5dwe75r6VQTDhkijMJC_JCzB2qiFlYZdaQ9adP6n3zmd3-wRrWc_zNRilP-PCiRcF2Yagf2Th7LZepmpZoBKqChFMcjb1O4s-o87ubIfB8D58OBzXIQI4NrU3nnZtp28QJBicPp_6NZh77K5Lt5f8GFpOYvWQgzdGcNp6c_ZgEOJYs-Zct9Jei2ktcZTzzLJ7ugyNVA9NjAwNjA0MDQxNTM1NTk2OTMzMg
+Message-ID: <c96edcaf84a37fa500107f207100973ac3ab23a3-20226036-111192358@google.com>
+Subject: Secure your Google Admin account with these best practices
+From: The Google Cloud Team <cloud-noreply@google.com>
+To: admin@petcomtrainingcollege.com
+Content-Type: multipart/alternative; boundary="00000000000092cd4b0615b8f04b"
+
+--00000000000092cd4b0615b8f04b
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+
+[ftl]From: "The Google Workspace Team" [workspace-noreply@google.com]
+Subject:  Secure your Google Admin account with these best practices
+
+
+
+Tips to secure your Google account
+
+## Secure your Google Admin account with these best practices
+
+[#if first_name_has_content??]
+
+Hello John,
+
+[#else]
+
+Hello customer,
+
+[/#if]
+
+Here are a few access control and security features we recommend to keep  
+your Google Admin account secure:
+
+[#if has_resold_subscriptions == 'True']
+
+   -
+
+**Manage your reseller's access to your Google account**
+
+Your reseller has access to your Admin console  
+(https://support.google.com/a/answer/12282401) by default to help you  
+manage your subscription and account. Resellers can create users and  
+groups, manage licenses, become a super admin, change passwords, and manage  
+other critical settings of your account. Learn how to manage your  
+reseller's access by clicking the link below.
+
+Change a reseller's access to your Admin console  
+(https://support.google.com/a/answer/114840)
+
+[#else][/#if]
+
+   -
+
+**Require admins and key users to provide additional proof of who they are**
+
+We recommend that everyone in your business use 2-Step Verification (2SV),  
+but it's especially important for admins and users who work with sensitive  
+data such as financial records and employee information. If someone steals  
+a password, 2SV can prevent them from accessing your account.
+
+With 2SV, users need to verify their identity through something they know  
+(their password) plus something they have (such as a physical key or access  
+code). You should enforce 2SV for admins and key users, where possible with  
+a FIDO compliant security key.
+
+[#if has_resold_subscriptions == 'True']reseller_twosv_enabled_False_
+
+We recommend that you also reach out to your reseller and ensure your  
+reseller admins use 2SV.
+
+[#else][/#if]
+
+Protect your business with 2-Step Verification  
+(https://support.google.com/a/answer/175197) | Deploy 2-Step Verification  
+(https://support.google.com/a/answer/9176657?hl=en&ref_topic=2759193)
+
+   -
+
+**Create an additional super admin account**
+
+A business should have more than one super admin account, each managed by a  
+different person. If your primary super admin account is lost or  
+compromised, the backup super admin can perform critical tasks while the  
+primary account is recovered. You can create another super admin by  
+assigning the super admin role to another user.
+
+Assign administrator roles to a user  
+(https://support.google.com/a/answer/172176)
+
+   -
+
+**Super admins shouldn't remain signed in to their account**
+
+Super admins should sign in as needed to do specific tasks and then sign  
+out. Staying signed in to a super admin account when not performing  
+specific administrative tasks can increase exposure to malicious activity.
+
+Daily administrative tasks should be done using an account with limited  
+admin roles.
+
+Pre-built administrator roles (https://support.google.com/a/answer/2405986)  
+| Security best practices for administrator accounts  
+(https://support.google.com/a/answer/9011373)
+
+To learn more about security best practices for your Google account, review  
+our security checklists (https://support.google.com/a/answer/9184226).
+
+Sincerely,
+
+The Google Team
+
+
+(C) 2024  Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043 *   
+Google Asia Pacific Pte. Ltd., 8 Marina View, #30-01, Asia Square 1,  
+Singapore 018960  *  Google Cloud EMEA Ltd., 70 Sir John Rogersons Quay,  
+Dublin 2, Ireland.
+
+You're receiving this mandatory email service announcement to update you  
+about important changes to your Google Workspace product or account.
+
+
+--00000000000092cd4b0615b8f04b
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div>
+  <html xmlns:v=3Durn:schemas-microsoft-com:vml dir=3Dltr lang=3Den style=
+=3D"margin:0; padding:0">
+    <meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+    <meta name=3Dviewport content=3Dwidth=3Ddevice-width>
+    <style>@media only screen{html{min-height:100%;background:#fafafa}}@med=
+ia only screen and (max-width:640px){.small-float-center{margin:0 auto!impo=
+rtant;float:none!important;text-align:center!important}}@media only screen =
+and (max-width:640px){table.body img{width:auto;height:auto}table.body cent=
+er{min-width:0!important}table.body .container{width:344px!important}table.=
+body .columns{height:auto!important;-moz-box-sizing:border-box;-webkit-box-=
+sizing:border-box;box-sizing:border-box;padding-left:40px!important;padding=
+-right:40px!important}table.body .columns .columns{padding-left:0!important=
+;padding-right:0!important}table.body .collapse .columns{padding-left:0!imp=
+ortant;padding-right:0!important}th.small-1{display:inline-block!important;=
+width:8.33333%!important}th.small-3{display:inline-block!important;width:25=
+%!important}th.small-4{display:inline-block!important;width:33.33333%!impor=
+tant}th.small-6{display:inline-block!important;width:50%!important}th.small=
+-8{display:inline-block!important;width:66.66667%!important}th.small-9{disp=
+lay:inline-block!important;width:75%!important}th.small-12{display:inline-b=
+lock!important;width:100%!important}.columns th.small-12{display:block!impo=
+rtant;width:100%!important}table.menu{width:100%!important}table.menu td,ta=
+ble.menu th{width:auto!important;display:inline-block!important}table.menu.=
+vertical td,table.menu.vertical th{display:block!important}table.menu[align=
+=3Dcenter]{width:auto!important}}</style>
+    <span class=3Dpreheader style=3Dcolor:#fafafa;display:none!important;fo=
+nt-size:1px;line-height:1px;max-height:0;max-width:0;mso-hide:all!important=
+;opacity:0;overflow:hidden;visibility:hidden></span>
+    <table class=3Dbody style=3DMargin:0;background:#F8F9FA!important;borde=
+r-collapse:collapse;border-spacing:0;color:#3C4043;font-family:Roboto,Helve=
+tica,Arial,sans-serif;font-size:14px;font-weight:400;height:100%;line-heigh=
+t:inherit;margin:0;padding:0;vertical-align:top;width:100%;text-align:left>
+      <tr style=3Dpadding:0;vertical-align:top>
+        <td class=3Dcenter align=3Dcenter valign=3Dtop style=3D-moz-hyphens=
+:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;colo=
+r:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;font=
+-weight:400;hyphens:none;line-height:inherit;margin:0;padding:0;vertical-al=
+ign:top;word-wrap:keep-all>
+          <center data-parsed=3D"" style=3Dmin-width:600px;width:100%>
+
+            <table align=3Dcenter class=3D"container float-center" style=3D=
+"Margin:0 auto;background:#fafafa;border-collapse:collapse;border-spacing:0=
+;float:none;margin:0 auto;padding:0;text-align:left;vertical-align:top;widt=
+h:600px"><tbody><tr style=3Dpadding:0;vertical-align:top><td style=3D-moz-h=
+yphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!importan=
+t;color:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14p=
+x;font-weight:400;hyphens:none;line-height:inherit;margin:0;padding:0;verti=
+cal-align:top;word-wrap:keep-all>
+              <table class=3D"row header" style=3Dbackground:#F8F9FA;border=
+-collapse:collapse;border-spacing:0;display:table;font-size:12px;padding:0;=
+position:relative;vertical-align:top;width:100%><tbody><tr style=3Dpadding:=
+0;vertical-align:top>
+                <th class=3D"small-12 large-12 columns first last" style=3D=
+"Margin:0 auto;color:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;=
+font-size:14px;font-weight:400;line-height:inherit;margin:0 auto;padding:0;=
+padding-bottom:24px;padding-left:40px;padding-right:40px;padding-top:12px;w=
+idth:560px"><table style=3Dborder-collapse:collapse;border-spacing:0;margin=
+-bottom:0;padding:0;vertical-align:top;width:100%><tr style=3Dpadding:0;ver=
+tical-align:top><th style=3DMargin:0;color:#3C4043;font-family:Roboto,Helve=
+tica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:inherit;ma=
+rgin:0;padding:0;text-align:left>
+
+                  <img src=3Dhttps://storage.googleapis.com/support-kms-pro=
+d/Eft9z9eRxsO0lygmCjmL53ewJDonixbl4EDd alt=3DGoogle height=3D30 style=3D-ms=
+-interpolation-mode:bicubic;clear:both;display:block;margin-top:24px;max-he=
+ight:30px;max-width:100%;outline:0;text-decoration:none;width:auto>
+
+                </th>
+<th class=3Dexpander style=3DMargin:0;color:#3C4043;font-family:Roboto,Helv=
+etica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:inherit;m=
+argin:0;padding:0!important;visibility:hidden;width:0></th></tr></table></t=
+h>
+              </tr></tbody></table>
+
+              <table class=3D"row info" style=3Dalign-items:center;backgrou=
+nd:#fff;border-collapse:collapse;border-color:#E8EAED;border-spacing:0;bord=
+er-style:solid;border-width:1px;display:table;padding:0;position:relative;v=
+ertical-align:top;width:100%><tbody><tr style=3Dpadding:0;vertical-align:to=
+p>
+                <th class=3D"small-12 large-12 columns first last" style=3D=
+"Margin:0 auto;color:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;=
+font-size:14px;font-weight:400;line-height:inherit;margin:0 auto;padding:0;=
+padding-bottom:0;padding-left:40px;padding-right:40px;width:560px"><table s=
+tyle=3Dborder-collapse:collapse;border-spacing:0;padding:0;vertical-align:t=
+op;width:100%><tr style=3Dpadding:0;vertical-align:top><th style=3D"Margin:=
+0;color:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14p=
+x;font-weight:400;line-height:inherit;margin:0;padding:0 0 24px;text-align:=
+left">
+
+<title>Tips to secure your Google account</title>
+<h2 style=3D"Margin:0;Margin-bottom:8px;color:#3C4043;font-family:Google Sa=
+ns,Helvetica,Arial,sans-serif;font-size:24px;font-weight:700;line-height:30=
+px!important;margin:0;margin-bottom:24px;margin-top:24px;padding:0;word-wra=
+p:normal">Secure your Google Admin account with these best practices</h2>
+
+<p style=3D"color:#3C4043; font-family:Roboto,Helvetica,Arial,sans-serif; f=
+ont-size:14px; font-weight:400; line-height:24px; margin:0; margin-bottom:1=
+6px; padding:0;">Hello customer,</p>
+
+<p style=3DMargin:0;Margin-bottom:16px;color:#3C4043;font-family:Roboto,Hel=
+vetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;mar=
+gin:0;margin-bottom:16px;padding:0>Here are a few access control and securi=
+ty features we recommend to keep your Google Admin account secure:</p>
+<p>
+   =20
+</p>
+  </li>
+<li style=3D"color:#3C4043; background:#f3f3f3; font-family:Roboto,Helvetic=
+a,Arial,sans-serif; font-size:14px; line-height:24px;"><strong>Require admi=
+ns and key users to provide additional proof of who they are</strong>
+
+<p style=3DMargin:0;Margin-bottom:16px;color:#3C4043;font-family:Roboto,Hel=
+vetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;mar=
+gin:0;margin-bottom:16px;padding:0>We recommend that everyone in your busin=
+ess use 2-Step Verification (2SV), but it=E2=80=99s especially important fo=
+r admins and users who work with sensitive data such as financial records a=
+nd employee information. If someone steals a password, 2SV can prevent them=
+ from accessing your account.</p>
+<p>With 2SV, users need to verify their identity through something they kno=
+w (their password) plus something they have (such as a physical key or acce=
+ss code). You should enforce 2SV for admins and key users, where possible w=
+ith a FIDO compliant security key. </p>
+
+
+
+<p><a href=3Dhttps://notifications.google.com/g/p/ANiao5roEHvinnSi_xMJEYdaO=
+YVe0H_jpX0WWhNxbArN4YHVB7pzOglAO0aZqGBi_6sqwpc3qt_ictQUDpOnyG7Mx1G3G9rGDt5R=
+j2wHMXiwmL1Bol8RSqF5zR14NOXAyqfpI1PYDzmlX97y4aCjxxO3O-HYmnbi-bK9AxLeDBxn5-V=
+AMv3A1KmEVoJwvP7YyJuy7UbUgn7vso_RUMCnzV6cHAT_KjVlSgE rel=3Dnoopener>Protect=
+ your business with 2-Step Verification</a> | <a href=3Dhttps://notificatio=
+ns.google.com/g/p/ANiao5p4woFtZBtt-qQZAheXLc7iSOwhRhVmbrga5rroOZYyd3PFyTUKF=
+GNS2hmbbmUUw3Xgr1CWBKY8CCc5QAQg9PTNsabb6ugjJJceZG31FX0A_E2fRiXRYL-xbtsHosjr=
+TIQuObES8tRwnKlRokjYf3OF2KAtE86MPewxsXskkBpUwIpyru_u8huu65RsOJwmB4vBaviOUyK=
+0I9JtIRo04khXLQ-Kl7XzKP1dfc8tPzzHzqnYuEKd8qvau-PlRLRh rel=3Dnoopener>Deploy=
+ 2-Step Verification</a></p>
+</li>
+<li style=3D"color:#3C4043; font-family:Roboto,Helvetica,Arial,sans-serif; =
+font-size:14px; line-height:24px;"><strong>Create an additional super admin=
+ account</strong>
+
+<p style=3DMargin:0;Margin-bottom:16px;color:#3C4043;font-family:Roboto,Hel=
+vetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;mar=
+gin:0;margin-bottom:16px;padding:0>A business should have more than one sup=
+er admin account, each managed by a different person. If your primary super=
+ admin account is lost or compromised, the backup super admin can perform c=
+ritical tasks while the primary account is recovered. You can create anothe=
+r super admin by assigning the super admin role to another user.</p>
+
+<p><a href=3Dhttps://notifications.google.com/g/p/ANiao5pglpKfvjniBCpy4FfwP=
+PlG5syBS0j3-Fipx_n9DB-5XK85nH-pHebmuQ20DFxz9Vyk1ePJxYL6Nxp12OJfmm5YU5Jfc5BY=
+VoCh-T_4XLUZFTu7TdXd5utaparr97sv6s3kxezIV2eBtQ7WEnb_f3N7GsypZyFDjh_dEGtWnqK=
+NFn_9hNHJZI5anfXPsHpPkS79h42HBOmMIuMbaMYD800mTJX5VIY rel=3Dnoopener>Assign =
+administrator roles to a user</a></p>
+  </li>
+<li style=3D"color:#3C4043; background:#f3f3f3; font-family:Roboto,Helvetic=
+a,Arial,sans-serif; font-size:14px; line-height:24px;"><strong>Super admins=
+ shouldn=E2=80=99t remain signed in to their account</strong>
+
+<p style=3DMargin:0;Margin-bottom:16px;color:#3C4043;font-family:Roboto,Hel=
+vetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;mar=
+gin:0;margin-bottom:16px;padding:0>Super admins should sign in as needed to=
+ do specific tasks and then sign out. Staying signed in to a super admin ac=
+count when not performing specific administrative tasks can increase exposu=
+re to malicious activity.</p>
+
+<p style=3DMargin:0;Margin-bottom:16px;color:#3C4043;font-family:Roboto,Hel=
+vetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;mar=
+gin:0;margin-bottom:16px;padding:0>Daily administrative tasks should be don=
+e using an account with limited admin roles.</p>
+
+  <p style=3DMargin:0;Margin-bottom:16px;color:#3C4043;font-family:Roboto,H=
+elvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;m=
+argin:0;margin-bottom:16px;padding:0><a href=3Dhttps://notifications.google=
+.com/g/p/ANiao5q-Ssz1sjeqcieclCUryhuNCneBkT9ldoPvqcu1mAYiYW_vySFOORdHGZT5r1=
+mXCKxq0py12Qgik_p44SFSqr_NQzkNkkDd0B_t0Mpkbb-sxBNz9TTrvAklVHGeTfU5oFQY7xNZh=
+OjWHijxa3XBmjv_p4lMgjnlSiBWuC0YZRyCLIGEMNURlKsX2VRz0_MkXMtxXU4LpNQBBySxMTIb=
+8D5dXvwgf__i rel=3Dnoopener>Pre-built administrator roles</a> | <a href=3Dh=
+ttps://notifications.google.com/g/p/ANiao5rGS5LJm5vw3W0S39QfOG69ew-nBScejvp=
+7WYjiX4oxU3ThRBB48QgSLcm1ex5yVw9GfJanRLzFSpxgsijT8L-AEAUOXhcfcztUBeDT2X2PD7=
+rc1B4NWsTsFGVd_hctMNwA9m1ElJXlXCjQeWvZcq1qFHquoOO0zRK6y2OHbadAztNSNDmO-cEWA=
+YDZMXhpJkGNhRqiCDWKCH3fpzSvG3B3X32VGDo4 rel=3Dnoopener>Security best practi=
+ces for administrator accounts</a></p></li>
+</ul>
+<p style=3DMargin:0;Margin-bottom:16px;color:#3C4043;font-family:Roboto,Hel=
+vetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;mar=
+gin:0;margin-bottom:16px;padding:0>To learn more about security best practi=
+ces for your Google account, review our <a href=3Dhttps://notifications.goo=
+gle.com/g/p/ANiao5qM_Y32Ot7Qciu1ue_VPEn25ZFkzw9xUR1hiloQp_9CRNkNeW4Gsk59JQk=
+1pWH2WPT39F27xOIotW0ZXxfFQBW1GG1pdbuuUJ6nQ3aLz9z1UvFzBPDyBgyuEvR8LwCDrt82FM=
+pe67Rqw8sCKZ07zNedrkVn04maiMEFc_sxMPHiT3_7OUUS6i8w41049gTJrFZkHzgB3AEIiIzcX=
+2C9VSS23XvSnEsL rel=3Dnoopener>security checklists</a>.</p>
+
+<p style=3D"color:#3C4043; font-family:Google Sans,Helvetica,Arial,sans-ser=
+if; font-size:14px; font-weight:700; line-height:24px; margin:0; margin-bot=
+tom:0px!important; margin-top:8px; padding:0;">Sincerely,</p>
+
+<p style=3D"color:#3C4043; font-family:Google Sans,Helvetica,Arial,sans-ser=
+if; font-size:14px; font-weight:700; line-height:24px; margin:0; margin-bot=
+tom:0px!important; padding:0;">The Google Team</p>
+            </th></tr></table></th>
+            </tr></tbody></table>
+
+            <table class=3D"row footer" role=3Dpresentation style=3Dbackgro=
+und:#F8F9FA;border-collapse:collapse;border-spacing:0;display:table;margin-=
+top:0;padding:0;position:relative;vertical-align:top;width:100%><tbody><tr =
+style=3Dpadding:0;vertical-align:top>
+              <th class=3D"small-12 large-12 columns first last" style=3D"M=
+argin:0 auto;color:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;fo=
+nt-size:14px;font-weight:400;line-height:inherit;margin:0 auto;padding:0;pa=
+dding-bottom:0;padding-left:40px;padding-right:40px;width:560px"><table sty=
+le=3Dborder-collapse:collapse;border-spacing:0;padding:0;vertical-align:top=
+;width:100%><tr style=3Dpadding:0;vertical-align:top><th style=3DMargin:0;c=
+olor:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;f=
+ont-weight:400;line-height:inherit;margin:0;padding:24px;text-align:left>
+
+                <img src=3Dhttps://storage.googleapis.com/support-kms-prod/=
+Eft9z9eRxsO0lygmCjmL53ewJDonixbl4EDd alt=3DGoogle height=3D30 style=3D-ms-i=
+nterpolation-mode:bicubic;clear:both;display:block;margin-bottom:14px;max-w=
+idth:100%;max-height:30px;outline:0;text-decoration:none;width:auto>
+                <p style=3DMargin:0;Margin-bottom:16px;color:#6C737F;font-f=
+amily:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line=
+-height:16px;margin:0;margin-bottom:14px;padding:0>
+            =C2=A9 2024  Google LLC=C2=A01600 Amphitheatre Parkway, Mountai=
+n View, CA 94043
+                </p>
+                <p style=3DMargin:0;Margin-bottom:16px;color:#6C737F;font-f=
+amily:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line=
+-height:16px;margin:0;margin-bottom:14px;padding:0>
+            <em>You=E2=80=99re receiving this mandatory email service annou=
+ncement to update you about important changes to your Google account. This =
+message has been sent to all user admins to inform them of access controls =
+and security best practices.</em>
+            </p>
+            </th>
+<th class=3Dexpander style=3DMargin:0;color:#3C4043;font-family:Roboto,Helv=
+etica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:inherit;m=
+argin:0;padding:0!important;visibility:hidden;width:0></th></tr></table></t=
+h>
+            </tr></tbody></table>
+            </td></tr></tbody></table>
+
+          </center>
+        </td>
+      </tr>
+    </table>
+    <!-- prevent Gmail on iOS font size manipulation -->
+   <div style=3D"display:none;white-space:nowrap;font:15px courier;line-hei=
+ght:0"> =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 </div=
+>
+
+<img alt=3D"" height=3D1 width=3D3 src=3Dhttps://notifications.google.com/g=
+/img/ANiao5q5G5yMqu4KwSovnTvjryia8juBV-dN5Fc7ZutDcLR9q-6fHyqHATIJyBqrVZWjwl=
+BQCjc-Rb759XECRMG7qEoojB7kKC6ntB4m1I0H2QmIem07hynBKtklb5ElTxOSy4HmmUslW7qtW=
+cd984k9gEn0v86lR5cS2Qkz.gif></html>
+</div>
+
+--00000000000092cd4b0615b8f04b--

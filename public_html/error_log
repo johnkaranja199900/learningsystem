@@ -1,0 +1,66 @@
+[28-Mar-2024 18:22:54 UTC] PHP Warning:  require(/home/petcomtr/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/petcomtr/public_html/index.php on line 34
+[28-Mar-2024 18:22:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/petcomtr/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/petcomtr/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/petcomtr/public_html/index.php on line 34
+[28-Mar-2024 18:22:58 UTC] PHP Warning:  require(/home/petcomtr/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/petcomtr/public_html/index.php on line 34
+[28-Mar-2024 18:22:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/petcomtr/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/petcomtr/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/petcomtr/public_html/index.php on line 34
+[28-Mar-2024 18:24:15 UTC] PHP Warning:  require(/home/petcomtr/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/petcomtr/public_html/index.php on line 34
+[28-Mar-2024 18:24:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/petcomtr/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/petcomtr/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/petcomtr/public_html/index.php on line 34
+[28-Mar-2024 18:24:30 UTC] PHP Warning:  require(/home/petcomtr/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/petcomtr/public_html/index.php on line 34
+[28-Mar-2024 18:24:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/petcomtr/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/petcomtr/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/petcomtr/public_html/index.php on line 34
+[01-Jul-2024 13:59:16 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 8.0.30. in /home/petcomtr/vendor/composer/platform_check.php on line 24
+[16-Jul-2024 10:57:33 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\admincontroller::update() in /home/petcomtr/app/Http/Controllers/admincontroller.php on line 570
+[16-Jul-2024 11:34:00 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\admincontroller::update() in /home/petcomtr/app/Http/Controllers/admincontroller.php on line 570
+[16-Jul-2024 11:37:02 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\admincontroller::update() in /home/petcomtr/app/Http/Controllers/admincontroller.php on line 570
+[16-Jul-2024 11:39:05 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\admincontroller::update() in /home/petcomtr/app/Http/Controllers/admincontroller.php on line 570
+[18-Jul-2024 13:47:54 UTC] PHP Fatal error:  Trait "App\Models\HasFactory" not found in /home/petcomtr/app/Models/notes.php on line 7
+[19-Jul-2024 09:32:04 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 09:32:08 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 09:32:21 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 09:32:21 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 09:33:20 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 09:33:20 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 09:33:38 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 09:33:38 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 09:37:30 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 09:37:30 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 09:41:12 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 09:41:12 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 09:42:33 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 09:42:33 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 09:48:39 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 09:48:40 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 09:58:44 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 09:58:45 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 10:09:55 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 10:09:58 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 10:10:01 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 10:10:01 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 10:10:11 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 10:10:11 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 10:10:43 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 10:10:43 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 10:16:39 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 10:16:39 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 10:20:30 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 10:20:32 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 10:26:39 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 10:26:39 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 10:28:33 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 10:28:34 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 11:08:21 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 11:35:28 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 11:42:33 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 11:42:35 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3072656 bytes) in /home/petcomtr/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 136
+[19-Jul-2024 11:42:36 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22
+[19-Jul-2024 11:42:36 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 946176 bytes) in /home/petcomtr/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php on line 22

@@ -1,0 +1,513 @@
+Return-Path: <3m-EYZhEKAPg1twpxufhj-stwjuq3lttlqj.htr@scoutcamp.bounces.google.com>
+Delivered-To: admin@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id mFlDL93hGGZsPAAAz9s6Ng
+	(envelope-from <3m-EYZhEKAPg1twpxufhj-stwjuq3lttlqj.htr@scoutcamp.bounces.google.com>)
+	for <admin@petcomtrainingcollege.com>; Fri, 12 Apr 2024 10:25:17 +0300
+Return-path: <3m-EYZhEKAPg1twpxufhj-stwjuq3lttlqj.htr@scoutcamp.bounces.google.com>
+Envelope-to: admin@petcomtrainingcollege.com
+Delivery-date: Fri, 12 Apr 2024 10:25:17 +0300
+Received: from thk-tes-rat05.safaricombusiness.co.ke ([41.203.208.141]:48614)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <3m-EYZhEKAPg1twpxufhj-stwjuq3lttlqj.htr@scoutcamp.bounces.google.com>)
+	id 1rvBFO-0004Zs-0x
+	for admin@petcomtrainingcollege.com;
+	Fri, 12 Apr 2024 10:25:17 +0300
+IronPort-SDR: 6618e1db_fTIGj4xCJTcbVj9fNLVf5wlbcFwlc03k/Dt/pUTJexjGqeK
+ 9m21WokJH1xaM3ZbgDKVIkCQ4lJYBaYg0sh/ycw==
+X-IPAS-Result: =?us-ascii?q?A0FUGgDMrvVkgEfeVdFaBhcBATwBBQUBAgEJAYFmAYExG?=
+ =?us-ascii?q?wIBgVuBFUcDhE+BI4Isi26CI5d9KIVugREDGBY3AQEBAQEBAQEBCRQCAQIOE?=
+ =?us-ascii?q?QwEAQEDAQOEf4ZwAiU4EwECBAEBAQEDAgMBAQEBAQEDAQEFAQEBAgEBBgUBA?=
+ =?us-ascii?q?hABASQXBw4OKYU7AQEGJQ0/FgGBYSIZZFADNAEBAQEBAQEBAQEBAQEBAQEBA?=
+ =?us-ascii?q?QEBAQEBAQERAiYXCj4BGBEKEwEBMQcYFwIWBAIFCgI2AQUBFCEigUaBFgGCX?=
+ =?us-ascii?q?gMRBIs3jzCBBUKKQAEBAXiBMoEBggkBAQaBB4FHGLAPCRKBGhYCAQEBhUiCP?=
+ =?us-ascii?q?QGBSwEBhzh6J4IoNIEUgXkCTIJCgQ8CAhUDfxIBEgEKMRMSDgwHAoJ5GYI0G?=
+ =?us-ascii?q?oUwhB6FQQc7giGDXokZBwsYgQgIXoFqPQINVAsLXYEVTYFFNQICETkUR3EbA?=
+ =?us-ascii?q?wcDgQIQKwcEMiIGCRctJQZRBC0kCRMSPgRygkoKgQI/CgcOEYJGYTYZS4Egg?=
+ =?us-ascii?q?UYJFQYCOE5RJRArBBQYgQ0Ibh8VHjcREgUUDQMIdh0CESM8AwUDBDYKFQ0LI?=
+ =?us-ascii?q?QVXA0gGTAsDAhwFAwMEgTYFDx8CEC48AzMRHTcJAwttPTUIDBsGSEcdEp9DF?=
+ =?us-ascii?q?wNwgWM9Xmwkf2pUAQsdAoF9jAQBhF4tdJAIoDuEFQUBggGGSAaDKpUfM4QBk?=
+ =?us-ascii?q?zKSLBmHbJAngk+LEopuijQkC4UDECM8BYEWIzwwcE0jghyBGwlGAxkPgViCK?=
+ =?us-ascii?q?oh8gXGDKJAZJDIHMQMCBwEKAQEDCYYrgRCBNYF6QhwBAQ?=
+IronPort-PHdr: A9a23:zniaIxJVPlZKwEr8edmcuFphWUAX0o4c3iYr45Yqw4hDbr6kt8y7e
+ hCFu7M00A+CB9uTwskHotKei7rnV20E7MTJm1E5W7sIaSU4j94LlRcrGs+PBB6zBvfraysnA
+ JYKDwc9rDm0PkdPBcnxeUDZrGGs4j4OABX/Mhd+KvjoFoLIgMm7yeG/94fObwhHhzexbq1+I
+ RSrpgjNq8cahpdvJLwswRXTuHtIfOpWxWJsJV2Nmhv3+9m98p1+/SlOovwt78FPX7n0cKQ+V
+ rxYES8pM3sp683xtBnMVhWA630BWWgLiBVIAgzF7BbnXpfttybxq+Rw1DWGMcDwULs5Xymp4
+ aV2Rx/ykCoIODA38HvUhMJtjKxVvg6uqgdlzILIeoyYLuZycr/fcN4cWGFPXtxRVytEAo6kc
+ YUPD/QONvtZoYn6oFsOoh++ChexD+zvzT9InHz23bYi0+s7DQ7JwhErEcwQv3vOqdX+KaAfU
+ O6yzKnSzjXDdOtW1i3h54fWaxwhp/aMXahufsrJzUkuFxjIjlqXqYziMDOV0voCv3KH4OpnU
+ OKikmgqoBx+rTaz3MkjkJXJhp4LxVDe8yV02IQ4KcG4RkN6YNOpDZ9duS6aOoV2TM0sQ2Flt
+ igkxrAYt5C2ficExIg7yxPddfCKfYmF7xLhWeqMIzp1gHJodbG5ih2v/0agzej8WdO10FZMt
+ idFnd7MtncC1xzX9MeLUOdy/kCk2TuJygvd6flELFgqmabHL5Mt2L09m5oJvUjdACP6hl/6g
+ a2Lekgi5+Om8f7oYq/8qZ+ZL4J0ih/xMqApmsGnBOQ3KAkOX2yC9eShzrLv4FT1QLtIg/Eri
+ KXZv5faJcMUpq69HQBZyJos6xG6Dzu+0dQYm2cILE5ddR6Zk4TkP0vCLfP4APulnVigjilny
+ +rEM7H8GpnNK2LMkLblfbZz8U5czw8zwMhR6pJRE70PL/D8VUzxtNLXCxE0Lxa6w+n6BNVh2
+ IIeQW2OArKXMKPSs1+E//kvI/WCZY8XpTb9MvYo5/ryjX8lnV8dZKup0YEXaHCkBPRrOF6Zb
+ mbrgtccDWcFohAxTOnyiFGYSjFTYGuyX6Qg6T4lE4KqF4jDRoeqgLyO2Ce0AIdaaXxBClCJC
+ XvocZ6LVO8WaC2OOs9hjiAEVb+5RoM8zR2urhP1y6J7LurI/S0VrYjs28Vw5+3SkxE/7iR0A
+ NqB026RSGF0m38IRyUs06B+p0x9y1GD0adkjPxfEdxT4+1GUggkOpLG0+N6DNXyCUr9eYKAR
+ FOnRP2+DC06Sdct2dYPZUd7FN6lihTO0CfsCLgQxIaGHJglzqWJ43j8b+l6zHnC2eEeiEMlW
+ dNGPmDuuqN28kCHGInTkF6Bnq2nMKIbxiPV8Harwm2Js0VVFgV3VPOWc2oYYx7qrdmxyUTFQ
+ LujQYsgKAha0ceJJ+N2Z9TsxQFZQ+3gI8zXaG/0nWCqCA6M15uDa43lf2hb1yLYXhtX2zsP9
+ GqLYFBtThyqpHjTWWQGKA==
+IronPort-Data: A9a23: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
+IronPort-HdrOrdr: A9a23:zZgZTqoPFAZ2dQNAsK3NjZcaV5rbeYIsimQD101hICG9E/bo7f
+ xG+c5w6faaslYssQ4b6LW90cW7MAvhHP1Oj7X5X43SOjUO0VHAROpfBO3Zsl7d8kbFh5dgPM
+ lbAtND4R7LYWSST/yW3CCIV/gnxteD/OSJiI7lvhVQpM1RBJ1I3kNfDBuaHU19TBRHA50ifa
+ DsgvZvln6Gf2kWYcSwDmQEWe/Y4/bMiJXtbVonABEggTP+6g9AIYSaLySl
+X-Talos-CUID: 9a23:rRS9d2PJCmg6ju5DfCRE2UNJBJoca2SFxTD6AWmSAkdYR+jA
+X-Talos-MUID: =?us-ascii?q?9a23=3A2nFzdg1sTMqgGVFSOpmFCZntjDUj57ysNGovy7o?=
+ =?us-ascii?q?8nMCcDiJLZyfM0BKxXdpy?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.02,226,1688418000"; 
+   d="scan'208,217";a="5710059"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+Received: from mail-ua1-f71.google.com ([209.85.222.71])
+  by thk-tes-rat05.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 12 Apr 2024 10:25:14 +0300
+Received: by mail-ua1-f71.google.com with SMTP id a1e0cc1a2514c-7e78d506fc2so398348241.1
+        for <admin@petcomtrainingcollege.com>; Fri, 12 Apr 2024 00:25:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20230601; t=1712906651; x=1713511451; darn=petcomtrainingcollege.com;
+        h=to:from:subject:message-id:feedback-id:reply-to:date:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=P+UfzYsByQSVAMfoMM04fe1OMsMSnmE1YweimWRQ50c=;
+        b=dV5Nd505r9eVcHyqnLKuJW2/BNTLGU6lW/xZMBBGtBN/Abw+eXelr68wHQMl07GxD4
+         nGUhi405NRCommI2qUuYCrRk5S70mqLA6dbjsXcDpodx3DEW2D4VIpHl6/5TFE7IV1Dj
+         +PfvlcYUIlmMk0eorgXXSmidEd09DJTrwCi6iYoZY7lxD6Tq7p+kG0J2NXhhXRwN4Hcl
+         hikHvdJze7YzMZgkvBZHzhhk3PLJCcqNII3sSXNt0Tky8+rjgGiZsPdY1BHWMp5CP9hV
+         lVYJF5DhzVr4oxa/PqEGxsOQl8oRIXcmy4OhIGewELz42aUR5Z+2rzvogjgwmdDQ3Qlr
+         UboQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1712906651; x=1713511451;
+        h=to:from:subject:message-id:feedback-id:reply-to:date:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=P+UfzYsByQSVAMfoMM04fe1OMsMSnmE1YweimWRQ50c=;
+        b=vBXzSAJGhQ32TsFQV13EEQ3R8K35W9dQJ5Ayni78KnbYmKP2DXQC1/7G/MbL4l37VA
+         E1K4585T/lpM8Y7N1f2nJCbL/dSoOSpvFlTmmRECVh+DWXz7/B0wTt+cccRUSvrS6JUD
+         mIABlzQlPexx52xhEkqt92Ky29AIe5sIMEJLFhx/VEkUAZ5aMb+wJ8Oia9iEkUoX7GAB
+         urE6qc5vJ64PZVLdZY8GD653VwspVvB/sFRC1AjBy5/IvYTstq6M86eAccYgnT3RO0S8
+         p72ckj9fcs4Z7saz5DlRmGKWKO87WdXG/TN23ZBD4ZZcb42calblxaPvDntIrglCaFuP
+         38KQ==
+X-Gm-Message-State: AOJu0YwKExZ/Lywt/IRS7A1AmgKIM8yb72U7rPV5IKMCmygb2hlAGiHR
+	rv3RYVqyhAmSNYYCVg9MXbLyqa38xDo3PHznfFe72v1nGbE=
+X-Google-Smtp-Source: AGHT+IH26l7wkgKEEVVdqGbOWsxQrETrxPXXl5wtBnK+qXyshPcFSOJ3G6hbkxNTHEqpNV5Uo5S5nqk=
+MIME-Version: 1.0
+X-Received: by 2002:a67:ef49:0:b0:47a:3fd3:df50 with SMTP id
+ k9-20020a67ef49000000b0047a3fd3df50mr1681908vsr.35.1712906651005; Fri, 12 Apr
+ 2024 00:24:11 -0700 (PDT)
+Date: Fri, 12 Apr 2024 00:24:10 -0700
+Reply-To: The Google Workspace Team <workspace-noreply@google.com>
+X-Google-Id: 4044822, 264532
+Feedback-ID: P-10-0:C20070550:M110155298-en:gamma
+X-Notifications: GAMMA:<954ed572a0b8cd7719076216d579669f86e415df-20070550-110897062@google.com>
+X-Notifications-Bounce-Info: AaJ7rEoluU3jlQUgDuvOPnT23q1OK4wMkAWG6toovRHLv5TSmVL0dXCtb-R-kHMzMyq4vLrj3TpNnmiw9BQYz7LwImM1W3RFG6qSvi1f5---Z1iwkSg5CC3clddD2LI7doEvPrOKJGtYKD-UVjeMcPuwEffduhM5hfdnbRgIax_HfAo9C8589Y0ilKlxA-t4Vint4q0oqKhB9kAe5GnwvrppzjjH0XYYdkdXU3CiO1K1okpcEN0vGyxBTJm2CWASNs4nv6X_6oHHGSLqOmEGAvUH6cnhOYcmKKENyZwybcou3iSoN2zzypc0hJs4TnwADJyQzttvHT-SfTznPG9dQV0NrRvHX8RqzKAOzrAxKjpmOXvktD7CNUGMs9PJIeLMZKy0GN70rcs9uiT318T7b1Ezh_rrYtxdbVGidKXR4jpS_uJjPgpnxRwwXOsxvElwnj3FUtQyd1BxAz5-6iQMOTFUFoFbxTgGk57Q_F-jBo9PkrzSMPnlNCkmpTc4BDOg_9EKMAt3c12IzXitjrJb7JkKqix5bv7AQTtuj3S67Gl0jVYdjKIqZtPV5a7w8Qux3dS0pd6JUvgqSMjOYUBeNjAwNjA0MDQxNTM1NTk2OTMzMg
+Message-ID: <954ed572a0b8cd7719076216d579669f86e415df-20070550-110897062@google.com>
+Subject: Get help setting up Google Workspace for petcomtrainingcollege.com
+From: The Google Workspace Team <workspace-noreply@google.com>
+To: admin@petcomtrainingcollege.com
+Content-Type: multipart/alternative; boundary="0000000000007773be0615e12810"
+
+--0000000000007773be0615e12810
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+
+From: "The Google Workspace Team" [workspace-noreply@google.com]
+Subject:  Get help setting up Google Workspace for petcomtrainingcollege.com
+
+Reminder to set up Google Workspace
+
+## We'll help you set up Google Workspace
+
+To start using Gmail, video conferencing, collaboration tools, and more,  
+you first verify that you own the domain, petcomtrainingcollege.com.
+
+### Get live help
+
+The Google Workspace support team can walk you through verifying your  
+domain and setting up your business email. 24/7 support is included with  
+your Google Workspace account.
+
+### Your Google Workspace account
+
+**Username: **
+
+admin@petcomtrainingcollege.com
+
+**Domain: **
+
+petcomtrainingcollege.com
+
+Contact us  
+(https://support.google.com/a/answer/1047213?utm_source=9052702&utm_medium=email)
+
+If you prefer to verify on your own, sign in to your Google Admin console  
+(https://admin.google.com) and follow the setup steps. Learn more about  
+domain verification  
+(https://support.google.com/a/answer/60216?utm_source=9052702&utm_medium=email).
+
+If you don't verify your domain within a few days, your Google Workspace  
+trial account is automatically deleted.
+
+Sincerely,
+
+The Google Workspace Team
+
+
+(C) 2024  Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043 *   
+Google Asia Pacific Pte. Ltd., 8 Marina View, #30-01, Asia Square 1,  
+Singapore 018960  *  Google Ireland Ltd, Gordon House, Barrow Street,  
+Dublin 4, Ireland.
+
+You're receiving this mandatory email service announcement to update you  
+about important changes to your Google Workspace product or account.
+
+
+--0000000000007773be0615e12810
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div>
+  <html xmlns:v=3Durn:schemas-microsoft-com:vml dir=3Dltr lang=3Den style=
+=3D"margin:0; padding:0">
+    <meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+    <meta name=3Dviewport content=3Dwidth=3Ddevice-width>
+    <style>@media only screen{html{min-height:100%;background:#fafafa}}@med=
+ia only screen and (max-width:640px){.small-float-center{margin:0 auto!impo=
+rtant;float:none!important;text-align:center!important}}@media only screen =
+and (max-width:640px){table.body img{width:auto;height:auto}table.body cent=
+er{min-width:0!important}table.body .container{width:344px!important}table.=
+body .columns{height:auto!important;-moz-box-sizing:border-box;-webkit-box-=
+sizing:border-box;box-sizing:border-box;padding-left:40px!important;padding=
+-right:40px!important}table.body .columns .columns{padding-left:0!important=
+;padding-right:0!important}table.body .collapse .columns{padding-left:0!imp=
+ortant;padding-right:0!important}th.small-1{display:inline-block!important;=
+width:8.33333%!important}th.small-3{display:inline-block!important;width:25=
+%!important}th.small-4{display:inline-block!important;width:33.33333%!impor=
+tant}th.small-6{display:inline-block!important;width:50%!important}th.small=
+-8{display:inline-block!important;width:66.66667%!important}th.small-9{disp=
+lay:inline-block!important;width:75%!important}th.small-12{display:inline-b=
+lock!important;width:100%!important}.columns th.small-12{display:block!impo=
+rtant;width:100%!important}table.menu{width:100%!important}table.menu td,ta=
+ble.menu th{width:auto!important;display:inline-block!important}table.menu.=
+vertical td,table.menu.vertical th{display:block!important}table.menu[align=
+=3Dcenter]{width:auto!important}}</style>
+    <span class=3Dpreheader style=3Dcolor:#fafafa;display:none!important;fo=
+nt-size:1px;line-height:1px;max-height:0;max-width:0;mso-hide:all!important=
+;opacity:0;overflow:hidden;visibility:hidden></span>
+    <table class=3Dbody style=3DMargin:0;background:#F8F9FA!important;borde=
+r-collapse:collapse;border-spacing:0;color:#3C4043;font-family:Roboto,Helve=
+tica,Arial,sans-serif;font-size:14px;font-weight:400;height:100%;line-heigh=
+t:inherit;margin:0;padding:0;vertical-align:top;width:100%;text-align:left>
+      <tr style=3Dpadding:0;vertical-align:top>
+        <td class=3Dcenter align=3Dcenter valign=3Dtop style=3D-moz-hyphens=
+:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;colo=
+r:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;font=
+-weight:400;hyphens:none;line-height:inherit;margin:0;padding:0;vertical-al=
+ign:top;word-wrap:keep-all>
+          <center data-parsed=3D"" style=3Dmin-width:600px;width:100%>
+
+            <table align=3Dcenter class=3D"container float-center" style=3D=
+"Margin:0 auto;background:#fafafa;border-collapse:collapse;border-spacing:0=
+;float:none;margin:0 auto;padding:0;text-align:left;vertical-align:top;widt=
+h:600px"><tbody><tr style=3Dpadding:0;vertical-align:top><td style=3D-moz-h=
+yphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!importan=
+t;color:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14p=
+x;font-weight:400;hyphens:none;line-height:inherit;margin:0;padding:0;verti=
+cal-align:top;word-wrap:keep-all>
+              <table class=3D"row header" style=3Dbackground:#F8F9FA;border=
+-collapse:collapse;border-spacing:0;display:table;font-size:12px;padding:0;=
+position:relative;vertical-align:top;width:100%><tbody><tr style=3Dpadding:=
+0;vertical-align:top>
+                <th class=3D"small-12 large-12 columns first last" style=3D=
+"Margin:0 auto;color:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;=
+font-size:14px;font-weight:400;line-height:inherit;margin:0 auto;padding:0;=
+padding-bottom:24px;padding-left:40px;padding-right:40px;padding-top:12px;w=
+idth:560px"><table style=3Dborder-collapse:collapse;border-spacing:0;margin=
+-bottom:0;padding:0;vertical-align:top;width:100%><tr style=3Dpadding:0;ver=
+tical-align:top><th style=3DMargin:0;color:#3C4043;font-family:Roboto,Helve=
+tica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:inherit;ma=
+rgin:0;padding:0;text-align:left>
+
+                  <img src=3Dhttps://storage.googleapis.com/support-kms-pro=
+d/GaOvClLdIVxiDUB6sr9FETwxw9I7ykkXR856 alt=3D"Google Workspace" height=3D30=
+ style=3D-ms-interpolation-mode:bicubic;clear:both;display:block;margin-top=
+:24px;max-height:30px;max-width:100%;outline:0;text-decoration:none;width:a=
+uto>
+
+                </th>
+<th class=3Dexpander style=3DMargin:0;color:#3C4043;font-family:Roboto,Helv=
+etica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:inherit;m=
+argin:0;padding:0!important;visibility:hidden;width:0></th></tr></table></t=
+h>
+              </tr></tbody></table>
+
+              <table class=3D"row info" style=3Dalign-items:center;backgrou=
+nd:#fff;border-collapse:collapse;border-color:#E8EAED;border-spacing:0;bord=
+er-style:solid;border-width:1px;display:table;padding:0;position:relative;v=
+ertical-align:top;width:100%><tbody><tr style=3Dpadding:0;vertical-align:to=
+p>
+                <th class=3D"small-12 large-12 columns first last" style=3D=
+"Margin:0 auto;color:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;=
+font-size:14px;font-weight:400;line-height:inherit;margin:0 auto;padding:0;=
+padding-bottom:0;padding-left:40px;padding-right:40px;width:560px"><table s=
+tyle=3Dborder-collapse:collapse;border-spacing:0;padding:0;vertical-align:t=
+op;width:100%><tr style=3Dpadding:0;vertical-align:top><th style=3D"Margin:=
+0;color:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14p=
+x;font-weight:400;line-height:inherit;margin:0;padding:0 0 24px;text-align:=
+left">
+
+<div><title>Reminder to set up Google Workspace</title></div>
+<h2 style=3D"margin:0;color:#3C4043;font-family:Google Sans,Helvetica,Arial=
+,sans-serif;font-size:24px;font-weight:700;line-height:30px!important;margi=
+n-bottom:24px;margin-top:24px;padding:0;word-wrap:normal">We&#39;ll help yo=
+u set up Google Workspace</h2>
+
+<p style=3Dmargin:0;margin-bottom:16px;color:#3C4043;font-family:Roboto,Hel=
+vetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;pad=
+ding:0>To start using Gmail, video conferencing, collaboration tools, and m=
+ore, you first verify that you own the domain, <a class=3Dnoclick style=3Dm=
+argin:0;color:#1f1f1f;font-family:inherit;font-weight:inherit;margin:0;padd=
+ing:0;text-decoration:none>petcomtrainingcollege.com</a>.</p>
+
+<h3 style=3D"margin:0;margin-bottom:8px;color:#3C4043;font-family:Google Sa=
+ns,Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-height:24=
+px!important;margin:15px 0 5px 0;margin-bottom:10px;padding:0;word-wrap:nor=
+mal">Get live help</h3>
+
+<p style=3Dmargin:0;margin-bottom:16px;color:#3C4043;font-family:Roboto,Hel=
+vetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;mar=
+gin:0;margin-bottom:16px;padding:0>The Google Workspace support team can wa=
+lk you through verifying your domain and setting up your business email. 24=
+/7 support is included with your Google Workspace account.</p>
+
+<table class=3Daccountinfo role=3Dpresentation style=3Dalign:center;backgro=
+und:#f3f3f3;border-collapse:collapse;border-spacing:0;margin-bottom:12px;pa=
+dding:0;vertical-align:top;width:100%>
+  <tbody>
+    <tr style=3Dpadding:0;vertical-align:top>
+      <th class=3Daccountinfo style=3D"margin:0;color:#3C4043;font-family:R=
+oboto,Helvetica,Arial,sans-serif;font-size:14px;font-weight:inherit;line-he=
+ight:inherit;margin:0;padding:16px 32px 0 32px">
+      <h3 class=3Daccountinfo style=3D"margin:0;margin-bottom:8px;color:#3C=
+4043;font-family:Google Sans,Helvetica,Arial,sans-serif;font-size:16px;font=
+-weight:700;line-height:26px!important;margin:0;margin-bottom:12px;margin-t=
+op:none!important;padding:0;text-align:center;word-wrap:normal">Your Google=
+ Workspace account</h3>
+      </th>
+    </tr>
+    <tr style=3Dpadding:0;vertical-align:top>
+      <td class=3Daccountinfo style=3D"-moz-hyphens:none;-webkit-hyphens:no=
+ne;margin:0;border-collapse:collapse!important;color:#3C4043;font-family:Ro=
+boto,Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:none=
+;line-height:inherit;margin:0;padding:0 32px 0 32px;vertical-align:top;word=
+-wrap:keep-all">
+      <p class=3Daccountinfo style=3Dmargin:0;color:#3C4043;font-family:Rob=
+oto,Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:2=
+0px;margin:0;margin-bottom:0;padding:0><strong>Username:=C2=A0</strong></p>
+
+      <p class=3Daccountinfo style=3Dmargin:0;color:#3C4043;font-family:Rob=
+oto,Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:2=
+0px;margin:0;margin-bottom:16px;padding:0><a class=3Dnoclick style=3Dmargin=
+:0;color:#1f1f1f;font-family:inherit;font-weight:inherit;margin:0;padding:0=
+;text-decoration:none>admin@petcomtrainingcollege.com</a></p>
+      </td>
+    </tr>
+    <tr style=3Dpadding:0;vertical-align:top>
+      <td class=3Daccountinfo style=3D"-moz-hyphens:none;-webkit-hyphens:no=
+ne;margin:0;border-collapse:collapse!important;color:#3C4043;font-family:Ro=
+boto,Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:none=
+;line-height:inherit;margin:0;padding:0 32px 0 32px;vertical-align:top;word=
+-wrap:keep-all">
+      <p class=3Daccountinfo style=3Dmargin:0;color:#3C4043;font-family:Rob=
+oto,Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:2=
+0px;margin:0;margin-bottom:0;padding:0><strong>Domain:=C2=A0</strong></p>
+
+      <p class=3Daccountinfo style=3Dmargin:0;color:#3C4043;font-family:Rob=
+oto,Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:2=
+0px;margin:0;margin-bottom:16px;padding:0><a class=3Dnoclick style=3Dmargin=
+:0;color:#1f1f1f;font-family:inherit;font-weight:inherit;margin:0;padding:0=
+;text-decoration:none>petcomtrainingcollege.com</a></p>
+      </td>
+    </tr>
+    <tr style=3Dpadding:0;vertical-align:top>
+      <td class=3Daccountinfo style=3D"-moz-hyphens:none;-webkit-hyphens:no=
+ne;margin:0;border-collapse:collapse!important;color:#3C4043;font-family:Ro=
+boto,Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:none=
+;line-height:inherit;margin:0;padding:0 32px 0 32px;vertical-align:top;word=
+-wrap:keep-all">
+      <table class=3D"button radius thumbnail" role=3Dpresentation style=3D=
+"margin:9px 0 24px 0;border:none;border-collapse:collapse;border-radius:3px=
+;border-spacing:0;box-shadow:0 0 0 1px rgba(10,10,10,.2);display:inline-blo=
+ck;line-height:0;margin:9px 0 24px 0;max-width:100%;padding:0;transition:bo=
+x-shadow .2s ease-out;vertical-align:top;width:auto">
+        <tbody>
+          <tr style=3Dpadding:0;vertical-align:top>
+            <td style=3D-moz-hyphens:none;-webkit-hyphens:none;margin:0;bor=
+der-collapse:collapse!important;color:#3C4043;font-family:Roboto,Helvetica,=
+Arial,sans-serif;font-size:14px;font-weight:400;hyphens:none;line-height:in=
+herit;margin:0;padding:0;vertical-align:top;word-wrap:keep-all>
+            <table style=3Dborder-collapse:collapse;border-spacing:0;paddin=
+g:0;vertical-align:top;width:100%>
+              <tbody>
+                <tr style=3Dpadding:0;vertical-align:top>
+                  <td style=3D-moz-hyphens:none;-webkit-hyphens:none;margin=
+:0;background:#1A73E8;border:none;border-collapse:collapse!important;border=
+-radius:3px;color:#fff;font-family:Roboto,Helvetica,Arial,sans-serif;font-s=
+ize:14px;font-weight:400;hyphens:none;line-height:inherit;margin:0;padding:=
+0;vertical-align:top;word-wrap:keep-all><a href=3Dhttps://notifications.goo=
+gle.com/g/p/ANiao5ov9KzIbGQXVt03bXE7AcaomkHqd9iq_vvuB_9nxa8-vR_2anFGo2aWgzl=
+Z98d1MWFYv-Q-vaqQH67wicAd3yOlDeVUF3gPLFjNCanrb_cBQ4m4H8he1Qf-O-DxCRDwxDB9tD=
+eVSIlQeBjNz-zfaT2RbBRdZMosJPBfJkbUsZI3BwMbAy69CnYD6SIQ2zFXrBrWpP-AVPWDmhaQW=
+CY1KlteaD7cMFTD7KODXbYJtB7d26AEucZ8aqw66UNuXFHo2-BdKNSZ3rtl8SIY style=3D"ma=
+rgin:0;border:0 solid #1A73E8;border-radius:3px;color:#fff;display:inline-b=
+lock;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;font-weig=
+ht:500;line-height:24px;margin:0;padding:8px 16px 8px 16px;text-decoration:=
+none">Contact us</a></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p style=3Dmargin:0;margin-bottom:16px;color:#3C4043;font-family:Roboto,Hel=
+vetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;mar=
+gin:0;margin-bottom:16px;padding:0>If you prefer to verify on your own, <a =
+href=3Dhttps://notifications.google.com/g/p/ANiao5pGmIEOMrkW_j9aMyXFjMbs6ku=
+2y2eok3ZuJXJBiz0JwOdp5tCZ5RS95HaSwVg4aVtF_PGtUqOcYNE573znEMn0UiKZAok6ZYXyX3=
+4tuKH_02IaAGNoa-XDWVUo19K8E0oODF0dfqq-Ucw9lwUwQxVcCMwAGbtV-hxCt-Wo5S8EG573n=
+eE4Qzn78yhdtA-TflBEhTc style=3Dmargin:0;color:#1A73E8;font-family:Roboto,He=
+lvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0=
+;text-decoration:none>sign in to your Google Admin console</a> and follow t=
+he setup steps. Learn more about <a href=3Dhttps://notifications.google.com=
+/g/p/ANiao5roYaoBIJguOUYoKYfFPYKgH8fC97mgsD_SEcGkYxMLk0evbgMS91tPk4vXSwFC5V=
+Eq7iU0dZL9th2T5JrG-fi3zwcLRuqP3kTiX6_eS2uF4sHnQMppQsyJD8W7jtjGX37hBCNQQAL1P=
+c2rKbzx4ecGwupaq12iemmx2yEIXxo-GaUkGvdpWwEe85z_163zfv_A5XERq_0R7HzvGSztLDYy=
+FU60Fynx5sZIAQR79ibyuwfqaAKuQLGrXDWzKvDHUXjlxoQ-SB-h1g style=3Dmargin:0;col=
+or:#1A73E8;font-family:Roboto,Helvetica,Arial,sans-serif;font-weight:400;li=
+ne-height:1.3;margin:0;padding:0;text-decoration:none>domain verification</=
+a>.</p>
+
+<p style=3Dmargin:0;margin-bottom:16px;color:#3C4043;font-family:Roboto,Hel=
+vetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;mar=
+gin:0;margin-bottom:16px;padding:0>If you don&#39;t verify your domain with=
+in a few days, your Google Workspace trial account is automatically deleted=
+.</p>
+
+<p class=3Dregards style=3D"color:#3C4043;font-family:Google Sans,Helvetica=
+,Arial,sans-serif;font-size:14px;font-weight:700;line-height:24px;margin:0;=
+margin-bottom:0!important;margin-top:8px;padding:0">Sincerely,</p>
+
+<p class=3Dsignoff style=3D"margin:0;margin-bottom:16px;color:#3C4043;font-=
+family:Google Sans,Helvetica,Arial,sans-serif;font-size:14px;font-weight:70=
+0;line-height:24px;margin:0;margin-bottom:0px!important;padding:0">The Goog=
+le Workspace Team</p>
+            </th></tr></table></th>
+            </tr></tbody></table>
+
+            <table class=3D"row footer" role=3Dpresentation style=3Dbackgro=
+und:#F8F9FA;border-collapse:collapse;border-spacing:0;display:table;margin-=
+top:0;padding:0;position:relative;vertical-align:top;width:100%><tbody><tr =
+style=3Dpadding:0;vertical-align:top>
+              <th class=3D"small-12 large-12 columns first last" style=3D"M=
+argin:0 auto;color:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;fo=
+nt-size:14px;font-weight:400;line-height:inherit;margin:0 auto;padding:0;pa=
+dding-bottom:0;padding-left:40px;padding-right:40px;width:560px"><table sty=
+le=3Dborder-collapse:collapse;border-spacing:0;padding:0;vertical-align:top=
+;width:100%><tr style=3Dpadding:0;vertical-align:top><th style=3DMargin:0;c=
+olor:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;f=
+ont-weight:400;line-height:inherit;margin:0;padding:24px;text-align:left>
+
+                <img src=3Dhttps://storage.googleapis.com/support-kms-prod/=
+GaOvClLdIVxiDUB6sr9FETwxw9I7ykkXR856 alt=3D"Google Workspace" height=3D30 s=
+tyle=3D-ms-interpolation-mode:bicubic;clear:both;display:block;margin-botto=
+m:14px;max-width:100%;max-height:30px;outline:0;text-decoration:none;width:=
+auto>
+                <p style=3DMargin:0;Margin-bottom:16px;color:#6C737F;font-f=
+amily:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line=
+-height:16px;margin:0;margin-bottom:14px;padding:0>
+            =C2=A9 2024  Google LLC=C2=A01600 Amphitheatre Parkway, Mountai=
+n View, CA 94043
+                </p>
+                <p style=3DMargin:0;Margin-bottom:16px;color:#6C737F;font-f=
+amily:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line=
+-height:16px;margin:0;margin-bottom:14px;padding:0>
+            <em>You=E2=80=99re receiving this mandatory email service annou=
+ncement to update you about important changes to your Google Workspace prod=
+uct or account.</em>
+            </p>
+            </th>
+<th class=3Dexpander style=3DMargin:0;color:#3C4043;font-family:Roboto,Helv=
+etica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:inherit;m=
+argin:0;padding:0!important;visibility:hidden;width:0></th></tr></table></t=
+h>
+            </tr></tbody></table>
+            </td></tr></tbody></table>
+
+          </center>
+        </td>
+      </tr>
+    </table>
+    <!-- prevent Gmail on iOS font size manipulation -->
+   <div style=3D"display:none;white-space:nowrap;font:15px courier;line-hei=
+ght:0"> =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 </div=
+>
+
+</html>
+</div>
+
+--0000000000007773be0615e12810--

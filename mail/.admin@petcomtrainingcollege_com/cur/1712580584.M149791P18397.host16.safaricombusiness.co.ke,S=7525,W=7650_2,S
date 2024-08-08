@@ -1,0 +1,125 @@
+Return-Path: <sumwende@gmail.com>
+Delivered-To: admin@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id 2Ff6B+jnE2bdRwAAz9s6Ng
+	(envelope-from <sumwende@gmail.com>)
+	for <admin@petcomtrainingcollege.com>; Mon, 08 Apr 2024 15:49:44 +0300
+Return-path: <sumwende@gmail.com>
+Envelope-to: admin@petcomtrainingcollege.com
+Delivery-date: Mon, 08 Apr 2024 15:49:44 +0300
+Received: from athi-tes-rat02.safaricombusiness.co.ke ([197.248.128.138]:5289)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <sumwende@gmail.com>)
+	id 1rtoQL-0005Ra-03
+	for admin@petcomtrainingcollege.com;
+	Mon, 08 Apr 2024 15:49:44 +0300
+IronPort-SDR: 6613e7d2_lQDb0Pc2uK2ZQtX+KkHjc0OacDbAnCHkga77m58dWXuDVIa
+ s/4GJPR255GE8ZfWDo4LRmT6iTbKOpyaOz+c9QQ==
+X-IPAS-Result: =?us-ascii?q?A0GpJAA5n3Vk/yzQVdFagncCAQIBghGBQ0BHhFKBI4pTh?=
+ =?us-ascii?q?h+KaSWHRINyRIU1gkATDwEBAQEBAQEBAQlEBAEBgVIBiRICJUsBAgQBAQEBA?=
+ =?us-ascii?q?wIDAQEBAQEBAwEBBQEBAQIBAQYGAoEGCAuFLzkIBYYnER0BGx4DEggBAgUDN?=
+ =?us-ascii?q?AIkAREBBQEiGxqFBAEDMQOfKIIggQRCizeBFQUCFoEBggkGgh+ZcAoZKA1qA?=
+ =?us-ascii?q?4FcAgcShXMjhFABAYJchFCBIRuBSUSBS4tSgmcEjjuMRgEDAgIDAgIDBgQCA?=
+ =?us-ascii?q?gIFBAIBBQIOBBABAQICAQECBAgCAgMDCA4TAwcCAwMFAQMBAgYEAgQLAgUCC?=
+ =?us-ascii?q?gECBAECAgIBBQkBAwEDAQwCAgcCAwMGBAIOAgEBAwICDQMCAwIEAQUFAQEQA?=
+ =?us-ascii?q?gYEBwEGAwsCBAEEAwoDBgMCAgICCAQRAgMCAgQFAgQFAgcEAQIEBAUCAgQCB?=
+ =?us-ascii?q?AMXAgMFAw4CAgICAQkLAgMHBAMDAQUCAgsBAxgDAgICAgICAQMHCAQLAgUBA?=
+ =?us-ascii?q?gEECwEFAQ0EAgICAgIDAgEBAwYIBgMKAgUEAwcJDw8IAwMBBAMCAwIBCAcCA?=
+ =?us-ascii?q?wICBAgCAwECAgEGAgMBAgIBAgIBCwEBAgMFAgIRAQICAgICAQECAwIDAQcBA?=
+ =?us-ascii?q?gIbBQEEBQMDBAICAQQBAgYFCwIEAwEBAQICAgIDAgsDBQMBBgMDCgcEAQgCB?=
+ =?us-ascii?q?QMEAgUGBAYCAgICAgEEAQQJAwQEAwMGAwkCAgwCFAISBgEECwsEAQICAg0DB?=
+ =?us-ascii?q?AYCAwMCBQgEAgICAgIDBgIHBAIDAwICAwMGAgEIBgMCBAIBAgQCAgYDCQICA?=
+ =?us-ascii?q?wMCAgMDAQIBBgICAgECAgEIAgMCAgICAwMMAQEBBgMCAwEHAgcBAgICAgwDA?=
+ =?us-ascii?q?gICAwIEAwICAxEEDAECBAICBQICAgICAgECAgICAwUEAQMDAwUDAwICAwQDB?=
+ =?us-ascii?q?AYEAgIGAgIFBgICBQMEAhADBAIBAgECAwcIBAIHAgEPCAMEAgQDAgIDAgECB?=
+ =?us-ascii?q?wMCBAIJEQICAgMEBQwEBwQGAgIDAgIDAgYDAw0BAQECAQsFAQQBAgEBBAMDC?=
+ =?us-ascii?q?wICAgEBAgEDAgIBAgECBgEKCgYCBQENAgEBAQIEAgMGAgIBCAYFAgINAwEBB?=
+ =?us-ascii?q?gEHAgQCBAUCAwQCAgICBAIWBwECAgIFAwQEAQICCQEBBAICAwICAQECAQMCA?=
+ =?us-ascii?q?QICAgMCBQQDAwMCBgIFAQIBAgQBAwIDAgMCAwMDBAECAgETAwMCAgIEAgIDA?=
+ =?us-ascii?q?wMDAQ0DAQMBAgIDAgIBAxEEAgQBAgECAQQBAwMDAhACAwMDAQQBAgMCAgICA?=
+ =?us-ascii?q?gIFBQUGBwQCAQMDAgUCAgICAQICBgcJAgIBAQEBAgEBAQEBAgMFAwICAQECA?=
+ =?us-ascii?q?gIDBwYCCQICAQEDAgECAQcIAQIDAgICAgIDAgUCAgIBAg4IAgEGAQEGAxUCE?=
+ =?us-ascii?q?wEBBgUDBgcCBQEDBQECAgIDBQQBBAMDAgMFAgIDAgICAwIGDwQBAwwDAwEBA?=
+ =?us-ascii?q?gEEAwMCAQIDAwQBAhAFAwMTDQEFAgICAhAGAgcGBBEDAwcEBAMCBhgOAggBA?=
+ =?us-ascii?q?QIBAQICAgELAQIEAQICAgICAgICAgECBgMGAwIFAgIDAwICAgYCCAkCAgICB?=
+ =?us-ascii?q?AIBBQICAwIFAgQGAQECAgICAwMDAwUDAgsIBQMDAQkCBggDAwIFAwUBBgQHA?=
+ =?us-ascii?q?gYCAgIBAQEKBQMBBgMDAwIDAwkBBA0ECwcCAgICAgIRBAkCAwgVAQYOAwMCI?=
+ =?us-ascii?q?AECAUMdAgkDIw8DCwkIEzoGAQsHMgQ0ARQRBwcrBxcLCgkFCgQkIQMDHAEEA?=
+ =?us-ascii?q?Q4CAgMDAQIDBQECAwQCAQsCAgICCQIKAwIDAQMFAQMCCQMBBQECBwIGAQEBA?=
+ =?us-ascii?q?gIIAggCAwsBAwUEAgECAgEFAgECAgUDBQICAgQNAgUCAgIEAQIHBAICAwIGB?=
+ =?us-ascii?q?QECBwcCBQICAwMKBAQHBAIBAQUBAgEDAwEDAgECBQkCAgICAQICAQEBCAICA?=
+ =?us-ascii?q?gICAgMDCKp5nD+gGg8xNYMsoRkzg2wBk0CSI4YcgUeEbos9qCIQIxKBa4FZc?=
+ =?us-ascii?q?BVsgWoBAUpSCw4PkhSPfEExVAmLRgEB?=
+IronPort-Data: A9a23:CxwRSa0hvXuj+8sGPvbD5YRwkn2cJEfYwER7XKvMYLTBsI5bpzBSm
+ 2ZMC23TMvzcYmP1e9p0Oo+xoU1V7MOAyYI2TQFl3Hw8FHgiRegppzi6BhypY37NdJ2roGZPt
+ Zh2hgzodZhsJpPkjk7xdOKn9xGQ7InQLpLkEunIJyttcgFtTSYlmHpLlvUw6mJSqYHR7zil5
+ 5Wq+6UzBHf/g2Qvaj9Ps/rawP9SlK2aVA0w7wRWic9j4Qe2e0k9VPo3Oay3Jn3kdYhYdsbSq
+ zHrlezREsvxpn/BO/v9+lrJWhRiro36YWBivkFrt52K2XCukMCSPpETb5LwYW8P49mAcksYJ
+ N9l7fRcQi9xVkHAdXh0v7C13EiSMIUfkIIrL0RTvuS8ymLIenXqks81Ixk/NqlH97d9BCJno
+ KlwxDAlNnhvhsqzybO/D+Rg34EtcJWtM4QYtXVtizreCJ7KQ7iZG/SMtYIehm9gwJwSdRrdT
+ 5JxhT5HdwnFfBBJNlo/B5c3nePujX76G9FdgALP+PZssjm7IApZ2oT/Ht7lKsC2QeJq2R6lp
+ XrDwD+pO0RPXDCY4X/fmp62vcfGkSb6XqoKGaGz8ft2mlSSwG0VBxYRUV+2rvT/gUm7M++zM
+ GQR8ysq6KU+rQmlEoW7UBq/r3qJ+BUbXrK8DtEH1e1E8YKMiy7xO4TOZmcQADCLnJZeqeACv
+ rNCoz8l6fGDflFYpbJxO4p4dQ+PBBU=
+IronPort-HdrOrdr: A9a23:8ZBvZajriD7+uET4t3BpisxmM3BQXtcji2hC6mlwRA09TyX4rb
+ HIoB1/73XJYVkqKRIdcLy7WJVoIkm8yXcW2/hyAV7KZmCP01dAR7sSiLcKrQeQfxEWNdQw6U
+ 6jScVD4RHLYmSSRPyV3DWF
+X-Talos-CUID: 9a23:nEkXG2AtYpRa3fj6EwZi20AdFMZ0SCbylH7bBxC1WGxsC5TAHA==
+X-Talos-MUID: 9a23:Hw++OAbde8PIBuBTvQP+qjVSZNtU54ORTxgwko0DhJLUDHkl
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.00,203,1681160400"; 
+   d="scan'208,217";a="8254399"
+Received: from mail-ed1-f44.google.com ([209.85.208.44])
+  by athi-tes-rat02.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 08 Apr 2024 15:49:20 +0300
+Received: by mail-ed1-f44.google.com with SMTP id 4fb4d7f45d1cf-56e2b41187aso4775578a12.1
+        for <admin@petcomtrainingcollege.com>; Mon, 08 Apr 2024 05:49:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1712580558; x=1713185358; darn=petcomtrainingcollege.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=x9hW5e58IoKaCppEGpWZvY0+tT8jOXnb6iz+7Z6opxs=;
+        b=BQKsYn4+gPEmvLQaayQCcg3wZPwn0cZo0CvlQzRDeKbHLUAqfBUj7A1j6ConiYYFMY
+         Xfrk0vOiPzfyJf+khT8oEwXG6MH1cN8niy1BpaU6FcXLtZ1sxU1BQm4Dcstrkm90isPC
+         rPiuGK1rjtiLl3m0+eR0M++xuq4Y7wBpNK2oenJRp68/57GMwEerucpPfadktMemUV/M
+         eY+1euDC4W5kwI0SFXF0Fmb5kI5StcbM4cbA0NpAS4s4Ky+pv4wT0pANZ+wGT8EAq1Th
+         jh1/SvIN77EvFwHoGqMK4MW8tMpRNowpWvP8BxxA+yPAgPnyw9+3nYT+hmwpVShPeVeI
+         GUDw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1712580558; x=1713185358;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=x9hW5e58IoKaCppEGpWZvY0+tT8jOXnb6iz+7Z6opxs=;
+        b=FO4ekOUU6sMDC4AiJH1Aug9+FBBLbIYOGXM9eKLuJz0ot2AeIi+H01UJ4OfE3GNjVf
+         5wObgnsN2cyyAEIeabMWPgWLcjowm2ZNfZxPfoqO9KPNRLqNfSvTiAkessnsx86ZR5A1
+         CB5yNyfAtLZLUp2HCe5LJ4w6nMrQKePE/k7bArFt/awHFda5IoqQ391qEWFwz7ZSZBwf
+         ZQWrX2J7cRWRjHTDbv+lsLkpXNjnS73u+QLLIG3nt9glkw8DWfrvEX77Etv9cIN9e/r0
+         UHCbOF9WcKcXtE2QgX/uw6Ydfi0Rx5rDimGd4NrhzdXfnZuEkNM+l9Pru3okbiWNxqwa
+         LORw==
+X-Gm-Message-State: AOJu0Yz019yBC1ts0fDyR3LI3SwX/Rl9fC55GkDHqM9BZHrNP1Lv5Iwc
+	GSFZNgjB7ai15n7GH43Vs6y/rvn3rz7CrluKcGfCoDhqKmDKath+c28V9Nhgsz4YKbITyq/nYpl
+	AHiw3xvuMN4VG8AsKL9ht4CeidpaHgeGV
+X-Google-Smtp-Source: AGHT+IGoarkCrT1uDVBkvtrJr14JfQdIUFj0Epfll8n4Uly2ITw/NxJgVSF+5rRQ3n8ek6GmYJF90Yf6HugtPyyt3MU=
+X-Received: by 2002:a05:6402:4347:b0:56e:2458:eea9 with SMTP id
+ n7-20020a056402434700b0056e2458eea9mr7021177edc.20.1712580557709; Mon, 08 Apr
+ 2024 05:49:17 -0700 (PDT)
+MIME-Version: 1.0
+From: SUSAN MWENDE <sumwende@gmail.com>
+Date: Mon, 8 Apr 2024 15:49:00 +0300
+Message-ID: <CANphxs7ZeypVKgftsP9FFuAgaSN8Of8ZKFTB4BN26xsTcV_k6w@mail.gmail.com>
+Subject: Hallo
+To: Petcom College <admin@petcomtrainingcollege.com>
+Content-Type: multipart/alternative; boundary="000000000000caa8540615953b40"
+
+--000000000000caa8540615953b40
+Content-Type: text/plain; charset="UTF-8"
+
+
+
+--000000000000caa8540615953b40
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr"><br></div>
+
+--000000000000caa8540615953b40--

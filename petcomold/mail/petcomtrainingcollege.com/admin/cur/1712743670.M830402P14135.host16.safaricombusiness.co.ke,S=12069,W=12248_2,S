@@ -1,0 +1,179 @@
+Return-Path: <3zmQWZggTACkST-WJUQdFHHTZSYX.LTTLQJ.HTR@gaia.bounces.google.com>
+Delivered-To: admin@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id CFHvL/ZkFmY3NwAAz9s6Ng
+	(envelope-from <3zmQWZggTACkST-WJUQdFHHTZSYX.LTTLQJ.HTR@gaia.bounces.google.com>)
+	for <admin@petcomtrainingcollege.com>; Wed, 10 Apr 2024 13:07:50 +0300
+Return-path: <3zmQWZggTACkST-WJUQdFHHTZSYX.LTTLQJ.HTR@gaia.bounces.google.com>
+Envelope-to: admin@petcomtrainingcollege.com
+Delivery-date: Wed, 10 Apr 2024 13:07:50 +0300
+Received: from athi-tes-rat02.safaricombusiness.co.ke ([197.248.128.138]:53539)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <3zmQWZggTACkST-WJUQdFHHTZSYX.LTTLQJ.HTR@gaia.bounces.google.com>)
+	id 1ruUpa-0004SA-0n
+	for admin@petcomtrainingcollege.com;
+	Wed, 10 Apr 2024 13:07:50 +0300
+IronPort-SDR: 661664d4_ikC2kF7otoS0aCQRtlg/hdDzQ41SN1N++vIwzN/CtXUmb7C
+ U0DJl77xhGeF3A0SSZ26au+Jo4YHECkjN8opC9w==
+X-IPAS-Result: =?us-ascii?q?A0EIAAA5n3Vk/0qmVdFSCBoBAQEBAQEBAQEBAwEBAQESA?=
+ =?us-ascii?q?QEBAQICAQEBAYF7BQEBAQELAYErew9ugRVHAwGEToEjgiyETokCHpcchk4Ug?=
+ =?us-ascii?q?REDZQEBAQEBAQEBAQk2DgQBAQSEPEYYhUcCJTQJDgECBAEBAQEDAgMBAQEBA?=
+ =?us-ascii?q?QEDAQEFAQEBAgEBBgYCgQYIC4UvDAEsDYRdLIEeER0BAQYyRxUCBA4kAQUBN?=
+ =?us-ascii?q?SKCXYJcAxEGoTGBBEKKPAEBAXiBMh9igggBAQZiJZ4oAwYSgRgYAYk1AQGEV?=
+ =?us-ascii?q?YNRJ4IogUuCRIJCMDwjAQEBAQEDEQN/EgENBQFOEg6DDhmCNBqOP4w9Z4Evc?=
+ =?us-ascii?q?IEhgSeBAgIJAhFngQ4IZoF0QAINVQsLZYEjUYFPOQICET4UTXwOAREDBwQCg?=
+ =?us-ascii?q?QcQLwcEMigGCRgxJwZWBy0kCRMVQgSDbAMKgSMvBzYDRB1AAwtwPTUUHyyCJ?=
+ =?us-ascii?q?ARxgRFMnBYsA4F5E4EegQ0FgU8/FBAxGoFijAEBhX2JHaZ5hBKCGoFchFQIg?=
+ =?us-ascii?q?ymNUod/hxuQEohaiUmYDotpgXGKZ4owhTEQI4EbJT05MGgBB00jgzcJCj8LD?=
+ =?us-ascii?q?g+IaQGFNkSDMI95RDECAQECAQYrAwIHAQoBAQMJiyocAQE?=
+IronPort-Data: A9a23:J+cW8aJftfmWVRjpFE+RqpQlxSXFcZb7ZxGr2PjKsXjdYENS0DIBy
+ mBMDD3Qa6yKMGTxfNgjO4y38UoHvp7RydVqGgcd+CA2RRqmiyZn6fexdR6sYnzIfqUvaGo9s
+ q3yv/GZdJhcokf0/0vraP67xZVF/fngbqLmD+LZMTxGSwZhSSMw4TpugOdRbrRA2LBVOCvT/
+ 4uqyyHjEAX9gWUsbzlMs/vrRC5H5ZwehhtJ5jTSWtgW5Dcyp1FNZLoDKKe4KWfPQ4U8NoZWk
+ M6akdlVVkuAl/scIovNfoTTKyXmcZaOVeS6sUe6boD56vR0Soze5Y5gXBYUQR8/ZzxkBLmdw
+ v0V3XC7YV9B0qEhBI3x+vSXes1zFfQuxVPJHZSwmZyfyGTmVXWz/89vS0ULZ4Ic88hTHUgbo
+ JT0KBhVBvyCr+e/wbb+S+41w8p8cI/kO4QQvnwmxjbcZRokacqbEuOauJkBgml22Zwm8fX2P
+ 6L1bRI0fhH5XC9ANWs+I5EFoKKXpETGfxN4iG6nnpsHpUzv8ChI8v7NDOD9ddWLTINfmVuer
+ W/duWv+BR4eOZqUzj/tHneE1rWexHqrBer+EpWky6RlvgGY3lBJFTcWaEGZgfLj1nGXDoc3x
+ 0s8v3BGQbIJ3EWnS9j7dwW1vHWDuwIGUttWEus14waJzqfb7kCSAW1sc9JaQNkvtctzRDtzk
+ 1HWw5XmAjtgtLDTQnWYnluJkQ6P1eEuBTdqTUc5ocEts7EPDalq5v4TZr6P25JZQjE49f8cD
+ txKQOUDa20vsPM2
+IronPort-HdrOrdr: A9a23:at0Ihqla1gtLoh41UyNhF06hL8fpDfLG3DAbv31ZSRFFG/Fw9v
+ re58jzsCWftN9/YhEdcK+7Scu9qB/nhOdICOoqU4tKPjOW31dARbsKheDfKlbbakvDH4BmpN
+ 9dWpk7INf7C0R8kILc5hS5HNYryMSG9qftuPfGwx5WPGJXgmJbgzuRyDz3LqS7fmZ7LKt8M5
+ yA5sVGrTK8eXIRdK2Adxw4dtmGgNvXlJ3naxYaBxgh8k2kiy+u4rK/Mx+W2H4lIldyKH4ZkF
+ T4rw==
+X-Talos-CUID: 9a23:DZapo2DoF4GQtiH6E3lr82c0PM56Tkfci3PteUC8AEhNVJTAHA==
+X-Talos-MUID: =?us-ascii?q?9a23=3AVTsBkA3AIb4slISPydln/d6mMzUj/5n0B35Rmo0?=
+ =?us-ascii?q?64dSuNRFqGReW1miIa9py?=
+X-IronPort-Anti-Spam-Filtered: true
+X-URL-LookUp-ScanningError: 1
+X-IronPort-AV: E=Sophos;i="6.00,203,1681160400"; 
+   d="scan'208,217";a="8291185"
+Received: from mail-io1-f74.google.com ([209.85.166.74])
+  by athi-tes-rat02.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 10 Apr 2024 13:07:13 +0300
+Received: by mail-io1-f74.google.com with SMTP id ca18e2360f4ac-7cc7a6a043bso729662139f.0
+        for <admin@petcomtrainingcollege.com>; Wed, 10 Apr 2024 03:07:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=accounts.google.com; s=20230601; t=1712743630; x=1713348430; darn=petcomtrainingcollege.com;
+        h=to:from:subject:message-id:feedback-id:date:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=u2hCClKerSf+iqs1Yu1HTog52HglOFApoIQJDt1R1HU=;
+        b=DFsrwuIu4LyPH7IEEAnfybSzSinCJqgtHhuagT4DbspyrfVUFj49PNWqmXJ77CaBqJ
+         AjDoe3niuVVyXrD3oIHTLeVAV71ck+zr1QfANNilYbbeLhHImaESKo7oJpkD0Qkbp+Rd
+         1FTNGN4WiuyTczClRhGK082ZhscXn4NoV7KMSKNEO4Xh7Borvsuog82ssU6/dxrwe9wP
+         0DRGcQ8kpsm2+iIP77qt1WYcbis83BLhcoX2kqAtUn9xgq5qXjbeFaOLoRpqaT0itqmA
+         3y/M3L0LcDkVifQ7LWzdwruHYT5DWSNdtRk/9ZfDRNM4y8++R6uD/e9aCfpwLrAOuF6s
+         vlXw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1712743630; x=1713348430;
+        h=to:from:subject:message-id:feedback-id:date:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=u2hCClKerSf+iqs1Yu1HTog52HglOFApoIQJDt1R1HU=;
+        b=JhVFADx5xoPmZkemxEgSpQdY93pvXnD7TCBazl9ScjXwaVeZcSPzpQxXsHmFvKIn35
+         NoBxtcp4d308rN1iVvdisZr2KqKH+pk2jGyeEz8NVyJ0YVZSNm7+cBiNIO/U6lsaN5bl
+         v0aoSLGN+Sz5wHtIDUcS81PwmXcZF/YC8wsDcAtX1JzUbJEmCH0Pjq/ElhcwEvpKt2dr
+         iIuQb50+1prerwOdr3UQEbmLQeD6ykY/kSrz/2oh24qKN1RMOAT8gbGdogdWkRvGN9mC
+         MKsEjFf3mhkCNaHrCrLAzUzjVzTAwZ1i9c/vS+dXiaWmk3UUAknNVp5Plmbe3teyHc4y
+         ZJXw==
+X-Gm-Message-State: AOJu0Yz0g1/LGdfTCvym1BfxMJXp08TzyAhNScdRcdVyBEUWvyW8TUKu
+	3LCj+DWv4B8Esj0xUVAy+RSAEFYqiHNBn3Kchui8gPDtHB2EyZlfIQww2cQ3JiHP1p5CGSkDSVj
+	yTDgST1UcaTlTEZe5AkA9X9lDFTfH/aGPfclqBw==
+X-Google-Smtp-Source: AGHT+IHHZe+sKZsLoEU6eY1gHvGYfZ4uwnxC1uouhqGoIcL2Ux1B09zR1qFgVgbP4VMkrr9wdXVyTN6xnKgFWeBUunYZmw==
+MIME-Version: 1.0
+X-Received: by 2002:a05:6602:36cb:b0:7d5:c902:62ef with SMTP id
+ bg11-20020a05660236cb00b007d5c90262efmr2548156iob.13.1712743630230; Wed, 10
+ Apr 2024 03:07:10 -0700 (PDT)
+Date: Wed, 10 Apr 2024 10:07:09 GMT
+X-Account-Notification-Type: 264
+Feedback-ID: 264:account-notifier
+X-Notifications: 44a16d43026c0000
+X-Notifications-Bounce-Info: AaJ7rErHS_h4Utjhhf7fjadEVJbDhLhBcCm9Htz4fni1DDGgANTwMVdLCnRoGxzWfBP8DpLg8Z1JuTevIFYfyKo2EadRCf5zWdsYcpLEPXN4937he8duoI3Za6VmMMe_YXBDju2KhFypvJg7jIvwCBPhr0sODGPwTYS_wkrbQpZJj8lixAk0iUso1XTciWBi3tiV4GVHAWtklE87mpAnqAkqRwkGjAUAm90NjAwNjA0MDQxNTM1NTk2OTMzMg
+Message-ID: <OZby4kHfQdSxszJ1bZFEBg@notifications.google.com>
+Subject: Your Google Account was recovered successfully
+From: Google <no-reply@accounts.google.com>
+To: admin@petcomtrainingcollege.com
+Content-Type: multipart/alternative; boundary="000000000000abd3850615bb33c6"
+
+--000000000000abd3850615bb33c6
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+W2ltYWdlOiBHb29nbGVdDQpBY2NvdW50IHJlY292ZXJlZCBzdWNjZXNzZnVsbHkNCg0KDQphZG1p
+bkBwZXRjb210cmFpbmluZ2NvbGxlZ2UuY29tDQpXZWxjb21lIGJhY2sgdG8geW91ciBhY2NvdW50
+SWYgeW91IHN1c3BlY3QgeW91IHdlcmUgbG9ja2VkIG91dCBvZiB5b3VyDQphY2NvdW50IGJlY2F1
+c2Ugb2YgY2hhbmdlcyBtYWRlIGJ5IHNvbWVvbmUgZWxzZSwgeW91IHNob3VsZCByZXZpZXcgYW5k
+DQpwcm90ZWN0IHlvdXIgYWNjb3VudC4NCjxodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20vQWNj
+b3VudENob29zZXI/RW1haWw9YWRtaW5AcGV0Y29tdHJhaW5pbmdjb2xsZWdlLmNvbSZjb250aW51
+ZT1odHRwczovL215YWNjb3VudC5nb29nbGUuY29tL3NlY3VyZS1hY2NvdW50P3V0bV9zb3VyY2Ul
+M0RlbWFpbCUyNnV0bV9tZWRpdW0lM0RlbWFpbCUyNnV0bV9jYW1wYWlnbiUzRHBoJTI2c3JjJTNE
+MTQlMjZhbmVpZCUzRC0zNzA0MDUxMDUxMzQwMzI2OTY0Pg0KWW91IHJlY2VpdmVkIHRoaXMgZW1h
+aWwgdG8gbGV0IHlvdSBrbm93IGFib3V0IGltcG9ydGFudCBjaGFuZ2VzIHRvIHlvdXINCkdvb2ds
+ZSBBY2NvdW50IGFuZCBzZXJ2aWNlcy4NCsKpIDIwMjQgR29vZ2xlIExMQywgMTYwMCBBbXBoaXRo
+ZWF0cmUgUGFya3dheSwgTW91bnRhaW4gVmlldywgQ0EgOTQwNDMsIFVTQQ0K
+--000000000000abd3850615bb33c6
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en"><head><meta name=3D"format-detection" cont=
+ent=3D"email=3Dno"/><meta name=3D"format-detection" content=3D"date=3Dno"/>=
+<style nonce=3D"TQGAdHBQNtYD2Ir7varUfg">.awl a {color: #FFFFFF; text-decora=
+tion: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,=
+Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color=
+: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; tex=
+t-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: =
+6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 6=
+00px) {.mdv2rw {padding: 40px 40px;}} </style><link href=3D"//fonts.googlea=
+pis.com/css?family=3DGoogle+Sans" rel=3D"stylesheet" type=3D"text/css" nonc=
+e=3D"TQGAdHBQNtYD2Ir7varUfg"/></head><body style=3D"margin: 0; padding: 0;"=
+ bgcolor=3D"#FFFFFF"><table width=3D"100%" height=3D"100%" style=3D"min-wid=
+th: 348px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" lang=3D"en"><t=
+r height=3D"32" style=3D"height: 32px;"><td></td></tr><tr align=3D"center">=
+<td><div itemscope itemtype=3D"//schema.org/EmailMessage"><div itemprop=3D"=
+action" itemscope itemtype=3D"//schema.org/ViewAction"><link itemprop=3D"ur=
+l" href=3D"https://accounts.google.com/AccountChooser?Email=3Dadmin@petcomt=
+rainingcollege.com&amp;continue=3Dhttps://myaccount.google.com/secure-accou=
+nt?utm_source%3Demail%26utm_medium%3Demail%26utm_campaign%3Dph%26src%3D14%2=
+6aneid%3D-3704051051340326964"/><meta itemprop=3D"name" content=3D"Review A=
+ctivity"/></div></div><table border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" style=3D"padding-bottom: 20px; max-width: 516px; min-width: 220px;"><tr>=
+<td width=3D"8" style=3D"width: 8px;"></td><td><div style=3D"border-style: =
+solid; border-width: thin; border-color:#dadce0; border-radius: 8px; paddin=
+g: 40px 20px;" align=3D"center" class=3D"mdv2rw"><img src=3D"https://www.gs=
+tatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png" width=
+=3D"74" height=3D"24" aria-hidden=3D"true" style=3D"margin-bottom: 16px;" a=
+lt=3D"Google"><div style=3D"font-family: &#39;Google Sans&#39;,Roboto,Robot=
+oDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #dadce0; color:=
+ rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;text-align: cent=
+er; word-break: break-word;"><div style=3D"font-size: 24px;">Account recove=
+red successfully </div><table align=3D"center" style=3D"margin-top:8px;"><t=
+r style=3D"line-height: normal;"><td align=3D"right" style=3D"padding-right=
+:8px;"><img width=3D"20" height=3D"20" style=3D"width: 20px; height: 20px; =
+vertical-align: sub; border-radius: 50%;;" src=3D"https://lh3.googleusercon=
+tent.com/a/ACg8ocIn-cZN0xG6Kvfhq_SCsgVTGg3BUCm_FfKoKzsCxquWfosykw=3Ds96-c" =
+alt=3D""></td><td><a style=3D"font-family: &#39;Google Sans&#39;,Roboto,Rob=
+otoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14p=
+x; line-height: 20px;">admin@petcomtrainingcollege.com</a></td></tr></table=
+> </div><div style=3D"font-family: Roboto-Regular,Helvetica,Arial,sans-seri=
+f; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top:=
+ 20px; text-align: left;"><h3>Welcome back to your account</h3>If you suspe=
+ct you were locked out of your account because of changes made by someone e=
+lse, you should <a href=3D"https://accounts.google.com/AccountChooser?Email=
+=3Dadmin@petcomtrainingcollege.com&amp;continue=3Dhttps://myaccount.google.=
+com/secure-account?utm_source%3Demail%26utm_medium%3Demail%26utm_campaign%3=
+Dph%26src%3D14%26aneid%3D-3704051051340326964" style=3D"text-decoration: no=
+ne; color: #4285F4;" target=3D"_blank">review and protect your account.</a>=
+</div></div><div style=3D"text-align: left;"><div style=3D"font-family: Rob=
+oto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: =
+11px; line-height: 18px; padding-top: 12px; text-align: center;"><div>You r=
+eceived this email to let you know about important changes to your Google A=
+ccount and services.</div><div style=3D"direction: ltr;">&copy; 2024 Google=
+ LLC, <a class=3D"afal" style=3D"font-family: Roboto-Regular,Helvetica,Aria=
+l,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; p=
+adding-top: 12px; text-align: center;">1600 Amphitheatre Parkway, Mountain =
+View, CA 94043, USA</a></div></div></div></td><td width=3D"8" style=3D"widt=
+h: 8px;"></td></tr></table></td></tr><tr height=3D"32" style=3D"height: 32p=
+x;"><td></td></tr></table></body></html>
+--000000000000abd3850615bb33c6--

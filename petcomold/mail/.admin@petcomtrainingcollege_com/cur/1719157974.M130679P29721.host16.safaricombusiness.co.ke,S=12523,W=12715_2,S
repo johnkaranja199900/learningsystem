@@ -1,0 +1,192 @@
+Return-Path: <customercare@kplc.co.ke>
+Delivered-To: admin@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id 7xSCBtZEeGYZdAAAz9s6Ng
+	(envelope-from <customercare@kplc.co.ke>)
+	for <admin@petcomtrainingcollege.com>; Sun, 23 Jun 2024 18:52:54 +0300
+Return-path: <customercare@kplc.co.ke>
+Envelope-to: admin@petcomtrainingcollege.com
+Delivery-date: Sun, 23 Jun 2024 18:52:54 +0300
+Received: from thk-tes-rat05.safaricombusiness.co.ke ([41.203.208.141]:32472)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <customercare@kplc.co.ke>)
+	id 1sLPWQ-0007j8-00
+	for admin@petcomtrainingcollege.com;
+	Sun, 23 Jun 2024 18:52:54 +0300
+IronPort-SDR: 667844d5_yronQkByw5u1K18wOUNL4iZBQo0BQV58LxQT1DJN470xY2i
+ /N3ML0vR5op8/DhsPl0UV50uCr5EmR7o1xQ3C6g==
+X-IPAS-Result: =?us-ascii?q?A0HSGQDMrvVkmA2A+MVaglqBMhGBfkE+R4RSjU2BcIIjn?=
+ =?us-ascii?q?gATgWoPAQEBAQEBAQEBCRQTGwIEAQEDBIUehlECJTsDDQECBAEBAQEDAgMBA?=
+ =?us-ascii?q?QEBAQEDAQEFAQEBAgEBBgUBAhABAQEBAQEBAR4ZBRAOJ4VoDYI3In2BCAEBA?=
+ =?us-ascii?q?QEBAQEBAQEBAR0CCF4BSB0BATgeFgIFEw4CDAZDCoMRgl8BCad3gTKBAYIJA?=
+ =?us-ascii?q?QEGsnUJgRcugRKGdQGBSwGHOHsnG32BECZvhG6DBgQBEgEDa4MOgmcHiUeFQ?=
+ =?us-ascii?q?QUCglyDXokZCSGBCAhegWo9Ag1UCwtdgRWCRwICETkPBUdxGwMHA4ECECsHB?=
+ =?us-ascii?q?DIiBgkXLSUGUQQtJAkTEj4EgzwKgQI/EQ4RgkYiAj02GUuCZgkVQE5sChBDG?=
+ =?us-ascii?q?G0obh8VHjcREhkNAwh2HQIRIzwDBQMENgoVBAkLIQVXA0gGTAsDAhwFAwMEg?=
+ =?us-ascii?q?TYFDx8CEC48A0QdQAMLbR0gNRQbohGBUAiBLQ4XHhALBxQwQFQNOAk1kmIek?=
+ =?us-ascii?q?TSgQYQVg3idLSyEAYxuhkSSLJdkSKhFIIFtAQ9scIQnTwMZD44sDQmGYoxvP?=
+ =?us-ascii?q?zQ9B4VeA4MmgloBAQ?=
+IronPort-PHdr: A9a23:kggUBRb03gIeArr3VQSOIuL/LTH40IqcDmcuAnoPtbtCf+yZ8oj4O
+ wSHvLMx1gGPBNmLoKgaw8Pt8InYEVQa5piAtH1QOLdtbDQizfssogo7HcSeAlf6JvO5JwYzH
+ cBFSUM3tyrjaRsdF8nxfUDdrWOv5jAOBBr/KRB1JuPoEYLOksi7ze+/94PSbglSmTawbrB/I
+ BqooQjQq8IbnZZsJqEtxxXTv3BGYf5WxWRmJVKSmxbz+MK994N9/ipTpvws6ddOXb31cKokQ
+ 7NYCi8mM30u683wqRbDVwqP6WACXWgQjxFFHhLK7BD+Xpf2ryv6qu9w0zSUMMHqUbw5Xymp4
+ qF2QxHqlSgHLSY0/m/KhMJwkqxUrw6uqRNkzo7UeYGZKOZycr/Bcd4YQ2dKQ8ZfVzZGAoO5d
+ 4YPDPIBPeJEoIngvFsOsRy+BQyyC+P11jBHnGX20rMn2OkmDQ7GwRcgH84JsHTRstr1LrsdX
+ vqvzKbW1jjDbOtW2TPh54TSbh8hpuuAXbFufsfIz0QkCgzKgEmKp4P/IzOVyvoCs3Kd7+d4W
+ ++jlWAppQ51rzSz2MohlofEiIIWx13K6Ch0wJs5KN23RUN4YNOoDZReuz+HO4Z3Tc4vXX1lt
+ Dgkx7ACuZO2YS4Hw4kkyR7Hc/GLboyF7xD5WOqPLjp1h2hpdK+hixux60Ss1+PxWtG73VpXt
+ CZJjMXAu34X2xDN9MSKROFx8lqv1DuA0Q3Y9/tKLloulaXBLp4s2r4wmYQXsUTEBiL5gln2j
+ K+Xdkk95uin9f/nbqzjppCGNo90jgb+MrkymsCjH+g0KBMOUHKV+eumzr3j/FH2QLJPjvItj
+ 6nZq5HaJcIFqa6iGA9ZyJos6xGlAzelztsUhXgHLFRbdxKbl4XlJlXDLfLiAfuhjFmhky1ny
+ +3YMrDiGJnBM3bOnK/kfbln6k5czAQzzcpY55JRErwOPO/zWlTttNzfCx82LRa0zPr9B9Vny
+ IwTQmGPAredMKzOq1OH+uUvL/OPZIALoDr9LeMq6Ob0jXAlgV8dYbWp3ZwPZXylBvhmOVmWY
+ WLwgtcdFmcHphAxQ/HviF2DVz5efG6yULwg5j4nD4KmCJvDRpq3j7yA2ie7H5tWZm9aBVCLF
+ Xfoc5uLW/gSZy6IPsBhlTkEBvCdTNp13B2rtQnS07d7Je3R5jcRtJTi0td+4OnXmB4/szdzC
+ pLO/XuKSjR3hmcDWiQq26Vyu0d00FrLhaNlmOBfENFJ7PpTXy85LZrXied9TdP/DFGSNuyVQ
+ UqrF431SQo6Scg8lodmXg==
+X-Talos-CUID: 9a23:NCqhiGA3TF7dd5j6Eyds+lIYG+IGSFPQzXCAeROhDFxyEZTAHA==
+X-Talos-MUID: =?us-ascii?q?9a23=3ADs1ULw9GWHEh0VJAFAzxWGaQf/hqvo2hAlk/q5A?=
+ =?us-ascii?q?lmsbbGzM3GjyPtx3iFw=3D=3D?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.02,226,1688418000"; 
+   d="scan'208,217";a="6288723"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+Received: from athi-tes-mailout02.safaricombusiness.co.ke ([197.248.128.13])
+  by thk-tes-rat05.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 23 Jun 2024 18:52:53 +0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=kplc.co.ke; s=esa;
+  h=date:subject:from:to:mime-version:
+   content-transfer-encoding:message-id;
+  bh=H4qo3GnpJG2U5irCq7uQAOeCULE/xE/DUyqxxx0891k=;
+  b=GE5srxMLWyF0+dHVLfvDcty8F/VEkZdC44fMFaKQHWYBvOrnkfzPevr5
+   Ue7Y+H30EkoiY9qLFuDucyRYqu4A/IG45yo23xIwwhoDpY+uXNyINaALA
+   Pft678jQEc5u0kSWkl2PTndQVFlGZDukShP4fZeqPsvu7a2+PhYVXdwbx
+   5QHVskBASuAUf8YIfdI90HtgvGIfQQYOnNpUiDoftuDhvz54fwzos3UJP
+   2tUw1fYDBkyL1rQoZYRCajXNptfw1Wz+ohwdHQCuoY6WnkCEf0+RF4XBT
+   OZk+/O37a5HhXTxBFkP+VjqT1eRVGq+E5iu820HccA0/DBvPy2cPtDHuC
+   w==;
+Message-Id: <966754$h882o@athi-tes-mailout02.safaricombusiness.co.ke>
+X-IPAS-Result: =?us-ascii?q?A2BAMwB3RHhmZZLQyylaglqBPxEKAoNGhFWIH4lLnhETg?=
+ =?us-ascii?q?WoPAQEBAQEBAQEBHRMdBAEBhSWIZCg8Ag0BAgQBAQEBAwIDAQEBAQEBCAEBA?=
+ =?us-ascii?q?QUBAQEBAQcFARMmGRMQJ4V0DYJghCMdAQE4HhYCJgJUCoV4rjWBMoEBggwBA?=
+ =?us-ascii?q?QbeAIEjLAMBiC8BgVUCh2p7Qn2BNm+EbYMFBAESAQNrgw4VglQHhieHW4Mhi?=
+ =?us-ascii?q?BkWghp7gRtXD3KBHVaEEyYLazCLUwmCQCETAVU1RxYCFgMbGDAPCQsmKQY5A?=
+ =?us-ascii?q?hIMBgYGGEE0CQQjAwgEA0IDIHERAwQaBAsHd4MlBBECR4E3iW+DOYIbhGSBK?=
+ =?us-ascii?q?4NFgWsMYYs1iW9KHUADeB0gNRQbrTAIgS0OFx4QCwcUMEBUDTgJNZJ7HpF2o?=
+ =?us-ascii?q?HSEHYN9iEiZPo0AhlGSY5gbS6sdd3CEJ1IZD44tFoZlyUt1PQeJBzSBRgEB?=
+IronPort-PHdr: A9a23:R+txzBLGFbWyNJq2HdmcuBZhWUAX0o4c3iYr45Yqw4hDbr6kt8y7e
+ hCFtLM21w6CDNmTwskHotSVmpijY1BI2YyGvnEGfc4EfD4+ouJSoTYdBtWYA1bwNv/gYn9yN
+ s1DUFh44yPzahANS47xaFLIv3K98yMZFAnhOgppPOT1HZPZg9iq2+yo9JDffQFFiCCzbL58K
+ Bi6ogHcu8YLioZ+N6g9zQfErXRPd+lK321kIk6dkQjh7cmq5p5j9CpQu/Ml98FeVKjxYro1Q
+ 79FAjk4Km45/MLkuwXNQguJ/XscT34ZkgFUDAjf7RH1RYn+vy3nvedgwiaaPMn2TbcpWTS+6
+ qpgVRHlhDsbOzM/7WrajNF7gqBGrxK7vxFxzZPaboGLOvVxYqzTcsgXRWpYXspNSyBNHp+wY
+ okJAuEcPehYtY79p14WoBu9HQmsAP/gyiJThn/q2q061vouERva0wM6BdIBrmnfodLpO6cPS
+ uC10K7IzTDdYPNMxTjy8pLIfQ46rPGPRbJwddbexVMzGAPClFmQqpLqMiqT2+8QvGeV8/BuW
+ vizi247tQ5xuD6vy98ih4XXiIwbxVTJ+TlnzYspK9C2SE12bNC5HZZQqi2XN4R7T8AjTm11t
+ yg21KAKtJ+0cSUU1Jkr2QDSZviHfoWV5B/oSeWfIS9giX9qZb6znQi+/VSux+HmSMW4zFVHo
+ jBYntTDt30BzxPe5tWdRvdj4kus1yyD2x7N5uxKO0w4iKTWJpEnz7UtiJcTtVnDHjTqmErol
+ q+Ya0Qk++m25On/frnroIKXOZVuhQHkKKsun9SyAeE/MgcTQWeW4f+81Lj//U3hR7VKk+E2n
+ rHZsJ/EIcQboba0AxNV0oYg8hqwESup0NUDnXkfNV5KZAqHgJLvO17QJPD0FPK/jE6tkDdvw
+ PDGI6HhDonTInTZi7fuZ7h95FRGyAoy0d9f4JdUBaocIPLoW0/xssLXDgQiMwCu3+nnD89x1
+ oAAVm6XA6+ZNr3dsUOQ6+8gPuWAfpEZtCrzJvQ/+fLikXw0lUUAcaSm3JYbcHW4Ee5nI0Wdb
+ 3rsmNABEWISswUiUezqk0GCUTlWZ3msRaIz+is0CJi4AorYRYCtmLiB0zuhEpJKYWBKEFOMH
+ mnwe4WCQPgDcDiSLdN5kjwYSbihTJcs2Qy2uA/g17VnNvbU+jEftZ/7ztd6+ujTlRA09TFvF
+ 8SSzX2NQH1znmMNWz82xrpwoU17yleC16h4jOBXFdtX5/NNTAg6OoDTw/ZmBND1XwKSNuuOH
+ QKvTtCnBxkpQ846xNoSeU98HdSkgRvE2y6nDLJTnLuOUs8a6KXZinvpI81g0GrB0aQ7hFA8T
+ 4MbPnC9mql6+hLYDpTEu0aBk63sfqNa3yObpzTL9naHoEwNCF04aq7CR31KPiPr
+IronPort-Data: A9a23:X35Hi6p54gBDv7mqz/o3dzm7HHteBmLsZRIvgKrLsJaIsI4StFCzt
+ garIBmDaPyNZWShfNsnYNyw8RxSusPQmIc3TgFqrH0yQy1BopacVYWSI27OZC7DdceroGCLT
+ ik9hnssCOhuExcwcz/0auCJQUFUjP3OHPylYAL9EngZbRd+Tys8gg5Ulec8g4p56fC0GArlV
+ ena+6UzA3f7nWYkWo4ow/jb8k834q6p4GlwUmEWPJingnePzxH5M7pCfcldH1OgKqFIE+izQ
+ fr0zb3R1gs1KD90V7tJOp6iGqE7aua60Tqm0xK6aID56vR2nRHe545gXBYqhee7vB3S9zx54
+ I0lWZVd0m7FNIWU8AgWe0Ew/y2TocSq9ZefSUVTv/B/wGXdI2rQ5/VgXXgfAoITp8ksGnFy7
+ dYHfWVlghCr34pawZqnSuopi88iN9GuN5sWvHxkiDTQDPIhXIybGePR7NFRxjY7gcVEAO3fY
+ ccCcnxka1LDbnWjOH9LUdRkxLzu3CGvNWQE9jp5poJui4TX5Adsy6TqNdfPcdWQSO1WhkKT4
+ GnBuWf0av0fHIXPkWvbqCvy7gPJtQ/kWLBITP6yyv8woh6V92cuVQEmDUTu9JFVjWbnBokOc
+ hN8FjAVhaE+8U2tZsHwQxa/pWKetx8aWtxfGOo+7AyCx+zf5APxO4QfZiJBa5krv84tXXkhz
+ laPktesADVutLqIVSrHsKydozqoOCMSKGUffi4CQBAepdLk5oI+5v7Scjp9OLXln+HRGT+h+
+ hm1oyNjqO4InfIT/bruqDgrnAmQjpTOSwc04CDeUWSk8h51aeaZi2qAtASzARFocdvxc7WRg
+ EXojfRy+8gtIPmweMGlXOUOWbyi5u2ddTbEiFhiG9wk/jWp/GO/JdoW+zhwLV1oOcEBcyLyY
+ UneohgX75gVP3bCgU5Lj2CZVZVCIUvIT4yNuhXogjxmOccZmOivp3AGWKJo9zqx+HXAaIlmU
+ XthTe6iDGwBFYNsxyesSuEW3NcDn39nlDuDHMiln0X7j9JygUJ5r59bbDNiichntcu5TPn9r
+ L6zyuPRl0kPALakCsUp2ddNcQtaRZTEOXwGg5UKLb/afWKK6Uk6AvHY27IqfIktm6VQl/vF8
+ hmAtrxwljLCaYn8AVzSMhhLMeq3Nb4m9C5TFXJ3Zz6AhSN8CbtDGY9GH3fBVeR5r7wLID8dZ
+ 6JtRvhs9dwUFG6YomxMNcmkxGGgHTzy7T+z0+OeSGBXV/Zdq8bho7cIoiOHGOIy4uZbeCfwT
+ 3BMFu8WfHbbezlfMQ==
+IronPort-HdrOrdr: A9a23:PRp5tqwC2qM2Aw6OMKtwKrPwS71zdoMgy1knxilNoHtuA6+lfq
+ GV/MjzsCWE6gr5N0tMpTntAsa9qBDnlKKdiLN5VdzJYOCMggeVxe9Zg7ff/w==
+X-Talos-CUID: 9a23:9DVv9WChvoVc0rT6EzI35XIwGs50S1Tiw3yNDBSjGVpxYqLAHA==
+X-Talos-MUID: 9a23:CZrKkwlNMDcCxCi2F8SddnpOK8daufztAnwMy7dFvfiPCHFsC2+C2WE=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.08,260,1712610000"; 
+   d="scan'208,217";a="18096216"
+Received: from thk-ecisp-cpanel-mailout02.safaricombusiness.co.ke ([41.203.208.146])
+  by athi-tes-mailout02.safaricombusiness.co.ke with ESMTP; 23 Jun 2024 18:52:52 +0300
+Received: from smarthost-01.safaricombusiness.co.ke (unknown [10.19.6.16])
+	by thk-ecisp-cpanel-mailout02.safaricombusiness.co.ke (Postfix) with ESMTP id DA8C640A00
+	for <admin@petcomtrainingcollege.com>; Sun, 23 Jun 2024 18:52:51 +0300 (EAT)
+Received: from kplc.co.ke (unknown [41.203.223.134])
+	by smarthost-01.safaricombusiness.co.ke (Postfix) with ESMTP id 297DE40966
+	for <admin@petcomtrainingcollege.com>; Sun, 23 Jun 2024 18:53:41 +0300 (EAT)
+Date: Sun, 23 Jun 2024 18:51:32 +0300
+Subject: [20240623185132]
+From: kplcustomercare <customercare@kplc.co.ke>
+To: <admin@petcomtrainingcollege.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; d=kplc.co.ke; s=kenya power; c=relaxed/relaxed;
+ h=date:subject:from:to:mime-version:content-type;
+ bh=H4qo3GnpJG2U5irCq7uQAOeCULE/xE/DUyqxxx0891k=;
+ b=TPxJ0UwOxe9ShvHUS36ElizuAJmczS25k/MMKNabzWgPGokeqChBlG2KUUZOa5fJHBkYGWEzt9b6
+	8Pdh5BnmZmROHxxHZm09HW4hdgAfdFjrsAwWuV+qjpfg/A0m/g1PiPBJMPKCN0rEIsBIToAY1DBt
+	Hg0tpAq5W4VpesPSQgy1tcJG3JmgEoUghE64Fc3AEC3sm0NqHLKyZUDEHMNAAwrgXOQBRhr5MoQd
+	Z7TUXtZlCRdvikFGCV4dyhhNwGofifQ8+jnEWMJwbs6xsRjJs835pKfR/C//E26TD9a+rfmyH8Hi
+	c5UPsinpiReAQGmksPhuqo2tt0wqowgftSj8zw==
+
+<p>Good Evening&nbsp;</p>
+<p>Thank you for contacting us. We've received your message and appreciat=
+e you reaching out.</p>
+<p>We hope that this power issue was resolved and that you are now back o=
+n stable power , please confrim</p>
+<p></p><hr /> Regards,<br/>Clara Tumeso.<br/>For KPLC Customer care. <br/=
+>Dial *977# on your phone for Prepaid services, Post Paid services, Repor=
+t power- Failure, Jua for Sure and also to Manage your accounts.
+<div><br></div><div><em style=3D"color: rgb(34, 34, 34); font-family: &qu=
+ot;Times New Roman&quot;, serif; font-size: 16px; font-variant-ligatures:=
+ normal; font-variant-caps: normal; font-weight: 400; letter-spacing: nor=
+mal; orphans: 2; text-align: start; text-indent: 0px; text-transform: non=
+e; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke=
+-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style:=
+ initial; text-decoration-color: initial;"><span style=3D"font-size: 15pt=
+; font-family: &quot;Calibri Light&quot;, sans-serif; color: rgb(20, 19, =
+22); background: white;">This email and any files transmitted with it are=
+ confidential and intended solely for the use of the individual or entity=
+ to whom they are addressed.<span>&nbsp;</span></span></em><em style=3D"c=
+olor: rgb(34, 34, 34); font-family: &quot;Times New Roman&quot;, serif; f=
+ont-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal=
+; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start=
+; text-indent: 0px; text-transform: none; white-space: normal; widows: 2;=
+ word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb=
+(255, 255, 255); text-decoration-style: initial; text-decoration-color: i=
+nitial;"><span style=3D"font-size: 15pt; font-family: &quot;Calibri Light=
+&quot;, sans-serif; color: rgb(68, 68, 68); border: 1pt none windowtext; =
+padding: 0cm; background: white;">If you received this message by mistake=
+, please reply to this message and follow with its deletion, so that we c=
+an ensure such a mistake does not occur in the future. Y</span></em><em s=
+tyle=3D"color: rgb(34, 34, 34); font-family: &quot;Times New Roman&quot;,=
+ serif; font-size: 16px; font-variant-ligatures: normal; font-variant-cap=
+s: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-ali=
+gn: start; text-indent: 0px; text-transform: none; white-space: normal; w=
+idows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-c=
+olor: rgb(255, 255, 255); text-decoration-style: initial; text-decoration=
+-color: initial;"><span style=3D"font-size: 15pt; font-family: &quot;Cali=
+bri Light&quot;, sans-serif; color: rgb(20, 19, 22); background: white;">=
+ou should not disseminate, distribute or copy this email. If you are not =
+the intended recipient, you are notified that disclosing, copying, distri=
+buting or taking any action in reliance on the contents of this informati=
+on is strictly prohibited.</span></em><br></div>

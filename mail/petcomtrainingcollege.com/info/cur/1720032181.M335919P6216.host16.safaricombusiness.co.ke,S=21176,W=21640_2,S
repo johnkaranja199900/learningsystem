@@ -1,0 +1,464 @@
+Return-Path: <prvs=907904468=M-PESABusiness@safaricom.co.ke>
+Delivered-To: info@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id LAvWE7WbhWZIGAAAz9s6Ng
+	(envelope-from <prvs=907904468=M-PESABusiness@safaricom.co.ke>)
+	for <info@petcomtrainingcollege.com>; Wed, 03 Jul 2024 21:43:01 +0300
+Return-path: <prvs=907904468=M-PESABusiness@safaricom.co.ke>
+Envelope-to: info@petcomtrainingcollege.com
+Delivery-date: Wed, 03 Jul 2024 21:43:01 +0300
+Received: from thk-tes-rat05.safaricombusiness.co.ke ([41.203.208.141]:53618)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <prvs=907904468=M-PESABusiness@safaricom.co.ke>)
+	id 1sP4wY-0001c7-1m
+	for info@petcomtrainingcollege.com;
+	Wed, 03 Jul 2024 21:43:01 +0300
+IronPort-SDR: 66859bb4_od4usidKWC6nm2K17XnN/rIY3byNVyLgw4JP/7O+fxPcvT7
+ kzRuRziecmYjRb21SYSn+DIj+wBYqofgS+z/4rQ==
+X-IPAS-Result: =?us-ascii?q?A0EYAwDMrvVkkF3VycRCFQOCWIE0Wyh2VS4rLgOET4NPi?=
+ =?us-ascii?q?X6BcIIjAyOGHJVngVYUgSxNAQEBAQEBAQEBCAE9BwQBAQMBA4R/hnACJTYHD?=
+ =?us-ascii?q?gECBAEBAQEDAgMBAQEBAQEDAQEFAQEBAgEBBgUBAhABAQEBAQEgFggOECeFa?=
+ =?us-ascii?q?A2CNwwZelM0AQEBAQEBAQEBAQEBAQEBGwIIHkABHgEBAgECIx0BAR4ZARoRB?=
+ =?us-ascii?q?AEBFAISAwISNgkIBg4FHIJiAYJeAQcCCgamNjd6X1MaAmWCCQEBBoEHgV6wE?=
+ =?us-ascii?q?AkJAYEiGIFphgUaAQVgZgEBg2iDTwF6J4FaToEVNg2BRYEjPoFTgQ8BAgGBF?=
+ =?us-ascii?q?wIGCgELBgIBTREBCIMUgmeJToFkg10HMoIZEYMHLSqJGSqBCAhegWoaIwINV?=
+ =?us-ascii?q?AsLShOBFYJHAgIRJxIUR1oXGwMHA4ECECsHBDIbBwYJFxgVJQZRBBcWJAkTE?=
+ =?us-ascii?q?j4EgWmBUwqBAj8RDhGCRis2NhlLgmYJFQY6TnYQKwQUGIENCARqHxUeNxESB?=
+ =?us-ascii?q?RQNAwh2HQIRIzwDBQMENgoVDQshBVcDSAZMCwMCHAUDAwSBNgUPHwIQGgYOP?=
+ =?us-ascii?q?AMJAwcFLB1AAwsYDUgRLDUUG0coSwefPAoXAy5CgWNqY10BLwEfCSsCDIEbE?=
+ =?us-ascii?q?ZJcHQEVg0yCO4F5gi6EWoIXoEGOcYEjiEqGTIY8hAGMboZEDgMYjACCVIMvm?=
+ =?us-ascii?q?CyNYYlqiy4GBDU0hDACBAIEBQIWgWoFLmxwhCcJRhwPj0sBAoJJgw2Mb0EyB?=
+ =?us-ascii?q?zQCBwEKAQEDCYhuAiaCMgEB?=
+IronPort-PHdr: A9a23:P8DiKB3yNrQB/AvtsmDOWwMyDhhOgF0UFjAc5pdvsb9SaKPrp82kY
+ BaBo6wx3BSTA83y0LFts6LuqafuWGgNs96qkUspV9hybSIDktgchAc6AcSIWgXRJf/uaDEmT
+ owZDAc2t360PlJIF8ngelbcvmO97SIIGhX4KAF5Ovn5FpTdgsip1u2+4YDfbgpLiTayf79/L
+ Qi9oBnMuMURnYZsMLs6xAHTontPdeRWxGdoKkyWkh3h+Mq+/4Nt/jpJtf45+MFOTav1f6IjT
+ bxFFzsmKHw65NfqtRbYUwSC4GYXX3gMnRpJBwjF6wz6Xov0vyDnuOdxxDWWMMvrRr8zRDqi8
+ rxrSAf2hygbKz4382TXisN+gqJcpRKuvR1/w4jJa42ROvdyYqbRcNUHTmRDQ8lRTTRMDI28Y
+ YUREecPPuRXoZTyqFQSqhWzHhOjCP/gxTBTnHL6wa833uI8Gg/GxgwgGNcOvWzTodvyLascS
+ ++7wrTUwDjecvNWwjb96I7WfRA6uvGBRq9+ftDfyUY1DQPFj0mfqYvgPz+PyusNtHKX7+l+W
+ u+2jWMstg5+rCS1yMg2lonJmpwaykrC9Shh3Io4JsO1RUF5bNO6E5Zdsy6UOoV0T84iQ29lp
+ To3x7MYtJC7YCUG1JopyhrCZ/GabYWF4xLtWfqeLzl4mH9pZbSyjAu8/0inz+3zTMi00FBSo
+ ypAi9XMrm4C1wfJ5ciJTft95Fyu2SuU1wDS7OFLP1s0lbHBJ5E9xb48jJkTvlrbEi/uhkr2k
+ LOZdkIh+ui08eToeLTmppmdN49yhQHxLqMumsi7AesmPQgBQXKX9vi71L3m5UH5W69FjvMsn
+ anDsZDVOcMbpqujDwBJ1YYv8RW/ACmg3d8FnncHNEpIdA+DgoXoIV3CPuz0Aeqlj1iyjTtmy
+ erKM7nvD5jLM3PNiq3ufaxn5E5Z0Aczzc5Q55ZTCrwZO/LzX1PxtMTXDhAjLwy73fjrBM9m1
+ owEV2KAGLWZMKLOvl+P4+IjOfWDZIgPtDb+Nfcp///ujXknll8BZaSlwJ8aZXGiEvh4P0mVf
+ GDgjskcHWoEpAYzSOLnhEWHUTFJZnayW6w85is8CIKjFYrDXpqtgKKa3CqjGpBaemJLB1SQH
+ XrneIiJWvQBZTqVLMN4iDIKWqWvRpM82BGzrw/6yrxnIfTP+i0Drp/jz8J65+PJmhEo9Dx7E
+ 8Od02SXQ25omWMEXTw2075nrUx70ViMybJ4jOBAFdxP+/NJVR83OYPEw+xgF9/yQh7BfsuOS
+ Fu+Q9WmBz8xTtUqzt8WfUl9B8mtjhfG3yq2Gb8ajb2LBJo18qLa0Hj+O8F9y3LC1KY/gFkpX
+ NFDOnGhhq56pEDvANudml2YjLuybaMGwAb2/WmK12uFu0QeWwk2UqiTDl4FYU6D+fG83m75Z
+ pWzErUhPxBa4fWLJKJQa9buiBNNQ7HgNYKNMCqKh26sCEPQlfu3Z43wdjBGhE01QGA/rSwvp
+ Fu9HFBnQDyorWvEDTdpEBTpbl+/ueV9qXbuSEgywknKakB6zLO691YTguDUUPIc2L8I+W8hp
+ jx4EUz73ofQDNyNzzc=
+IronPort-Data: A9a23:FMGRaa/QANOOYJZDASSEDrUDfnqTJUtcMsCJ2f8bNWPcYEJGY0x3z
+ zNNXmiFbPmIZWCne48kbI7j8htX6MLdydIxQQo5qCBEQiMRo6IpJzg7wmTYZHrOc5KZHCqLy
+ +1EN7Es+ehtFie0Si+Fa+Sn9z8mvU2xbuKUIPbePSxsThNTRi4kiBZy88Y0mYcAbeKRWmthg
+ vus5ZWFULOZ82QsaDlMuvrf8EoHUMna4Vv0gHRvPZing3eDzxH5PLpHTYmtIn3xRJVjH+LSb
+ 44vG5ngows1Vz90Yj+Uuu6Tnn8iG9Y+DiDS4pZiYJVOtzAZzsAEPgbXA9JHAatfo23hc9mcU
+ 7yhv7ToIesiFvWkdOjwz3C0usyxVEFL0OavHJSxjSCc53DIT2Hs4dc2MEMVLIw65MstOH8U/
+ /NNfVjhbjjb7w636Km+VvFjj9gudo/wNY0WoHBryjSfBvFgQp2rr6fivI4Gmm1o34YURK2YN
+ pFxhTlHNHwsZzVXIEkMXcNmw7bw2iWhI2h97Wq4noMd/nPSygFqy5D2OdTcYN2BQsATlUHep
+ W+uE2HRXEpGZIbAmFJp9FqRg+iMtAreUrkXO6OR7edIpkaJzWwqXUh+uVyT+KTi2xfhMz5FE
+ GQV/CQphbA/6EesS8XnVhy+oXiLtRkYX9dfHqsx7wTl90bPyx2cGnALRyJMMpo9vcE/Xz0h0
+ VrPlNSvBjEHXKCppWy1y7motzOQG3ApL0wTZA0aYFE8/YPpr9Rm5v7QdepLHKmwh9zzPDj/x
+ TGWsSQz74n/a+ZVjc1XGniZ2lqRSoj1c+Ij2unAdkGIhj6Viaa+YpCw5lHH4KwGN4+XR0OAt
+ 38B3cOZquMDZX1sqMBvaLpTdF1Kz6zdWNE5vbKJN8Vxn9hK0yL8Fb28GBkkeC9U3j8sIFcFm
+ nP7twJL/4N0N3C3d6JxaI/ZI511lPmwSYi9D6qIMoQmjn1NmOmvonoGiam4gTqFraTQuf5X1
+ WqzKprwXSZBU8yLMhLoGb5MjNfHORzSNUuKGMuqlkvPPUu2f3ebQK0EO1yLJuQ46aKYrQm9z
+ jqsH5Xi9vmra8WnOnO/2ddLcTgidCFnbbio8JY/XrDYfWJb9JQJV6O5LUUJINY+zsy4V47go
+ hmAZ6Ov4Aan3SSdc1rUOiwLhXGGdc8XkE/X9BcEZT6As0XPq672hEvGX8JvIuF1x/8p1vNuU
+ fgOduOJB/kFGHyN+C0QYdO55MZufQiiz1DGdSe0QikNT7g5TSzw+/jgYlTO8gsKBXGJrscQm
+ eCr+T7aZpshfD5cKvjqRsih9W7sgkhFqtlOBxPJBvJxZHTT9JNbLn2tr/0vfOAJBxbx5hqb8
+ Ae0Hhwel/v1n4wq1svKmoaolt2OP7JYOnRwMVSDw526BQ/C9G+d04QYevS5QgLdX2bw+q/4P
+ fhklaHhOac6nXJhkYl1I5B0x40QuvrtoL57yFx/PXPpNl6ENJJpEkOk7+Ju6JJf9+R8ghSnf
+ H6P9v1xG6S7COm8HHE/fAMaP/m+j9cKkTzs3NEJCUTd5h4v2oGYUE9XbiK+uAYEIJRbaIoak
+ Poc4ugI4AmCiz0vANaMrgZQ00+udnUgcaEWhqs2Mb/RqDgA6w99OMTHKyrM/puwRc1GMRAqL
+ h+qlaPyvelg6XSYQUUjN0rm/LR7vosPiiBo3VVZBlWum/j5vNEV8iBV0wwKSlVy8k0a/cN1Y
+ nNmJm9kF5Wopj1IvvVOb0qoOgNGBSCaxHDP9ks0pDXZYXWFBm3pB08hCNmJ53Ecoj59fCAE3
+ bS2y1TFcDfNfePj1BsIRnw/haTRcf1s/VfsnfGXPdy0RcgmRT/DnIureW4pqgTmM+w1lkbot
+ elnx8cuSKzZZAo7gbw3NJme7psUECu7HW1lRepz2Y8wBkfecyGW9RnXDG7pYeJLBfjB0XHgO
+ vxUPsgVCiiPjnefnA4UFYsnAuFSnsdwwPEgZ7myB2oNk4XHnwpTqJiKqxTP3j46ce5Pz/Q4B
+ JjaLQ+ZM2qqgnBRpW/Bge9ENke8YvgGfAfM5/+0wspYC6M8tPxQTm9q3ouWp3m1NC5VzyCQt
+ i7HZI7UyLVG4qZolI3ODK5CJluVLfXeaee2yz2w4u9+NY73DcTztg0uugbGOSZSNuAvQNhZr
+ +mGn+P2+0Lnh4wIdV7ltaOPLIRz3vXqbtFrapr2CFJ4gRq9XNTd5kpf2mKgdr1MvtBvxuimY
+ AqaTu+OX/AoA/l2yE1zcyJbLQQWU47LX5jSpSi4q/aGUEAA4FaXMdr9yH7NRkNYfx8uJJfRJ
+ FLVufGvx9YAt6VKJkYOKM9HCq9CAm3IePUZZeyqkAKHH0+Ugl+mkZnzpyoKsD3kJCGNL5fn3
+ MjjWBP7SiWXhIjJ69No66pJoRwdCSdGs9kaJ04y1YZ/tGGnMTQgM+8YDJQhD6NUmAzU0LXTR
+ mnETEkmOBXHcQV0SzfOy/W9YV7HHc0LAMnzGRIx9UDNayuWOpKJMIE8ygheuUVJahnR58D5D
+ +oB+0/AHAm7mbBoYucx2saVo8lawtHi+3ZZ3nylzuLTBU8SD4xfgTYlVEBIWDfcGs7AqFTTK
+ CJnDSpYSUW8UgjqHdwmZ3dRHwoDsSjyyykzKx2C28vbp57R2dgoJCcT4A0v+uZrgA82yHLii
+ J85q6ZhI4xb55DLhZYUhg==
+IronPort-HdrOrdr: A9a23:1ZRx4qg/gQTcTqWx/PWa4cLjUnBQXg8ji2hC6mlwRA09TyX5ra
+ yTdPRy726QtN9xYgBZpTnkAsK9qBznlaKdjbNhXotKGTOW31dAT7sSlLcKoQeQfxEWn9Q1vc
+ gPEpSWYOeAd2SS5vyKhjVQfexQouWvweSDv8ub5XFrSg1hdqFn6ClEKivzKCdLbTgDL6AUUL
+ 6H6OR6hxfIQxkqh7yAdwI4Y9Q=
+X-Talos-CUID: 9a23:6nOvXW/hfCTQG0yi89uVv3MaJtolUF+F8HXzMk6aF0szcaPPQ1DFrQ==
+X-Talos-MUID: =?us-ascii?q?9a23=3Az9lWZAwHZfBigJtjFJyD9dHFrkyaqJmrDwMkuLA?=
+ =?us-ascii?q?MgMyrKwVrIhW7ly68QrZyfw=3D=3D?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.02,226,1688418000"; 
+   d="scan'208,217";a="6348279"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+Received: from smtpgate2.safaricom.co.ke ([196.201.213.93])
+  by thk-tes-rat05.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 03 Jul 2024 21:43:00 +0300
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=safaricom.co.ke; i=@safaricom.co.ke; q=dns/txt;
+  s=safaricom-dkim2023; t=1720032180; x=1751568180;
+  h=date:from:to:cc:message-id:in-reply-to:subject:
+   mime-version;
+  z=Date:=20Wed,=203=20Jul=202024=2021:39:59=20+0300|From:
+   =20<M-PESABusiness@Safaricom.co.ke>|To:=20<apisupport@Saf
+   aricom.co.ke>|CC:=20<info@petcomtrainingcollege.com>
+   |Message-ID:=20<0MJUXW36GMXA45US@safaricom.co.ke>
+   |In-Reply-To:=20<e7b294a398cc4470abf05edf352db8d9@Safaric
+   om.co.ke>|Subject:=20Re:=20business=20short=20code=20for
+   =20my=20paybill|MIME-Version:=201.0;
+  bh=Q8P+CRDTdta1FcZFcZkFX+EwdT0qzi+NNr56UkFTl6U=;
+  b=lMDCh5DZULQQL+Trjy9KvaR4Orb5aZdFMpu4MVFKcS7iN6atstuEwEqa
+   Rzid5Z40SKUSrwPSh1juQ8vCDs/W7eJ8RaHSYr7TV0DM8lMvRqw2IAlVb
+   cIJsn8JoSZ5vbZv54FDyVG1YO82bE5o6ctdYqNuhBl+349MHMsCtZiDlV
+   2G3aadhZslzfUXT9FU4PHTvk/S33TSEyzLjazHphLQW1bAAqqB0VV/mxY
+   KaWq1bRuiQkmWsnAGlc1wR8ciPT/Tkg5kVnoI8j726egKlj2+fR4kNDFi
+   thC9xwFlMsPTIVysAJ5fet2Dz/TTfvgncq0SRccHv4S8UCQ705WNO4cYp
+   w==;
+X-CSE-ConnectionGUID: vC5LeSz7SuuwvZ9G0c5d8A==
+X-CSE-MsgGUID: 609yqBMpS/GLMNyjMAnwbg==
+Authentication-Results: SVDT1ESA01.safaricom.net; dkim=none (message not signed) header.i=none
+Received: from unknown (HELO webmail.safaricom.co.ke) ([172.29.128.11])
+  by SVDT1ESA01.safaricom.net with ESMTP/TLS/ECDHE-RSA-AES128-GCM-SHA256; 03 Jul 2024 21:40:00 +0300
+Received: from svdt1exch01.safaricom.net (172.29.128.11) by
+ svdt1exch01.safaricom.net (172.29.128.11) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.6; Wed, 3 Jul 2024 21:39:59 +0300
+Received: from svdt1ipccmail02 (172.29.229.99) by svdt1exch01.safaricom.net
+ (172.29.128.11) with Microsoft SMTP Server id 15.1.2507.6 via Frontend
+ Transport; Wed, 3 Jul 2024 21:39:59 +0300
+Date: Wed, 3 Jul 2024 21:39:59 +0300
+From: <M-PESABusiness@Safaricom.co.ke>
+To: <apisupport@Safaricom.co.ke>
+CC: <info@petcomtrainingcollege.com>
+Message-ID: <0MJUXW36GMXA45US@safaricom.co.ke>
+In-Reply-To: <e7b294a398cc4470abf05edf352db8d9@Safaricom.co.ke>
+Subject: Re: business short code for my paybill
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_2215412_584621972.1720031999769"
+X-Mailer: Genesys E-Mail 8.5.205.04
+
+------=_Part_2215412_584621972.1720031999769
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+On 7/3/2024 11:47 AM, From: apisupport@Safaricom.co.ke, To: info@petcomtrai=
+ningcollege.com; , API Support wrote:
+
+Hello,
+
+
+
+Please note you can only integrate to your own short code. The short code b=
+elow belongs to family bank.
+
+Please use this https://m-pesaforbusiness.co.ke/apply in case you need to a=
+pply for a short code.
+
+
+
+Lipa Na M-PESA Application Portal<https://m-pesaforbusiness.co.ke/apply>
+
+m-pesaforbusiness.co.ke
+
+Lipa Na M-PESA Application Portal
+
+
+
+
+
+
+Kind regards,
+
+Peter N. Macharia | API Support
+
+
+
+From: Petcom College <info@petcomtrainingcollege.com>
+Sent: Wednesday, July 3, 2024 10:35:31 AM
+To: API Support
+Cc: M-PESA Business
+Subject: business short code for my paybill
+
+
+
+Safaricom Security Warning: This email was sent from outside the organizati=
+on. Do not click links or open attachments unless you recognize the sender =
+and know the content is safe.
+
+
+kindly help me have my business shortcode to implement  mpesa stimulation p=
+aybill for this account:
+
+paybill no : 222 111
+
+Account number: 2248375
+
+Account name: Petcom college
+
+
+
+
+
+--
+
+
+PETCOM TRAINING COLLEGE
+
+
+Training Packages, Programming, Web and Graphic design
+
+
+0725 939 328 | 0725 1528 865<tel:0725&#43;939&#43;328&#43;%7C&#43;0725&#43;=
+1528&#43;865>  |  0720 078 495<tel:0720&#43;078&#43;495>
+
+
+https://petcomtrainingcollege.com        admin@petcomtrainingcollege.com<ma=
+ilto:admin@petcomtrainingcollege.com>
+
+
+___________________________________________________________
+
+
+IMPORTANT: The contents of this email and any attachments are confidential.=
+ They are intended for
+
+the named recipient(s) only. If you have received this email by mistake, pl=
+ease notify the sender
+
+immediately and do not disclose the contents to anyone or make copies there=
+of.
+
+[https://ci3.googleusercontent.com/mail-sig/AIorK4ypakyLwCK_nF3kSaV_Eh5JfTP=
+5NyVgAetKo339ufn6nRi_ex8Iyj_SPJs80AnUOBZV0ujeOv6qNRJx]
+
+
+
+________________________________
+Note:
+All emails sent from Safaricom Limited are subject to Safaricom=E2=80=99s E=
+mail Terms & Conditions. Please click here to read the policy.
+http://www.safaricom.co.ke/images/Downloads/Terms_and_Conditions/safaricom_=
+email_terms_and_conditions.pdf
+
+------=_Part_2215412_584621972.1720031999769
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+</head>
+<body>
+<div style=3D"font-family:Century Gothic;font-size:10pt;color:#000000;">
+<div style=3D"font-family:Century Gothic;font-size:10pt;color:#000000;">
+<p style=3D"margin:0px 0px 0px 0px;font-family:Century Gothic;font-size:10p=
+t;color:#000000;">
+&nbsp;</p>
+<p style=3D"margin:0px 0px 0px 0px;font-family:Century Gothic;font-size:10p=
+t;">&nbsp;</p>
+<p style=3D"margin:0px 0px 0px 0px;"><span style=3D"font-family:Segoe UI;fo=
+nt-size:9pt;"><br>
+On 7/3/2024 11:47 AM, From: apisupport@Safaricom.co.ke, To: info@petcomtrai=
+ningcollege.com; , API Support wrote:</span></p>
+<div style=3D"margin:16px 0px 16px 16px;font-family:Segoe UI;font-size:9pt;=
+">
+<div style=3D"font-size:12pt;color:#000000;font-family:'Times New Roman',Ti=
+mes,serif;">
+<p style=3D"margin:0px 0px 0px 0px;">Hello,</p>
+<p style=3D"margin:0px 0px 0px 0px;"><br>
+&nbsp;</p>
+<p style=3D"margin:0px 0px 0px 0px;">Please note you can only integrate to =
+your own short code. The short code below belongs to family bank.</p>
+<p style=3D"margin:0px 0px 0px 0px;">Please use this&nbsp;<a href=3D"https:=
+//m-pesaforbusiness.co.ke/apply">https://m-pesaforbusiness.co.ke/apply</a> =
+in case you need to apply for a short code.</p>
+<div style=3D"margin:0px 0px 20px 0px;width:100%;">
+<table cellspacing=3D"0" border=3D"0" width=3D"90%" style=3D"border-collaps=
+e:collapse;margin:20px 0px 0px 0px;background-color:#FFFFFF;border-top:1.0p=
+x solid #808080;border-right:none;border-bottom:1.0px solid #808080;border-=
+left:none;">
+<tbody>
+<tr>
+<td colspan=3D"1" valign=3D"top" style=3D"padding:0px 0px 0px 0px;font-fami=
+ly:Times New Roman;font-weight:normal;font-size:12pt;color:#000000;border-t=
+op:1.0px solid #808080;border-right:none;border-bottom:1.0px solid #808080;=
+border-left:none;">
+<p style=3D"margin:0px 0px 0px 0px;">&nbsp;</p>
+<p style=3D"margin:0px 0px 0px 0px;line-height:21px;font-weight:normal;font=
+-size:16pt;color:#0078D7;font-family:wf_segoe-ui_light, &quot;Segoe UI Ligh=
+t&quot;, &quot;Segoe WP Light&quot;, &quot;Segoe UI&quot;, &quot;Segoe WP&q=
+uot;, Tahoma, Arial, sans-serif;">
+<a href=3D"https://m-pesaforbusiness.co.ke/apply">Lipa Na M-PESA Applicatio=
+n Portal</a></p>
+<p style=3D"margin:10px 0px 16px 0px;line-height:14px;font-weight:normal;fo=
+nt-size:10.5pt;color:#666666;font-family:wf_segoe-ui_normal, &quot;Segoe UI=
+&quot;, &quot;Segoe WP&quot;, Tahoma, Arial, sans-serif;">
+m-pesaforbusiness.co.ke</p>
+<p style=3D"margin:0px 0px 0px 0px;line-height:20px;font-weight:normal;font=
+-size:10.5pt;color:#666666;font-family:wf_segoe-ui_normal, &quot;Segoe UI&q=
+uot;, &quot;Segoe WP&quot;, Tahoma, Arial, sans-serif;">
+Lipa Na M-PESA Application Portal</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br>
+&nbsp;</p>
+<p style=3D"margin:0px 0px 0px 0px;"><br>
+&nbsp;</p>
+<p style=3D"margin:0px 0px 0px 0px;">Kind regards,</p>
+<p style=3D"margin:0px 0px 0px 0px;">Peter N. Macharia | API Support</p>
+</div>
+<p style=3D"margin:0px 0px 0px 0px;border-top:1.0px solid #000000;border-ri=
+ght:none;border-bottom:none;border-left:none;">
+&nbsp;</p>
+<p><span style=3D"font-size:11pt;color:#000000;font-family:Calibri, sans-se=
+rif;"><span style=3D"font-weight:bold;">From:</span> Petcom College &lt;inf=
+o@petcomtrainingcollege.com&gt;<br>
+<span style=3D"font-weight:bold;">Sent:</span> Wednesday, July 3, 2024 10:3=
+5:31 AM<br>
+<span style=3D"font-weight:bold;">To:</span> API Support<br>
+<span style=3D"font-weight:bold;">Cc:</span> M-PESA Business<br>
+<span style=3D"font-weight:bold;">Subject:</span> business short code for m=
+y paybill</span></p>
+<p style=3D"margin:0px 0px 0px 0px;">&nbsp;</p>
+<p><span style=3D"font-family:Arial;font-weight:bold;color:#CC5500;">Safari=
+com Security Warning:
+</span><span style=3D"font-family:Arial;color:#CC5500;">This email was sent=
+ from outside the organization. Do not click links or open attachments unle=
+ss you recognize the sender and know the content is safe.</span><br>
+&nbsp;</p>
+<p style=3D"margin:0px 0px 0px 0px;font-family:comic sans ms,sans-serif;">k=
+indly help me have my business&nbsp;shortcode to implement&nbsp;&nbsp;mpesa=
+ stimulation paybill for this account:</p>
+<p style=3D"margin:0px 0px 0px 0px;font-family:comic sans ms;">paybill no :=
+ 222 111</p>
+<p style=3D"margin:0px 0px 0px 0px;font-family:comic sans ms;">Account numb=
+er: 2248375</p>
+<p style=3D"margin:0px 0px 0px 0px;font-family:comic sans ms;">Account name=
+: Petcom college</p>
+<p style=3D"margin:0px 0px 0px 0px;font-family:comic sans ms;"><br>
+&nbsp;</p>
+<p><br>
+&nbsp;</p>
+<p><span>-- </span><br>
+&nbsp;</p>
+<p><span style=3D"color:#222222;font-family:arial black, sans-serif;"><span=
+ style=3D"font-weight:bold;"><span style=3D"font-size:13.5pt;">PETCOM&nbsp;=
+TRAINING COLLEGE</span></span><br>
+&nbsp;</span></p>
+<div style=3D"color:#222222;">
+<table cellspacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;mar=
+gin:0px 0px 0px 0px;">
+<tbody>
+<tr>
+<td style=3D"padding:0px 0px 0px 0px;font-family:Arial;font-weight:normal;f=
+ont-size:12pt;color:#000000;border-top:none;border-right:none;border-bottom=
+:none;border-left:none;">
+<p style=3D"margin:0px 0px 0px 0px;line-height:19px;font-size:12pt;"><span =
+style=3D"font-weight:bold;font-size:10pt;color:#646464;">Training Packages,=
+ Programming, Web and Graphic design</span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"font-family:Arial;font-weight:normal;font-size:12pt;color:#000=
+000;border-top:none;border-right:none;border-bottom:none;border-left:none;"=
+>
+<table cellspacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;mar=
+gin:0px 0px 0px 0px;">
+<colgroup><col width=3D"420"></colgroup>
+<tbody>
+<tr>
+<td colspan=3D"1" width=3D"267" style=3D"padding:14px 0px 0px 0px;font-fami=
+ly:Arial;font-weight:normal;font-size:12pt;color:#000000;border-top:none;bo=
+rder-right:none;border-bottom:none;border-left:none;">
+<p style=3D"margin:1px 1px 1px 1px;line-height:11px;font-size:8pt;"><a href=
+=3D"tel:0725&amp;#43;939&amp;#43;328&amp;#43;%7C&amp;#43;0725&amp;#43;1528&=
+amp;#43;865" style=3D"color:#1155CC;"><span style=3D"color:#212121;">0725 9=
+39 328 | 0725 1528 865</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=3D"tel:07=
+20&amp;#43;078&amp;#43;495" style=3D"color:#1155CC;"><span style=3D"color:#=
+212121;">0720
+ 078 495</span></a></p>
+</td>
+</tr>
+<tr>
+<td colspan=3D"1" width=3D"175" style=3D"padding:8px 0px 0px 0px;font-famil=
+y:Arial;font-weight:normal;font-size:12pt;color:#000000;border-top:none;bor=
+der-right:none;border-bottom:none;border-left:none;">
+<p style=3D"margin:1px 1px 1px 1px;line-height:11px;font-size:8pt;"><a href=
+=3D"https://petcomtrainingcollege.com" style=3D"color:#1155CC;"><span style=
+=3D"color:#212121;">https://petcomtrainingcollege.com</span></a>&nbsp; &nbs=
+p; &nbsp; &nbsp;&nbsp;<a href=3D"mailto:admin@petcomtrainingcollege.com" st=
+yle=3D"color:#1155CC;"><span style=3D"color:#212121;">admin@petcomtrainingc=
+ollege.com</span></a></p>
+</td>
+</tr>
+<tr>
+<td colspan=3D"1" width=3D"162" style=3D"padding:8px 0px 0px 0px;font-famil=
+y:Arial;font-weight:normal;font-size:12pt;color:#000000;border-top:none;bor=
+der-right:none;border-bottom:none;border-left:none;">
+<p>___________________________________________________________<br>
+&nbsp;</p>
+<p style=3D"margin:1px 1px 1px 1px;line-height:11px;font-size:8pt;"><span s=
+tyle=3D"font-size:7.5pt;color:#DE627B;">IMPORTANT: The contents of this ema=
+il and any attachments are confidential. They are intended&nbsp;</span><spa=
+n style=3D"font-size:7.5pt;color:#DE627B;">for&nbsp;</span></p>
+<p style=3D"margin:1px 1px 1px 1px;line-height:11px;font-size:8pt;"><span s=
+tyle=3D"font-size:7.5pt;color:#DE627B;">the named recipient(s) only. If you=
+ have received&nbsp;</span><span style=3D"font-size:7.5pt;color:#DE627B;">t=
+his email by mistake, please notify the sender</span></p>
+<p style=3D"margin:1px 1px 1px 1px;line-height:11px;font-size:8pt;"><span s=
+tyle=3D"font-size:7.5pt;color:#DE627B;">immediately and do not disclose the=
+ contents to anyone or make copies thereof.</span></p>
+<p style=3D"margin:1px 1px 1px 1px;line-height:11px;font-size:8pt;"><span s=
+tyle=3D"font-size:7.5pt;color:#DE627B;"><img width=3D"420" height=3D"123" s=
+rc=3D"https://ci3.googleusercontent.com/mail-sig/AIorK4ypakyLwCK_nF3kSaV_Eh=
+5JfTP5NyVgAetKo339ufn6nRi_ex8Iyj_SPJs80AnUOBZV0ujeOv6qNRJx" style=3D"width:=
+420px;"></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<meta name=3D"GENERATOR" content=3D"MSHTML 8.00.7600.17051">
+<hr>
+<div><span style=3D"FONT-FAMILY: Calibri"><strong>Note:</strong></div>
+<div><span style=3D"FONT-FAMILY: Calibri" ;FONT-WEIGHT:bold?=3D"" lang=3D"E=
+N-GB">All emails sent from Safaricom Limited are subject to Safaricom=E2=80=
+=99s Email Terms &amp; Conditions. Please click here to read the policy.
+<div><a href=3D"http://www.safaricom.co.ke/images/Downloads/Terms_and_Condi=
+tions/safaricom_email_terms_and_conditions.pdf"><span><font color=3D"#40008=
+0">http://www.safaricom.co.ke/images/Downloads/Terms_and_Conditions/safaric=
+om_email_terms_and_conditions.pdf</font></span></a>
+</div>
+</span></div>
+</span>
+</body>
+</html>
+
+------=_Part_2215412_584621972.1720031999769--

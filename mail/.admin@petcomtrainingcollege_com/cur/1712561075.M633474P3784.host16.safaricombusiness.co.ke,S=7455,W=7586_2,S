@@ -1,0 +1,131 @@
+Return-Path: <gmail-noreply@google.com>
+Delivered-To: admin@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id YMGLJbObE2bIDgAAz9s6Ng
+	(envelope-from <gmail-noreply@google.com>)
+	for <admin@petcomtrainingcollege.com>; Mon, 08 Apr 2024 10:24:35 +0300
+Return-path: <gmail-noreply@google.com>
+Envelope-to: admin@petcomtrainingcollege.com
+Delivery-date: Mon, 08 Apr 2024 10:24:35 +0300
+Received: from athi-tes-rat02.safaricombusiness.co.ke ([197.248.128.138]:22702)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <gmail-noreply@google.com>)
+	id 1rtjLg-0001FH-1f
+	for admin@petcomtrainingcollege.com;
+	Mon, 08 Apr 2024 10:24:35 +0300
+IronPort-SDR: 66139b90_2m9g7UhIDdteKTR87ElSXYFmpe6wCV4Ei6sHUClah9jYa28
+ FZ6LeMMkK1SAOEE0GPNbVDocX7Gh50+DN3Z2fAg==
+X-IPAS-Result: =?us-ascii?q?A0E0BAA5n3Vk/zXZVdEBWR9qgU+CNm5uJ0cDhE+RPYtTh?=
+ =?us-ascii?q?VqGPCiEA4FWFIERA1YPAQEBAQEBAQEBCTQQBAEBimUCJTQJDgECBAEBAQEDA?=
+ =?us-ascii?q?gMBAQEBAQEDAQEFAQEBAgEBBgYCgQYIC4UvOQ2GJxEdAQEGKwclDwIRFQIjA?=
+ =?us-ascii?q?RIBBQELKiKCXAGCKAMxAxGhN4EEQooINAEBAXhdVYEBgggBAQZim3cNaoFfC?=
+ =?us-ascii?q?RKBAy2HVIE6KoFYhVR6J4IogUuCRIJCTUICAhh/CAoBEQIBXw6DDoJNGo4/j?=
+ =?us-ascii?q?D1nUV5wgSGBJ4ECAgkCEUEmgQ4IElSBdEACDVULC2UHgRyBGhJiEjkCAhE+F?=
+ =?us-ascii?q?E0YZA4BEQMHBAKBBxAvBwQyKAYJGDEnBlYHLSQJExVCBGUQgncDCoEjMAU3A?=
+ =?us-ascii?q?QIBQx1AAwtlCz01FBINLCiBfASCAkycQgOCAQoBYToHgQgBUAiBLAUpCzgUh?=
+ =?us-ascii?q?DyJIAGFCQGQYItZk2BwhBIDA4FXKYZGgy+MRIJPhgszg3+BVosUhkSSIxmDa?=
+ =?us-ascii?q?oNFDyOQFI1ag3KRQQEHhQ0QI4FAPTkwcDMaI4EBBoIwCQlACw4PjiwWLYMlj?=
+ =?us-ascii?q?3xBMQIFNAIHCwEBAwmLKhwBAQ?=
+IronPort-Data: A9a23:AmCSjqB1ie6bZBVW/3Tiw5YqxClBgxIJ4kV8jS/XYbTApDN2gmcEy
+ 2oYDDrQPvyKNmb9co92PIzl90wCuJOGm4RhOVdlrnsFo1CmCybmLY/AchqvZXP6wunrFh8PA
+ xA2M4GYRCwMZiaA4E3raNANlFEkvYmQXL3wFeXYDS54QA5gWU8JhAlq8wIDqtcAbeORXUXV4
+ bsen+WFYAX+g2MvajpNg06+gEoHUMra6WtwUmMWOKgjUG/2zxE9EJ8ZLKetGHr0KqE88jmSH
+ rurIBmRpws1zj91Yj+Xuu+Tnn4iHtY+CTOzZk9+AMBOtPTiShsaic7XPNJEAateZq7gc9pZk
+ L2hvrToIesl0zGldE3wnHC0HgknVZCq9oMrLlCPkpCoyxXsYkHc0spoFF49NKBHwvtoVDQmG
+ fwwcFjhbziGjuOyhaygE6xi259lI87sM4cS/HpnyFk1D958GcGFE/iMv4YHmmpr7ixNNa62i
+ 84xZj9mbRCFZRpVN08TGboxm+CngnS5eDpdwL6QjfptvzWJkVcZPL7FO9HzIfHSe/5pwUOHn
+ 3vH+k/dAj5FDYnKodaC2jf27gPVpgvyVIcTEpWg++Jhh1iP3GUSDhwQWlC8pf20hUP4UNVaQ
+ 3H44QIrpKk2sVKwF5zzAkb+r3mDsRoRHdFXFoXW9T2w90Yd2C7BbkBsc9KLQIV/3CObbWVCO
+ oOh9z8iOdCjXHB5h55QGnd4YA5e4RQoEFI=
+IronPort-HdrOrdr: A9a23:+5PlLKo3VQt2affQBL6pxysaV5qHeYIsimQD101hICG9Lfb0qy
+ n+pp4mPEHP4wr5OUtQ/exoXZPufZqyz/BICOUqXItKPzOW3VdATrsSjrfK5SbhFS34/usY+a
+ B+f615EdG1LVUSt7ed3ODQKb9JrOVvm5rY59v28lMoaSlLTuVCzyoRMHfiLqQZfml7LKt8PI
+ OEou5KvSCpd3hSTunTPAh/YwAxzee77a7OUFojDx4j5BLLqyip5tfBYn+lN+AlIkly6IZnwm
+ 7FlUjQ2eGYrvm+03bnphPuxqUTq93hzJ99BNeRkIwuNz3wlhzAXvUdZ5Sy+AMyoeeK4FYuut
+ zNrxA8Vv4DlE/sQg==
+X-Talos-CUID: 9a23:hWR8lm3ONhjWE1XWj1RDgbxfKuN5SXmF5mbqE16HD352Q7S4FmeN5/Yx
+X-Talos-MUID: =?us-ascii?q?9a23=3ADLD1OQwswaNUaZsJvUxrS+UlS4GaqK+lLhsgyas?=
+ =?us-ascii?q?9h5aBKhVpOjK2qDSYHbZyfw=3D=3D?=
+X-IronPort-Anti-Spam-Filtered: true
+X-URL-LookUp-ScanningError: 1
+X-IronPort-AV: E=Sophos;i="6.00,203,1681160400"; 
+   d="scan'208";a="8245253"
+Received: from mail-vs1-f53.google.com ([209.85.217.53])
+  by athi-tes-rat02.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 08 Apr 2024 10:23:57 +0300
+Received: by mail-vs1-f53.google.com with SMTP id ada2fe7eead31-479dcaaf2b1so888970137.0
+        for <admin@petcomtrainingcollege.com>; Mon, 08 Apr 2024 00:23:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20230601; t=1712561035; x=1713165835; darn=petcomtrainingcollege.com;
+        h=to:from:subject:message-id:date:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=KaX67hqdgevTnYimLKM/NmGXY1hfuNLVOkWTBETHiMQ=;
+        b=TnypYFXLY/IAoiWphAlCABXVe3ZJJ0vgmgXglxC+Gje/GzBYC5R7df5BNlutDJutT6
+         //U0TYX9+j25KSLeGNLaTZAPwAnwkJ20zLQKZZsqybzmvBDY/Zd7fv04JituGpJsuKHp
+         /PISTZTuMaJgEYlxovnkInxIvlFDs7nFlJqD6yCnHOz+hWiqfp8/9TjyPtQ2lzRXQrL7
+         VSecewfo9+6Swu4h8QobIgXuc3XGkHoAgmYfa13V+c2ejT0oHcGu7uf+JU3nY8IjcHjJ
+         8gjAPv3utxR4syURvdJIV7KndKKOYrcnBxcnTwUjqkeiLZ5CqT9AESNUzGWY3zYey9FW
+         ZMIg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1712561035; x=1713165835;
+        h=to:from:subject:message-id:date:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=KaX67hqdgevTnYimLKM/NmGXY1hfuNLVOkWTBETHiMQ=;
+        b=BEIdNlTNS5Dpu5JJ5cmWMK7rY5Drq/ixTycKJrAL7xeB254eFNAOz1vU3PHZsLTPie
+         EUoElNwU2Ia9GYA1oIwScbJJHrvVcuWAdMYlBkwyZjeIv7beKanUYLboN2rIf7sv5CcC
+         UPThMTm8FIQQFtHPRUw2mz4OFKmVvQ1stYJu9uP2Dvhe608FEwWOoWF+gCyJ0m4Ypb91
+         FXt0wJn7uVPwBhvEGywcpG+Hmp0I5NjypIadbDGNLYcuy5fguH4zBBO8IWAGVzMgZyKg
+         FiMO3FMlKcNIu13RwULPqqT88WRCji0993AyaHAvwvxhCEdSSf/WqaswDptyNsE6B7Hk
+         rJ+w==
+X-Gm-Message-State: AOJu0YwXtZfCms9TBL4R0gIiy0a9RubcVUZ/Raii498HNpRkudfWMcou
+	c7mLj2kapcrSjZLRJaeIrsQBXKdPZTQi0RpK86uKXDKgd8Z6OapSGOiBIBD0URO7Qtg94+aPVlR
+	QC0X/zvkGLGikzAkYpgHsNCMOUBRl7b+oZPGVu8/P4lxWJqUUXGR5p7RkN4HXMuTP
+X-Google-Smtp-Source: AGHT+IGJOLKJi1QH1IiR5dEPN7IvLXReyDuatTLGTCRAzIFxS0eH2LJiivfcwQuOpUmoU8jXh0F1NNVmYdLqUa6sc1hKcGVR5FDibg==
+MIME-Version: 1.0
+X-Received: by 2002:a05:6102:3047:b0:47a:d78:4bdd with SMTP id
+ w7-20020a056102304700b0047a0d784bddmr125080vsa.15.1712561035543; Mon, 08 Apr
+ 2024 00:23:55 -0700 (PDT)
+X-Google-Address-Confirmation: tJKS8EL-66m3L_Hi2WPKsZmqKyo
+Date: Mon, 8 Apr 2024 10:23:55 +0300
+Message-ID: <CALU29eMe-B6e42uw5o-sNxi01KHFAwkZGUBVM8a4BfRQDbCnng@mail.gmail.com>
+Subject: Gmail Confirmation - Send Mail as admin@petcomtrainingcollege.com
+From: Gmail Team <gmail-noreply@google.com>
+To: admin@petcomtrainingcollege.com
+Content-Type: text/plain; charset="UTF-8"
+
+You have requested to add admin@petcomtrainingcollege.com to your Gmail account.
+
+Before you can send mail from admin@petcomtrainingcollege.com using your Gmail
+account (johnkaranja199900@gmail.com), please click the link below to
+confirm your
+request:
+
+https://mail.google.com/mail/f-%5BANGjdJ_fES3is0XL0FSAdEV1TDHLUIteVI7ZANcfPLHFvVSHioZAdNkK_WcaIBD3t8BAa62HvaadYhYkP4PUAKwy5Dv6fPIQxPikaQHK9w%5D-Y_bqGApnrCAaYVMukCnCgGzQxyY
+
+If you click the link and it appears to be broken, please copy and paste it
+into a new browser window.
+
+Thanks for using Gmail!
+
+Sincerely,
+
+The Gmail Team
+
+If you did not make this request, or you don't want to add this email address
+to your Gmail account, no further action is required.
+johnkaranja199900@gmail.com cannot send messages using your email
+address unless you
+confirm the request by clicking the link above. If you accidentally clicked
+the link, but you do not want to allow johnkaranja199900@gmail.com to
+send messages
+using your address, click this link to cancel this verification:
+https://mail.google.com/mail/g-%5BANGjdJ-iyKDyvy49yBmUX1_8ljlAwCxBhUk0T3WObR8Iegpus88-_68Z115hlqbZ4hEVKa5ixXZAWiKl7aVSiYKIx1Ms4BD8wycJuRGY8A%5D-Y_bqGApnrCAaYVMukCnCgGzQxyY
+
+To learn more about why you might have received this message, please
+visit: http://support.google.com/mail/bin/answer.py?answer=184973.
+
+Please do not respond to this message. If you'd like to contact the
+Gmail Team, please log in to your account and click 'Help' at
+the top of any page. Then, click 'Contact Us' along the bottom of the
+Help Center.

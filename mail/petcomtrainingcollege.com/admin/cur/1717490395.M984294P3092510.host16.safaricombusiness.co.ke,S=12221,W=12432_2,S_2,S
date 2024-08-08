@@ -1,0 +1,211 @@
+Return-Path: <>
+Delivered-To: admin@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id OLnKOdvSXmYeMC8Az9s6Ng
+	(envelope-from <>)
+	for <admin@petcomtrainingcollege.com>; Tue, 04 Jun 2024 11:39:55 +0300
+Return-path: <>
+Envelope-to: admin@petcomtrainingcollege.com
+Delivery-date: Tue, 04 Jun 2024 11:39:55 +0300
+Received: from athi-ecisp-rat01.safaricombusiness.co.ke ([197.248.128.5]:44828)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	id 1sEPi0-00D3tC-0w
+	for admin@petcomtrainingcollege.com;
+	Tue, 04 Jun 2024 11:39:55 +0300
+IronPort-SDR: 665ed2db_zAZw2H9WxYbxztHlp7dwW94M7NtYavxnndK1Th6j8cUU3pc
+ tlsPlyF5n2Ccx+ts03g+hXvzjVLqzO9gf9tZm+g==
+X-URL-LookUp-ScanningError: 1
+X-IPAS-Result: =?us-ascii?q?A0H4BABSr/Vk/wuA+MVXIAEBAQEJARIBBQUBQIFPgg8vb?=
+ =?us-ascii?q?1VAR4QOhBOJfoFwgiODKog2hV6Ka4FqgREDZQEBAQEBAQEBAQk5CwQBAQSFA?=
+ =?us-ascii?q?oZwAiU4EwECBAEBAQEDAgMBAQEBAQEDAQEFAQEBAgEBBgUBAoEGCAuFLzkNg?=
+ =?us-ascii?q?i4VAQEBAwICAgECAQIBAYIGLIFVLkopEU8cgmOCKgMxAQkKpnB4gTSBAYMYg?=
+ =?us-ascii?q?V+tOQ15gVmBRAGBEoZXHgGDJ4ZYJ4FaToceQgICGH8SARECAUwTCAaFeYlKh?=
+ =?us-ascii?q?UEHMoIqgzQqiRkqgQgITw+BXgw9Ag1UCwtdgRWCRwICERQlDQdHcRsDBwOBA?=
+ =?us-ascii?q?hArBwQyIgYJFy0lBlECAi0kCRMSPgSDPAqBAj8RDhGCRis2NhlLgmYJFUBOd?=
+ =?us-ascii?q?hBDGIEVbh8VHjcREhkNAwh2HQIRIxYmAwUDBDYKFQ0LIQVXA0gGTAsDAhwFA?=
+ =?us-ascii?q?wMEgTYFDx8CEC48A0QdQAMLbT01FBuhHgNwgVgKL4EfHwk2WCtCeAGSWxQJA?=
+ =?us-ascii?q?QeQS2KBN54bbwgCJ4NkA4t8h2cOhx6GEyyEAYxuhjQQkiyYLI1hg3WRFRgTh?=
+ =?us-ascii?q?S+BeiY5MHCEJwkJSw4PiDqHEQECgkmPLk5BMjsCBwsBAQMJi0gBAQ?=
+IronPort-PHdr: A9a23:h1MYxhCvr3M5ltShqzMhUyQUEUQY04WdBeb1wqQuh78GSKm/5ZOqZ
+ BWZua8zygaVDc6BtbptsKn/i+jYQ2sO4JKM4jgpUadncFs7s/gQhBEqG8WfCEf2f7bAZi0+G
+ 9leBhc+pynoeUdaF9zjaFLMv3a88SAdGgnlNQpyO+/5BpPeg9642uys+pDfeRhEiTW+bL99M
+ hm7rBjau9ULj4dlNqs/0AbCrGFSe+RRy2NoJFaTkAj568yt4pNt8Dletuw4+cJYXqr0Y6o3T
+ bpDDDQ7KG81/9HktQPCTQSU+HQRVHgdnwdSDAjE6BH6WYrxsjf/u+Fg1iSWIdH6QLYpUjq66
+ KdrVB7oiCkGNzEl6m7Xls1wjKVdoBm8oxBz3pLYbJ2JOPZie6/Qe84RS2hcUcZLTyFPAY2yY
+ ZUPAeQcMulXs5Lwp0MSoRakHwSgGP/jxiFOi3Tr3aM6yeMhEQTe0QAuGNwBqnXUrNHoP6kcT
+ ++1yKjIzSvdYPNM2Tb29ZXGcxA6ofGQQ71wdMTdwlQoGg3CklieqorrMTyJ2OgUvWaW8+VuW
+ +W2hWA/sAx+uCSvxsctioXQmoIa1EvE+Tx8wIkvJN24TEl7YcO4EJdMqi2WLZB2TdksQ25yo
+ iY6y6EJuZm+fCcR1ZQn3B/fa/qZfIiT+RLvTvqeITBiiHJmZr2ynhC/+lWvxePgTMe7ykpKr
+ jZbndnWsHAAzxzd5tSaRvZy40qv1zmB2h7R5+xZPEw5i6TWJpw/z7IslpQfrFjOECHolEjyg
+ qGbdUQp9+qp5unmYrvrqZCSOotyhwrjPKouncm/Dv45MggIR2Wb9uO81Lrs/U39XrpGlOE5k
+ q7csJ3cOM8Vpba5DhdI3osn6RuzFSmq3dsbkHUdMV5JZhGKg5L0N13TJv3zEO2xjE62kDhxw
+ vDLJr3hDYvJLnjEiLruZ6p9605dyAYq0dBQ+YlUBqgEIP3pW0/xsNvYDgIlMwCo3urrEs592
+ ZkQWW2VGK+ZMb/dsViN5u00PumMf44VuDDjJPg+/P7il2M2mVgHcamqw5QbcHG4HvJ4LEWFe
+ Xfgn9MMHGUQsgYgQ+Hni0eOXSNNa3uxRa4w+yw3BJqgDYjYXo+tmqCO3D+nHp1KYWBLEk2AH
+ W/yd4qYQ/cMdD6SIsh5nzMeSLehTo4h1Re1uQ/i1bVnMvbb+iodtZL/zth6/ezTlRcz9TxyA
+ MSSz2aNT2VwnmwWSD85wrpzrlB6yleGguBEhKlRGdlS4dtRXxsxMpvA1eV7DdH0VQnGetOER
+ 1vgSdKjUh8rSddkifoHYkI1N9imjw7OxTviOK4Oi7GOTtRg14v9+1XLYupU5lPh8oEok1knB
+ 9dCLiijj6978BXPX9ePiEyXnryrfqMZ1jPW9WGO1nHIt0YeUwMmAvaNZmwWekaD9oex3UjFV
+ bL7UOx/alMp9A==
+IronPort-Data: A9a23:N9KeY6piNupJK3VPc3Hvi9QI2yteBmJ1ZBIvgKrLsJaIsI4StFCzt
+ garIBmOM63eMGbwKI0jO4TnpktXuZTSxtEySAJl/yowHnlA9uPIVI+TRqvS04F+DeWYFR46s
+ J9OAjXkBJppJpMJjk71atANlVEliefSAOOU5NfsYkhZXRVjRDoqlSVtkus4hp8AqdWiCmthg
+ /uryyHkEAHjg2Qc3l48sfrZ80s+5Kiq4Vv0g3RnDRx1lA6G/5UqJM9HTU2BByOQapVZGOe8W
+ 9HCwNmRlo8O105wYj8Nuu+TnnwiGtY+DyDX4pZlc/TKbix5m8AH+v1T2Mzwyatgo27hc9hZk
+ L2hvHErIOsjFvWkdO81C3G0H8ziVEHvFXCuzXWX6KSuI0P6n3TE2eprC1NrGtch9OsuK1Fwz
+ +M3MBYIYUXW7w626OrTpuhEj9gjLYz3MZhav3hhyTbEEa5/B4vKTazQ5NRf2T0tncFIEO3FI
+ cEeLzliBPjCS0QeZRFNVMJ4xb34wCCmG9FbgAr9Sa4ftz67IAlZgeW9bIGLJ7RmQ+16rwG8o
+ T/g+V79GwxBCPmb2wLCrVez07qncSTTHdh6+KeD3vdmhVyV7nQeFBYRUEehqPi/i0ixUNVbL
+ 0Eb92wlqq1ayaCwZtDhXxz9vHOf+xsVWt5XDvFisUeWw6Td+QeSAW0OUyVAbtE9r4k9Qnop2
+ zdlgu/UONCmi5XNIVr1y1tehWra1YU9dAfuuQdsocA5DxUPbW39Yt8jjjquLUJtsuDIJA==
+IronPort-HdrOrdr: A9a23:pLP+g6EIXEt0GO1lpLqEh8eALOsnbusQ8zAXPiFKKSC9Hfb0qy
+ nDppsmPHzP6Qr5JktLpTnoAsDpKk80nqQa3WB+B9ufYDU=
+X-Talos-CUID: 9a23:eIgIIWF/5uyC8mssqmJ960sTCJ0CKETTwS76E3GCFklxbriaHAo=
+X-Talos-MUID: 9a23:zZHq4QW0d9fMTDXq/BDdwxVlaeFu2aC3FRsxtJEUg47bEDMlbg==
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.02,226,1688418000"; 
+   d="scan'208";a="9584365"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+Received: from athi-tes-mailout01.safaricombusiness.co.ke ([197.248.128.11])
+  by athi-ecisp-rat01.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 04 Jun 2024 11:39:55 +0300
+Received: from localhost by athi-tes-mailout01.safaricombusiness.co.ke;
+  04 Jun 2024 11:38:54 +0300
+Message-Id: <7c8a8c$2f009p@athi-tes-mailout01.safaricombusiness.co.ke>
+Date: 04 Jun 2024 11:38:54 +0300
+To: admin@petcomtrainingcollege.com
+From: "Mail Delivery System" <MAILER-DAEMON@athi-tes-mailout01.safaricombusiness.co.ke>
+Subject: Delivery Status Notification (Failure)
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status; boundary="4y04u.66WnXKcSh.6oIS4s1MTMB.7dmjh/G"
+
+--4y04u.66WnXKcSh.6oIS4s1MTMB.7dmjh/G
+content-type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+The following message to <johnkaranja19900@gmail.com> was undeliverable.
+The reason for the problem:
+5.1.0 - Unknown address error 550-"5.1.1 The email account that you tried t=
+o reach does not exist. Please try\n5.1.1 double-checking the recipient's e=
+mail address for typos or\n5.1.1 unnecessary spaces. For more information, =
+go to\n5.1.1  https://support.google.com/mail/?p=3DNoSuchUser a640c23a62f3a=
+-a68a5508ff2si359518166b.334 - gsmtp"
+
+--4y04u.66WnXKcSh.6oIS4s1MTMB.7dmjh/G
+content-type: message/delivery-status
+
+Reporting-MTA: dns; athi-tes-mailout01.safaricombusiness.co.ke
+
+Final-Recipient: rfc822;johnkaranja19900@gmail.com
+Action: failed
+Status: 5.0.0 (permanent failure)
+Remote-MTA: dns; [108.177.119.27]
+Diagnostic-Code: smtp; 5.1.0 - Unknown address error 550-"5.1.1 The email account that you tried to reach does not exist. Please try\n5.1.1 double-checking the recipient's email address for typos or\n5.1.1 unnecessary spaces. For more information, go to\n5.1.1  https://support.google.com/mail/?p=NoSuchUser a640c23a62f3a-a68a5508ff2si359518166b.334 - gsmtp" (delivery attempts: 0)
+
+--4y04u.66WnXKcSh.6oIS4s1MTMB.7dmjh/G
+content-type: message/rfc822
+
+X-IPAS-Result: =?us-ascii?q?A2B7AwAW0V5mepLQyylXA4EJgU+CHIEkgWSSLIEtjkqSK?=
+ =?us-ascii?q?hSBag8BAQEBAQEBAQE+DwQBAY1nKDUIDgECBAEBAQEDAgMBAQEBAQEIAQEBB?=
+ =?us-ascii?q?QEBAQEBBwUBEwEBJBkDEBAnhXQNgmCEOAIPRG0wHwgUgmWCMAMxsD2BNIEBh?=
+ =?us-ascii?q?HrYPg0vgimBSIMLhQgeAYZvg01CPwGBTYccgW8BEgFoBoV3BI0BgQQMi1GCG?=
+ =?us-ascii?q?4NedIU5JguBL4gELIElHANZIQIRAQ9GExcLPh0CFgMbFAQwDwkLJioGOQISD?=
+ =?us-ascii?q?AYGBlk0CQQjAwgEA0IDIHERAwQGFAQLB3WDJQQTRAOBN4FUiB+DO4IdhBxLg?=
+ =?us-ascii?q?QCDc4FFJgxhigiBQ4Fmg34dQAMLB2Y9NRQbCAGBNaZPhDyBYYE7jj+ENB0BB?=
+ =?us-ascii?q?5EJY6ADcCCDfYIxAZkLhXwuF4NyE40AhlGSYIY0kjCRd5FFhzQBgSNwcBWDI?=
+ =?us-ascii?q?glJGQ+PTwECgknKTXU7AgcLAQEDCYkigUYBAQ?=
+IronPort-PHdr: A9a23:6dce3BOpvmRpWXaGtM4l6nb4ChdPi9zP1u491JMrhvp0f7i5+Ny6Z
+ QqDv6Qr1g6VFazgqNt6yMPu8JrcEVQa5piAtH1QOLdtbDQizfssogo7HcSeAlf6JvO5JwYzH
+ cBFSUM3tyrjaRsdF8nxfUDdrWOv5jAOBBr/KRB1JuPoEYLOksi7ze+/94PXbglSmjawZbx/J
+ wiqoAvMscUbnYRtJqEtxxXTpXdGZ/pYzn5yK1KJmBb86Maw/Jp9/ClVpvks6c1OX7jkcqohV
+ bBXAygoPG4z5M3wqBnMVhCP6WcGUmUXiRVHHQ7I5wznU5jrsyv6su192DSGPcDzULs5Vyiu4
+ 7ttRRT1jioMKjw3/3zNisFog61VrhKvqQJizYHaY4+UO/1+cb/Sc94BWWpMXMRRWzBdDo6mc
+ YcCCfcKM+ZCr4n6olsDtQGwChewBOzzzT9Ig2L907Mg0+s7EAHG2g0gH9QBsH/JsNr1M6MSU
+ eSrw6nH0zrIcvRb1i3g54jNcxAhp+qBXapufsrN1UYvEAbFjkmKqYP/PjOV0OUNs26U7+V8U
+ uKvj2onpB9+ojex3Msjlo7JhocMx13C6C52z5o7K8eiR05nfd6rDoFQtyeCOoZ0Xs8vQW5lt
+ Sckx7MJupO1fCcHxYo6yhPbdvCJfIqF7xHsWuiePDp1inJoday+ihu98UWuyvHwWMe33VtJo
+ SdIlMTHuH4K1xzW8MeHS/1981+52TmRywDc9uZEIUUolarBMZEhw7gwlpsVsUTMBCP5hEL2j
+ KqQe045+eao8/zqb7r7qpOGKYN4lg/zPr4wlsCjAuk0KBUCUmea9OikybHu+U/0TK9UgvA5k
+ aTVqpDXKd4GqqO4BQJez5gu6xKiDze9zNQXg2MHIk9EeBOGkYfkI03CLfblBvmlmVusii1kx
+ /XeM73kBZXCM2bMna/6fbZ4905c0A0zzc1D555MCrEOPvbzWkjpudzEDh85MBW4zPj7B9V8z
+ YMeQXuDDbOBMKzIt1+H+OYvL/CJZIAPuTb9L/8l5+PyjXMlh1MRZ7Kp0oEZaH+iBPRmIlmWY
+ X3pgtgaDGcKpQs+TOr0h12ZSj5ffWq9X6Um6jE4Fo2qFYbDRoazj7ydxCq2EYBaanpYBlyQH
+ 3rkbZuIV+sPZS6IP8NsnT0JWaCkS4A71BGusAH6y6BgLurR4iAXr4/s1N105+3Vjhwy7SJ7D
+ 9iB3GGKSmF0gnkISCU33KB5oEx9zFiD3rR/g/xcEdxc+fxJXRkgOZHAyOx6Dsj+WgTacdiRU
+ lapXs2mAS0tTtI229ICfV5xG8++gRDbwyqqH7gVmqSJBJwz8qLc2XvxKNxny3nc0qkhjUMpT
+ tZLOGCimqJz6xPeB4HMk0qDlqaqcb4Q0zLK9GeG1WaOpl1XUBZsUaXZWnASflDWrcn85kLMU
+ bCuD6koPRVaxM6NL6tFcNzpjVFcSPj/P9TeZjH5p2DlHguN2b6KYIfCdGAU3SGbA08BwC4J+
+ nPTDQUiDSCk617EBT1oFFTgK0jr9e1zp37zGkY4ygCMR1Vsy7Gy/wIPjP2aSvUc1bUAvCoup
+ nN/G1PrjIGeMMaJuwc0JPYUWtg6+loSjQrk
+IronPort-Data: A9a23:tIPYM6oNvjtgnQk92iv6ROQ2MPpeBmKVZRIvgKrLsJaIsI4StFCzt
+ garIBmDOvbeNmOnLYxwbo2xoU4E75KHnN5gTAtvpH9kEHhDpJacVYWSI27OZC7DdceroGCLT
+ ik9hnssCOhuExcwcz/0auCJQUFUjP3OHPylYAL9EngZbRd+Tys8gg5Ulec8g4p56fC0GArlV
+ ena+6UzA3f7nWYkWo4ow/jb8k834qyu4GpwUmEWPJingnePzxH5M7pCfcldH1OgKqFIE+izQ
+ fr0zb3R1gs1KD90V7tJOp6iGqE7aua60Tqm0xK6aID56vR2nRHe545gXBYqhee7vB3S9zx54
+ I0lWZVd0m7FNIWU8AgWe0Ew/y2TocSq9ZefSUVTv/B/wGWXfWrB4vNSVXpnPM4y9+dFUThz1
+ foHfWVlghCr34pawZqnSuopi88iN9GuN5sWvHxkiDTQDPIhXIybGePR7NFRxjY7gcVEAO3fY
+ ccCcnxka1LDbnWjOH9LUdRkxLzu3CGvNWQE9jp5poJui4TX5AV91bnrGMLYZteNQNlPl0eep
+ 2TJ9GP9BhwVOZqUzj/tHneE1rWfxnyrAdx6+LuQ2vBpskailjcpDQQqc1vkuKO/t2mTcocKQ
+ 6AT0nNz9vlrqyRHVOLVXRq4pn2NpBcaWdMJQrxisCmCz6PV50CSAW1sZiVcbcMrssM7bTMv3
+ 16N2djuAFRSXKa9VXKes7qfrCiqfCMNJGkPYWoBRAoB5MT/+Nt1lRvBR8xiG6mwhMDuGDf92
+ CvMpy94hLh7YdM3O7uTrF7WrhOqmsHyHw92zAjWbDL80yN/e9vwD2C30mTz4fFFJYefa1COu
+ nkYhsSThNzi67nQy0Rhp81QQNmUC+a5DdHKvbJ4N7oMnwlBFla/fYMV7Tp/P18sOd4NfzLtJ
+ UrauAdW+YMLZj2xZKF+eYO6DMEg0LPhE9n+TbbfaZxNb/CdlTNrHgkwNSZ8PEi3yCDAdJ3T3
+ 7/AIa5A6l5BV8xaIMKeHbt17FPS7nlWKZnvbZ761Q+79rGVeWSYT7wIWHPXMblmsPjV/FuIq
+ Y8FXydv9/m5eLOkCsUw2dBJRW3m0VBlbXwLg5cLKr7TeVAO9J8JUqOPn+tJl3NZc1R9z7qTr
+ yjiMqOp4EH2i3TdKA6NbzhnabbuQZtzxU/XzgRyVWtEL0MLMNbHxP5GL/MfJOB7nMQ9lqQcZ
+ 6deJK297gFnEG6vF8I1McCg9+SPtX2D2WqzAsZSSGFgIscwGFSYq46Mk8mG3HBmMxdbfPAW+
+ 9WIvj43i7JaL+i+JK46o85DA798UbbxVQ6ys4b1zgFvRXjR
+IronPort-HdrOrdr: A9a23:CsT+sK9ZU3cr9V+q9vduk+DSI+orL9Y04lQ7vn2ZLiYlFfBw9v
+ re+MjzuiWZtN98Yh4dcLO7VZVoI0mslqKdMbNhWItKNTOO0ADDEGgI1+rfKlPbdREWutQ86U
+ 8xG5IOauHNMQ==
+X-Talos-CUID: =?us-ascii?q?9a23=3ABz3/amhdGHWIKS4YG4U6pMrl5TJuI3PM4VbWHxa?=
+ =?us-ascii?q?DWGcqYrCUew/JxYNijJ87?=
+X-Talos-MUID: 9a23:4sBP0AXY+jpiBYvq/BPihwN5BZcz2aG3NGYNzoxcvfSjGAUlbg==
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.08,213,1712610000"; 
+   d="scan'208";a="82837816"
+Received: from thk-ecisp-cpanel-mailout02.safaricombusiness.co.ke ([41.203.208.146])
+  by athi-tes-mailout01.safaricombusiness.co.ke with ESMTP; 04 Jun 2024 11:38:52 +0300
+Received: from host16.safaricombusiness.co.ke (host16.safaricombusiness.co.ke [197.248.5.16])
+	by thk-ecisp-cpanel-mailout02.safaricombusiness.co.ke (Postfix) with ESMTP id 8A15E4142;
+	Tue,  4 Jun 2024 11:38:51 +0300 (EAT)
+Received: from [::1] (port=42350 helo=host16.safaricombusiness.co.ke)
+	by host16.safaricombusiness.co.ke with esmtpa (Exim 4.96)
+	(envelope-from <admin@petcomtrainingcollege.com>)
+	id 1sEPgy-00D3ZH-2H;
+	Tue, 04 Jun 2024 11:38:52 +0300
+MIME-Version: 1.0
+Date: Tue, 04 Jun 2024 11:38:52 +0300
+From: Petcom Training college <admin@petcomtrainingcollege.com>
+To: sumwende@gmail.com
+Subject: trial from john
+User-Agent: Roundcube Webmail/1.6.0
+Message-ID: <826dcc40ebf8b0e79f46d48f4d2cbf7e@petcomtrainingcollege.com>
+X-Sender: admin@petcomtrainingcollege.com
+Organization: Petcom Training college
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+Content-Transfer-Encoding: 7bit
+
+trial from john
+
+-- 
+PETCOM TRAINING COLLEGE
+Training Packages, Programming, Web and Graphic design
+0725 939 328 | 0725 1528 865 |  0720 078 495
+www.petcomtraining.com petcomcollege06@gmail.com
+
+-------------------------
+IMPORTANT: The contents of this email and any attachments are 
+confidential.
+They are intended for the named recipient(s) only. If you have received
+this email by mistake, please notify the sender immediately and do not
+disclose the contents to anyone or make copies thereof.
+
+--4y04u.66WnXKcSh.6oIS4s1MTMB.7dmjh/G--
+
+

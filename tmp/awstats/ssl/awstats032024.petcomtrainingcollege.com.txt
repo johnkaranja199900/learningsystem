@@ -1,0 +1,623 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202403 will be lost/reset.
+# Last config file used to build this data file was /home/petcomtr/tmp/awstats/ssl/awstats.petcomtrainingcollege.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2709                
+POS_VISITOR 13645               
+POS_DAY 18915               
+POS_DOMAIN 3538                
+POS_LOGIN 4112                
+POS_ROBOT 4267                
+POS_WORMS 4713                
+POS_EMAILSENDER 4844                
+POS_EMAILRECEIVER 4987                
+POS_SESSION 19089               
+POS_SIDER 19296               
+POS_FILETYPES 5122                
+POS_DOWNLOADS 5406                
+POS_OS 5484                
+POS_BROWSER 5830                
+POS_SCREENSIZE 7252                
+POS_UNKNOWNREFERER 7326                
+POS_UNKNOWNREFERERBROWSER 7856                
+POS_ORIGIN 8252                
+POS_SEREFERRALS 8397                
+POS_PAGEREFS 8577                
+POS_SEARCHWORDS 10471               
+POS_KEYWORDS 10623               
+POS_MISC 2372                
+POS_ERRORS 10682               
+POS_CLUSTER 3968                
+POS_SIDER_404 10869               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240401022343 680 179263 9758079943151
+FirstTime 20240328132130
+LastTime 20240331232635
+LastUpdate 20240401120408 680 0 679 0 0
+TotalVisits 135                 
+TotalUnique 115                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 136                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 58 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 19 27 6200452 82 85 618597
+1 3 3 41742 2 2 0
+2 2 4 28034 0 0 0
+3 12 78 11025476 2 14 291267
+4 0 0 0 5 9 32540
+5 4 4 68697 12 25 327982
+6 0 0 0 4 6 42668
+7 3 3 51522 9 12 199554
+8 17 91 8678555 22 22 95689
+9 32 105 8725088 157 177 1857133
+10 33 121 7402258 43 84 6355032
+11 19 60 5626163 86 92 640216
+12 48 103 10096621 283 298 2387985
+13 70 174 4473793 153 166 669350
+14 30 45 4994416 105 113 570648
+15 18 60 3606199 46 52 323351
+16 2 11 1692454 13 13 48828
+17 6 45 6810350 19 20 145682
+18 44 95 17082775 189 193 1346245
+19 55 145 13678801 138 150 1699889
+20 184 689 101748036 722 731 6658155
+21 137 262 39116042 440 443 6473149
+22 119 256 35607602 629 686 21315647
+23 44 96 17078441 229 238 2025257
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 24
+id 470 1055 135225204
+ke 142 503 66817061
+ao 108 380 57692540
+us 105 253 18861383
+no 29 76 6028486
+jp 13 79 11037782
+eu 7 7 204061
+cn 6 6 85765
+gb 3 21 662137
+ir 3 8 62664
+ru 2 7 70755
+rw 2 30 3109580
+iq 2 7 72262
+in 2 2 24605
+ca 1 1 17128
+bd 1 4 57096
+br 1 1 17153
+nl 1 1 17128
+mu 1 13 458743
+ro 1 2 23110
+au 1 18 2653735
+ar 0 1 138580
+es 0 1 450
+ie 0 1 496109
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+bingbot/ 116 2265174 20240331230515 2
+facebookexternalhit/ 56 6210792 20240330182042 3
+Go\-http\-client/ 22 760668 20240331124247 8
+Googlebot/ 21 543303 20240331055732 1
+unknown 3 72 20240329105626 3
+Apache\-HttpClient/ 3 51409 20240330143610 0
+curl 2 55248 20240330091527 0
+no_user_agent 1 17153 20240329104845 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+jpg 431 105190541 0 0
+map 11 5286625 0 0
+pdf 4 1133013 0 0
+js 432 7662634 0 0
+php 3 36957 0 0
+html 291 4884397 0 0
+woff 24 544000 0 0
+svg 14 30021 0 0
+png 203 14231136 0 0
+Unknown 572 135967121 0 0
+css 492 28867072 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/img/fees2023.pdf 5 0 1510684
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+win7 5 5
+win10 1118 490
+winxp 1 1
+linuxubuntu 13 4
+ios_iphone 110 24
+android10 567 163
+macosx12 4 4
+macosx13 1 1
+Unknown 52 21
+macosx15 29 18
+androidnougat 24 6
+linux 57 23
+android 222 51
+androidpie 47 11
+androidoreo 215 68
+macosx9 2 2
+macosx 1 1
+winnt 3 2
+androidmarshmallow 6 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 65
+chrome110.0.0.0 15 3
+chrome77.0.1900 1 0
+chrome112.0.0.0 4 2
+mozilla 6 6
+chrome58.0.3029.110 1 1
+chrome120.0.6099.230 17 1
+chrome121.0.6167.178 21 3
+chrome94.0.1647 1 1
+chrome79.0.3945.116 25 7
+chrome83.0.4103.61 3 3
+chrome87.0.4280.141 14 2
+chrome112.0.5615.29 34 2
+firefox63.0 2 2
+chrome115.0.0.0 57 28
+chrome93.0.1808 1 1
+chrome109.0.0.0 12 1
+chrome83.0.4103.116 12 12
+chrome41.0.2224.3 1 1
+chrome85.0.4183.121 1 1
+chrome59.0.1002 1 1
+edge12 42 16
+Unknown 46 15
+chrome116.0.0.0 63 37
+chrome111.0.0.0 3 3
+chrome80.0.3987.149 34 13
+firefox120.0 22 6
+chrome81.0.606 1 1
+chrome83.0.4103.97 2 1
+chrome23.0.1271.64 2 0
+chrome122.0.6261.119 22 4
+chrome119.0.0.0 34 2
+chrome61.0.2488 1 1
+chrome120.0.0.0 52 11
+chrome33.0.1750.152 1 1
+firefox52.0 2 2
+chrome50.0.185 1 1
+chrome122.0.0.0 520 165
+msie11.0 1 1
+firefox83.0 1 1
+opera43.0.2246.121183 23 5
+safari10.0 3 3
+chrome80.0.3987.99 17 1
+safari16.4 36 4
+firefox58.0 4 4
+chrome79.0.3945.79 40 12
+safari11.0.3 2 2
+chrome70.0.3538.110 175 42
+chrome86.0.4240.99 5 1
+chrome81.0.4044.138 5 5
+chrome117.0.0.0 5 5
+chrome122.0.6261.94 1 1
+chrome59.0.3071.125 1 1
+chrome86.0.4240.111 1 1
+chrome123.0.0.0 818 373
+safari 71 17
+chrome64.0.3282.186 2 2
+chrome83.0.4103.96 61 32
+firefox122.0 13 4
+firefox77.0 1 1
+edge16 4 4
+chrome111.0.5563.116 21 3
+chrome32.0.1664.3 1 1
+chrome121.0.0.0 54 14
+chrome102.0.0.0 13 1
+chrome102.0.5005.125 21 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 11
+Python/3.11_aiohttp/3.9.3 20240330031014
+cortex/1.0 20240329100502
+okhttp/4.10.0 20240330192408
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20240328232228
+Mozilla/5.0_(compatible;_Dataprovider.com) 20240330201751
+WhatsApp/2.2411.4_W 20240329201654
+python-httpx/0.22.0 20240329180901
+WhatsApp/2.23.20.0 20240329223537
+WhatsApp/2.2412.4_W 20240330211759
+Python/3.10_aiohttp/3.9.3 20240329011948
+python-requests/2.31.0 20240330214431
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+python-requests/2.31.0 20240330214431
+Python/3.10_aiohttp/3.9.3 20240329011948
+Python/3.11_aiohttp/3.9.3 20240330031014
+cortex/1.0 20240329100502
+okhttp/4.10.0 20240330192408
+WhatsApp/2.2411.4_W 20240329201654
+WhatsApp/2.23.20.0 20240329223537
+python-httpx/0.22.0 20240329180901
+WhatsApp/2.2412.4_W 20240330211759
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 237 324
+From1 0 0
+From2 10 10
+From3 305 1162
+From4 349 981
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_bing_com 1 1
+www_google_com 9 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 26
+https://mail.petcomtrainingcollege.com 69 551
+https://mail.petcomtrainingcollege.com/dashboard 58 211
+https://mail.petcomtrainingcollege.com/register 56 101
+https://mail.petcomtrainingcollege.com/login 32 88
+https://webmail.petcomtrainingcollege.com/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/open_sans.min.css 15 15
+https://mail.petcomtrainingcollege.com/admin/admin/summary 14 18
+https://mail.petcomtrainingcollege.com/student/view-marks 9 19
+https://cpanel.petcomtrainingcollege.com/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/open_sans.min.css 9 9
+https://mail.petcomtrainingcollege.com/loginadmin 8 9
+https://mail.petcomtrainingcollege.com/admin/admin/view-all-students-marks 6 6
+https://mail.petcomtrainingcollege.com/admin/students 6 6
+https://mail.petcomtrainingcollege.com/student/anncouncement 5 5
+https://mail.petcomtrainingcollege.com/about 4 6
+https://mail.petcomtrainingcollege.com/admin/admin/meeting-links 3 3
+http://cpanel.petcomtrainingcollege.com/axis2-admin/ 2 2
+http://cpanel.petcomtrainingcollege.com/axis2/ 2 2
+https://host16.safaricombusiness.co.ke:2083 2 2
+http://cpanel.petcomtrainingcollege.com/axis2/axis2-admin/ 2 2
+https://mail.petcomtrainingcollege.com/howto 1 1
+https://mail.petcomtrainingcollege.com/courses 1 2
+https://mail.petcomtrainingcollege.com/admin/admin/view 1 1
+https://cpanel.petcomtrainingcollege.com 0 9
+https://mail.petcomtrainingcollege.com/css/css.css 0 28
+https://webmail.petcomtrainingcollege.com/cPanel_magic_revision_1687472608/unprotected/cpanel/style_v2_optimized.css 0 30
+https://webmail.petcomtrainingcollege.com 0 15
+https://cpanel.petcomtrainingcollege.com/cPanel_magic_revision_1687472608/unprotected/cpanel/style_v2_optimized.css 0 21
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+500 32 15967121
+302 306 127862
+401 41 2064
+404 2849 22605624
+419 23 152007
+503 30 0
+301 24 6258
+206 32 5294896
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 40
+/fonts/Nunito/lib/owlcarousel/owl.carousel.min.js 1 https://petcomtrainingcollege.com/fonts/Nunito/Nunito-SemiBold.woff2
+/phpmyadmin/index.php 2 -
+/ads.txt 3 -
+/sellers.json 3 -
+/google6d2af84551b45e05.html 3 -
+/3ds.php 2 -
+/axis2 5 https://www.petcomtrainingcollege.com/axis2/
+/merchant/z/payment 2 -
+/img/petcom%20logo.png%20 7 -
+/fonts/Nunito/Nunito-Bold.woff2 128 https://petcomtrainingcollege.com/css/style1.css
+/fonts/materialdesignicons-webfont.ttf 187 https://petcomtrainingcollege.com/css/materialdesignicons1.min.css
+/fonts/Nunito/js/main.js 1 https://petcomtrainingcollege.com/fonts/Nunito/Nunito-SemiBold.woff2
+/fonts/Nunito/Nunito-Bold.woff 125 https://petcomtrainingcollege.com/css/style1.css
+/insertData 1 -
+/fonts/Nunito/Nunito-SemiBold.ttf 283 https://petcomtrainingcollege.com/dashboard
+/app-ads.txt 3 -
+/ 64 -
+/axis2/axis2-admin 5 https://www.petcomtrainingcollege.com/axis2/axis2-admin/
+/3ds1633693954432212 2 -
+/fonts/materialdesignicons-webfont.woff 195 https://petcomtrainingcollege.com/css/materialdesignicons1.min.css
+/sitemap.xml 5 -
+/fonts/Nunito/Nunito-SemiBold.woff2 308 https://petcomtrainingcollege.com/dashboard
+/fonts/materialdesignicons-webfont.woff2 189 https://petcomtrainingcollege.com/css/materialdesignicons1.min.css
+/merchant/code 2 -
+/public_html 8 https://petcomtrainingcollege.com/register
+/fonts/Nunito/Nunito-Bold.ttf 119 https://petcomtrainingcollege.com/css/style1.css
+/lander/testsberv4_1703110539 6 -
+/axis2-admin 5 https://www.petcomtrainingcollege.com/axis2-admin/
+/fonts/Nunito/lib/easing/easing.min.js 1 https://petcomtrainingcollege.com/fonts/Nunito/Nunito-SemiBold.woff2
+/fonts/Nunito/img/petcom%20logo.png 1 https://petcomtrainingcollege.com/fonts/Nunito/Nunito-SemiBold.woff2
+/fonts/Nunito/Nunito-SemiBold.woff 296 https://petcomtrainingcollege.com/dashboard
+/fonts/Nunito/Nunito-Regular.ttf 287 https://petcomtrainingcollege.com/dashboard
+/index_sso.php 2 -
+/fonts/Nunito/css/style.css 1 https://petcomtrainingcollege.com/fonts/Nunito/Nunito-SemiBold.woff2
+/fonts/Nunito/Nunito-Regular.woff 291 https://petcomtrainingcollege.com/dashboard
+/fonts/Nunito/lib/waypoints/waypoints.min.js 1 https://petcomtrainingcollege.com/fonts/Nunito/Nunito-SemiBold.woff2
+/php/thinkphp/aaaffff123.php 2 -
+/fonts/Nunito/lib/wow/wow.min.js 1 https://petcomtrainingcollege.com/fonts/Nunito/Nunito-SemiBold.woff2
+/fonts/Nunito/Nunito-Regular.woff2 300 https://petcomtrainingcollege.com/dashboard
+/google6c198b0341eb5cd4.html 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 136
+102.215.12.253 453 917 117144935 20240331194455
+105.160.37.136 33 64 7927007 20240329223537
+146.59.87.207 29 76 6028486 20240329110911
+41.90.216.152 28 57 13472088 20240330220808
+154.159.237.136 24 53 11496796 20240329204326
+154.159.237.147 21 58 9095852 20240329215018
+41.81.85.123 20 76 14382844 20240329204828
+154.159.237.74 13 42 9110138 20240329203922
+154.77.248.81 13 27 205934 20240330191625
+154.159.237.225 12 41 7045868 20240329202753
+43.206.208.110 12 78 11025476 20240330031041
+154.159.237.205 11 11 97146 20240329214531
+41.90.5.191 11 58 6077402 20240330103941
+102.0.5.54 10 78 12088104 20240330170817
+105.161.13.61 9 12 3861946 20240329220938
+154.159.237.126 9 38 4624897 20240329204148
+52.81.68.62 8 9 105866 20240331124230
+52.81.189.133 7 7 91013 20240331124251
+54.247.57.72 6 15 145818 20240328141410
+105.161.19.36 6 34 2211967 20240330090755
+205.169.39.113 5 15 134643 20240328132332
+69.4.89.106 5 5 127859 20240330085447
+105.160.66.23 5 23 2741015 20240329203246
+93.119.227.19 5 5 127859 20240331232635
+102.0.8.244 5 34 5076725 20240330160137
+104.164.173.44 2 2 24605 20240328132225
+197.136.9.5 2 26 913394 20240330103850
+66.249.93.170 4 4 68512 20240328231626
+104.166.80.198 1 1 17153 20240329154008
+66.102.8.70 1 1 53 20240328232228
+173.252.83.112 0 1 393199 
+64.227.74.195 1 1 12301 20240328223602
+84.39.227.116 0 1 450 
+104.164.173.113 2 2 24608 20240328132131
+38.132.118.73 1 18 2791353 20240330181823
+66.249.66.89 1 1 17153 20240331050223
+34.72.85.84 1 1 12305 20240328132241
+154.159.254.128 4 22 2750610 20240329202716
+142.93.77.58 1 1 17128 20240329050423
+173.255.209.95 1 1 17153 20240329105320
+104.166.80.66 1 1 17153 20240330153718
+154.77.177.234 1 14 2598391 20240329204324
+31.13.103.2 0 1 496109 
+197.136.0.4 1 17 2652883 20240329201705
+184.174.58.6 1 1 12303 20240330001053
+104.166.80.124 2 18 2669926 20240330181407
+173.252.107.1 0 1 187046 
+173.252.83.2 0 1 138580 
+167.71.137.191 1 1 17263 20240330053819
+66.220.149.22 0 1 329646 
+69.63.184.4 0 1 187046 
+154.159.237.50 0 16 0 
+93.119.227.91 2 2 76202 20240328144750
+104.164.173.154 1 1 12311 20240328132409
+192.198.102.157 1 1 12303 20240330001048
+119.13.90.176 1 17 2652773 20240331183334
+173.252.87.10 0 1 496109 
+35.93.105.62 1 12 1960728 20240331082144
+94.176.89.33 3 8 62664 20240328132224
+197.155.95.5 1 13 458743 20240329205023
+206.204.29.111 1 2 23636 20240328132224
+102.22.132.4 2 26 915440 20240329202342
+154.159.237.32 3 4 68742 20240329215727
+23.111.114.116 1 1 17153 20240331110550
+34.78.49.210 1 1 17153 20240331074557
+188.212.138.34 1 2 23110 20240328132223
+196.201.210.254 3 22 2863028 20240329201323
+105.161.94.226 1 5 209275 20240329201701
+54.86.19.76 1 17 2652773 20240330125159
+192.241.143.122 1 1 17153 20240331050901
+54.145.66.133 1 1 17153 20240331123817
+105.179.12.5 1 17 2652883 20240329202505
+34.42.243.148 1 1 17153 20240331093732
+35.203.252.201 0 2 3658 
+52.81.44.220 1 1 17263 20240330091553
+66.220.149.19 0 1 138580 
+192.87.174.28 1 1 17128 20240329011948
+35.203.253.10 0 2 3425 
+104.223.118.52 1 1 12308 20240328152203
+165.22.222.184 1 1 12310 20240331094449
+66.220.149.5 0 1 393199 
+45.140.13.42 2 2 24605 20240330020006
+34.69.152.216 1 1 12302 20240328132221
+51.159.103.13 1 7 220683 20240330220310
+152.39.233.133 1 2 23720 20240328132230
+152.39.241.248 1 4 26817 20240328132224
+104.166.80.60 1 1 17153 20240330162343
+209.59.229.213 1 1 12307 20240330020009
+105.179.12.4 1 13 456697 20240329215911
+104.164.173.203 2 2 24604 20240328132131
+191.54.92.78 1 1 17153 20240330214431
+196.201.210.28 3 32 4557441 20240329205156
+52.81.208.25 1 1 17241 20240331124218
+104.166.80.128 1 1 17153 20240331153841
+69.4.87.74 5 5 127784 20240329004041
+154.159.237.116 3 21 2724435 20240330081704
+152.39.168.127 0 2 1876 
+45.83.220.211 1 1 12302 20240328152200
+154.159.237.98 3 22 2871927 20240330192920
+66.220.149.117 0 1 486341 
+119.13.199.164 0 1 962 
+185.246.175.190 2 7 70755 20240328132225
+124.221.186.26 5 5 85765 20240331195352
+147.92.55.94 1 1 12302 20240330001056
+52.80.214.58 1 1 17241 20240330091714
+44.222.175.168 1 17 2652773 20240330125145
+104.164.173.191 2 2 24614 20240328132131
+164.163.127.247 1 1 12306 20240330015953
+18.236.228.22 1 1 17153 20240330135315
+154.76.3.85 3 32 1921733 20240330093231
+144.217.135.238 1 1 17241 20240330201751
+154.159.252.148 1 1 17263 20240330202305
+143.110.213.178 1 1 12303 20240329151143
+105.161.174.254 3 4 220713 20240329220516
+45.61.116.0 1 1 12308 20240330015949
+116.212.189.236 1 4 57096 20240328132231
+154.159.237.131 1 10 2262307 20240329201707
+154.159.237.62 1 17 2652883 20240330083341
+101.44.69.160 1 1 0 20240331143724
+213.188.78.135 0 1 976 
+213.188.78.214 2 6 71286 20240328132224
+173.252.83.5 0 1 347737 
+154.159.237.184 1 17 2652883 20240329203839
+205.169.39.216 5 14 133517 20240328132331
+35.222.57.181 1 1 17153 20240329180901
+154.159.237.9 1 7 220793 20240329223625
+134.209.30.57 1 1 17216 20240329075116
+173.252.83.9 0 1 486341 
+152.39.146.188 1 5 26966 20240328132224
+152.39.174.174 1 4 58098 20240328132224
+205.169.39.163 5 14 133518 20240328132645
+190.92.243.241 0 1 138580 
+51.158.37.195 2 14 441454 20240331004023
+104.164.173.82 1 1 12306 20240328132409
+66.220.149.17 0 2 677383 
+152.39.224.241 2 5 38688 20240328132231
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20240328 110 303 14964139 30
+20240329 407 1220 169995012 43
+20240330 252 719 88885717 43
+20240331 132 235 29988649 19
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 7
+30mn-1h 1
+1h+ 9
+2mn-5mn 10
+15mn-30mn 6
+0s-30s 94
+30s-2mn 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 35
+/ 281 4773543 114 81
+/register 119 966962 5 9
+/dashboard 118 78968957 0 10
+/login 82 493060 3 9
+/student/view-marks 60 42217036 1 4
+/admin/students 43 1022009 0 2
+/admin/admin/summary 39 338685 0 0
+/loginadmin 28 165190 1 0
+/admin/admin/view-all-students-marks 27 817002 0 1
+/student/anncouncement 11 7469419 0 0
+/about 10 112784 1 0
+/public_html 8 137024 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.woff 8 181280 3 3
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.woff 8 183264 2 4
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.woff 8 179456 2 7
+/courses 6 61075 0 0
+/admin/admin/meeting-links 6 58140 0 0
+/css/style.css.map 5 4573024 0 0
+/css/materialdesignicons.min.css.map 5 523348 0 0
+/axis2-admin/ 3 36933 2 0
+/howto 3 19074 0 0
+/admin/admin/view 3 32589 0 0
+/student/profile 3 2169328 0 0
+/axis2/ 3 36924 0 0
+/axis2/axis2-admin/ 3 36944 0 2
+/admin/admin/students/16/edit 1 8672 0 0
+/js/bootstrap.min.js.map 1 190253 0 0
+/php/thinkphp/aaaffff123.php 1 12328 0 0
+/admin/admin/students/23/edit 2 17350 0 0
+/google6c198b0341eb5cd4.html 1 53 1 1
+/admin/admin/students/4/edit 1 8660 0 0
+/index_sso.php 1 12311 0 1
+/phpmyadmin/index.php 1 12318 0 0
+/profile 1 884078 0 1
+/insertdata 1 27 0 0
+END_SIDER

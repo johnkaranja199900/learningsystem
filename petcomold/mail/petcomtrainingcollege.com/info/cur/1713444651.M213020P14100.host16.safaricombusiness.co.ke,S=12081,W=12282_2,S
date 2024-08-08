@@ -1,0 +1,201 @@
+Return-Path: <>
+Delivered-To: info@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id uNyqCysXIWYUNwAAz9s6Ng
+	(envelope-from <>)
+	for <info@petcomtrainingcollege.com>; Thu, 18 Apr 2024 15:50:51 +0300
+Return-path: <>
+Envelope-to: info@petcomtrainingcollege.com
+Delivery-date: Thu, 18 Apr 2024 15:50:51 +0300
+Received: from athi-ecisp-rat01.safaricombusiness.co.ke ([197.248.128.5]:58616)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	id 1rxRDh-000626-2w
+	for info@petcomtrainingcollege.com;
+	Thu, 18 Apr 2024 15:50:51 +0300
+IronPort-SDR: 6621172b_abbveXiZBckiHvtYJJOj4DIK8KRAZizedpqDwIdHjyMp925
+ L3e8xHKNXHG0XNcF6jN8RYFXxjPZbgGkFj+LzuQ==
+X-IPAS-Result: =?us-ascii?q?A0EjBQBSr/Vk/w2A+MV3AgIJFAUFghCCPm9VQEeEDkSDT?=
+ =?us-ascii?q?4l+gXCCI4MqnGIBAQEBAQEBAQEJMRMEAQEEi3ICJTgTAQIEAQEBAQMCAwEBA?=
+ =?us-ascii?q?QEBAQMBAQUBAQECAQEGBQECgQYIC4UvFyINgi4VAQEBAwICAgECAQIBAYIGL?=
+ =?us-ascii?q?IEvVD4hAgwGYIJ/gl4BCaZ6eoEygQGDGIFfrj+BWYFEAYEShnUBgU2IMieBW?=
+ =?us-ascii?q?k6KD4MOgmuJSoVBB4Y6iRkqgQgITw+BXgw9Ag1UCwtdgRWCRwICERQlDQdHc?=
+ =?us-ascii?q?RsDBwOBAhArBwQyIgYJFy0lBlECAi0kCRMSPgSDPAqBAj8RDhGCRis2NhlLg?=
+ =?us-ascii?q?mYJFUBOdhBDGIEVbh8VHjcREhkNAwh2HQIRIxYmAwUDBDYKFQ0LIQVXA0gGT?=
+ =?us-ascii?q?AsDAhwFAwMEgTYFDx8CEC48A0QdQAMLbT01FBuhHnOBWDmBPgmBeyeTQYNrj?=
+ =?us-ascii?q?VOBN58KCAIng2QDi3yHZw6NMSyDbgGBaJFMEJIsmCyiayuFL4F6JoFZhCcJV?=
+ =?us-ascii?q?A4PiDqFPAEBAYQejy5OQTI7AgcLAQEDCYtIAQE?=
+IronPort-PHdr: A9a23:6cEJmxHB9z10e16+D6h4vZ1Gf7ZMhN3EVzX9CrIZgr5DOp6u447ld
+ BSGo6k30hmQAdWQsawMotGVmpioYXYH75eFvSJKW713fDhBt/8rmRc9CtWOE0zxIa2iRSU7G
+ MNfSA0tpCnjYgBaF8nkelLdvGC54yIMFRXjLwp1Ifn+FpLPg8it2O2+5Zzebx9ViDeyYr5+I
+ wu6oATMvcQKnIVuLbo8xAHUqXVSYeRWwm1oJVOXnxni48q74YBu/SdNtf8/7sBMSar1cbg2Q
+ rxeFzQmLns65Nb3uhnZTAuA/WUTX2MLmRdVGQfF7RX6XpDssivms+d2xSeXMdHqQb0yRD+s9
+ 6BrSAPpiCcJNj427HvYitBxjKJcphKquhhzz5PIbI2JKPZyYqbRcNUHTmRDQ8lRTTRMDICyY
+ YURD+QPIOlXoJXmqlsWsRezHxOhCP/zxjJKgHL9wK000/4mEQHDxAEsEdUAv27VrNXxKawcX
+ /66zK3JzTXdcfxWwzf845XVfBEhuvGMQax/cc/fxUIyEA7LiUmdp4/jMT2ayuoBqmaV4vZvW
+ +yokmApsxp8rSKzxscsi4nFn54VxU7f9SlgxYY6P9y4SEp8Yd65DJtcqz+WO5FtQsw4TWFno
+ jw6yrwatp68eSgF04knxwXea/yBbYeI+QnjWPyNLjd/nn5le6ywig+0/EO9xeLyStO630xWr
+ ipZjNbMrHYN2gTc58WJRPZw/Ems1SqN2g3c5O9JIUM5m6XVJpMl3rM9mZUev0rCEyLqmkj7k
+ a+Ye1g69+Wm5OnpbbvoqJ+AOoNpjAz1L6cgmtSnDOglNgUDXXKX9fqz2bDg50H1XatGg/4sn
+ qXEvp3XI9kQqLSjDA9PyIkj7g6yDze439QcmnkKNEhKeA6Hj4joIl3OPO73Deymj1Spijhrx
+ vTGPrr8ApXRMnTPjq3tfa1n5E5S0gUz19Ff6I5TCrEEO/3zR1TxtN3eDhAnKAy02PzrB8l61
+ o8EWmKAHLeVMKLUsVCW+uIiO/SAaYsXtTrnNfQo6P3jgWUklVMDfqSlx4YbZX6gEvRgOEqWe
+ WDsjcsZEWcWogo+S/TnhECaXT5Je3myR7485i08CI++DIfDQI6tgLua0SejAJJWenxJCleJE
+ Xf0bYWLQfYMaCSTIs9nnTwLSb+hS4sl1R6wuw/11aBrIfbT+i0d5trf04104ePUvQk/6TdzC
+ tiH2mCLTmd7lWQMQzI50eZ0pkku5E2E1P0ypvVZEZR/6vdITAogJNbn3vdmBtW4ElbkV/atZ
+ WzjbvyLJBYXZtstw95Lf0tmXtCrjxTEwjbyWfkOnrKCHp0/9afWwmPwIctm0DDN0+8igg91E
+ YN0KWS6i/skpEDoDInTnhDAz/7yLcwh
+IronPort-Data: A9a23:hcJHuatbGvwTvyGpP8exUy/sHefnVJlfMUV32f8akzHdYApBs4E2e
+ l6ra90Yjsz6amehfNF1PIW19EtU7cPQm4BnTQo9pX9kEiMaoJfLW4TEdEquZCibfpKZQks74
+ ZsUNIiaIp5qF3OM9h72arTopBGQuU3wqp/UUIYobQgvH1c4IMtYtS9epgIZvmJJqYLjX1uGt
+ 4is/ZGOZw77gTcoPD0YsKuK9R1ksKuj6GkUl1FvPvojUH0yNZU2JMlGefzudSuQrq18RLPSq
+ zPrlenhlo/h105xTInjy94XS2VSKpbKJw+Cl3FKbKarhxlGt0Qa370yXBYmQR4/Zw6hwZYpk
+ r2hibTqEV1yZvyUxLxEO/VlO3gW0ZNuqeevzUeX7JT7I33uKxPE3/hoBUcqCowUks4f7bZmr
+ KFwxJglN3hvtsruqF6JYrAEavcLcKEHCLgiVkRIllk1OxqGrafrGM0m7fcAtNs5a1sn8fz2P
+ 6L1YhI3BPjMjoEm1v76x/vSkc/x7kQTfQG0p3qLjI9070PS5zV+jpP9L+bvYN2wT+58yxPwS
+ mLupwwVAzkTKNyejCaI6Tepj+7Lmj7nANhUD7S2/+Rri1qWzHEICRsbTkD9qv7/iUPWt9B3c
+ h1LvHBy/e5rrhztF4KVsx6Q+BZoujZIDbK8FsVqsFzSm/WFi+qfLkwbVw9uTfAEj8YdeR0u/
+ UeItfrwPSM65dV5TlrYrN94twiaOC4bKkcaaDMPSg4Z+dDipoA1gRnIStJuH6PzhdrwcQwc2
+ BiDsCg/wqkelosO3qS/+k3b22jqvZHHRxQ07QLSVH++7wV0f5XjbIvu6lWzAet8Ebt1h2Kp5
+ BAs8/VyJshSZX0gvHXlrDkldF1i2xpJ3PAwT7Ki81nNOglBI0KeQL0=
+IronPort-HdrOrdr: A9a23:hDMrhKzDQ6vIcmQT+8OlKrPwQ71zdoMgy1knxilNoH1uEvBw+P
+ rCoB1273DJYVUqOU3I5+rrBEDoexq1nqKdirN+AV7NZmXbhFc=
+X-Talos-CUID: 9a23:1ciLuWHAFAH7lzJqqmJ53WtXFuskWUTSklzAPHOCE2dTQpa8HAo=
+X-Talos-MUID: 9a23:zJrGugSc6/S+E8MvRXTImyhTG+JEwZ+nI3wslb4euuOtLBRvbmI=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.02,226,1688418000"; 
+   d="scan'208";a="8057979"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+Received: from athi-tes-mailout02.safaricombusiness.co.ke ([197.248.128.13])
+  by athi-ecisp-rat01.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 18 Apr 2024 15:50:51 +0300
+Received: from localhost by athi-tes-mailout02.safaricombusiness.co.ke;
+  18 Apr 2024 15:50:50 +0300
+Message-Id: <ba83eb$fqjn8@athi-tes-mailout02.safaricombusiness.co.ke>
+Date: 18 Apr 2024 15:50:50 +0300
+To: info@petcomtrainingcollege.com
+From: "Mail Delivery System" <MAILER-DAEMON@athi-tes-mailout02.safaricombusiness.co.ke>
+Subject: Delivery Status Notification (Failure)
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status; boundary="/Kxd.65bvhlVNa.7sK6A434nvy.A8ZAU1H"
+
+--/Kxd.65bvhlVNa.7sK6A434nvy.A8ZAU1H
+content-type: text/plain;
+    charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+The following message to <kinyuaivyone006@gmal.com> was undeliverable.
+The reason for the problem:
+5.1.2 - Bad destination host 'DNS Hard Error looking up gmal.com (A):  doma=
+in has no A record'
+
+--/Kxd.65bvhlVNa.7sK6A434nvy.A8ZAU1H
+content-type: message/delivery-status
+
+Reporting-MTA: dns; athi-tes-mailout02.safaricombusiness.co.ke
+
+Final-Recipient: rfc822;kinyuaivyone006@gmal.com
+Action: failed
+Status: 5.0.0 (permanent failure)
+Diagnostic-Code: smtp; 5.1.2 - Bad destination host 'DNS Hard Error looking up gmal.com (A):  domain has no A record' (delivery attempts: 0)
+
+--/Kxd.65bvhlVNa.7sK6A434nvy.A8ZAU1H
+content-type: message/rfc822
+
+X-IPAS-Result: =?us-ascii?q?A2CpAQAPFiFmmASA+MVXA4JYgUEBWoEiAhAbgTYDhFKBI?=
+ =?us-ascii?q?4wzg3AFl1eGZoFqDwEBAQEBAQEBAQQBBD0DBAQBAYUCAimHeyc3Bg4BAgQBA?=
+ =?us-ascii?q?QEBAwIDAQEBAQEBCAEBAQUBAQEBAQcFARMBAQEBAQEBAR4ZBQ4QJ4VwDYJKG?=
+ =?us-ascii?q?oQfIghFDTcCBBcIEgEFARAGAgIbCBSCZAGCUxEUlT2cNIEygQHgCwoGgTAYg?=
+ =?us-ascii?q?VeGVwGBUwICAoJ/hWRCPwGBTYFKhhQEgSkBEgFoBoMOgmgEgWCEb4hLDIwkh?=
+ =?us-ascii?q?l0mAwcHECtJESEDWSERAVUTGBsUDSQjAik+AwkKEAI2FDQaCyYDKgY5AhIMB?=
+ =?us-ascii?q?gYGWyAWCQQjAwgEA1ADIHARAwQaBAsHdYFIgkkTgTKNTgGCIIQwS4UCCoF+D?=
+ =?us-ascii?q?1AmHTYKDmKBERszAhqZOwsDBQEBAQECAQEBAQEBAwQFEBYDMwghDAYVBUcMA?=
+ =?us-ascii?q?xAIAQQQEBIFMAQNAwIBAQECAYEOAYIegU1egQOULh0BkR1UoHGEHTQIhhmDL?=
+ =?us-ascii?q?oILlTgzhAWKS4IzhlGTGIxBhFCHGY10hReQLoU7ESOBV4EPcDMaCBsVbAYtA?=
+ =?us-ascii?q?QGBNE1SGQ+OOYEVAQKCSZ80dQc2BwELiS+BRgI?=
+IronPort-PHdr: A9a23:of2FPhdyORRUIbByqJNHxJ7qlGM+atnLVj580XLHo4xHfqnrxZn+J
+ kuXvawr0AWYG9yLs7kZ1qL/iOPJZy8p2dW7jDg6aptCVhsI2409vjcLJ4q7M3D9N+PgdCcgH
+ c5PBxdP9nC/NlVJSo6lPwWB6nK94iQPFRrhKAF7Ovr6GpLIj8Swyuu+54Dfbx9HiTajZb5+N
+ gi6oAbNusUZgYZvKrs6xwfUrHdPZ+lZymRkKE6JkRr7+sm+4oNo/T5Ku/Im+c5AUKH6cLo9Q
+ LdFEjkoMH076dPyuxXbQgSB+nUTUmMNkhpVGAfF9w31Xo3wsiThqOVw3jSRMNDsQrA1XTSi6
+ LprSAPthSwaOTM17H3bh8pth61cvRyhugd/w5bKb46JKPpwfabdfdwUS2pGW8ZeTS1BAoWhZ
+ IcLAecNIeNUoo/yqVsLtRu+GQmtD/70yj9VnXD237M13Pg9EQrb2AAsAs4CvHHSod7oNqkdT
+ Pq1wbHHwjvDYf1Y2irz5pbUfR06pPGAQah9fNDNxUUzFQ7IiEibp4z/PzOS0+QAq3KV4PR8V
+ e2zjG4nrhx6ryaoxscojonGmI0VxU7Z/ih+wYY1I9O4SElgbN68DpRQqz2VN4xzQsM+WWFno
+ ic6yrsHuZ69cygF1JMnxxrba/OZfIiH/AjvW/qWITd9nX9ofq+0iBmu/0a60OL8StW030hQr
+ ipDitTBtW0B2RPc5MSZVPZw4Eev1DWP2g3R5e9JPUA6mK7GJ5AuwLM+loYevEvNEyLqhUn7j
+ a+beEsr9+Wn6Onrfqvqq5mBPIF6jQH+N74hms25AekgKggBQXSb9vi71L3m4U35Wq9Fjvwwk
+ qnYtpDaKtgUpqm9Aw9RzIkj5AiwAy2639QfmHkKKk9OdhGfj4XxJl3DJPL1Ae2hj1mjkzpn3
+ e3KMqPiD5nXIXXPiKntcap55kJGywc+zcpT64xJBrwCOv7+VU78udrFBRInNwy03v3nCMlj2
+ YMERGyPA66YP73KvFOU4O8kPvOCa5UPuDnnLvgo//vujXgkllADZaSpxp4XaGygHvRhPkWZf
+ WLggtcfHmcOuQozVPbliEGCUT5Sfnq9Qb4z5jAgCIK+FIvMWpitj6aH3CilGp1af2VGBUqNE
+ XfscIWERusMZDiXIsB7kzwEUaOuS4gu1B20rw/10bRnIfDO+i0ZqZ3j09116PbOlREp9Dx0C
+ dqS03qWT21ugmwIQCU63KNhrkBly1eD17Z3g+BAGNBO4/5EUB02OYDTwuF5Edz+RxzNc9STR
+ FupWtmmBCs+TtM1w98AeUZ9HNCigwjC3yqsDb8VkKeGBIQq/aLAw3fxIMN9y2rc1KY7jlkmR
+ MpPNWuphqFj8AjTA4rJnFuWl6m0b6gTwCnN9GKbwWqIp05XSBRwXrndXXADekvWqsz06l7aQ
+ 7+0FbsnKhdBydKFKqZSad3pjFNGRff+ONvEYmKxhWexBRGOxryScIbmZ2QQ0T7SCEgBiQ8T+
+ WyKOhQ5Biek8CriC2ltFFT+fkrt7/h5rn7jFhEcwASDawtq0L/m1AQSgKmkRu8Y2bdMkyAlr
+ zh7ER7p3tTYDPKYqhZqe6BAe9o85lZB2mneswhwMZHmJKdn0A1NOz9rtl/jgk0kQr5LltIn+
+ S9ypDc=
+IronPort-Data: A9a23:jXYGlK7Qese9akqns8mUNwxRtMjHchMFZxGqfqrLsTDasY5as4F+v
+ jYZUWDXbv6CYzHzLdl3boS/pkIFuZDSz9ZqGgpk+S88Eysa+MHILOrCIxarNUt+DCFioGGLT
+ Sk6QoOdRCzhZiaE/n9BCpC48T8mk/jgqoPUUIbsIjp2SRJvVBAvgBdin/9RqoNziLBVOSvV0
+ T/Ji5OZYADNNwJcaDpOt/rf8UM355wehRtB1rAATaET1LPhvyRNZH4vDfnZB2f1RIBSAtm7S
+ 47rpF1u1jqEl/uFIorNfofTKiXmcJaLVeS9oiE+t5yZv/R3jndaPpDXlBYrQRw/Zz2hx7idw
+ TjW3HC6YV9B0qbkwIzxX/TEes1zFfUuxVPJHZSwmeOZyxLoLGPh+t5BUWQRGIcy5r9yJ1gbo
+ JT0KBhVBvyCr+uqwLP+R+JtndxmJ9HiOo4b/3RpzDXeEOpgRJnCR6/N9ZlD1Tk5nMFFGvPUe
+ tEYbzd0d1LLZFtMNz/7Crpnzbju3CWvNWQC+BTJzUY0yzG7IAhZ0b7jN/LNd8CBQsBJhE+Zo
+ GPA8G/+BhUXO9HZwj2Amp6prraRw3ujCNpNfFG+3v1NsAep910TND8fTHC8m9fmiWGxcesKf
+ iT4/QJ38PNjrRPDosPGdx65pm+Ztx8CSt1WHrVitimCz6PQpQ2eAwA5oiVpYcAmtYo7Tj0xz
+ hqCh9rvCDgqtbSUTXWA6vGPpD27IykeKmoIeDQFSwYe+J/op8cwg3ojU+qPDoaahNmqN27oz
+ gmhg3UboJAZp9JS0oOCqAWvby2XmrDFSQs85wPyV22j7x9kaIPNW2BOwQWBhRqnBNvDJmRtr
+ EQ5d96iAPcmLrzlqcBgaOwRHLDs6v2EKyWZikZmGZQlsjGk+nqkYJwW+zhwLV1oOcEBcyLyY
+ UneohgX75gVP3bCgU5Lj2CZVZ9CIUvITIqNuhXogjxmOcMZmOivp30GWKJo9zqx+HXAaIlmU
+ XthTe6iDGwBFYNsxyesSuEW3NcDn39nnjiMFc6lkkj3itJygUJ5r59baDNiichntMu5TPn9r
+ r6zyuPRl0kPALakCsUp2ddKcgpXRZTEOXwGg5UKLb/afWKK6Uk6AvHY27IqfIktm6VQl/vF8
+ hmAtrxwljLCaYn8AVzSMBhLMeq3Nb4m9C5TFXJ3Zz6AhSN8CbtDGY9CLfPbi5F9qrw6pRO1J
+ tFYE/i97gNnFG2ZomtGNcOkxGGgHTzy7T+z0+OeSGBXV/Zdq8bho7cIoiOHGOIy4uZbeCfwT
+ 3BMFu8WfHbbezlfMQ==
+IronPort-HdrOrdr: A9a23:GnjHma5nT67XVrWA/wPXwN/XdLJyesId70hD6qkQc3Zom62j5q
+ OTdZsgpHrJYVoqN03I+urtBEDjewK5yXcd2+B4VotORDOKhILPFu9fBODZowEIdReeygck79
+ YDT5RD
+X-Talos-CUID: =?us-ascii?q?9a23=3AWF18KWsKq0laAUF5vBdZCesI6IsKeHmC4ijILna?=
+ =?us-ascii?q?TJjtMb5ifY0PJ/YVdxp8=3D?=
+X-Talos-MUID: 9a23:hcgrKQiJXcYohw8QOQZmHsMpN+BYuZ6fOUAxs5wfkM6+G3NzFDi3tWHi
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.07,212,1708376400"; 
+   d="pdf'?scan'208,217";a="16600807"
+Received: from athi-ecisp-cpanel-mailout.safaricombusiness.co.ke (HELO athi-ecisp-cpanel-mailout.mailbox.safaricombusiness.co.ke) ([197.248.128.4])
+  by athi-tes-mailout02.safaricombusiness.co.ke with ESMTP; 18 Apr 2024 15:50:49 +0300
+Received: from host16.safaricombusiness.co.ke (host16.safaricombusiness.co.ke [197.248.5.16])
+	by athi-ecisp-cpanel-mailout.mailbox.safaricombusiness.co.ke (Postfix) with ESMTP id 9C2077E3
+	for <kinyuaivyone006@gmal.com>; Thu, 18 Apr 2024 15:50:20 +0300 (EAT)
+Received: from mail-ej1-f46.google.com ([209.85.218.46]:43116)
+	by host16.safaricombusiness.co.ke with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <info@petcomtrainingcollege.com>)
+	id 1rxRDd-00060e-1B
+	for kinyuaivyone006@gmal.com;
+	Thu, 18 Apr 2024 15:50:47 +0300
+Received: by mail-ej1-f46.google.com with SMTP id a640c23a62f3a-a526d381d2fso342998466b.0
+        for <kinyuaivyone006@gmal.com>; Thu, 18 Apr 2024 05:50:46 -0700 (PDT)
+X-Gm-Message-State: AOJu0Yx64tYizTa/q6nl3Gi16klPUM9oLfTBhbOnxZowtHePYP4oit5e
+	LTTDwLEVglGjEUNyrYPONt/ODnOuG7LbI86GYqhDAnYLxxvqPamC43pE0JbJkpa9xhWxAIE4EQu
+	PodStfS2+kQs3ZUApciAZgD8xgao=
+X-Google-Smtp-Source: AGHT+IGpQoq44is9/iw7iqqUHPfME9822mjRnuSnxqjLUcGQhxhdboeQfJpo58WKKHjvBvr1VTbM5tbv3xqkQtt/RSM=
+X-Received: by 2002:a17:906:c9c8:b0:a55:690b:b696 with SMTP id
+ hk8-20020a170906c9c800b00a55690bb696mr1867213ejb.9.1713444644861; Thu, 18 Apr
+ 2024 05:50:44 -0700 (PDT)
+MIME-Version: 1.0
+From: Petcom College <info@petcomtrainingcollege.com>
+Date: Thu, 18 Apr 2024 15:50:32 +0300
+X-Gmail-Original-Message-ID: <CANphxs71penEMOiCxirnWXH3e1Ofz4mWF8qO9V7zGUcCD62E4g@mail.gmail.com>
+Message-ID: <CANphxs71penEMOiCxirnWXH3e1Ofz4mWF8qO9V7zGUcCD62E4g@mail.gmail.com>
+Subject: 
+To: kinyuaivyone006@gmal.com
+Content-Type: multipart/mixed; boundary="00000000000066663806165e6ba6"
+
+--/Kxd.65bvhlVNa.7sK6A434nvy.A8ZAU1H--
+
+

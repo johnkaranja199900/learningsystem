@@ -1,0 +1,288 @@
+Return-Path: <Business.support@safaricom.co.ke>
+Delivered-To: admin@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id EE3JFXbdC2Z+CQAAz9s6Ng
+	(envelope-from <Business.support@safaricom.co.ke>)
+	for <admin@petcomtrainingcollege.com>; Tue, 02 Apr 2024 13:27:02 +0300
+Return-path: <Business.support@safaricom.co.ke>
+Envelope-to: admin@petcomtrainingcollege.com
+Delivery-date: Tue, 02 Apr 2024 13:27:02 +0300
+Received: from athi-tes-rat02.safaricombusiness.co.ke ([197.248.128.138]:1679)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <Business.support@safaricom.co.ke>)
+	id 1rrbKQ-0002au-38
+	for admin@petcomtrainingcollege.com;
+	Tue, 02 Apr 2024 13:27:02 +0300
+IronPort-SDR: 660bdd50_GyI4RB909kDEEYUAOi5LgdPV43am41I2eqIgZAZFojb4mxf
+ otUk1gT3R1DiolfxMVdttWyZIsQbs6OQAWX1ypQ==
+X-IPAS-Result: =?us-ascii?q?A0GKAwA5n3Vk/4VINs9agQmBT4EsgQMHbAJVQEeZaJoRF?=
+ =?us-ascii?q?IERA1YPAQEBAQEBAQEBCUQEAQEEimECJTQJDgECBAEBAQEDAgMBAQEBAQEDA?=
+ =?us-ascii?q?QEFAQEBAgEBBgYCgQYIC4UvFyINhF0sgR4bEwEBOBEBgR8HAQQ1gl2CFRMDM?=
+ =?us-ascii?q?QOgUAGBKz4CKAFAAQyBCooHgSETgQGCCAEBBpxZGF+BX4FLg1WFYYhegUsKi?=
+ =?us-ascii?q?VEBEgGEEYJSghmMJow9Z4EvcIEhgSeBAgIJAhFngQ4IZoF0QAINVQsLZYEjg?=
+ =?us-ascii?q?lkCAhE+FE18DgERAwcEAoEHEC8HBDIoBgkYMScGVgctJAkTFUIEg2wDCoEjL?=
+ =?us-ascii?q?wc2A0QdQAN7PTUUHziCGASCAkycFoUVgg6BD6AojjWUGzUHhAuBXQyCMI9KD?=
+ =?us-ascii?q?lWkM5IjmA4gojmFWYFjPWlwMxqCEYFJUgsOD412AQEBhBuDDYxsRDE7AgcLA?=
+ =?us-ascii?q?QEDCYtGAQE?=
+IronPort-PHdr: A9a23:J8+IMxDOcK9JoL6QPOVXUyQVZBdPi9zP1kY97ZB+zbJFL/z5usykM
+ VGZ5O1tiU+PVoLeuLpIiOvT5rjpQndIoY2Av3YLbIFWWlcbhN8XkQ0tDI/NCUDyIPPwKS1vN
+ N9LWlZ//nq8NG8ORpu4YFvXo3ao6iUVFAm5Pg1wTtk=
+IronPort-Data: A9a23:eD9dv6NIrROpnjPvrR2glsFynXyQoLVcMsEvi/4bfWQNrUoqhDFUm
+ GMbXGyFM66PMWT2f9l3bojgoE5Tv5WHz9NgTXM5pCpnJ55oRWgpJvzCdxutYHnCRiHnZBg6h
+ ynLQoCYdKjYdleF+lH3dOKJQUBUjcmgXqD7BPPPJhd/TAplTDZJoR94kobVuKYx6TSCK13L4
+ YuaT/H3Ygf/gGYpaTpMsspvlTs21BjMkGJA1rABTa0T1LPuvyF9JI4SI6i3M0z5TuF8dgJtb
+ 7+epF0R1jqxEyYFUrtJoJ6iGqE5auK60Ty1t5Zjc/PKbi6uBsAF+v1T2PI0MS+7gtgS9jx74
+ I0lWZeYEW/FMkBQ8Qi0vtYx/yxWZMV7FLH7zXeXqv2B0WTUWHLQgLZiNG4qNNVG2+ldHjQbn
+ RAYAGhlghGrivm/hrKwF7E2w5xlIdStPZsfv2EmxjbcZRokacqbHOOXuZkHhnFp3Zsm8fX2P
+ 6L1bRJFcQ/BZRBUIREMFYomm/20rmL2fTRCqVmSoOw85C7QwWSd1ZC9aYaMIIPSLSlTtl2Vt
+ yH20Ur5Pk01GMe/7DqU1UmApdaayEsXX6pXTtVU7MVCiVGWx2o7EBAKXly+veOwi0i/Xd1UL
+ EgQ9yUj66M18SSWosLVUgax5n6P40ZGHoIWHvB86RmNz7qS6AGcboQZcgN8hBUdnJZebRQx3
+ 1GAhdLiAjlI6+PID3Wb87aftzSpPiYJa2QFYEc5ocEtuoWLTCwb13ojkv4L/GWJYhEZ1N0+L
+ /1mbMTzulnLsfM26g==
+IronPort-HdrOrdr: A9a23:NDR4Z6BuxO2u4mblHehvsseALOsnbusQ8zAXPh9KOH5om52j5q
+ OTdaogtSMc0AxhIk3I+ertBEDyewKgyXcV2/haAV7GZmKW3VdAQ7sSlrcKrweQfxEWldQtmJ
+ uIGpIWYOEYZmIK6/oSlTPIa+rIt+P3iZxA692uqEtFfEVBUY0lxQF/DQqQD01xQyd7JbdRLv
+ Chz/sCjQCNPVAMYOqGJlRtZYX+Ttvw+vPbSC9DIyRixBiFjDuu5rK/Ox+E3i0GWzcK7aY+/X
+ PDmwnZ4Lzml/2g0BfT20La8pwTwbLau5R+Lf3JrvJQBiTniw6uaogkc7qevAotqOXqxEc2nM
+ LKqxIAOd02z3/KZGm6rTbkxgGl+jcz7H3Jz0OenBLY0IDEbQN/L/AEqZNScxPf5UZllsp7yr
+ h302WQsIcSJQ/cnQzmjuK4Fi1Cpw6Rmz4PgOQTh3tQXc81c7lKt7ES+0tTDdMpAD/60oY6C+
+ NjZfuspMq+MGnqLEwxjFMfheBEbU5DWituhXJy/fB95gIm3kyRCXFogvD30E1wra7VAKM0m9
+ gsep4Y642mCPVmI55VNaM9QNC6AnH2SxrKN26IZWvqD6wGMW+lkfHKCLlZ3pDVRLUYiJQ1g5
+ jPS1VeqCo7fF/vE9SH2NlR/gnKW3jVZ0Wl9ihy3ekPhlTHfsucDQSTDFQ118ewqfQWBcPWH/
+ 61JZJNGvfmaW/jA5xA0QHyU4RbbSB2arxfhv8rH1aV5s7bIIzjseLWNP7VObr2CD4hHmfyGG
+ EKUjT/LNhJqkqrRnj7ih7MXG6FQD22wbtgVKzBu+QDwokEMYNB9gATlFSi/8mObSZPt6QnFX
+ EOVI8OucuA1BiLFKbznhBU00BmfzZoCZ3bIgB3jB5PNV/oerAevNjacXxO3RK8V21Cc/8=
+X-Talos-CUID: 9a23:1rvqCGCqIGmvT1P6EzJW5lA9COssTj6ewE//P0bgV0dmYqLAHA==
+X-Talos-MUID: =?us-ascii?q?9a23=3AmleiTA+vuYA3F9gKedbfjSeQf9xl8ueeJm4Nrck?=
+ =?us-ascii?q?pl9KkECxhHAyxrw3iFw=3D=3D?=
+X-IronPort-Anti-Spam-Filtered: true
+X-URL-LookUp-ScanningError: 1
+X-IronPort-AV: E=Sophos;i="6.00,203,1681160400"; 
+   d="scan'208,217";a="8141270"
+Message-Id: <187fdc$7oeem@athi-tes-rat02.safaricombusiness.co.ke>
+Received: from esa.hc502-0.eu.iphmx.com ([207.54.72.133])
+  by athi-tes-rat02.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 02 Apr 2024 13:26:21 +0300
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=safaricom.co.ke; i=@safaricom.co.ke; q=dns/txt;
+  s=safaricom-CES-dkim2023; t=1712053581; x=1743589581;
+  h=from:to:subject:date:mime-version;
+  bh=v7aAKNGh72xf1gnnLF/jTP8aq2DBUP1G9+8vsF8csrQ=;
+  b=C7nwOvVJFQ37LyOzlA+IJrFPljUSrotjH1CSl2gYRq79dvzav1BpIOwn
+   0Kriyr9PsY+4oeqjDqOuV1TWb6rlJ75KgovoOREA1MbI8zUzgMCopI8d8
+   4+Lh5RZTEUcwD4Kj9ZbAF26tsex/AkjUlY57TxbrmM9J5yPvrVsSFGrOu
+   X8N50ZQJyjuC+T8gyq/afjQaJ4PHp1POYVRpu0Rj2en1rZvf+1hRolbWL
+   u2t8l6aA2ocrbwVTwX3r2s//6dPyb3sdJXyC279cKs1nVRRvgHtimNGpH
+   6GgLVFSVNHEEm9GYxHvxfkasEZITK77xxYkLGM0HNt3B2Zt4EhRjVBPUA
+   A==;
+X-CSE-ConnectionGUID: ChWqmbp6RMSu1pTKZQOrqg==
+X-CSE-MsgGUID: uykwWl9MQQCzQxjLMlPY8w==
+Authentication-Results: ob1.hc502-0.eu.iphmx.com; dkim=pass (signature verified) header.i=@safaricomO365.onmicrosoft.com
+X-ThreatScanner-Verdict: Negative
+X-IronPort-AV: E=McAfee;i="6600,9927,11031"; a="6313538"
+X-IronPort-AV: E=Sophos;i="6.07,174,1708362000"; 
+   d="scan'208,217";a="6313538"
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=Pf7ub9syGGq21wb33we3bhcLhf+oNvQmvfG8y9ixvDdO1Td3bURKptN67rLxPVL5YV1UYb/Yuqg32yBvcpk2I5B66NvInq+wHYtbjUHOZj2pKhKDdKaVIVGXc66hfgpmEPiLHYE35ML6EdisOeaic3jyspQ+0WmMKnADeF1JLUo1JZjIQPPNbXkyt4XT1OFBTMf7xkY4rSz6WhJOz7upR1NxLoauJi7P1yh2L8IQwQ6+zU35jNwvDHzRjJIribI7mUkEiMNLXg0wZEif7bLab8YTBZ3eNl8uLCGd0HqaFigG5c1Sa+mGYyf6pczIeIWa7K/ocZOjdaFstYOqAjZd3g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=ledGmws+eLdfVVnTY/S1Xrnnmj8SBGo2vP+xvR+azRA=;
+ b=BGATzV/4u4a7kcV9n6IWBhqqNz1Ii1+S3OfcwKlYCPPipRNSgMa0/r2cWLQQmfF1z8RdJq6F/epYus/ky4T9JimAbervZ4SNrkIZKIGZ6HQ/9Z9eNrh+fRh8xocPeRj+rmflXHvgLqxmO8sofVkBDiV/ZkX5VaYIdSSyUBN9SNRBEu6xR9R+bAp/NsSl0SG62kJ/eh7ClJIn3TqRFo7b10C7Qj7Q4oQ+1Tab0AFkFgKuSoNoJQ1QQ4XLzU1RNn9UFWLegWFvyJhWmEb+HxAeNxs0qemUXlaWL8XlRkMfPmsYlq2XOJj5rn6SNOsX2ZsQFgCeLb60LzwHBkArONS/nw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=safaricom.co.ke; dmarc=pass action=none
+ header.from=safaricom.co.ke; dkim=pass header.d=safaricom.co.ke; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=safaricomO365.onmicrosoft.com; s=selector2-safaricomO365-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=ledGmws+eLdfVVnTY/S1Xrnnmj8SBGo2vP+xvR+azRA=;
+ b=H4Ww6FMSUEKpkO2hTwzBZAZ/1ygePqxnYDAAgXr8/RuDCKUl/KYjR9ey8obvYmyozfx4QhVln7RgNZOTJm746CIDzPdppVzb2UF1NuUgRRO+X4McDu/oLE0vKknssoncJUnesjst+RpFLIs+w5Z38LTPTnBkKiRCkTKb8VFwqN8=
+From: Business Support <Business.support@Safaricom.co.ke>
+To: "'admin@petcomtrainingcollege.com'" <admin@petcomtrainingcollege.com>
+Subject: checking email delivery
+Thread-Topic: checking email delivery
+Thread-Index: AdqE6CEPwg2KXg/BTfa8sZRK8ODMOQ==
+Date: Tue, 2 Apr 2024 10:26:15 +0000
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+ MSIP_Label_6926a360-01f4-41de-a997-796697102599_ActionId=e49e6001-bf90-4d29-9315-264fd7793819;MSIP_Label_6926a360-01f4-41de-a997-796697102599_ContentBits=0;MSIP_Label_6926a360-01f4-41de-a997-796697102599_Enabled=true;MSIP_Label_6926a360-01f4-41de-a997-796697102599_Method=Standard;MSIP_Label_6926a360-01f4-41de-a997-796697102599_Name=6926a360-01f4-41de-a997-796697102599;MSIP_Label_6926a360-01f4-41de-a997-796697102599_SetDate=2024-04-02T10:25:22Z;MSIP_Label_6926a360-01f4-41de-a997-796697102599_SiteId=19a4db07-607d-475f-a518-0e3b699ac7d0;
+x-ms-exchange-messagesentrepresentingtype: 1
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DU2PR07MB8364:EE_|AS8PR07MB8283:EE_
+x-outbound-auth: mysecretkey
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ vUQBIDbzrBI98hG7Nr8GWDuLhxFOPBjghWsWVsxgKn7ru4Be+nRK+PvFuP2XhnG3xw7MQqZVinTgjNnDKboFNm6ztSX/V8JRQz5PhHy0ni4i3RBdTc+x9t4TOts6k/GdA2S0yzGzWZsgeERxsH6b2zS73ZD7ATJvkGRwoGardhORsNSBqQPwvtzIpbeaYA/FZZgWTIWBIb+EKA0UA4M6UOE3lGRHQ1ME7phlklAYABnUpsDXhlG+H0rmvYf2llorDU+eWwk0zSM1JQI3+oo2PL/qXWIFTerHkDrZCjTJ+mv5CJ7bDsn8FWeixhHPby9LipUe5ujHhFqbesDN8Wx4F896bhVEueGlYq7mxOzk9dGZpI3ViMb2eFBB8f5GbZH/AWcp8xx8HueIXnVuw5CmMJBNOk5r5loDRZAlGbAKTQUCkwghYJpKMqwc+pdLp1+BtuzMSSaJ5oMWyYyHuoDVlcvftZBvJazSOWTMX8qXTtEqJo+MkNn9Z7pQTolahoKaZMHnLvKKnbs+/baPKRLymk+ie3RsBO0X6xcNQAZGmLDwOP9MvWPDORHj2FV/3BQy7V6vU+6uXEbEmNBoNNknhAbQMgMh1edWUWPpiTjr57nbvSeUyGH3VmrSr7xDbCTi1gjnypDOrasMXFKSKz8P/Lepy1pt96YelxG9T0BO/As=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:DU2PR07MB8364.eurprd07.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230031)(376005)(1800799015)(366007);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?cLQUDMtQLbLzRYh4x8ry4uU+TaQ3t4Cu/sM7u7nNfGDuJUpQhaSRl59+EIu9?=
+ =?us-ascii?Q?/C/IJMHGemaLCoR/Aoh1KB1AHE2YUzSaSG4b73aVT0SKxsPoNhRN2lUy5bKR?=
+ =?us-ascii?Q?gBvhKR3ANDv0b8BL5d0i8/UDwXzCdWRWIOfdPiUv564BKGqcq6moZwgX1b1p?=
+ =?us-ascii?Q?/pWcSDRHD03Wl1MYXPwCokabw1BwxFG0dXhv5N2J2QYPQTJtyoTqYFUFhBZz?=
+ =?us-ascii?Q?WHUdWFUahVmQDkt021FQ5pgtKb7JUNnm0r4jkTz7pG2k9aaQr+tyH2OUhvdR?=
+ =?us-ascii?Q?qcLV3R/51dLzL5SXgvhKF/oMeIgWLWSgMxKuJ3dJYjaqMEU2ohWHpdJ0r53S?=
+ =?us-ascii?Q?xn7vuREIBHmVxjMMRFeohaOUZbPl5/lR7CC82clWJTWiLJLeuiB/TIVd68Sd?=
+ =?us-ascii?Q?2H0YVmDQ0J/22pvkXPs7P3dOyfTv1t15ebyyrcqdNjBNaDA7by32+GNJY1/0?=
+ =?us-ascii?Q?JQsC5XBp9Py7YNnpjwwfSq/REbLJpMeVhUYTDYg5U/BQmkLC13lhquB7+jA+?=
+ =?us-ascii?Q?cj5IumPX3PcDMoHqmYOmhI6D4cFQy0Aezn614Bldlu5rLG0q9xVS6sup7Sfh?=
+ =?us-ascii?Q?1EQvtHKNSvMxz/5vUJFK8TUNQLdsFmnP6qcrgItnhlXnIfjtnNvqbEKDHnxG?=
+ =?us-ascii?Q?+KkZa+58+bzL4SQFsbgzGU2Um4JuRwoArSAvlUBPvwCkjK9lVvwAnf79xDfP?=
+ =?us-ascii?Q?hKB6salYwmvUOVjcmmGpJ5xxucec/TSbay/MRexFDDSF6oPdEzrg8Md7xSAs?=
+ =?us-ascii?Q?h9hYWzjbD9EQM95p2hzqmu/AwjJMea30nZOp2LBo3EXGO00h+LOu46iqz3Va?=
+ =?us-ascii?Q?dGuUyq3EWT2Mfbg9TSLmop4eZLdJyDmylCXme93eXUoqhNrLIt39pk7cO1jM?=
+ =?us-ascii?Q?j5f1AcOhzqJNZd+TYCyLj//jKb3A7druF+RaoOlQZj1uFqD0Pe5tLeheKzsi?=
+ =?us-ascii?Q?J0EzFeIHwPJayOGGPuH3cyeE0NFvLwWgHwWaOm9rqQZCONbDpF1iM6AKsfu0?=
+ =?us-ascii?Q?cjUYC0DdVWzqh8roVSucGjeEQYGaCBrQGCfnNiAKsZeFaJiS8WChcAfCUNFZ?=
+ =?us-ascii?Q?vOsub0mqlkI9AcxEoIFJs6WqOmiRQrCPPH1l3aSlUiD2aAuU7rfoIMm2ARsr?=
+ =?us-ascii?Q?jmEzDGWKGM7Sp9ZnTsik3LugxK3VQYcnchQltRnxHf2mmrj8j7FqxGwCAyhO?=
+ =?us-ascii?Q?4+9sYgDBE83mFc8RgGGckwvBLxs/yHlAgIZwg7lPNrIeA8Pn/DfZZOZC0+0X?=
+ =?us-ascii?Q?GoCWt5e+bXcOldFWAJz/zrqBa//KTYBlRI+lAyVSUcZNQP28JQwsQHietP7j?=
+ =?us-ascii?Q?lND2QU9WULi7DqnJ0ejAOB0kmA5x/WwcRaqMaRqI49bBypNtfO+Ds+8sjx/G?=
+ =?us-ascii?Q?mqwGuAtkGm8eSz1BaJJTIgjzSutk2zkibDnn7l6bm9eBoQrFjGUKtbqHxJvE?=
+ =?us-ascii?Q?pm42QfA48RHiSw7HVJXJnke7y1YRDNDxHoM3bzN1n3FhB72SDzas8mHQQ4Xz?=
+ =?us-ascii?Q?kAPpFIhMpn1csyeIEA/EwWyg6aNzfbjh1+KBlAIvl5uhaFpIufby7Xoc2EuG?=
+ =?us-ascii?Q?Pxcr3kOMDtq35uPXr0TBIBrLkdHDGIO71lZtMsaG?=
+Content-Type: multipart/alternative;
+	boundary="_000_DU2PR07MB8364415CB09C00A3ADE7D98B953E2DU2PR07MB8364eurp_"
+MIME-Version: 1.0
+X-MS-Exchange-AntiSpam-ExternalHop-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-ExternalHop-MessageData-0:
+	ie64LKwmQ5UM8vApPLbX9WInPUTeXsv9oTrn2fidpB2hIAuVjCBzJ4ijDQTfhd0cRg5MPuB8vYsi8vEh2ijnnDh8T3ZyPa0ue8jbxuNZJiZVwVjo+b+bpcpZLzWV1OR5YwwelJbipq3xweDIs4Rac3QT/IstzUn9JP4uyEWl3i9z32qBbtER/ZTnq0iSFgWEGcj3t7y/uJYFmIEEMda++NAbLw7KWEI9wwKt9MOakMmpfhbkAOhQXfSETc4+qgRAroiQSXC+ba8AkImhUham/XnBfc9PprjRCKmh6NDgHLmy67qVzhdCcI1nn1H2S+QxNOm5lpyis9hO9RkA6Lkd1T/SNDtXlI1tAcipR02uC6Ra4acniIZ+y50LoIPfM2P44nE5ePdEHZX3Lal12h0x2PHZkW+FwDju9Qk9Yt3NN5B7NnGfcYIOMykAhSBqO15Tduceh62wed/tq4IxN/S5vcRNH8Oang529BNkfWCTmKSmRPCtrMHRt9Ak89+sl2IdNT1X9LYow8iUcpEN0H+xk0n2vECr68TGIQNDJHVnXjp40M6iOKE2MluPGn6+jBvtO7CGnTDNAhcKOZi1iYJMon3AM85Uj+q/zNBytncuNMmXc987JL0kStk5Iv7q2tdH
+X-OriginatorOrg: safaricom.co.ke
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: DU2PR07MB8364.eurprd07.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 14138708-4fc9-407f-4650-08dc52ff53bf
+X-MS-Exchange-CrossTenant-originalarrivaltime: 02 Apr 2024 10:26:15.4426
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 19a4db07-607d-475f-a518-0e3b699ac7d0
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: 36+2OPIw5QaCgdcWErCvd+quYlitX4q+ci8z3C8VzZ0DuNaM6r13XVY56mrLUnoerFWFSqb+llpDX18DfAsy2AUbotbMZ/WkXCfWqlK/kQY=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AS8PR07MB8283
+
+--_000_DU2PR07MB8364415CB09C00A3ADE7D98B953E2DU2PR07MB8364eurp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+
+
+
+Kind regards,
+
+Newton Wanyama.
+Fixed Data and Home Fibre Support.
+P. O. Box 66827-000800 Nairobi Kenya
+Landline: +254722002222/2222/400
+
+
+C2 - Safaricom Internal
+
+--_000_DU2PR07MB8364415CB09C00A3ADE7D98B953E2DU2PR07MB8364eurp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Century Gothic";
+	panose-1:2 11 5 2 2 2 2 2 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ligatures:standardcontextual;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:=
+break-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;mso-ligatures:none"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;mso-ligatures:none"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;mso-ligatures:none"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;mso-ligatures:none"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;mso-ligatures:none"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ce=
+ntury Gothic&quot;,sans-serif;color:#333300;mso-ligatures:none">Kind regard=
+s,</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&=
+quot;,serif;mso-ligatures:none"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+mes New Roman&quot;,serif;mso-ligatures:none"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ce=
+ntury Gothic&quot;,sans-serif;color:#333300;mso-ligatures:none">Newton Wany=
+ama.</span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roma=
+n&quot;,serif;mso-ligatures:none"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ce=
+ntury Gothic&quot;,sans-serif;color:#333300;mso-ligatures:none">Fixed Data =
+and Home Fibre Support.</span><span style=3D"font-size:12.0pt;font-family:&=
+quot;Times New Roman&quot;,serif;mso-ligatures:none"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ce=
+ntury Gothic&quot;,sans-serif;color:#333300;mso-ligatures:none">P. O. Box 6=
+6827-000800 Nairobi Kenya</span><span style=3D"font-size:12.0pt;font-family=
+:&quot;Times New Roman&quot;,serif;mso-ligatures:none"><o:p></o:p></span></=
+p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ce=
+ntury Gothic&quot;,sans-serif;color:#333300;mso-ligatures:none">Landline: +=
+254722002222/2222/400</span><o:p></o:p></p>
+</div>
+<br>
+<p style=3D"font-family:Calibri;font-size:10pt;color:#000000;margin:15pt;fo=
+nt-style:normal;font-weight:normal;text-decoration:none;" align=3D"Right">
+C2 - Safaricom Internal<br>
+</p>
+</body>
+</html>
+
+--_000_DU2PR07MB8364415CB09C00A3ADE7D98B953E2DU2PR07MB8364eurp_--

@@ -1,0 +1,340 @@
+Return-Path: <business@trainingexpress.org.uk>
+Delivered-To: admin@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id YDR1N3j3SmbKLx8Az9s6Ng
+	(envelope-from <business@trainingexpress.org.uk>)
+	for <admin@petcomtrainingcollege.com>; Mon, 20 May 2024 10:10:48 +0300
+Return-path: <business@trainingexpress.org.uk>
+Envelope-to: admin@petcomtrainingcollege.com
+Delivery-date: Mon, 20 May 2024 10:10:48 +0300
+Received: from athi-ecisp-rat01.safaricombusiness.co.ke ([197.248.128.5]:1793)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <business@trainingexpress.org.uk>)
+	id 1s8xAX-008an2-2D
+	for admin@petcomtrainingcollege.com;
+	Mon, 20 May 2024 10:10:48 +0300
+IronPort-SDR: 664af777_H5yEvAJ/a4kcnbsDA/jLAYPxV+m6lfSqIjKbihVklv1Cy0D
+ SPNK3DY/Hp+lY8ONNO9qwLJp1A/e6s2xVnReioA==
+X-IPAS-Result: =?us-ascii?q?A0G6TABSr/Vk/ymhVdFODBoBAQEBATwBAQEBAgIBAQEBA?=
+ =?us-ascii?q?gEBAQEDAQEBAYFkAoEyGwIBAWsxPlUQMEcDhE+BI4IsjhGXMIIghVQDVg8BA?=
+ =?us-ascii?q?QEBAQEBAQEJFAIBAg4UCQQBAQQmhFyGcAIlNwYOAQIEAQEBAQMCAwEBAQEBA?=
+ =?us-ascii?q?QMBAQUBAQECAQEGBQECgQYIC4UvOQ2CNwwXggMsgR4LBh0BAQcoCRAVNwIkE?=
+ =?us-ascii?q?gEFATUcBoIYRTWCKQMRBppigQVCizuBMoEBggkBAQaBBztTA68UgUkJEoEaF?=
+ =?us-ascii?q?gIBAQEBiAQBgUsBAYYDgi0CJxuBP040gReCPQeBdAF5YwEBAQEBAxEDREABH?=
+ =?us-ascii?q?FIggw6CZ4Rzg25tgisXgn8HMoFKgUWCeYFNghaFECYqgQgIXoFqPQINVAsLX?=
+ =?us-ascii?q?QaBD4ESElxHAgIRORRHGFkbAwcDgQIQKwcEMiIGCRctJQZRBC0kCRMSPgRzg?=
+ =?us-ascii?q?kkKgQI/EQ4RgkYrNjYZS4FigQQJFQYBOU52ECsEFBiBDQheEB8VHjcREgUUD?=
+ =?us-ascii?q?QMIdh0CESM8AwUDBDYKFQ0LIQUVQgNIBkwLAwIcBQMDBIE2BQ8fAhAuPAECA?=
+ =?us-ascii?q?UMdQAMLYgs9NRQbT6BPAz0zg1Y3AQVMPwFsj2uDMAwlsWOEGol9gX2PFoJpg?=
+ =?us-ascii?q?yAzlzOIXolOkiWGB4sFZ4F1S5oJECOBVicrgS6BAXAGbV9kCUkLDg+ON4Ngg?=
+ =?us-ascii?q?mSFFod/RDICEicCBwEKAQEDCYZIhQABAQ?=
+IronPort-PHdr: A9a23:UEvQdR2ZaDQiYuKhsmDOmQMyDhhOgF0UFjAc5pdvsb9SaKPrp82kY
+ BaBo6wx3BSTA83y0LFts6LuqafuWGgNs96qkUspV9hybSIDktgchAc6AcSIWgXRJf/uaDEmT
+ owZDAc2t360PlJIF8ngelbcvmO97SIIGhX4KAF5Ovn5FpTdgsip1u2+4YDfbgpLiTayf79/L
+ Qi9oBnMuMURnYZsMLs6xAHTontPdeRWxGdoKkyWkh3h+Mq+/4Nt/jpJtf45+MFOTav1f6IjT
+ bxFFzsmKHw65NfqtRbYUwSC4GYXX3gMnRpJBwjF6wz6Xov0vyDnuOdxxDWWMMvrRrw0Wjqi6
+ blrSB7ziCcGLDE59H/YgdF+jaJcuhKuugd/yJPQbI2IKPZye6XQds4YS2VcRMZcTyNOApi8Y
+ YUBDOQPIPhWoJXmqlQUsRezHxOhCP/zxjJKgHL9wK000/4mEQHDxAEvBM8OsG/VrNXzKqgSS
+ vu1wbLUzTXZdfxW2DH96InOchAuv/6NUqpwcdDPxkk0DAPJlFKQqZbqPz+Py+QNsG6W5PdvW
+ uyzkWAosR1xoiSxycc2jInEnp4Zx1HE+Ct3wIg4J9K2RUB0bNO6E5ZeuS6XOoR2TM4/TWxmt
+ yk0x7MGt5O0ciYH1pspyhzQZfKHfIaG4g/uWfqXLDxlinxlf7e/iAyz8Uim0uD8StO030xLr
+ ipDk9nMsH8N2ALc68ifUPty4Fyh2S2V2wDU8OFELlo4lbfYK5I5zL4/jIYcvlrYES/xn0X2j
+ 7WaeVkj+uit8+jnfrvnpp6AN49olA7+KL4ildC4AeQ9KgQOR2mb+eKg1LL95032Xq5KjuEsn
+ qbFt5DWP9kbpq2hDw9R04Yj7RW/ACm739QZm3kLNk5KeBWCj4TxPlHBOvH4DfOjg1S2ijhk2
+ /PGMqfgApXKKHXIjbTvfa5l5kJC1AY+ycpT6pFUB70bPf7+W1L9uMbXAxMkNQG/3vzpB89n1
+ owEXGKCGq+ZP73WsV+P/u8vJvODZI4RuDrkLPgl4OPigWY3mVISYKWlx5QXaHe/HvRpJ0WWf
+ 2DgjcsGEWcPpgY+Terqh0OeUTNLeXq+Q6Yx6is4BY+mF4vPW4GgjKGb0Cq0A5FafmVGBUqNE
+ XfseYWEQfAMaCeKL8B6jzwETrmhS4k/2hG1rw/30KZnLvDO9S0Zs5Lj1d515+LNmhA97Tx0F
+ dqS03qWT21umWMIXTA20LpioUx+0luD17N3jORCFdNP//NJThs6NZnEwuBnE9zyQB7Ofs+VS
+ Fa6RdWrGSs+Qc80w98PZUZwAM2igQ7f3yW2BL8VkqCLBIYu/aLd2XjxJsB9y3na26kmi1kmR
+ tVANWK4iaJl6wfTAIvJwA2lkPOjeaEd2gbV+XuIym+SpkhZVg92Xq7CWXQSaUaQptP8tW3YS
+ Lr7A6k8Mw1M0tWqNrFDa9voi1pLVO/5Nc/FJWWrlCGtBkXbjoiQZZbnLj1OlB7WD1IJxllLl
+ Us=
+IronPort-Data: A9a23:1xHtlqkVH5ATLaP2U/A3ufno5gzaJ0RdPkR7XQ2eYbSJt1+Wr1Gzt
+ xIdUW2Ba/uIYWWmLoskPd/noxlUv5CEztNmQQds+HxhEltH+JHPbTi7wuUcHAvJd5GeExg3h
+ yk6QoOdRCzhZiaE/n9BCpC48T8mk/jgqoPUUIbsIjp2SRJvVBAvgBdin/9RqoNziLBVOSvU0
+ T/Ji5OZYAXNNwJcaDpOsPrS8E835ZwehRtB1rAATaET1LPhvyRNZH4vDfnZB2f1RIBSAtm7S
+ 47rpF1u1jqEl/uFIorNfofTKiXmcJaLVeS9oiY+t5yZv/R3jndaPpDXlBYrQRw/Zz2hx7idw
+ TjW3HC6YV9B0qbkwIzxX/TEes3X0GIvFLLveBCCXcKvI0LuckfFn/xtU1ENY4AX3cx3Gnl3y
+ N41J2VYBvyDr7reLLOTT+BtgoEkK5CuMt9G/H5nyj7dALAtRpWrr6fiv4cJmmdtwJkQRLCCP
+ qL1ahI3BPjESxdSIVYRBYkltPuyj3j5cjtXpUKNv6cs+C7U1gM3zbuF3N/9K4XUH5QOzi50o
+ EqXwCP7GysqNuWx5har73e8q+mQjRz0Ddd6+LqQs6QCbEeo7mUfDRwQfUO2vfK+j1KkUtNZK
+ kob8S0qqaU9+QqgSdyVYvGjiHuNvxpZXN0JVuNmsUeCza3b5wvfDW8BJtJcVOEbWAYNbWRC/
+ je0cxnBXlSDHZXMIZ5B3t94Zg9e9cTYwaHuqMPEocY4DwHfnbwO
+IronPort-HdrOrdr: A9a23:YG3UAqBrs8dVgC7lHemD55DYdb4zR+YMi2TDtnoBMSC9F/bzqy
+ nApoV/6faZskdyZJhCo7C90cu7MBThHPdOiOF7XItKczOW21dAR7sSi7cKrQeQYhEWNdQw6U
+ 6jScVDIey1I159g8P3pDO1FNst252u7L2o7N2uq0uFgTsEV0io1WlENjo=
+X-Talos-CUID: 9a23:PxheoG0ghj0IOxVj+9qobbxfG/wMLnTek2frfUK3LkxpU6WsdH299/Yx
+X-Talos-MUID: 9a23:WBqMUAjBx1EHa1VhHdxFvsMpZfgv4b2UOEI0v7oqldSBJQF2ZCeig2Hi
+X-IronPort-Anti-Spam-Filtered: true
+X-URL-LookUp-ScanningError: 1
+X-IronPort-AV: E=Sophos;i="6.02,226,1688418000"; 
+   d="scan'208,217";a="9162938"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+Received: from mail-oo1-f41.google.com ([209.85.161.41])
+  by athi-ecisp-rat01.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 20 May 2024 10:10:46 +0300
+Received: by mail-oo1-f41.google.com with SMTP id 006d021491bc7-5aa20adda1dso2056131eaf.1
+        for <admin@petcomtrainingcollege.com>; Mon, 20 May 2024 00:10:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=trainingexpress-org-uk.20230601.gappssmtp.com; s=20230601; t=1716188984; x=1716793784; darn=petcomtrainingcollege.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=mgR/jM/gdf0WAt7KOybVLWjg3CfQ5czqENjXYGGYwc0=;
+        b=E04MzVM4bmiT42TuoEf1GqdLtCF9ysJrEcmg6y8NpZkPr7KISndzsn2hekFCpOk69r
+         danleLOaSxIQ4/Wco1pYB3Rz/lWq2hlmEV9fZf+BHfkemPAIp6ZwLhCkLfsBO7gdBZL7
+         MKDWIiX51qX0ySFukhdb7pw/41P4DdDXWXk2ZjvqP6tC56JbQ78xyObwa1d0EOp+imnP
+         MBXjZBUASGmGjE7ROtPdXj4mYAzwnBWAOvHXs9cvoRpaG8xDcjzH4wB6aYyNv4Fszf63
+         xvD+0MYk3v74zCFMuI0QFrcLBoyuOuOdiCZDj+O3KvMA4lFnMUUxUxzMi0tkSHttTOpo
+         JqPw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1716188984; x=1716793784;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=mgR/jM/gdf0WAt7KOybVLWjg3CfQ5czqENjXYGGYwc0=;
+        b=cIOI6Rodojw4uEb2YpZA4KmHUsWwuw9S2oAAnpDNOaFBXSAR6Gf62qyLRLEg4KkCqf
+         Oeevipn3qUuIzuUGPWeKxI5P8dpu9kNbTjgKtME+RfMXKKBPOj24zQuRomO79IkcFyTW
+         9XgxS7FLYhVpZDuYAwX3fqoa02BAJcPmSOfR7qgMdBl+VCdkVgMdWmEyVVAj5jlWVaPy
+         koLSQqlkAs54CMqkF3c5iu5/xzMAhjBet30UyXj9kVPw84ikkM/srcRKhTeEFhabg3fz
+         EqlrsQJmr2LFQc5mbRiaVaioqLgqpg+nmM5Z7OMFSXLbYgTqxg2dUemyln0Pz51kmitr
+         et0w==
+X-Gm-Message-State: AOJu0Yxhe7KdPU/n7WQS04T/wL7ZNN9ljCiIF+xls1u11Hi2jksnCpiq
+	g52MSnFyT7MeCt5m8U+3ctgrrnL7NF7bJFmEdJrWfdp1GdAjSosziaoP1klZa28nzPzTWF0/kD0
+	UdiWSzyQ4PUIQwBGr6IdhC7qsamzYBzVUN3kfBnPscIAiXMzfElU5OA==
+X-Google-Smtp-Source: AGHT+IFdiQz+SUCoy2eEIrqy86jL+iXDHc/kEKSOWpyUhnAOx9az0KZ23NJCom8a1ewZmmjyG8bawWan2IU7xtAOJZg=
+X-Received: by 2002:a05:6820:221a:b0:5b3:232a:5c0e with SMTP id
+ 006d021491bc7-5b3232a5c17mr8201035eaf.4.1716188983553; Mon, 20 May 2024
+ 00:09:43 -0700 (PDT)
+Received: from 362809999414 named unknown by gmailapi.google.com with
+ HTTPREST; Mon, 20 May 2024 07:09:43 +0000
+MIME-Version: 1.0
+Sender: business@trainingexpress.org.uk
+From: business@trainingexpress.org.uk
+Date: Mon, 20 May 2024 07:09:43 +0000
+X-Google-Sender-Auth: 8_SLgJ8MxLWV_3-OYyIh94Tj-B4
+Message-ID: <CAA39J1v1Hw_fhXGLLxQ1ZmzUq3hxh9zx98k0D=3xAL8BqxfCiw@mail.gmail.com>
+Subject: Partnering for Online Course Reselling with Training Express.
+To: admin@petcomtrainingcollege.com
+Content-Type: multipart/alternative; boundary="000000000000bb7dcc0618dd62f6"
+
+--000000000000bb7dcc0618dd62f6
+Content-Type: text/plain; charset="UTF-8"
+
+Hi,
+
+This is Abrar from Training Express. I am the business development manager
+here. We have over 2000 courses in different categories that perfectly
+align with the upskilling and development of employees within an
+organisation, accredited by CPD.
+
+I'd love to discuss a partnership where you can handpick 50-100 courses
+from our expansive platform to resell to your audience. We'll only charge
+you for the credits, and the courses themselves come at no extra cost. You
+can kickstart with just 50 credits, and as your venture expands, we can
+revisit this arrangement down the road.
+
+If you don't have an LMS, we will create a customised LMS for you with your
+branding with a minimal fee.
+
+Would you be open to exploring this exciting opportunity further? Let's
+schedule a call at your earliest convenience to delve into the details.
+
+You can learn more about us on our website
+<http://www.trainingexpress.org.uk/>.
+
+Best regards,
+
+Abrar
+
+Business Development Manager
+
+-- 
+<https://www.trainingexpress.org.uk/>
+020 4552 3300
+business@trainingexpress.org.uk <info@trainingexpress.org.uk>
+www.trainingexpress.org.uk
+14 Cumberland Avenue, London, NW10 7QL
+<https://www.facebook.com/TrainingExpress>
+<https://twitter.com/TrainingExpres1>
+<https://www.pinterest.co.uk/trainingexpress/>
+<https://www.linkedin.com/company/trainingexpress>
+
+
+[image: Mailtrack]
+<https://mailtrack.io?utm_source=gmail&utm_medium=signature&utm_campaign=signaturevirality11&>
+Sender
+notified by
+Mailtrack
+<https://mailtrack.io?utm_source=gmail&utm_medium=signature&utm_campaign=signaturevirality11&>
+05/20/24,
+12:46:21 PM
+Remove
+
+--000000000000bb7dcc0618dd62f6
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;ma=
+rgin-bottom:0pt"><span style=3D"font-size:11pt;font-family:Nunito,sans-seri=
+f;color:rgb(0,0,0);background-color:transparent;font-weight:600;font-varian=
+t-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:nor=
+mal;vertical-align:baseline">Hi,=C2=A0</span></p><br><p dir=3D"ltr" style=
+=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-=
+size:11pt;font-family:Nunito,sans-serif;color:rgb(0,0,0);background-color:t=
+ransparent;font-weight:600;font-variant-numeric:normal;font-variant-east-as=
+ian:normal;font-variant-alternates:normal;vertical-align:baseline">This is =
+Abrar from Training Express. I am the business development manager here. We=
+ have over 2000 courses in different categories that perfectly align with t=
+he upskilling and development of employees within an organisation, accredit=
+ed by CPD.</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-to=
+p:0pt;margin-bottom:0pt"><span style=3D"font-size:11pt;font-family:Nunito,s=
+ans-serif;color:rgb(0,0,0);background-color:transparent;font-weight:600;fon=
+t-variant-numeric:normal;font-variant-east-asian:normal;font-variant-altern=
+ates:normal;vertical-align:baseline">I&#39;d love to discuss a partnership =
+where you can handpick 50-100 courses from our expansive platform to resell=
+ to your audience. We&#39;ll only charge you for the credits, and the cours=
+es themselves come at no extra cost. You can kickstart with just 50 credits=
+, and as your venture expands, we can revisit this arrangement down the roa=
+d.</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;ma=
+rgin-bottom:0pt"><span style=3D"font-size:11pt;font-family:Nunito,sans-seri=
+f;color:rgb(0,0,0);background-color:transparent;font-weight:600;font-varian=
+t-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:nor=
+mal;vertical-align:baseline">If you don&#39;t have an LMS, we will create a=
+ customised LMS for you with your branding with a minimal fee.</span></p><b=
+r><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt=
+"><span style=3D"font-size:11pt;font-family:Nunito,sans-serif;color:rgb(0,0=
+,0);background-color:transparent;font-weight:600;font-variant-numeric:norma=
+l;font-variant-east-asian:normal;font-variant-alternates:normal;vertical-al=
+ign:baseline">Would you be open to exploring this exciting opportunity furt=
+her? Let&#39;s schedule a call at your earliest convenience to delve into t=
+he details.</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-t=
+op:0pt;margin-bottom:0pt"><span style=3D"font-size:11pt;font-family:Nunito,=
+sans-serif;color:rgb(0,0,0);background-color:transparent;font-weight:600;fo=
+nt-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alter=
+nates:normal;vertical-align:baseline">You can learn more about us on our </=
+span><a href=3D"http://www.trainingexpress.org.uk/" style=3D"text-decoratio=
+n-line:none" target=3D"_blank"><span style=3D"font-size:11pt;font-family:Nu=
+nito,sans-serif;background-color:transparent;font-weight:600;font-variant-n=
+umeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal=
+;text-decoration-line:underline;vertical-align:baseline">website</span></a>=
+<span style=3D"font-size:11pt;font-family:Nunito,sans-serif;color:rgb(0,0,0=
+);background-color:transparent;font-weight:600;font-variant-numeric:normal;=
+font-variant-east-asian:normal;font-variant-alternates:normal;vertical-alig=
+n:baseline">.</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin=
+-top:0pt;margin-bottom:0pt"><span style=3D"font-size:11pt;font-family:Nunit=
+o,sans-serif;color:rgb(0,0,0);background-color:transparent;font-weight:600;=
+font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alt=
+ernates:normal;vertical-align:baseline">Best regards,</span></p><p dir=3D"l=
+tr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=
+=3D"font-size:16pt;font-family:Comfortaa,cursive;color:rgb(0,0,0);backgroun=
+d-color:transparent;font-weight:700;font-variant-numeric:normal;font-varian=
+t-east-asian:normal;font-variant-alternates:normal;vertical-align:baseline"=
+>Abrar</span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;ma=
+rgin-bottom:0pt"><span style=3D"font-size:11pt;font-family:Nunito,sans-seri=
+f;color:rgb(0,0,0);background-color:transparent;font-weight:600;font-varian=
+t-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:nor=
+mal;vertical-align:baseline">Business Development Manager</span></p><div><b=
+r></div><span class=3D"gmail_signature_prefix">-- </span><br><div dir=3D"lt=
+r" class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=3D=
+"ltr"><table width=3D"640" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ align=3D"left" style=3D"color:rgb(0,0,0);font-family:&quot;Open Sans&quot;=
+,sans-serif;font-size:medium"><tbody><tr><td align=3D"left" style=3D"paddin=
+g:20px 0px"><table width=3D"640" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" align=3D"center"><tbody><tr><td align=3D"center" width=3D"45%" style=
+=3D"padding:0px 30px;border-right:1px solid rgb(0,161,154)"><a href=3D"http=
+s://www.trainingexpress.org.uk/" style=3D"color:rgb(17,85,204);padding:0px;=
+margin:0px" target=3D"_blank"><img src=3D"https://www.trainingexpress.org.u=
+k/wp-content/uploads/2020/09/Asset-8@2x.png" width=3D"80%" alt=3D"" style=
+=3D"border:0px;display:block"></a></td><td align=3D"center" style=3D"paddin=
+g:0px 0px 0px 30px"><table width=3D"100%" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" align=3D"center"><tbody><tr><td align=3D"left" style=3D"pad=
+ding:0px"><img src=3D"https://www.trainingexpress.org.uk/wp-content/uploads=
+/2020/09/Asset-10@2x.png" width=3D"20" alt=3D"" style=3D"border:0px;display=
+:block"></td><td align=3D"left" style=3D"padding:5px 10px;font-size:14px;li=
+ne-height:21px">020 4552 3300</td></tr><tr><td align=3D"left" style=3D"padd=
+ing:0px"><img src=3D"https://www.trainingexpress.org.uk/wp-content/uploads/=
+2020/09/Asset-11@2x.png" width=3D"20" alt=3D"" style=3D"border:0px;display:=
+block"></td><td align=3D"left" style=3D"padding:5px 10px;font-size:14px;lin=
+e-height:21px"><a href=3D"mailto:info@trainingexpress.org.uk" style=3D"colo=
+r:rgb(0,0,0);padding:0px;margin:0px" target=3D"_blank">business@trainingexp=
+ress.org.uk</a></td></tr><tr><td align=3D"left" style=3D"padding:0px"><img =
+src=3D"https://www.trainingexpress.org.uk/wp-content/uploads/2020/09/Asset-=
+12@2x.png" width=3D"20" alt=3D"" style=3D"border:0px;display:block"></td><t=
+d align=3D"left" style=3D"padding:5px 10px;font-size:14px;line-height:21px"=
+><a href=3D"https://www.trainingexpress.org.uk/" style=3D"color:rgb(0,0,0);=
+padding:0px;margin:0px" target=3D"_blank">www.trainingexpress.org.uk</a></t=
+d></tr><tr><td align=3D"left" style=3D"padding:0px"><img src=3D"https://www=
+.trainingexpress.org.uk/wp-content/uploads/2020/09/Asset-13@2x.png" width=
+=3D"20" alt=3D"" style=3D"border:0px;display:block"></td><td align=3D"left"=
+ style=3D"padding:5px 10px;font-size:14px;line-height:21px"><span style=3D"=
+padding:0px;margin:0px;white-space:nowrap">14 Cumberland Avenue, London, NW=
+10 7QL</span></td></tr></tbody></table></td></tr></tbody></table></td></tr>=
+<tr><td style=3D"padding:10px 0px;background-image:url(&quot;https://www.tr=
+ainingexpress.org.uk/wp-content/uploads/2020/09/Asset-14@2x.png&quot;);back=
+ground-position:left top"><table width=3D"640" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0"><tbody><tr><td align=3D"center" width=3D"35%" style=3D=
+"padding:0px 30px"><table width=3D"80%" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0"><tbody><tr><td style=3D"padding:0px"><a href=3D"https://www.f=
+acebook.com/TrainingExpress" style=3D"color:rgb(17,85,204);padding:0px;marg=
+in:0px" target=3D"_blank"><img src=3D"https://www.trainingexpress.org.uk/wp=
+-content/uploads/2020/09/Asset-7@2x.png" width=3D"20px" alt=3D"" style=3D"b=
+order:0px;display:block"></a></td><td style=3D"padding:0px"><a href=3D"http=
+s://twitter.com/TrainingExpres1" style=3D"color:rgb(17,85,204);padding:0px;=
+margin:0px" target=3D"_blank"><img src=3D"https://www.trainingexpress.org.u=
+k/wp-content/uploads/2020/09/Asset-6@2x.png" width=3D"20px" alt=3D"" style=
+=3D"border:0px;display:block"></a></td><td style=3D"padding:0px"><a href=3D=
+"https://www.pinterest.co.uk/trainingexpress/" style=3D"color:rgb(17,85,204=
+);padding:0px;margin:0px" target=3D"_blank"><img src=3D"https://www.trainin=
+gexpress.org.uk/wp-content/uploads/2020/09/Asset-5@2x.png" width=3D"20px" a=
+lt=3D"" style=3D"border:0px;display:block"></a></td><td style=3D"padding:0p=
+x"><a href=3D"https://www.linkedin.com/company/trainingexpress" style=3D"co=
+lor:rgb(17,85,204);padding:0px;margin:0px" target=3D"_blank"><img src=3D"ht=
+tps://www.trainingexpress.org.uk/wp-content/uploads/2020/09/Asset-4@2x.png"=
+ width=3D"20px" alt=3D"" style=3D"border:0px;display:block"></a></td></tr><=
+/tbody></table></td><td align=3D"center" style=3D"padding:0px 30px"></td></=
+tr></tbody></table></td></tr><tr><td style=3D"padding:20px 0px"><br></td></=
+tr></tbody></table></div></div><br><div id=3D"mt-signature">
+        <table border=3D"0" cellpadding=3D"8" cellspacing=3D"0" style=3D"us=
+er-select: none;">
+            <tbody><tr>
+                <td>
+                    <a id=3D"signatureLink-logo" href=3D"https://mailtrack.=
+io?utm_source=3Dgmail&amp;utm_medium=3Dsignature&amp;utm_campaign=3Dsignatu=
+revirality11&amp;" class=3D"mt-no-pointer-events" style=3D"text-decoration:=
+none">
+                        <img src=3D"https://s3.amazonaws.com/mailtrack-sign=
+ature/sender-notified-72.gif" alt=3D"Mailtrack" class=3D"mt-no-pointer-even=
+ts" width=3D"32" height=3D"32">
+                    </a>
+                </td>
+                <td>
+                    <span style=3D"color:#777">Sender notified by</span> <b=
+r>
+                    <a id=3D"signatureLink-text" href=3D"https://mailtrack.=
+io?utm_source=3Dgmail&amp;utm_medium=3Dsignature&amp;utm_campaign=3Dsignatu=
+revirality11&amp;" class=3D"mt-install mt-no-pointer-events" style=3D"color=
+:#4374f7">Mailtrack</a>
+                   =20
+    </td><td><span style=3D"color:transparent;font-size:0">05/20/24, 12:46:=
+21 PM</span></td>
+
+               =20
+                <td>
+                   =20
+<div class=3D"mt-remove-signature-button center">
+  <button class=3D"mt-remove" style=3D"display:none">
+   =20
+     =20
+     =20
+   =20
+    <span style=3D"color:#e55a50">Remove</span>
+  </button>
+</div>
+                </td>
+            </tr>
+        </tbody></table>
+    </div></div>
+
+--000000000000bb7dcc0618dd62f6--

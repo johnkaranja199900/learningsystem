@@ -1,0 +1,177 @@
+Return-Path: <>
+Delivered-To: info@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id oJbHJK0eS2ZRhiIAz9s6Ng
+	(envelope-from <>)
+	for <info@petcomtrainingcollege.com>; Mon, 20 May 2024 12:58:05 +0300
+Return-path: <>
+Envelope-to: info@petcomtrainingcollege.com
+Delivery-date: Mon, 20 May 2024 12:58:05 +0300
+Received: from thk-tes-rat05.safaricombusiness.co.ke ([41.203.208.141]:62977)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	id 1s8zmQ-009Ucx-1O
+	for info@petcomtrainingcollege.com;
+	Mon, 20 May 2024 12:58:05 +0300
+IronPort-SDR: 664b1ead_JYZuvUw44Wcensp285vQbIEFgAfECK95DPhs3zRXJ7VcFd4
+ l/C9FWct9C/TjAuu/QOmu8Qs6r9xXrUSGgQ8NeQ==
+X-IPAS-Result: =?us-ascii?q?A0HGAQDMrvVkmA2A+MV3AgIJFAUFghCDLVVAR4QORI1Ng?=
+ =?us-ascii?q?XCCI4MqiDaQSYFqgREDGE0BAQEBAQEBAQEJOQsEAQEDBItvAiU4EwECBAEBA?=
+ =?us-ascii?q?QEDAgMBAQEBAQEDAQEFAQEBAgEBBgUBAhABAQEBAQEBAR4ZBQ4QJ4VGIg2CL?=
+ =?us-ascii?q?hUBAQEDAgICAQIBAgEBG2RQAzUBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQERA?=
+ =?us-ascii?q?j1yVD4MFQIMBhFPgn4BgioDMQEJCqZzeoEygQGEd605DXmBUwaBRAGBEoZXH?=
+ =?us-ascii?q?gGBTYFahlgngVpOhx5CAgIYfxIBEQIBXw6DDoJriUqFQQcyhgiJGSqBCAhPD?=
+ =?us-ascii?q?4FeDD0CDVQLC12BFYJHAgIRFCUNB0dxGwMHA4ECECsHBDIiBgkXLSUGUQICL?=
+ =?us-ascii?q?SQJExI+BIM8CoECPxEOEYJGKzY2GUuCZgkVQE52EEMYgRVuHxUeNxESGQ0DC?=
+ =?us-ascii?q?HYdAhEjFiYDBQMENgoVDQshBVcDSAZMCwMCHAUDAwSBNgUPHwIQLjwDRB1AA?=
+ =?us-ascii?q?wttPTUUG6EeA3CBWAovgT4JNlhteJJwg2uNU4E3nhtvCAIng2QDi3yHZw6HH?=
+ =?us-ascii?q?oYTLIQBjG6GNBCSLJgsjWGDdZEVK4UvgXojPDBwhCcSPRwPiDqFPAEBAYQej?=
+ =?us-ascii?q?y5OQTI7AgcLAQEDCYtIAQE?=
+IronPort-PHdr: A9a23:TItJohbAhDtW39b1O0uUyHj/LTFT14qcDmcuAnoPtbtCf+yZ8oj4O
+ wSHvLMx1gGPBNmLoKgaw8Pt8InYEVQa5piAtH1QOLdtbDQizfssogo7HcSeAlf6JvO5JwYzH
+ cBFSUM3tyrjaRsdF8nxfUDdrWOv5jAOBBr/KRB1JuPoEYLOksi7ze+/94PSbglSmTawbrB/I
+ BqooQjQq8IbnZZsJqEtxxXTv3BGYf5WxWRmJVKSmxbz+MK994N9/ipTpvws6ddOXb31cKokQ
+ 7NYCi8mM30u683wqRbDVwqP6WACXWgQjxFFHhLK7BD+Xpf2ryv6qu9w0zSUMMHqUbw5Xymp4
+ b9sSB/0iScHOT85/33NhcxsjaJbpxShrAF7z4LJfI2ZKOZycr/Ycd4cWGFPXNteVzZZD42/Y
+ YUBEeoPM/tXoIbhvFYOtQeyCBO2Ce/z1jNFhHn71rA63eQ7FgHG2RQtE9wJvnvOrdX1MLoZX
+ +6rw6nMzDXDce1Z2S396YPVbx4goeqMXa5ufsrUx0UkCgTIgFKMpILmOT2b2fgDv3GV4ed8W
+ uyhjHcppRlqrze12scsiojJipsJyl/a7iV12YM1Kse5SE5/Zt6kDYdQuz2EO4dsWcMtWW9ot
+ zwgyr0HpZG7ey0Kx486xx7EavyHdZaH4gn4VOqLPTh4g2hpeLGhiBur90Wr1+LzWNWu3llQs
+ ipFjsfDtmoL1xHL98SJSuZw80Oj1DuTygzf9u5JLE4pmafHJJAs3789mJQNvUndAiP7m1n7g
+ bOUe0gk/uWl7/rqb7f7q5KSN4J4lgfzObkglMy4BOQ3KAkOX26D9OSz073j+kL5QLFUgfEsj
+ qbZt5XaKMIGraC6Gw9Yypsv5hK9Aju8ztgVknoKIEhYdB6ZjIXlIUzCLf7+APyimVqjii1ry
+ OrDPrD5ApXCMHzDkLD5cLln905cyAszwclD551KEbENOffzVVXwtNzcCR85LhC0z/r5BNlnz
+ YMRQ2yPDbWDMKPTrVCI4ecvLPKRZI8OuTb9LeYq5+X1jXMjhVAderOl3ZgJZ3ygH/RmJVuWY
+ Wb0j9scFWoHvBAyQPLlhVCBSzJfemi+UqEm6j0mBo+qFYHDSZu1j7ybwCi7BoFWZnxBCl2UD
+ Hvkb5+EVOsUaCKOPs9hlSQJVbmnS48v0hGjrxf6xKR7LuXI/S0YsI7j1MJv6O3SkxEy9Dp0D
+ 8uB3GGKS2F0mn0HRzAo06xlvUN9zVKDguBEhKlZE9JUz+tETgw9MILGxu18Ctb9UQXFetqGR
+ RCtRdD1Lys2S4d75tYPZw5RFtGjkB3ZzmKREqQJmrnBTMgR24P48kK0C+9Q7lHg/KA9j1hjX
+ sZUcGivh6p46hSLXcjSmkuQjaehcqEWwTXM8mqY1iyFuwdbXVgjAu3+QXkDax6N/pzC7UTYQ
+ ur3Uex/amN8
+IronPort-Data: A9a23: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
+ dvcgIt9Y7Fbidc8mQRDiw==
+IronPort-HdrOrdr: A9a23:ZvBb1qHHr7nsNoJXpLqELceALOsnbusQ8zAXPo5KOGBom62j5r
+ GTdZEgvnXJYVkqKQkdcLy7SdC9qDbnhPhICOoqTNOftWvdyRCVxehZhOOOrAEIWReOkdK1vp
+ 0QCZSWZueAcGRSvILU5hKnG80szNTC3KejnvfG0nthJDsKV0ii1WdE48SgfHGeiDM2Z6bQuf
+ GnivauIFGbCAoqhhDRPAh7YwELnayp5ffbXSI=
+X-Talos-CUID: 9a23:3O+ZjmNs8obKCu5DWA9HyQ1EItwfUj7lnHOPemKUVDxvV+jA
+X-Talos-MUID: =?us-ascii?q?9a23=3ApFOR9g0SFjdI58/7NepZYLUPszUj3J6pV1Aynco?=
+ =?us-ascii?q?9mNi2JGsueGa3tQnqe9py?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.02,226,1688418000"; 
+   d="scan'208";a="6055550"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+Received: from athi-tes-mailout02.safaricombusiness.co.ke ([197.248.128.13])
+  by thk-tes-rat05.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 20 May 2024 12:58:04 +0300
+Received: from localhost by athi-tes-mailout02.safaricombusiness.co.ke;
+  20 May 2024 12:58:03 +0300
+Message-Id: <966754$gi4md@athi-tes-mailout02.safaricombusiness.co.ke>
+Date: 20 May 2024 12:58:03 +0300
+To: info@petcomtrainingcollege.com
+From: "Mail Delivery System" <MAILER-DAEMON@athi-tes-mailout02.safaricombusiness.co.ke>
+Subject: Delivery Status Notification (Failure)
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status; boundary="12HBA.66D+ylppw.4uVvO+yuxmq.dz5kxI"
+
+--12HBA.66D+ylppw.4uVvO+yuxmq.dz5kxI
+content-type: text/plain;
+    charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+The following message to <kimatapat@gmail.com> was undeliverable.
+The reason for the problem:
+5.1.0 - Unknown address error 550-"5.1.1 The email account that you tried t=
+o reach does not exist. Please try\n5.1.1 double-checking the recipient's e=
+mail address for typos or\n5.1.1 unnecessary spaces. For more information, =
+go to\n5.1.1  https://support.google.com/mail/?p=3DNoSuchUser a640c23a62f3a=
+-a5a17945fe5si1366860266b.196 - gsmtp"
+
+--12HBA.66D+ylppw.4uVvO+yuxmq.dz5kxI
+content-type: message/delivery-status
+
+Reporting-MTA: dns; athi-tes-mailout02.safaricombusiness.co.ke
+
+Final-Recipient: rfc822;kimatapat@gmail.com
+Action: failed
+Status: 5.0.0 (permanent failure)
+Remote-MTA: dns; [142.251.31.27]
+Diagnostic-Code: smtp; 5.1.0 - Unknown address error 550-"5.1.1 The email account that you tried to reach does not exist. Please try\n5.1.1 double-checking the recipient's email address for typos or\n5.1.1 unnecessary spaces. For more information, go to\n5.1.1  https://support.google.com/mail/?p=NoSuchUser a640c23a62f3a-a5a17945fe5si1366860266b.196 - gsmtp" (delivery attempts: 0)
+
+--12HBA.66D+ylppw.4uVvO+yuxmq.dz5kxI
+content-type: message/rfc822
+
+X-IronPort-AV: E=Sophos;i="6.08,174,1712610000"; 
+   d="pdf'?scan'208,217";a="17371850"
+Received: from athi-ecisp-cpanel-mailout.safaricombusiness.co.ke (HELO athi-ecisp-cpanel-mailout.mailbox.safaricombusiness.co.ke) ([197.248.128.4])
+  by athi-tes-mailout02.safaricombusiness.co.ke with ESMTP; 20 May 2024 12:58:01 +0300
+Received: from host16.safaricombusiness.co.ke (host16.safaricombusiness.co.ke [197.248.5.16])
+	by athi-ecisp-cpanel-mailout.mailbox.safaricombusiness.co.ke (Postfix) with ESMTP id CEF5738188
+	for <kimatapat@gmail.com>; Mon, 20 May 2024 12:57:00 +0300 (EAT)
+Received: from mail-ed1-f44.google.com ([209.85.208.44]:55571)
+	by host16.safaricombusiness.co.ke with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <info@petcomtrainingcollege.com>)
+	id 1s8zmH-009UWi-0a
+	for kimatapat@gmail.com;
+	Mon, 20 May 2024 12:57:59 +0300
+Received: by mail-ed1-f44.google.com with SMTP id 4fb4d7f45d1cf-56e69888a36so7182227a12.3
+        for <kimatapat@gmail.com>; Mon, 20 May 2024 02:57:56 -0700 (PDT)
+X-Gm-Message-State: AOJu0YwqzKV9ikP0xiD74fs3tB/SJCKRff3IvHVjZRx6HrimgEfqT1mW
+	8fWZjmYt8s7Z99nHHkztS/poeKGTMHV2wBIGRkV+tv3445+xhtlnO3Ka3TabqjLmkkjXnSFzJSR
+	aBvYQfcZ+Q8rcrU5i2kxnL6wvj3M=
+X-Google-Smtp-Source: AGHT+IH7gJrAxNKwJC3s04axrSz4p5gnlrr/gwPBOmRHXSJyQUlvzRg2O+wupNZsMHf4tPO5e15he30LzDJiDgKOLLg=
+X-Received: by 2002:a50:9541:0:b0:572:a17d:a302 with SMTP id
+ 4fb4d7f45d1cf-574e4312a1cmr10101826a12.42.1716199072927; Mon, 20 May 2024
+ 02:57:52 -0700 (PDT)
+MIME-Version: 1.0
+From: Petcom College <info@petcomtrainingcollege.com>
+Date: Mon, 20 May 2024 12:57:37 +0300
+X-Gmail-Original-Message-ID: <CANphxs4CjXdVXCaTEEp9OtwASpZvm72oKv--NddcrO4NYQrRZw@mail.gmail.com>
+Message-ID: <CANphxs4CjXdVXCaTEEp9OtwASpZvm72oKv--NddcrO4NYQrRZw@mail.gmail.com>
+Subject: scanned documents
+To: kimatapat@gmail.com
+Content-Type: multipart/mixed; boundary="0000000000001badf80618dfbc34"
+
+--12HBA.66D+ylppw.4uVvO+yuxmq.dz5kxI--
+
+

@@ -1,0 +1,30 @@
+[23-Nov-2023 06:21:36 UTC] PHP Warning:  require(/home/tupoonl1/petcom.tupoonline.co.ke/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tupoonl1/petcom.tupoonline.co.ke/index.php on line 34
+[23-Nov-2023 06:21:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tupoonl1/petcom.tupoonline.co.ke/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tupoonl1/petcom.tupoonline.co.ke/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tupoonl1/petcom.tupoonline.co.ke/index.php on line 34
+[23-Nov-2023 06:21:38 UTC] PHP Warning:  require(/home/tupoonl1/petcom.tupoonline.co.ke/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tupoonl1/petcom.tupoonline.co.ke/index.php on line 34
+[23-Nov-2023 06:21:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tupoonl1/petcom.tupoonline.co.ke/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tupoonl1/petcom.tupoonline.co.ke/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tupoonl1/petcom.tupoonline.co.ke/index.php on line 34
+[23-Nov-2023 10:04:00 UTC] PHP Warning:  require(/home/tupoonl1/petcom.tupoonline.co.ke/petcom.tupoonline.co.ke/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tupoonl1/petcom.tupoonline.co.ke/index.php on line 34
+[23-Nov-2023 10:04:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tupoonl1/petcom.tupoonline.co.ke/petcom.tupoonline.co.ke/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tupoonl1/petcom.tupoonline.co.ke/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tupoonl1/petcom.tupoonline.co.ke/index.php on line 34
+[23-Nov-2023 10:04:10 UTC] PHP Warning:  require(/home/tupoonl1/petcom.tupoonline.co.ke/petcom.tupoonline.co.ke/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tupoonl1/petcom.tupoonline.co.ke/index.php on line 34
+[23-Nov-2023 10:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tupoonl1/petcom.tupoonline.co.ke/petcom.tupoonline.co.ke/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tupoonl1/petcom.tupoonline.co.ke/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tupoonl1/petcom.tupoonline.co.ke/index.php on line 34
+[23-Nov-2023 10:05:17 UTC] PHP Warning:  require(/home/tupoonl1/petcom.tupoonline.co.ke/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tupoonl1/petcom.tupoonline.co.ke/index.php on line 34
+[23-Nov-2023 10:05:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tupoonl1/petcom.tupoonline.co.ke/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tupoonl1/petcom.tupoonline.co.ke/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tupoonl1/petcom.tupoonline.co.ke/index.php on line 34
+[23-Nov-2023 10:05:37 UTC] PHP Warning:  require(/home/tupoonl1/petcom.tupoonline.co.ke/.../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tupoonl1/petcom.tupoonline.co.ke/index.php on line 34
+[23-Nov-2023 10:05:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tupoonl1/petcom.tupoonline.co.ke/.../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tupoonl1/petcom.tupoonline.co.ke/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tupoonl1/petcom.tupoonline.co.ke/index.php on line 34

@@ -1,0 +1,172 @@
+Return-Path: <gmail-noreply@google.com>
+Delivered-To: info@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id cDoTKZcOHmYqWwAAz9s6Ng
+	(envelope-from <gmail-noreply@google.com>)
+	for <info@petcomtrainingcollege.com>; Tue, 16 Apr 2024 08:37:27 +0300
+Return-path: <gmail-noreply@google.com>
+Envelope-to: info@petcomtrainingcollege.com
+Delivery-date: Tue, 16 Apr 2024 08:37:27 +0300
+Received: from thk-tes-rat05.safaricombusiness.co.ke ([41.203.208.141]:47825)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <gmail-noreply@google.com>)
+	id 1rwbVZ-0006Lb-0O
+	for info@petcomtrainingcollege.com;
+	Tue, 16 Apr 2024 08:37:27 +0300
+IronPort-SDR: 661e0e95_aKy2ansFv9cscXxttRK//3PUiGMQg8tgOXHQURUDpUZ+qEl
+ w/1eCKNvtSfrXv5t0r3jjzdEkDhMN1EihWMsl9w==
+X-IPAS-Result: =?us-ascii?q?A0FLEADMrvVkfzHQVdEBWR4BAQsSDECBRAuDLYEVR4RSj?=
+ =?us-ascii?q?z2CI4tghV6GPyiEBIFWFIERAxgWGg4PAQEBAQEBAQEBCS4GEAQBAQMEi28CJ?=
+ =?us-ascii?q?TQJDgECBAEBAQEDAgMBAQEBAQEDAQEFAQEBAgEBBgUBAhABASIZBw4OKYVoD?=
+ =?us-ascii?q?YI3IhlkUAM1AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBEQIsEQpBBQIPER0BA?=
+ =?us-ascii?q?QYrByUPAhEVAiMBEgEFAQsqCBqCXYIqAzEDEZprgQVCigo2AQEBeF1VgQGCC?=
+ =?us-ascii?q?QEBBmKvPQ1qgV8JEoEFLYVLgh8eAYEhLIFahV56J4IogUuCRIJCTUICAhh/C?=
+ =?us-ascii?q?AoBEQIBXw6DDoJNGolOhUEHglyDXoEYh1smCSGBCAgPT4FqPQINVAsLXQaBD?=
+ =?us-ascii?q?4ESElwSNQICETkURxhZGwMHA4ECECsHBDIiBgkXLSUGUQQtJAkTEj4EYxCCS?=
+ =?us-ascii?q?QqBAj8KBw4RgkZhNhlLgSBCgQQJFQcFNE5RJRArBBQYgRVuHxUeNxESBRQNA?=
+ =?us-ascii?q?wh2HQIRIzwDBQMENgoVDQshBVYBAy0bBkwLAwIcBQMDBIE2BQ8fAhAuPAECA?=
+ =?us-ascii?q?UMdQAMLYgs9NRQbT6BPA3CBWApiOgeBCAFQCIEsBSkLOBSEQIkgAYULAZB1i?=
+ =?us-ascii?q?12TdW+EFQMDgVgphkiDMIxDglADhgkzhAGBVosYhkSSLBmDboNMDyOQJ41hg?=
+ =?us-ascii?q?3WRSQEHhQ4QI4FAOjwwcDMaI4EBBoIwCQk9AxkPjiAMFi2DKI98QTICOQIHC?=
+ =?us-ascii?q?wEBAwmLLBwBAQ?=
+IronPort-PHdr: A9a23:huoaMxfjG1ov6ZSBGo+BtjgelGM+Sd7LVj580XLHo4xHfqnrxZn+J
+ kuXvawr0AWXG9yHu7ke1aL/iOPJYSQ4+5GPsXQPItRndiQuroEopTEmG9OPEkbhLfTnPGQQF
+ cVGU0J5rTngaRAGUMnxaEfPrXKs8DUcBgvwNRZvJuTyB4Xek9m72/q99pHNYghEniexbLxxI
+ Rm5swnct9QdjJd/JKo21hbHuGZDdf5MxWNvK1KTnhL86dm18ZV+7SleuO8v+tBZX6nicKs2U
+ bJXDDI9M2Ao/8LrrgXMTRGO5nQHTGoblAdDDhXf4xH7WpfxtTb6tvZ41SKHM8D6Uaw4VDK/5
+ KptVRTmijoINyQh/W7YhMJ+j79VrhK/qRNj2IPUfJ2ZOeBicq/BYd8XR2xMVdtRWSxbBYO8a
+ pMCAesEPelCron9o0YFowWgCga2AePk1zhFhnDz3aIg0uQhFRjK3AonH9IUrnvUtNH1NacJX
+ OC6y6nIyjrDb/dI1jvn9IfIdRUhrOiKULltfsXf1VMhGBnZjlWMt4PlJTWV2/wTv2Wb8+duV
+ eOihW45pg1vojaj2sghh4bVio4Iy13J6Dl1zogpKNC7VEJ2bt6pHZtMuy+UKYd6Xt8vTn1qt
+ SokzLANpJC1fC8PyJs9xh7fbeSKc4eP4hLkW+aRJSl3iGh5d7K4gha+6VKvyuvnVsi6zllKt
+ DBJksHMt30Lyhfd6dCHR+Nj8ku93TuDzQPe5+FeLUwqiabWKIQtz7E0m5cVrE/NBDX5mF/sg
+ 6+Tbkgk+van6+DgYrj+o5+TLY50igXnPqswh8OzHP00MgYBUmWf4+i827rj/Ur2QLVOkPI6i
+ LXWsJffJcgDp665BRFa0po75hqhEzur1M4UkHoHIV5fZh6Lk4vkN0vBLf38Ffu/hk6jkDZvx
+ /DIJL3hBZDNI2DMkLfkZ7l96kpcxBM1zdBY/ZJbFKkBIPbzW0Lqu9zYCRg5MwOww+n5Etlyy
+ oQeWWeXDq+fK6zdqUWI6f43I+mQeI8Vvy7wJ+U96/70kXA5gUMdfbWu3ZYPaXC4GPpmI0KCb
+ Hr0nNgBDXsFvg07TOz2kl2NSz9TZ3CzX6I66TE0FIWmDYPHRo+zj7yOwj23EYFRZmBDWRiwF
+ iLpcYuDc+8BdCmVJ9N7mz0CVL6uQIgl0RyhuUnxzL80APDT/3g3sJvi0JBJ6uTW3UU98DV1C
+ 4Gb1HuAV2VltmwPQDAy0eZ0pkkrmQTL6rRxn/ENTY8b3PhOSApvbfbh
+IronPort-Data: A9a23:5+/JGqx+2UpJXGbAwBl6t+cBwirEfRIJ4+MujC+fZmUNrF6WrkUAx
+ mJKXW/QaPeMN2T3fN1+bIq1pENQ78TWmIc1Swtt/1hgHilAwSbn6XZ1DW+rZn/PcZeTJK5Dx
+ 59DAjUVBJlsFhcwnj/0bv676yMUOZigHtLUEPTDNj16WThqQSIgjQMLs+Mii+aEu/Dga++2k
+ Y20+5e31GONgWYuaTpFs/7b8XuDgdyr0N8mlg1mDRx0lAKG/5UlJMp3Db28KXL+Xr5VEoaSL
+ woU5Ojklo9x105F5uKNyt4XQGVTKlLhFVTmZk5tZkSXqkMqShreckoMHKF0hU9/011llj3qo
+ TlHncTYpQwBZsUglAmBOvXx/u4X0aBuodf6zXaDXcO7n3PFd3DS3KRXEn4yZowe1OttAW5I6
+ qlNQNwNRkjra+Oexbu6Tqxhip1mIpW6eowYvX5kwHfSCvNOrZLrGf2bo48Fmm1o1oYSTJ4yZ
+ OJBAdZrRBvFahxLf1EQEp8mmPaAiX74fDlV7lmSoMLb5kCOk1ApgOi2WDbTUtnVQ8APvxykn
+ 2nDrmvaAgw7C8y60iXQpxpAgceUwHqjB9NMfFGizdZrhlOU7nQeFBYRUEehqPi/i0ixUNVbL
+ 0Eb92wlqq1ayaCwZtz0Xhn9rXLd+xBACpxfFOo17AzLwa3Ri+qEOoQaZm5/a9gtitBnfCIV0
+ gSImf3kHzxgtqLAHBpx6YyohT+1PCEUK0oLaikFURYJ7rHfTGcb3kKnojFLQPHdszHlJQwc1
+ Qxmu8TXuln+pcsC1qH+8Fyexjzw997GSQk64giRVWWghu+YWGJHT93ygbQ4xa8fRGp8crVnl
+ CZY8yR5xL5VZaxhbATXHI0w8EiBvp5pygH0j191BIUG/D+w4XOldo04yGghfRwzaptVKGO4O
+ hG7VeZtCHl7bCvCgUhfM9LZNijW5fG+fTgYfqmIMIEfOcYpHON51HoxNR/Kt4wSrKTcufpiY
+ M/EIJjE4YcyBqNgwz67D+Yb2vlD+8zN7TK7eHwP9Dz+ieD2TCfNF98taQLSBshntv/siFuOq
+ L53aZDaoyizpcWkPUE7B6ZIfQ5URZX6bLiqw/Fqmhmrc1I+Qzx4VK+NqV7jEqQ895loei7z1
+ inVcidlJJDX3BUr8C3TMio9OoD8F41yt2w6NiEKNFOlkSprK4W24atVM9N9cbA7/aYxhbR5X
+ tsUSfWmW/5vczXg/yhCTJ/fqIc5Sg+nqzjTNAWYYR8+XaVaeSr3xvHecDHSqRY+VhiMiZNmo
+ pmL9B/qfp4YdgEzUOfUcK2Oyn2yj1g8mcVzfU3CHfdLcm617YIxCSj6oe9qGu4ANx+ZyiCo7
+ FuUC01ApM3mgYw8wP/Wj4+q8qarFOpfGBJBPm/5tLyZCwjTzlCB86RhDtmaXGn6ejvv2aOAY
+ e518anNAMcflgwXj7smQqdZ860uwvDO+ZlY911AN1fWZQ2JDrhAHCG37fNXvPcQ+o4D6BqEY
+ WPRyNx0Ir7TBdjEFmQWLw8bbuiu8/EYtz3RzPYtKnXB+y5F0+ubYHpWIiWzpnRRHJltPKMh5
+ NURisocxgi8qxgta/KtrCRf8UaSJX0hDYQjkLwnA7HQtwl68WEaPKTgCRL37qqfNPRKEE0he
+ QGPiIT42r9z+0vlclgIL0br49Zzv5o1lS5v8E4jPHWMw9rMue821kZe8BMxVQVk8S9E2ONSZ
+ Elubk18GrqSzQhRlOx8bjiLIFxHDkfI/Ebe9kY4zjzFbki3V17iKH82FvaN8Xs4rUNdXGl/1
+ 5OJxFn1VQ3FeJnK4RIzfkp+udnPfMdU9DCeqPu4Hs+AIYY2UQDljoCqe2AMjRntWuE1u2Hqu
+ sho+7xWRZDgFCtNvZA+NZaW5Y4QRD+AOmZGZ/Nrp4ENPGPEfQCNySq8EF+wduxNNs713xeBU
+ eI2Hf12VjO6yCqqhRIYD/RVI7ZLwdgY1OBbcbbvfWM7o7+TqwRyi63p9w/8uXQKRut/msNsO
+ 6LTcDO/Slarv0V2oFOUjsd4OTufW+ImNSncx+G+9dsbG60T6N9MdV4A6ZrqnnG3HjY+wTeqk
+ lLiXYH0wdZm67xQpKr3M6AaBwyLOdL5D+uJ1waosuVxV9DEMOaQlgYZtmjYOx9yAuYPUNFJi
+ r6ttPfFhhLbjuwmV0TcvYeLLIhSxMCIROEMGNnGHHpbuiqgeMXTzQMJ0EqFG6NnjPJbvtKGQ
+ SnhYuSOVNclYfVv71wLVDp/SjEzU7/WaIXkrgOD98W8MAAXi1H7HYn25E3XYnF+XQ5WHZ/HU
+ yvfmeukv/Jcp6RyXC40PelsWcJEEQWySJkdVoPDsBeDBTOVmXKEgLzpkCQg5RztCnWpFMXb4
+ 4rPdiPhdSad6b3589VEj7Nc5hEnLm5xoe0VTHIv/9RbjzObDmlfCc8/NZ4AKI9fkw2s9ZXeS
+ QzOUlAfCnTGbWwZSSn/3dXtYF7OTKhGcNL0PScg8E6oej+7TtHISqdo8iB7pWx6YH3/xeWgM
+ ssT4WD0IgP3+JxyWOIP/bautI+LHB8BKq4goigRWPAez/rT7XvmGZCh8MdwufT7Lvzw
+IronPort-HdrOrdr: A9a23:JJnjfayaLX4nBYrv6bv0KrPwDL1zdoMgy1knxilNoH1uA6qlfq
+ WV9sjzuiWE6wr5NEtQ/exoW5PvfZq/z+8W3WB5B97LNzUO01HYSb2Kg7GSpAEI2BeTysdtkY
+ lndaZ6BJnZAFVggdzhpCO/FNkh292O7aCvgo7lr0uFjzsGV0it1WhE48+gc3FLeA==
+X-Talos-CUID: 9a23:JqEb42NB9TLc4O5DCBdk8EUqBZEcbELZl3bWDUKiCWlvV+jA
+X-Talos-MUID: =?us-ascii?q?9a23=3AdLIYCg65NvnfoT5yl3i4hkR9xoxtvKKrUmFXraw?=
+ =?us-ascii?q?NvpiLFixtGgiNqS+oF9o=3D?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.02,226,1688418000"; 
+   d="scan'208";a="5740883"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+Received: from mail-ed1-f49.google.com ([209.85.208.49])
+  by thk-tes-rat05.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 16 Apr 2024 08:37:24 +0300
+Received: by mail-ed1-f49.google.com with SMTP id 4fb4d7f45d1cf-5701dec0c0aso2331210a12.3
+        for <info@petcomtrainingcollege.com>; Mon, 15 Apr 2024 22:37:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20230601; t=1713245843; x=1713850643; darn=petcomtrainingcollege.com;
+        h=to:from:subject:message-id:date:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=JMrR3r05KREsodV0cxOx1tYEBm42iA2bXyIN67KsAtA=;
+        b=bk1w5HRe3Gc/Z7v7rNIYQOmYcWaiUHdEUDAExo9yzNJWMPbRjHLfJJdd80taCZhQ5L
+         PNSg3JU5oJgtWmLsZ3M2SNRfqUxTch/4qwcg97aSnMgigQ4EAjpkDN7pZSXyf+6DfwkJ
+         kkl3G4VwHVYc3elC+We3ozTtWXFTkPsdMjAjOkpyGrVpwluvyKGbouXsHvghW867D/yF
+         n66u/CET20X/fSQt+NrJCLJcjS44rVUjuPtUK4Hc9LGYdx9SuGD3YiYxAYhOpKqoWKOr
+         J34jkmDDOhDs+PSfbq0ysYp6LdyIF7BhU4pq2MusQaS/brp+tU81CzrP/g10m+bqJ9uo
+         4qNQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1713245843; x=1713850643;
+        h=to:from:subject:message-id:date:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=JMrR3r05KREsodV0cxOx1tYEBm42iA2bXyIN67KsAtA=;
+        b=d9C6dUITN3Au3qcojMVsSGpJG1KDbK0DzUnRtUJ51zipoypk3qmJ+RlJB+elb6QBok
+         GnPkUCqNHCg/eCT51KX45N+RlJCYLqxvaRUq55F83+3LJpu+NRIEev8XL1QhuP49wSJL
+         ta0AsipGIGoEpP3Ox+UH7vuU//Bewg59z0ZcXrk/LsYuEJBYcGBlSt0iFb4A505Wgrco
+         qavbYSqgPRjACIJQVIPRxEDWwR9O8kGVdS6q37dC/oQ58tNutAGeZgMrHYzD/SRtZu2B
+         gPvXgnjBdtPaSnhUkw/gXXVdHOsX5RTaplCcZGL5+DCWVM87K3AuQyMmO3Kl+XW3eCQq
+         vQfw==
+X-Gm-Message-State: AOJu0YyVdoJ7YUAHuY66IjGR89GU2+f85QV+ihfKqFN5tzZr8fON+1hK
+	m/D+I0ckeV2EqQ8GwnNRIl0czhHcoZcGn+SBRSKwsdKcbHCMmMpQo1mvLI3xqFzULTOc9WhZ95G
+	5GonfeFlQq3t9rxjx8YvmWL6ikEQkhhk6GDEI87G2wrVWp9bWIoLFMtth3kh3NQ==
+X-Google-Smtp-Source: AGHT+IE+VLd5YTKzNwNXTs2k5RC3fWhuqjBydocZ2dFkPrI+/g2UG2TNjSVjA4FyIBxInbED9UhOyzKjNP6nTAyRxIbBMhVCTqjMVw==
+MIME-Version: 1.0
+X-Received: by 2002:a50:871c:0:b0:565:e610:c358 with SMTP id
+ i28-20020a50871c000000b00565e610c358mr6529801edb.38.1713245842739; Mon, 15
+ Apr 2024 22:37:22 -0700 (PDT)
+X-Google-Address-Confirmation: iuoEGvZe_kNT7bNSf0xzTQcS_GI
+Date: Tue, 16 Apr 2024 08:37:22 +0300
+Message-ID: <CANphxs53wMYRnOw8A-Rb2wUQgLhzkY16qcWS8ZPDghy51_zK5Q@mail.gmail.com>
+Subject: Gmail Confirmation - Send Mail as info@petcomtrainingcollege.com
+From: Gmail Team <gmail-noreply@google.com>
+To: info@petcomtrainingcollege.com
+Content-Type: text/plain; charset="UTF-8"
+
+You have requested to add info@petcomtrainingcollege.com to your Gmail account.
+
+Before you can send mail from info@petcomtrainingcollege.com using your Gmail
+account (sumwende@gmail.com), please click the link below to confirm your
+request:
+
+https://mail.google.com/mail/f-%5BANGjdJ9UodTgjoBXH1skNS4pwgGSWSXAFgZsQmCKZjCrIX_7eblUpyjODuwxY0RQ2DZDEStHdRZlZPX6INbQdHFbRzAg_Cru0cpRxKbq3g%5D-WYcydkhoMVN6Fy8Cd_Lsn26JX1Y
+
+If you click the link and it appears to be broken, please copy and paste it
+into a new browser window.
+
+Thanks for using Gmail!
+
+Sincerely,
+
+The Gmail Team
+
+If you did not make this request, or you don't want to add this email address
+to your Gmail account, no further action is required.
+sumwende@gmail.com cannot send messages using your email address unless you
+confirm the request by clicking the link above. If you accidentally clicked
+the link, but you do not want to allow sumwende@gmail.com to send messages
+using your address, click this link to cancel this verification:
+https://mail.google.com/mail/g-%5BANGjdJ9mAfZKxorfM_QGlYuq4JUf79m5defBJ9CPMSgXrNIAdHhSUp6KRzdY9a3smayRYsI4cSt_XkBqFVMLd0m4LoW4w-gvugn5yIGpog%5D-WYcydkhoMVN6Fy8Cd_Lsn26JX1Y
+
+To learn more about why you might have received this message, please
+visit: http://support.google.com/mail/bin/answer.py?answer=184973.
+
+Please do not respond to this message. If you'd like to contact the
+Gmail Team, please log in to your account and click 'Help' at
+the top of any page. Then, click 'Contact Us' along the bottom of the
+Help Center.

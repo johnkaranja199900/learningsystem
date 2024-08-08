@@ -1,0 +1,594 @@
+Return-Path: <3G-0UZhEKAIA0svowtegi-rsvitp2ksskpi.gsq@scoutcamp.bounces.google.com>
+Delivered-To: admin@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id sGY3NCHtFGaFaQAAz9s6Ng
+	(envelope-from <3G-0UZhEKAIA0svowtegi-rsvitp2ksskpi.gsq@scoutcamp.bounces.google.com>)
+	for <admin@petcomtrainingcollege.com>; Tue, 09 Apr 2024 10:24:17 +0300
+Return-path: <3G-0UZhEKAIA0svowtegi-rsvitp2ksskpi.gsq@scoutcamp.bounces.google.com>
+Envelope-to: admin@petcomtrainingcollege.com
+Delivery-date: Tue, 09 Apr 2024 10:24:17 +0300
+Received: from thk-tes-rat05.safaricombusiness.co.ke ([41.203.208.141]:38091)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <3G-0UZhEKAIA0svowtegi-rsvitp2ksskpi.gsq@scoutcamp.bounces.google.com>)
+	id 1ru5nk-0007UV-0x
+	for admin@petcomtrainingcollege.com;
+	Tue, 09 Apr 2024 10:24:17 +0300
+IronPort-SDR: 6614ed1f_OtmLyZC5HHyb9ulGRAQbuZZGFtDksMbUPZqndJJzQxCqgAR
+ SsAO0tfndXgK1WH9WPxbaVjrmbsh+jrbVJeHBmQ==
+X-IPAS-Result: =?us-ascii?q?A0GGMgDMrvVkf0beVdFaBhYBAQE8AQEEBAEBAgEBBwEBg?=
+ =?us-ascii?q?WYBgTEbAgEBAQGBWIEVRwOET4EjgiyLboIjl30ohW6BEQMYFjcBAQEBAQEBA?=
+ =?us-ascii?q?QEJFAIBAg4UCQQBAQMBA4R/hnACJTgTAQIEAQEBAQMCAwEBAQEBAQMBAQUBA?=
+ =?us-ascii?q?QECAQEGBQECEAEBIhkHDg4phTsBAQYlDT8WAYFhIhlkUAM0AQEBAQEBAQEBA?=
+ =?us-ascii?q?QEBAQEBAQEBAQEBAQEBARECJhcKPgEYEQoTAQEGKwcvAg4ICwoCNgEFARQhI?=
+ =?us-ascii?q?oFGgRYBgl4DEQSaZ4EFQopAAQEBeIEygQGCCQEBBmIlgUcYsA8JEoEaFgIBA?=
+ =?us-ascii?q?QEBAQGFRYI9AYFLAQGHOHongig0gRSBeQJMgkKBDwICFQN/EgESAQoBMBMSg?=
+ =?us-ascii?q?xwZgjQahTCEHoN/gUIHglyDSxOJGQcLGIEICF6Baj0CDVQLC12BFU2BRTUCA?=
+ =?us-ascii?q?hE5FEdxGwMHA4ECECsHBDIiBgkXLSUGUQQtJAkTEj4EcoJKCoECPwoHDhGCR?=
+ =?us-ascii?q?mE2GUuBIIFGCRUGAjhOUSUQKwQUGIENCC8/HxUeNxESBRQNAwh2HQIRIzwDB?=
+ =?us-ascii?q?QMENgoVDQshBVcDSAZMCwMCHAUDAwSBNgUPHwIQLjwDMxEdNwkDC209NQgMG?=
+ =?us-ascii?q?wZIRx0Sn0MXA3CBYwGBABpkCAwYYB9qTgYBCwEegX2MBAGESRUtdJAIoDuEF?=
+ =?us-ascii?q?QUBggGGSAaDKpUfM4QBkzKSLBmHbJAngk+LEopuijQkd3CDJxAjPAWBFiM8M?=
+ =?us-ascii?q?HBNI4IcgRsJRgMZD4FYgiqIfIEpSIMokBkkMgcxAwIHAQoBAQMJhzuBNAEmg?=
+ =?us-ascii?q?hYcAQE?=
+IronPort-PHdr: A9a23:YgLy3hymtrC4eFrXCzLizVBlVkEcU1XcAAcZ59Idhq5Udez7ptK+Z
+ hKZvKk9xwWXFazgqNt8w9LMtK7hXWFSqb2gi1slNKJ2ahkelM8NlBYhCsPWQWfyLfrtcjBoV
+ J8aDAwt8H60K1VaF9jjbFPOvHKy8SQSGhLiPgZpO+j5AIHfg9q22uyo5pHebAZFiDWjbb5zM
+ R67sRjfus4KjIV4N60/0AHJonxGe+RXwWNnO1eelAvi68mz4ZBu7T1et+ou+MBcX6r6eb84T
+ aFDAzQ9L281/szrugLdQgaJ+3ART38ZkhtMAwjC8RH6QpL8uTb0u+ZhxCWXO9D9QLYpUjqg8
+ qhrUgflhygJOT4j82/Zl8x+grxHrx+6vRNz35TZbZuJOPZifK7Qe84RS2pbXsZWUixMGp2yb
+ 4sRAOEcPOhYqI79p1QKrRSgGAKjBOTvyiVLhn/txa01yfguHh/b1wI+Ad0BqnHUp8jyOaYcV
+ uC11qrIzS7bb/xMxTjy9pHEchYmofGWQ71wac7RyEk0GgPKiVWQroPlPzeL2egXr2eb6O9gW
+ PuphmU6pA5/viKhyd0wionVmI0V0FbE+D17zYopJdO1SU92bMOgHZVftyyUN4V4TMMiTm9mp
+ io31LMItJy0ciQW1JgqxQDTZvKGfoWI4B/vSeScLDN4iX9mfr+0mhi88U+lyuLmV8m01k5Hr
+ iVCktnLuXAN0wLc5tKbRft6+0es3yuE2QPL6uxcP0w4ia7WJ4Qiz7MwjJYfr1rPEjHslEj0k
+ KObcFgv9PKy5OT9eLrmo4eRN49qhQH6NaQjgsm/Dv45MggKRmSb5P6z2KD68U33QrhGkuc6k
+ qbesJDdKsQborC2DxVJ3YYk7hazFzam0NIGknkbNF9JZg6LgozzN1zNIP30F+mzj0qynDtxx
+ f3KIqXtApDXIXjClLfhc6x960lZyAcrw91R5otYBq0PL/3wWk//u9nWAwM6PQGo3+rnE8t91
+ oQQWGKTHKCZP6LSvUaS5uI0PemMZZMVuC7jJ/gm/P7ulnw5mUccfaWz0psXc2m4E+99I0qFZ
+ nrsn8sBHnsQsQo7VOzmkkaNUTlOZ3a0Q60z+Co7BJipDYfEQYCtj7iB0zmhEpJKYWBGD0iAE
+ XHzeIqcQfcDdDqSItN9kjwDTbWtVpct1Quyuw/i17pnMu3U9zUCup3+0dh15uvTmAoq9TNqE
+ 8SSz2aNT2RonmMSXTA23aZ/oU17yleMzad4hPhYFdhN6PNGTAg2L4LTz+t/C4O6ZgWUd9uMS
+ VCOWti6CjY0Usg4wtkPZUl2HNGmgx/OmSGtBuwvmqSPFaAzp57c0jDeIMFyz3uO6647jEI+S
+ 8BCfVGrj6s3oxfUHY3Si0ySmuOscr4RxCrc3GiEymWKsQdTVwsmAovfWnVKWkvb5fv+4UzGQ
+ veRDq4kKRNIwsPKFqZDb5W9klJcR+z7Md/TJmS2gWqoAQegybSLY47nPW4a2XOOWwA/jwkP8
+ CPeZkAFDSC7rjeGZAE=
+IronPort-Data: A9a23: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
+IronPort-HdrOrdr: A9a23:M9Dfrq2OLMYeZs4B0sZxCwqjBB4kLtp133Aq2lEZdPULSKGlfp
+ GV9sjziyWetN9xYgBFpTnkAsa9qBznm6KdjbNxAV7AZniChILLFvAA0aLF2D3vGyr386pw0r
+ htdq5mBJnRADFB/KDHCWCDer5N/DDtytHLuc7i6zNIZSFOL4JBwm5Ce36m+yNNJDVuNN4QDY
+ PZwsZcvTKvdTA2Q62AdwI4txuonayzqLvWJToPBxsq802pljOngYSKdCRwKS1uKQ9n8PMQ92
+ nC1yTHop+/u/WjoyWsq1P73tBkntrmjuRCH9CXzvIJIijxkG+TFflccozHjzY1psWm6FMBld
+ nBpApIBbUN10/s
+X-Talos-CUID: =?us-ascii?q?9a23=3AtmGxQ2u3vVUYdf/JmcNaL1wO6Is8dV7c1H3eenS?=
+ =?us-ascii?q?kGFh1TrTPVkGw3a1rxp8=3D?=
+X-Talos-MUID: 9a23:ba9euQYvX759leBTniD0mipQOMtTwIeNVm8Vq4kFh9SjKnkl
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.02,226,1688418000"; 
+   d="scan'208,217";a="5688041"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+Received: from mail-ua1-f70.google.com ([209.85.222.70])
+  by thk-tes-rat05.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 09 Apr 2024 10:24:14 +0300
+Received: by mail-ua1-f70.google.com with SMTP id a1e0cc1a2514c-7e05d7c53a9so2453040241.0
+        for <admin@petcomtrainingcollege.com>; Tue, 09 Apr 2024 00:24:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20230601; t=1712647451; x=1713252251; darn=petcomtrainingcollege.com;
+        h=to:from:subject:message-id:feedback-id:reply-to:date:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=B8bDeo0QRtYjgdFwvwItNw3wMim/6AKZJGO4shadpDs=;
+        b=woETvlfj8gFIlWTw/2urJDR928c2S/qADj15C++ycBqUgaZrsWO/Mcy4cdWDYoMUbl
+         eN9VDl0zov31cFFlWNNr0uGORQ1Aix1KZbnSD2xjcyx6W/9xFkrxo52kDet62Z2pS9VF
+         JgsTbCQyIg6s9wPZZ3Dk5wOfIGwqYpCYstvAFazfsmyjODm0za2RXbGXvuqhVssS5PC9
+         Dqvsl3ICvyU3QbTPP+4Y/idaV1WZ2FWP4MuFqUlE8waLXFa+uq7lUgXsgHkZnNm+d4WX
+         cD2VSfLOnF3bOkLOTIkqvepbhqW07aQZ1LKFCWkUV0C+cUKiYwM2O+02djgTBZN+vwVA
+         Nyzw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1712647451; x=1713252251;
+        h=to:from:subject:message-id:feedback-id:reply-to:date:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=B8bDeo0QRtYjgdFwvwItNw3wMim/6AKZJGO4shadpDs=;
+        b=Vv2O5xH/+tOwHvNjscP1X6gC5LdLvAsVjxR20vUovgeJI1PmpLhcyYx4hirRP0QAan
+         umOeLWohJHcGbWAjxjy4yFprQARvNnnt0o2xP33u7m3JjqN1afWZOOMyKlspBqUHfHsX
+         leuo9oU8rErh88xvFMa4meXu2cm5yE6zcJgvPa6y1qd2W9WtLZwg5n9QAxvxpKjv4cxI
+         OiJCDsD0K+zZV+WdL1zunpfW9pR8QyDOMO0XNVl1ytsrbtBoF7a9DokAfCoOB3NDZvbD
+         pVaTwY5Qo4cDmh21QhX267t7vmrfUVsg92XigucAx5ZgLPwBONY64B3Pzws1yBDBNqCj
+         MiHQ==
+X-Gm-Message-State: AOJu0Yxslv/iZi2aRGzIaUKTsdfn8YDzq3+LxL26BIHFj11HMTIMToDW
+	Hpxds5v6U2jwZVMSdiNQpIv+myHdQZeuV9HR8aONvHtS+Zs=
+X-Google-Smtp-Source: AGHT+IEFLOl3lUIqa78JTdlRR3DDPtDEDIFhvOo4Fn2zuJzRVUaPuUOUMB0hT/S4ZEHBLyfH8tODFu4=
+MIME-Version: 1.0
+X-Received: by 2002:a05:6102:418b:b0:478:88ca:be4d with SMTP id
+ cd11-20020a056102418b00b0047888cabe4dmr8403912vsb.30.1712647451339; Tue, 09
+ Apr 2024 00:24:11 -0700 (PDT)
+Date: Tue, 09 Apr 2024 00:24:11 -0700
+Reply-To: The Google Workspace Team <workspace-noreply@google.com>
+X-Google-Id: 272032
+Feedback-ID: P-10-0:C20076711:M110172487-en:gamma
+X-Notifications: GAMMA:<3dbcf22f480a13bbeddc19e349dbede2062bbea7-20076711-110433368@google.com>
+X-Notifications-Bounce-Info: AaJ7rEoTHmgEBgtqBPH3ORVYripdZESbj8uG3a8_LGzGWNCuKQPsFifMovkmCwFANUtTzfcsyGUq9CK06L_GV42t9xQ4bCn-Ewz8vETEP95GrJpjN1REZc6QKMuM_wvyUkFRy8-kuTp77ehu8mX2e-iyr6QOghGJpMTTTFaKOjXWHHH97SE8wWxVXtL-a-6Wcbt9oJFdmJQbnh43auqHD181yTF8XO0ITEjDMDIZoP1LfUDEWwU8ZRqAwM8D6rn9nR7BHh5y2a6NWhZEQrJ9C4Kg6Qk2qn3ap-nCVok5t8wxq8rPHDL3KCD5a0zXL1WqzSSlFP51Oi6wB2yEpfQeH7UuhQzsP3OdsP6bHcS7PhxvwH7kjerolybZIXFmGC6NcvSU5Cf-TdDlRpNVyZh_WEgwJkzUWApjP08WacymjJwUBu_ZVTI-s9hHJ6w44DZZR8DOVmjgx6IRn8E3QUz8xGalPfI4VE1qSU59tGb8lKcNrqNDvksGdPADo-BQutMUiY6j17w6p403GxS1ED7VkxZhqEeBhy5T8-GgvC1KubQFVQivONcCzdYZ7BHAgb5VFrbMjPH7FmrAQJneIvzeNjAwNjA0MDQxNTM1NTk2OTMzMg
+Message-ID: <3dbcf22f480a13bbeddc19e349dbede2062bbea7-20076711-110433368@google.com>
+Subject: Welcome to your Google Workspace trial for petcomtrainingcollege.com
+From: The Google Workspace Team <workspace-noreply@google.com>
+To: admin@petcomtrainingcollege.com
+Content-Type: multipart/alternative; boundary="000000000000f66d0d0615a4ce57"
+
+--000000000000f66d0d0615a4ce57
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+
+From: "The Google Workspace Team" [workspace-noreply@google.com]
+Subject:  Welcome to your Google Workspace trial for  
+petcomtrainingcollege.com
+
+Enjoy your Google Workspace subscription
+
+## Welcome to Google Workspace
+
+Thanks for starting your free trial. With Google Workspace, you get  
+business email, video conferencing, cloud storage, file sharing, and more.
+
+### Your Google Workspace account
+
+**Username:**
+
+admin@petcomtrainingcollege.com
+
+**Domain:**
+
+petcomtrainingcollege.com
+
+**Subscription:**
+
+Google Workspace Business Starter
+
+**Trial ends:**
+
+April 23, 2024
+
+### Get started
+
+As the administrator for your Google Workspace account, you manage all your  
+Google Workspace services, settings, and users. To get started, sign in to  
+your Google Admin console and follow the setup steps.
+
+Sign in (https://admin.google.com)
+
+https://admin.google.com
+
+### Live help with setup
+
+24/7 support is included with your Google Workspace trial. Contact the  
+Google Workspace support team  
+(https://support.google.com/a/answer/1047213?utm_source=9181117&utm_medium=email)  
+for help setting up your account.
+
+Tip: After setup, you can sign in to your Google My Business account with  
+your new Google Workspace username **or** your usual username.
+
+### Google Workspace resources
+
+   - Setup FAQs  
+(https://support.google.com/a/answer/6142901?utm_source=9181117&utm_medium=email)
+
+   - Google Workspace Setup site  
+(https://support.google.com/a/answer/6365252?utm_source=9181117&utm_medium=email)
+
+   - Google Workspace Administrator Help Center  
+(https://support.google.com/a?utm_source=9181117&utm_medium=email)
+
+Sincerely,
+
+The Google Workspace Team
+
+
+(C) 2024  Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043 *   
+Google Asia Pacific Pte. Ltd., 8 Marina View, #30-01, Asia Square 1,  
+Singapore 018960  *  Google Ireland Ltd, Gordon House, Barrow Street,  
+Dublin 4, Ireland.
+
+You're receiving this mandatory email service announcement to update you  
+about important changes to your Google Workspace product or account.
+
+
+
+--000000000000f66d0d0615a4ce57
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div>
+  <html xmlns:v=3Durn:schemas-microsoft-com:vml dir=3Dltr lang=3Den style=
+=3D"margin:0; padding:0">
+    <meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+    <meta name=3Dviewport content=3Dwidth=3Ddevice-width>
+    <style>@media only screen{html{min-height:100%;background:#fafafa}}@med=
+ia only screen and (max-width:640px){.small-float-center{margin:0 auto!impo=
+rtant;float:none!important;text-align:center!important}}@media only screen =
+and (max-width:640px){table.body img{width:auto;height:auto}table.body cent=
+er{min-width:0!important}table.body .container{width:344px!important}table.=
+body .columns{height:auto!important;-moz-box-sizing:border-box;-webkit-box-=
+sizing:border-box;box-sizing:border-box;padding-left:40px!important;padding=
+-right:40px!important}table.body .columns .columns{padding-left:0!important=
+;padding-right:0!important}table.body .collapse .columns{padding-left:0!imp=
+ortant;padding-right:0!important}th.small-1{display:inline-block!important;=
+width:8.33333%!important}th.small-3{display:inline-block!important;width:25=
+%!important}th.small-4{display:inline-block!important;width:33.33333%!impor=
+tant}th.small-6{display:inline-block!important;width:50%!important}th.small=
+-8{display:inline-block!important;width:66.66667%!important}th.small-9{disp=
+lay:inline-block!important;width:75%!important}th.small-12{display:inline-b=
+lock!important;width:100%!important}.columns th.small-12{display:block!impo=
+rtant;width:100%!important}table.menu{width:100%!important}table.menu td,ta=
+ble.menu th{width:auto!important;display:inline-block!important}table.menu.=
+vertical td,table.menu.vertical th{display:block!important}table.menu[align=
+=3Dcenter]{width:auto!important}}</style>
+    <span class=3Dpreheader style=3Dcolor:#fafafa;display:none!important;fo=
+nt-size:1px;line-height:1px;max-height:0;max-width:0;mso-hide:all!important=
+;opacity:0;overflow:hidden;visibility:hidden></span>
+    <table class=3Dbody style=3DMargin:0;background:#F8F9FA!important;borde=
+r-collapse:collapse;border-spacing:0;color:#3C4043;font-family:Roboto,Helve=
+tica,Arial,sans-serif;font-size:14px;font-weight:400;height:100%;line-heigh=
+t:inherit;margin:0;padding:0;vertical-align:top;width:100%;text-align:left>
+      <tr style=3Dpadding:0;vertical-align:top>
+        <td class=3Dcenter align=3Dcenter valign=3Dtop style=3D-moz-hyphens=
+:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!important;colo=
+r:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;font=
+-weight:400;hyphens:none;line-height:inherit;margin:0;padding:0;vertical-al=
+ign:top;word-wrap:keep-all>
+          <center data-parsed=3D"" style=3Dmin-width:600px;width:100%>
+
+            <table align=3Dcenter class=3D"container float-center" style=3D=
+"Margin:0 auto;background:#fafafa;border-collapse:collapse;border-spacing:0=
+;float:none;margin:0 auto;padding:0;text-align:left;vertical-align:top;widt=
+h:600px"><tbody><tr style=3Dpadding:0;vertical-align:top><td style=3D-moz-h=
+yphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collapse!importan=
+t;color:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14p=
+x;font-weight:400;hyphens:none;line-height:inherit;margin:0;padding:0;verti=
+cal-align:top;word-wrap:keep-all>
+              <table class=3D"row header" style=3Dbackground:#F8F9FA;border=
+-collapse:collapse;border-spacing:0;display:table;font-size:12px;padding:0;=
+position:relative;vertical-align:top;width:100%><tbody><tr style=3Dpadding:=
+0;vertical-align:top>
+                <th class=3D"small-12 large-12 columns first last" style=3D=
+"Margin:0 auto;color:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;=
+font-size:14px;font-weight:400;line-height:inherit;margin:0 auto;padding:0;=
+padding-bottom:24px;padding-left:40px;padding-right:40px;padding-top:12px;w=
+idth:560px"><table style=3Dborder-collapse:collapse;border-spacing:0;margin=
+-bottom:0;padding:0;vertical-align:top;width:100%><tr style=3Dpadding:0;ver=
+tical-align:top><th style=3DMargin:0;color:#3C4043;font-family:Roboto,Helve=
+tica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:inherit;ma=
+rgin:0;padding:0;text-align:left>
+
+                  <img src=3Dhttps://storage.googleapis.com/support-kms-pro=
+d/GaOvClLdIVxiDUB6sr9FETwxw9I7ykkXR856 alt=3D"Google Workspace" height=3D30=
+ style=3D-ms-interpolation-mode:bicubic;clear:both;display:block;margin-top=
+:24px;max-height:30px;max-width:100%;outline:0;text-decoration:none;width:a=
+uto>
+
+                </th>
+<th class=3Dexpander style=3DMargin:0;color:#3C4043;font-family:Roboto,Helv=
+etica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:inherit;m=
+argin:0;padding:0!important;visibility:hidden;width:0></th></tr></table></t=
+h>
+              </tr></tbody></table>
+
+              <table class=3D"row info" style=3Dalign-items:center;backgrou=
+nd:#fff;border-collapse:collapse;border-color:#E8EAED;border-spacing:0;bord=
+er-style:solid;border-width:1px;display:table;padding:0;position:relative;v=
+ertical-align:top;width:100%><tbody><tr style=3Dpadding:0;vertical-align:to=
+p>
+                <th class=3D"small-12 large-12 columns first last" style=3D=
+"Margin:0 auto;color:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;=
+font-size:14px;font-weight:400;line-height:inherit;margin:0 auto;padding:0;=
+padding-bottom:0;padding-left:40px;padding-right:40px;width:560px"><table s=
+tyle=3Dborder-collapse:collapse;border-spacing:0;padding:0;vertical-align:t=
+op;width:100%><tr style=3Dpadding:0;vertical-align:top><th style=3D"Margin:=
+0;color:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14p=
+x;font-weight:400;line-height:inherit;margin:0;padding:0 0 24px;text-align:=
+left">
+
+<title>Enjoy your Google Workspace subscription</title>
+<h2 style=3D"Margin:0;Margin-bottom:8px;color:#3C4043;font-family:Google Sa=
+ns,Helvetica,Arial,sans-serif;font-size:24px;font-weight:700;line-height:30=
+px!important;margin:0;margin-bottom:24px;margin-top:24px;padding:0;word-wra=
+p:normal">Welcome to Google Workspace</h2>
+
+<p style=3DMargin:0;Margin-bottom:16px;color:#3C4043;font-family:Roboto,Hel=
+vetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;mar=
+gin:0;margin-bottom:16px;padding:0>Thanks for starting your free trial. Wit=
+h Google Workspace, you get business email, video conferencing, cloud stora=
+ge, file sharing, and more.</p>
+
+<table class=3Daccountinfo role=3Dpresentation style=3Dalign:center;backgro=
+und:#f3f3f3;border-collapse:collapse;border-spacing:0;margin-bottom:12px;pa=
+dding:0;text-align:inherit!important;vertical-align:top;width:100%>
+  <tbody>
+    <tr class=3Daccountinfo style=3Dpadding:0;text-align:inherit!important;=
+vertical-align:top>
+      <th class=3Daccountinfo style=3D"Margin:0;color:#3C4043;font-family:R=
+oboto,Helvetica,Arial,sans-serif;font-size:14px;font-weight:inherit;line-he=
+ight:inherit;margin:0;padding:16px 32px 0 32px">
+      <h3 class=3Daccountinfo style=3D"Margin:0;Margin-bottom:8px;color:#3C=
+4043;font-family:Google Sans,Helvetica,Arial,sans-serif;font-size:16px;font=
+-weight:700;line-height:26px!important;margin:0;margin-bottom:12px;margin-t=
+op:0!important;padding:0;text-align:center;word-wrap:normal">Your Google Wo=
+rkspace account</h3>
+      </th>
+    </tr>
+    <tr class=3Daccountinfo style=3Dpadding:0;text-align:inherit!important;=
+vertical-align:top>
+      <td class=3Daccountinfo style=3D"-moz-hyphens:none;-webkit-hyphens:no=
+ne;Margin:0;border-collapse:collapse!important;color:#3C4043;font-family:Ro=
+boto,Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:none=
+;line-height:inherit;margin:0;padding:0 32px 0 32px;vertical-align:top;word=
+-wrap:keep-all">
+      <p class=3Daccountinfo style=3DMargin:0;Margin-bottom:16px;color:#3C4=
+043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;font-weigh=
+t:400;line-height:20px;margin:0;margin-bottom:0;padding:0><strong>Username:=
+</strong></p>
+
+      <p class=3Daccountinfo style=3DMargin:0;Margin-bottom:16px;color:#3C4=
+043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;font-weigh=
+t:400;line-height:20px;margin:0;margin-bottom:16px;padding:0><a class=3Dnoc=
+lick style=3DMargin:0;color:inherit;font-family:inherit;font-weight:inherit=
+;line-height:inherit;margin:0;margin-bottom:inherit;margin-top:inherit;padd=
+ing:0;text-decoration:none>admin@petcomtrainingcollege.com</a></p>
+      </td>
+    </tr>
+    <tr class=3Daccountinfo style=3Dpadding:0;text-align:inherit!important;=
+vertical-align:top>
+      <td class=3Daccountinfo style=3D"-moz-hyphens:none;-webkit-hyphens:no=
+ne;Margin:0;border-collapse:collapse!important;color:#3C4043;font-family:Ro=
+boto,Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:none=
+;line-height:inherit;margin:0;padding:0 32px 0 32px;vertical-align:top;word=
+-wrap:keep-all">
+      <p class=3Daccountinfo style=3DMargin:0;Margin-bottom:16px;color:#3C4=
+043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;font-weigh=
+t:400;line-height:20px;margin:0;margin-bottom:0;padding:0><strong>Domain:</=
+strong></p>
+
+      <p class=3Daccountinfo style=3DMargin:0;Margin-bottom:16px;color:#3C4=
+043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;font-weigh=
+t:400;line-height:20px;margin:0;margin-bottom:16px;padding:0><a class=3Dnoc=
+lick style=3DMargin:0;color:inherit;font-family:inherit;font-weight:inherit=
+;line-height:inherit;margin:0;margin-bottom:inherit;margin-top:inherit;padd=
+ing:0;text-decoration:none>petcomtrainingcollege.com</a></p>
+      </td>
+    </tr>
+    <tr class=3Daccountinfo style=3Dpadding:0;text-align:inherit!important;=
+vertical-align:top>
+      <td class=3Daccountinfo style=3D"-moz-hyphens:none;-webkit-hyphens:no=
+ne;Margin:0;border-collapse:collapse!important;color:#3C4043;font-family:Ro=
+boto,Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:none=
+;line-height:inherit;margin:0;padding:0 32px 0 32px;vertical-align:top;word=
+-wrap:keep-all">
+      <p class=3Daccountinfo style=3DMargin:0;Margin-bottom:16px;color:#3C4=
+043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;font-weigh=
+t:400;line-height:20px;margin:0;margin-bottom:0;padding:0><strong>Subscript=
+ion:</strong></p>
+
+      <p class=3Daccountinfo style=3DMargin:0;Margin-bottom:16px;color:#3C4=
+043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;font-weigh=
+t:400;line-height:20px;margin:0;margin-bottom:16px;padding:0>Google Workspa=
+ce Business Starter</p>
+      </td>
+    </tr>
+    <tr class=3Daccountinfo style=3Dpadding:0;text-align:inherit!important;=
+vertical-align:top>
+      <td class=3Daccountinfo style=3D"-moz-hyphens:none;-webkit-hyphens:no=
+ne;Margin:0;border-collapse:collapse!important;color:#3C4043;font-family:Ro=
+boto,Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:none=
+;line-height:inherit;margin:0;padding:0 32px 0 32px;vertical-align:top;word=
+-wrap:keep-all">
+      <p class=3Daccountinfo style=3DMargin:0;Margin-bottom:16px;color:#3C4=
+043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;font-weigh=
+t:400;line-height:20px;margin:0;margin-bottom:0;padding:0><strong>Trial end=
+s:</strong></p>
+
+      <p class=3Daccountinfoend style=3DMargin:0;Margin-bottom:16px;color:#=
+3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;font-we=
+ight:400;line-height:20px;margin:0;margin-bottom:24px;padding:0>April 23, 2=
+024</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 style=3D"Margin:0;Margin-bottom:8px;color:#3C4043;font-family:Google Sa=
+ns,Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-height:26=
+px!important;margin:0;margin-bottom:12px;margin-top:20px;padding:0;word-wra=
+p:normal">Get started</h3>
+
+<p style=3DMargin:0;Margin-bottom:16px;color:#3C4043;font-family:Roboto,Hel=
+vetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;mar=
+gin:0;margin-bottom:16px;padding:0>As the administrator for your Google Wor=
+kspace account, you manage all your Google Workspace services, settings, an=
+d users. To get started, sign in to your Google Admin console and follow th=
+e setup steps.</p>
+
+<table class=3D"button radius thumbnail" role=3Dpresentation style=3D"Margi=
+n:9px 0 24px 0;border:none;border-collapse:collapse;border-radius:3px;borde=
+r-spacing:0;box-shadow:0 0 0 1px rgba(10,10,10,.2);display:inline-block;lin=
+e-height:0;margin:9px 0 24px 0;margin-bottom:inherit;max-width:100%;padding=
+:0;transition:box-shadow .2s ease-out;vertical-align:top;width:auto">
+  <tbody>
+    <tr style=3Dpadding:0;vertical-align:top>
+      <td style=3D-moz-hyphens:none;-webkit-hyphens:none;Margin:0;border-co=
+llapse:collapse!important;color:#3C4043;font-family:Roboto,Helvetica,Arial,=
+sans-serif;font-size:14px;font-weight:400;hyphens:none;line-height:inherit;=
+margin:0;padding:0;vertical-align:top;word-wrap:keep-all>
+      <table style=3Dborder-collapse:collapse;border-spacing:0;padding:0;ve=
+rtical-align:top;width:100%>
+        <tbody>
+          <tr style=3Dpadding:0;vertical-align:top>
+            <td style=3D-moz-hyphens:none;-webkit-hyphens:none;Margin:0;bac=
+kground:#1A73E8;border:none;border-collapse:collapse!important;border-radiu=
+s:3px;color:#fff;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14=
+px;font-weight:400;hyphens:none;line-height:inherit;margin:0;padding:0;vert=
+ical-align:top;word-wrap:keep-all><a href=3Dhttps://admin.google.com style=
+=3D"Margin:0;border:0 solid #1A73E8;border-radius:3px;color:#fff;display:in=
+line-block;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;fon=
+t-weight:500;line-height:24px;margin:0;padding:8px 16px 8px 16px;text-decor=
+ation:none">Sign in</a></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p style=3DMargin:0;Margin-bottom:16px;color:#3C4043;font-family:Roboto,Hel=
+vetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;mar=
+gin:0;margin-bottom:16px;padding:0><em>https://admin.google.com</em></p>
+
+<h3 style=3D"Margin:0;Margin-bottom:8px;color:#3C4043;font-family:Google Sa=
+ns,Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-height:26=
+px!important;margin:0;margin-bottom:12px;margin-top:20px;padding:0;word-wra=
+p:normal">Live help with setup</h3>
+
+<p style=3DMargin:0;Margin-bottom:16px;color:#3C4043;font-family:Roboto,Hel=
+vetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;mar=
+gin:0;margin-bottom:16px;padding:0>24/7 support is included with your Googl=
+e Workspace trial. <a href=3Dhttps://support.google.com/a/answer/1047213?ut=
+m_source=3D9181117&amp;utm_medium=3Demail style=3DMargin:0;color:#1A73E8;fo=
+nt-family:Roboto,Helvetica,Arial,sans-serif;font-weight:400;line-height:24p=
+x;margin:0;padding:0;text-decoration:none>Contact the Google Workspace supp=
+ort team</a> for help setting up your account.</p>
+
+<p style=3DMargin:0;Margin-bottom:16px;color:#3C4043;font-family:Roboto,Hel=
+vetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:24px;mar=
+gin:0;margin-bottom:16px;padding:0><em>Tip:</em> After setup, you can sign =
+in to your Google My Business account with your new Google Workspace userna=
+me <strong>or</strong> your usual username.</p>
+
+<h3 style=3D"Margin:0;Margin-bottom:8px;color:#3C4043;font-family:Google Sa=
+ns,Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-height:26=
+px!important;margin:0;margin-bottom:12px;margin-top:20px;padding:0;word-wra=
+p:normal">Google Workspace resources</h3>
+
+<ul style=3Dcolor:#3C4043;font-size:14px;line-height:24px>
+  <li style=3Dcolor:#3C4043;font-size:14px;line-height:24px><a href=3Dhttps=
+://support.google.com/a/answer/6142901?utm_source=3D9181117&amp;utm_medium=
+=3Demail style=3DMargin:0;color:#1A73E8;font-family:Roboto,Helvetica,Arial,=
+sans-serif;font-weight:400;line-height:24px;margin:0;padding:0;text-decorat=
+ion:none>Setup FAQs</a></li>
+  <li style=3Dcolor:#3C4043;font-size:14px;line-height:24px><a href=3Dhttps=
+://support.google.com/a/answer/6365252?utm_source=3D9181117&amp;utm_medium=
+=3Demail style=3DMargin:0;color:#1A73E8;font-family:Roboto,Helvetica,Arial,=
+sans-serif;font-weight:400;line-height:24px;margin:0;padding:0;text-decorat=
+ion:none>Google Workspace Setup site</a></li>
+  <li style=3Dcolor:#3C4043;font-size:14px;line-height:24px><a href=3Dhttps=
+://support.google.com/a?utm_source=3D9181117&amp;utm_medium=3Demail style=
+=3DMargin:0;color:#1A73E8;font-family:Roboto,Helvetica,Arial,sans-serif;fon=
+t-weight:400;line-height:24px;margin:0;padding:0;text-decoration:none>Googl=
+e Workspace Administrator Help Center</a></li>
+</ul>
+
+<p class=3Dregards style=3D"color:#3C4043;font-family:Google Sans,Helvetica=
+,Arial,sans-serif;font-size:14px;font-weight:700;line-height:24px;margin:0;=
+margin-bottom:0!important;margin-top:8px;padding:0">Sincerely,</p>
+
+<p class=3Dsignoff style=3D"Margin:0;Margin-bottom:16px;color:#3C4043;font-=
+family:Google Sans,Helvetica,Arial,sans-serif;font-size:14px;font-weight:70=
+0;line-height:24px;margin:0;margin-bottom:0!important;margin-top:0;padding:=
+0">The Google Workspace Team</p>
+            </th></tr></table></th>
+            </tr></tbody></table>
+
+            <table class=3D"row footer" role=3Dpresentation style=3Dbackgro=
+und:#F8F9FA;border-collapse:collapse;border-spacing:0;display:table;margin-=
+top:0;padding:0;position:relative;vertical-align:top;width:100%><tbody><tr =
+style=3Dpadding:0;vertical-align:top>
+              <th class=3D"small-12 large-12 columns first last" style=3D"M=
+argin:0 auto;color:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;fo=
+nt-size:14px;font-weight:400;line-height:inherit;margin:0 auto;padding:0;pa=
+dding-bottom:0;padding-left:40px;padding-right:40px;width:560px"><table sty=
+le=3Dborder-collapse:collapse;border-spacing:0;padding:0;vertical-align:top=
+;width:100%><tr style=3Dpadding:0;vertical-align:top><th style=3DMargin:0;c=
+olor:#3C4043;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:14px;f=
+ont-weight:400;line-height:inherit;margin:0;padding:24px;text-align:left>
+
+                <img src=3Dhttps://storage.googleapis.com/support-kms-prod/=
+GaOvClLdIVxiDUB6sr9FETwxw9I7ykkXR856 alt=3D"Google Workspace" height=3D30 s=
+tyle=3D-ms-interpolation-mode:bicubic;clear:both;display:block;margin-botto=
+m:14px;max-width:100%;max-height:30px;outline:0;text-decoration:none;width:=
+auto>
+                <p style=3DMargin:0;Margin-bottom:16px;color:#6C737F;font-f=
+amily:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line=
+-height:16px;margin:0;margin-bottom:14px;padding:0>
+            =C2=A9 2024  Google LLC&nbsp;1600 Amphitheatre Parkway, Mountai=
+n View, CA 94043
+                </p>
+                <p style=3DMargin:0;Margin-bottom:16px;color:#6C737F;font-f=
+amily:Roboto,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line=
+-height:16px;margin:0;margin-bottom:14px;padding:0>
+            <em>You=E2=80=99re receiving this mandatory email service annou=
+ncement to update you about important changes to your Google Workspace prod=
+uct or account.</em>
+            </p>
+            </th>
+<th class=3Dexpander style=3DMargin:0;color:#3C4043;font-family:Roboto,Helv=
+etica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:inherit;m=
+argin:0;padding:0!important;visibility:hidden;width:0></th></tr></table></t=
+h>
+            </tr></tbody></table>
+            </td></tr></tbody></table>
+
+          </center>
+        </td>
+      </tr>
+    </table>
+    <!-- prevent Gmail on iOS font size manipulation -->
+   <div style=3D"display:none;white-space:nowrap;font:15px courier;line-hei=
+ght:0"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+
+</html>
+</div>
+
+--000000000000f66d0d0615a4ce57--

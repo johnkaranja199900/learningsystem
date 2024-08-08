@@ -1,0 +1,344 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202408 will be lost/reset.
+# Last config file used to build this data file was /home/petcomtr/tmp/awstats/awstats.petcomtrainingcollege.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2700                
+POS_VISITOR 7734                
+POS_DAY 8973                
+POS_DOMAIN 3371                
+POS_LOGIN 3733                
+POS_ROBOT 3888                
+POS_WORMS 4242                
+POS_EMAILSENDER 4373                
+POS_EMAILRECEIVER 4516                
+POS_SESSION 9189                
+POS_SIDER 9346                
+POS_FILETYPES 4651                
+POS_DOWNLOADS 4826                
+POS_OS 4874                
+POS_BROWSER 5028                
+POS_SCREENSIZE 5528                
+POS_UNKNOWNREFERER 5602                
+POS_UNKNOWNREFERERBROWSER 5716                
+POS_ORIGIN 5825                
+POS_SEREFERRALS 5959                
+POS_PAGEREFS 6103                
+POS_SEARCHWORDS 6251                
+POS_KEYWORDS 6403                
+POS_MISC 2364                
+POS_ERRORS 6462                
+POS_CLUSTER 3589                
+POS_SIDER_404 6575                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240807140649 54 10565 8346390011670
+FirstTime 20240801015215
+LastTime 20240807140649
+LastUpdate 20240807151941 54 0 54 0 0
+TotalVisits 28                  
+TotalUnique 28                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 29                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 9 31 1972651
+1 7 7 71645 2 5 176197
+2 0 0 0 2 4 28662
+3 1 1 17137 2 2 34274
+4 1 1 17137 4 5 232742
+5 1 1 17225 2 19 554286
+6 0 0 0 6 18 224504
+7 1 1 17137 1 4 28026
+8 2 2 34362 1 3 25309
+9 3 3 51411 3 6 207465
+10 1 1 17137 3 5 83101
+11 0 0 0 4 6 50642
+12 0 0 0 4 6 58646
+13 3 3 51697 1 3 25277
+14 2 2 34362 1 2 25293
+15 12 44 5428570 4 9 217920
+16 16 16 177564 4 5 19614
+17 0 1 138580 6 19 365375
+18 1 1 17225 1 2 155805
+19 0 0 0 2 2 34274
+20 4 5 207128 22 22 206244
+21 0 0 0 1 3 34114
+22 2 2 34274 3 4 43907
+23 3 3 51411 20 24 1673699
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 11
+in 24 24 266346
+us 18 52 5857328
+nl 7 7 71645
+at 3 3 51411
+lv 2 2 34274
+gb 1 1 17225
+se 1 1 17137
+ru 1 1 17137
+it 1 1 17137
+de 1 1 17137
+cn 1 1 17225
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+Googlebot/ 79 1704251 20240807123339 10
+AhrefsBot/ 41 3661812 20240806013450 3
+bingbot/ 25 308158 20240806124550 5
+bot[\s_+:,\.\;\/\\-] 4 311522 20240801185506 0
+curl 2 34274 20240806191424 0
+unknown 1 24 20240804100831 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+js 10 129900 0 0
+html 36 617570 0 0
+jpg 12 4480156 0 0
+png 4 554320 0 0
+css 8 384024 0 0
+Unknown 24 218032 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+win10 27 26
+linuxubuntu 16 16
+macosx15 4 4
+winvista 1 1
+Unknown 1 0
+linux 43 11
+win7 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 22
+chrome91.0.4472.114 1 1
+chrome114.0.0.0 2 2
+firefox114.0 24 24
+chrome102.0.5005.197 1 1
+Unknown 1 0
+chrome100.0.4896.75 1 1
+chrome75.0.1633.88 1 1
+chrome83.0.4103.97 1 1
+chrome78.0.3904.108 3 3
+chrome124.0.0.0 7 7
+chrome100.0.4896.60 1 1
+safari16.2 1 1
+chrome88.0.4240.193 3 3
+chrome126.0.0.0 4 4
+chrome122.0.0.0 1 1
+chrome115.0.0.0 1 0
+msie11.0 2 2
+safari17.3.1 1 1
+chrome68.0.3440.106 34 2
+chrome66.0.3359.181 2 2
+netscape5.0 1 1
+firefox125.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+axios/1.6.7 20240804174652
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+axios/1.6.7 20240804174652
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 39 41
+From1 0 0
+From2 0 0
+From3 0 0
+From4 21 53
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 48 387272
+403 4 68724
+302 5 1990
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 25
+/sitemaps.xml 2 -
+/2018/wp-includes/wlwmanifest.xml 1 -
+/wordpress/wp-includes/wlwmanifest.xml 2 -
+/img/petcom%20logo.png%20 3 -
+/2020/wp-includes/wlwmanifest.xml 1 -
+/website/wp-includes/wlwmanifest.xml 2 -
+/wp/wp-includes/wlwmanifest.xml 2 -
+/news/wp-includes/wlwmanifest.xml 2 -
+/media/wp-includes/wlwmanifest.xml 1 -
+/wp1/wp-includes/wlwmanifest.xml 2 -
+/site/wp-includes/wlwmanifest.xml 2 -
+/wp2/wp-includes/wlwmanifest.xml 2 -
+/wp-includes/wlwmanifest.xml 2 -
+/blog/wp-includes/wlwmanifest.xml 2 -
+/sitemap.xml.gz 2 -
+/test/wp-includes/wlwmanifest.xml 2 -
+/xmlrpc.php 2 -
+/web/wp-includes/wlwmanifest.xml 2 -
+/sitemap_index.xml 2 -
+/ads.txt 1 -
+/img/petcom 3 http://petcomtrainingcollege.com
+/sito/wp-includes/wlwmanifest.xml 2 -
+/shop/wp-includes/wlwmanifest.xml 2 -
+/cms/wp-includes/wlwmanifest.xml 2 -
+/2019/wp-includes/wlwmanifest.xml 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 29
+122.176.207.166 16 16 177564 20240806163659
+122.176.201.179 8 8 88782 20240801163431
+46.101.80.192 7 7 71645 20240801015227
+35.240.139.3 3 3 51411 20240805234655
+92.223.85.245 3 3 51411 20240806202319
+178.254.29.124 1 1 17137 20240803225849
+34.216.239.140 1 1 17137 20240803153733
+159.148.128.174 1 1 17137 20240802090926
+3.95.222.47 1 1 17137 20240806075204
+35.225.82.182 1 1 17225 20240807130623
+34.222.42.231 1 1 17137 20240803145905
+84.17.48.76 1 1 17137 20240803220158
+34.105.37.64 1 1 17225 20240807140649 20240807140649 /
+51.89.230.56 1 1 17225 20240801084317
+185.172.67.57 1 1 17137 20240802090447
+34.150.223.83 1 1 17225 20240807132633 20240807132633 /
+192.36.109.114 1 1 17137 20240804100832
+147.182.128.169 1 1 17137 20240802031059
+34.211.1.102 1 1 17137 20240805151228
+167.99.178.30 1 1 17247 20240801130450
+159.223.158.116 1 1 17225 20240802050711
+198.211.97.44 1 1 17137 20240806040019
+54.190.197.9 1 17 2652757 20240805151238
+159.148.128.57 1 1 17137 20240802090410
+54.191.97.187 1 17 2652757 20240803153741
+18.142.128.26 0 1 138580 
+135.148.195.3 1 2 155717 20240801204720
+34.236.192.76 1 1 17137 20240805081456
+123.60.68.42 1 1 17225 20240801183942
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20240801 19 20 367841 6
+20240802 5 5 85773 5
+20240803 5 21 2721305 5
+20240804 1 2 155717 1
+20240805 6 22 2738442 4
+20240806 21 21 263249 4
+20240807 3 3 51675 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30mn-1h 1
+0s-30s 25
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/ 36 617570 28 23
+/loginadmin 4 24284 0 1
+/howto 4 38436 0 0
+/about 4 50032 0 0
+/courses 4 48800 0 2
+/register 4 32332 0 0
+/login 4 24148 0 0
+END_SIDER

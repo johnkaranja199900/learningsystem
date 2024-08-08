@@ -1,0 +1,162 @@
+Return-Path: <philomenahwanjiru24@gmail.com>
+Delivered-To: info@petcomtrainingcollege.com
+Received: from host16.safaricombusiness.co.ke
+	by host16.safaricombusiness.co.ke with LMTP
+	id GGV+Md9XS2ZHvycAz9s6Ng
+	(envelope-from <philomenahwanjiru24@gmail.com>)
+	for <info@petcomtrainingcollege.com>; Mon, 20 May 2024 17:02:07 +0300
+Return-path: <philomenahwanjiru24@gmail.com>
+Envelope-to: info@petcomtrainingcollege.com
+Delivery-date: Mon, 20 May 2024 17:02:07 +0300
+Received: from athi-ecisp-rat01.safaricombusiness.co.ke ([197.248.128.5]:30754)
+	by host16.safaricombusiness.co.ke with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <philomenahwanjiru24@gmail.com>)
+	id 1s93aa-00AwWJ-24
+	for info@petcomtrainingcollege.com;
+	Mon, 20 May 2024 17:02:07 +0300
+IronPort-SDR: 664b57de_aKJCOBIDrad4sb4u3m5IVS77OZxMQozFSKfMMcGMYh2D+7Q
+ CWmtff0I8pZynSCRr+zwSXmoCR0Lp0xMa9Af/fA==
+X-IPAS-Result: =?us-ascii?q?A0HSSwBSr/Vk/7HdVdFaGwEBAQE8AQEBAwMBAQECAQEBB?=
+ =?us-ascii?q?QEBAYFmgU0CAQEBaoFEQEeEUoEjjhqCe4prMAKBFh5BhVIDgSYDiwITDwEBA?=
+ =?us-ascii?q?QEBAQEBAQkUAS8EAQEEi3ICJUsBAgQBAQEBAwIDAQEBAQEBAwEBBQEBAQIBA?=
+ =?us-ascii?q?QYFAQKBBggLhS85DYI3IoIELIEeBwodARseAxIIAQIFNwIkAREBBQEGEEGCX?=
+ =?us-ascii?q?IIqAQMxA5hZgiCBBUKLO4EVBQIWgQGCCgavVQoZKA1qA4FcAgcSgTACAQEBA?=
+ =?us-ascii?q?QGESSODFwGBSwEBgmGEV4EhgiiBS4hEgw6CZwSJSpR1JgEHCwcDAwEEAwIDA?=
+ =?us-ascii?q?gEIBwIDAgIECAMBAgIBBgIDAQIBAgELAQECAwUCAhEBAgICAgIBAQIDAgMBB?=
+ =?us-ascii?q?wECAhgGBAUDAwQCAgEEAQYECgIEAwEBAgICAgMCCwMFAwEFAwoDBAQBBgIFA?=
+ =?us-ascii?q?wQCBQYEBAICAgICAQQBBAoDBAQDAwYDCQICCgITAgMPBgEECwsEAQICAgwDA?=
+ =?us-ascii?q?gYCAwMCBQgEAgICAgICBgIHBAICAQMCAgMDBgIBCAYDAgQCAQIEAgIGAwkCA?=
+ =?us-ascii?q?gICBAECAQYCAgIBAgIBCAIDAgICAgMDDAEBAQUDAgMBBwIHAQICAgILAwICA?=
+ =?us-ascii?q?gMCBAMCAgMOCwECBAIFAgICAgICAQICAgMFBAEDAwUDAwICAwQDBAUEAgIGA?=
+ =?us-ascii?q?gIFBgICBQMEAg8DBAIBAgEDBwsCBwIBDwgDBAIEAwICAwIBBQMEAgkRAgICA?=
+ =?us-ascii?q?wQFDAQGBAUCAgMCAgMCBgMDCwEBAQIBCwUBBAECAQMDAwsCAgEBAgEDAgIBA?=
+ =?us-ascii?q?gEHAQoKBgIFAQ0CAQEBAgQCAwYCAgEFAwUCAgcGAwEBBgEGAgQEBQIDBAEBA?=
+ =?us-ascii?q?gICBAIRBwEDAgMDBAQBAwkEAgIDAgEBAgEDAgEDAwIFBAMDAwIFAgUBAgEEA?=
+ =?us-ascii?q?QMDAgMCAwMDBAECAgETAwMCAgIEAgIDAwMDAQ0DAQMBAgIDAgEDEQQEAQIBA?=
+ =?us-ascii?q?gEEAQMDAwIQAgMDAwEEAQIDAgICAgUFBQsEAgEDAwIFAgICAgICBgYJAgIBA?=
+ =?us-ascii?q?QEBAgEBAQEBAgcDAgEBAgIDBwYCCQICAQEDAgECAQcIAQQCAgICAgMCAwICA?=
+ =?us-ascii?q?gECDAgCAQYBBAMVAhMBAQYFAwYHAgUBAwUBAgICAwUEAQQDAwIFAgIDAgICA?=
+ =?us-ascii?q?xQEAQMLAwMBAQIBBAMDAgIDAgQBAhAFAwMTDQEFAgICAhAGAgYFCgMHBAQDB?=
+ =?us-ascii?q?hUMAggBAgEBAgICCwECBAECAgICAgICAgIBAgYDBgMCBQICAwMCAgIDAgQCC?=
+ =?us-ascii?q?QICAgQCAQUCAgMCBQIEBgECAgIDAwMDAwIJCAUDAwEHAgQIAwIFAwUBBwcCB?=
+ =?us-ascii?q?AICAQELAwYDAwIDAwcOBAEIBwICAgICCgMHAwIsAwEGCgEEAQkBAgIFAwICA?=
+ =?us-ascii?q?wIFCAcBAwICAgsBEQICCRMFAgIDAgQCAwECAQEJEgMCAwUCHgQCAwMCAwMDA?=
+ =?us-ascii?q?wMDAwMBBgIDAwIDAwMDGwIDAwIDAwMDAgIFBQkFAgICAgUEBgYCAgIUAgEBB?=
+ =?us-ascii?q?wIEAgICBAEBGQYDCwMFAQIEAgQCBgQDAwUEAgIGBQEBAQECBAICCgMDAgIDA?=
+ =?us-ascii?q?gMDAQUFAQMBAwECAgEEAwQCDgUlEQIDCwUJBRgDAgIDAwQJAgIEAgICDwEMH?=
+ =?us-ascii?q?Q8QCAIDAgkCBQYIBQICBAIBAwUBAgQBAgsGAQkLAQMGBQICAQcKAQgNBQcCA?=
+ =?us-ascii?q?wICBQMDAQEGAgMDAwUBAgMDAgMDAgIIAwMCBAECAgIDBAICAgIHBAIQAREIA?=
+ =?us-ascii?q?wMBBAUCAgUKCg4EAQMCAwMDAwIBAwMDAQ0IAwQCCgECBQMCAgEFEwICBBAGA?=
+ =?us-ascii?q?gEBFQESCAELBAMJAgcBAhUDAQEBCAEDBA4BAgMFAQEBAQUCAgECBgIFAgIBB?=
+ =?us-ascii?q?AgEBAEMAwMCCQEEAQMEAQsCAQMEAgICAgECAgMCAgYCAwIEAQMDAwIDAQIBA?=
+ =?us-ascii?q?wEBAgwCAwMCCAMDBQECAwICAgQCAgICAgMEAQQEBQIBAgMCBgYDBAMCBQIDB?=
+ =?us-ascii?q?QEBBAIIBgEDAgMCBwsCAQYCAgEEAQECFAEEAQECAwUCAgYDAwMCAwICCAUIA?=
+ =?us-ascii?q?wIBAQIBBAMBAgEBGwICDAcDAQUCAgEFAwcBBAEBAQMHAQMDAgIOAgIKBQUCB?=
+ =?us-ascii?q?gIEAhwCAgIQAQIBAgEDCwMHAgIBAhECAgECCgcCAwIFBQEFAQQCAQIGAQgCA?=
+ =?us-ascii?q?hIFBggCAQEEAgsDAgEBAgICBgcCBQUDAwQCDwEGBQIBAgQCAQEDEAgHAQIOB?=
+ =?us-ascii?q?gIDBAICBQIBAgMCCQMHEgIQAQQBBQICBQEHAgEBAgMDBQYCAQMIAgIGAwcBA?=
+ =?us-ascii?q?gUHBQEGAgEHAwYCDAIcAQIBQx0CCQMjDwMLCQgTPQELBy4EBAwoARQUBy0XC?=
+ =?us-ascii?q?woURhADAqBJh1wBAaMboBAnCQEGAl6BYoEGGx8NgV6fQDODbgGTRJIshiSCH?=
+ =?us-ascii?q?YMFhWyGeqJ/hTYQIxKBa4FZcIEBbYFJUgsOD5IXj3xBMjsCBwsBAQMJi0gBA?=
+ =?us-ascii?q?Q?=
+IronPort-PHdr: A9a23:wqIKFxNHK/tN8v1iOrEl6nbyDRdPi9zP1u491JMrhvp0f7i5+Ny6Z
+ QqDv6sr1QOZFt+Fo9t/yMPu+5j6XmIB5ZvT+FsjS7drEyE/tMMNggY7C9SEA0CoZNTjbig9A
+ dgQHAQ9pyLzPkdaAtvxaEPPqXOu8zESBg//NQ1oLejpB4Lelcu62/6z9pHJfglFizmwbbxsI
+ Bi3sA7cqtQYjYx+J6gr1xDHuGFIe+NYxWNpIVKcgRPx7dqu8ZBg7ipdpesv+9ZPXqvmcas4S
+ 6dYDCk9PGAu+MLrrxjDQhCR6XYaT24bjwBHAwnB7BH9Q5fxri73vfdz1SWGIcH7S60/VDK/5
+ KlpVRDokj8KODE5/m/ZicJ+kbxVrw66qhNl34LZepuYOOZicq7fe94RWGpPXtxWVyxEGo68d
+ 4sPD+sFPeZfqonyuV0OogG+BQKxCuLg0DlIhn333a0gzuQqDAbL3BQgH9IPtHTUq9D1O7kUU
+ e+vzKnJwy/Mb/VU2Tf88ojIbw4trP6XULJ/dMre00gvFwffglqMrozlOiqY2+IQuGeU8+RuT
+ /igi3I7qw5vuDivwN8hh4vJiI8L1lzJ+jl0zYkrKNC8SUN1bsOoHZRSuiyHOYZ7QMEvTnxpt
+ Som1rEIuZy2cTQKxZkn2RLRZeKKf5aH7B/lSe2fIi94iWp7dL6jgxu+60utx+3mWsWqzlpGs
+ zBJnsTOu30P0RHY99KJReFn/ki73DaCzwDT5f9AIUAzjafbLoQuwr80lpYKr0TDHTL6lFz4j
+ KOLdEgp+PKk6+vgYrXhqZ+cM5F7hhviPaQpn8yzGeU4Mg4QUGiH4emwyqHv8EnjTLhJjvA6i
+ LfVvI7HKcgBu6K0AQ1Y3p4m6xmlDjem1NoYnWMALFJAYB+Hl4jpO1DKIPD/CPewnVKsny1rx
+ /HIJLLhBJfNLnnZkLf8Y7pw5FVRyAU2zd9F5pJUDqsNL+70Wk/0rNDYCAQ2PBSuw+n7ENV9y
+ p8eWWWXD6OEKK/Sq0OH5vozI+mQY48YoDf9K/4r5/7plnI5gUESfbW10psQbXC4Au5mLF+YY
+ Xrqg9cBF2gKsRY5TOzujF2NTzFTaGioU60g4TE7DdHuMYCWR4ajh5SZ0TuwGZhKfGlHDFGKH
+ nzvc4GJVPpKYyWXceF7lTlRTbigT4gk2BentEflwrxlL/DJsnkAtZPn09144eTTihg09z1uE
+ p7B+26IRmBw2GgPQmllj+hEvUVhxwLbguBDiPtCGIkLj84=
+IronPort-Data: A9a23:PbZt3a2BFs6/k0nfwvbD5Yhwkn2cJEfYwER7XKvMYLTBsI5bpzFWn
+ DZLDG3XMvyMY2ukeIwnYdmz80wAu5PdzIMxQAto3Hw8FHgiRegppzi6BhypY37NdJ2roGZPt
+ Zh2hgzodZhsJpPkjk7xdOKn9BGQ7InQLpLkEunIJyttcgFtTSYlmHpLlvUw6mJSqYHR7zil5
+ 5Wq+aUzBHf/g2QvajNMt/rawP9SlK2aVA0w7wRWic9j4Qe2e0k9VPo3Oay3Jn3kdYhYdsbSq
+ zHrlezREsvxpn/BO/v9+lrJWhRiro36YWBivkFrt52K2XCukMCSPpETb5LwYW8P49mAcksYJ
+ N9l7fRcQi9xVkHAdXh0v7C13EiSMIUfkIIrL0RTvuSJlw7hbGXx5M4zL2UKBtUmpslOBUJBo
+ KlwxDAlNnhvhsqzybO/D/dv34EtdZa0eowYvX5kwHfSCvNOrZLrGf2bo48Fmm1q34YXQqm2i
+ 8kxMVKDaDzYYxxLPVIaDps+g+6uhHjlbmcEgF2QrKszpWPUyWSd1ZC8aYqMI4PXLSlTtny+/
+ lzN0V34ODETFYy8zATe7U6Qp8aayEsXX6pXTtVU7MVCgVudwUQLBQEdUl6nu/C4jE+4VNlYL
+ 0gZ9Sdopq83nHFHVfH4Vhy85WCH51sSAoUPVeI97w6Jx+zf5APx6nU4cwOtoecO7KceLQHGH
+ HfV9z9ELWUHXGG9IZ5WyltYQf5e98TYwa/uqBLolTc43uQ=
+IronPort-HdrOrdr: A9a23:WIqJXqP6pl8nbcBcT97255DYdb4zR+YMi2TDiHoddfUFSKalfp
+ 6V98jzjSWE8Qr5K0tQ4exoWZPwCU80kKQY3WB/B8bGYOCLggqVxcRZnO3fKl7bambDH4xmpM
+ NdmsFFYbWeY2SSz/yKhzVQeOxB/DDzytHLuQ6o9QYPcShaL4VbqytpAAeSFUN7ACFAGJoCDZ
+ KZouZXuja6fnwTT8KjQl0IRfLKqdHnnI/vJUduPW9r1CC+yReTrJLqGRmR2RkTFxtJ3LcZ6G
+ DA1yDp+6m5tPm/6xnEk0ve9Y5fltfNwsZKQOaMls8WADPxjRvAXvUqZ5Sy+BQO5M2/4lcjl9
+ fB5z06Od5o1n/Xdmap5TPwxgjJyl8VmjDf4G7dpUGmjd3yRTo8BcYEr5leaAHl500pu8w5+L
+ 5X3lieq4FcAXr77WrADpnzJlBXf3iP0DkfeN0o/j5iuEwlGfpsRLkkjQNo+VE7bWbHAc4cYa
+ 5T5YrnlY1rmBuhHgrkVy9UsZCRtz0Ib2u7qkRugL3p7xFG2H9+1EcW38oZgzMJ8488UYBN46
+ DePr1vj6wmdL5gUUvTPpZwfSKbMB25ffv3ChPnHX33UKUcf37doZ/+57s4oOmsZZwT1ZM33J
+ DMSklRu2I+c1/nTZTm5uwDzjndBGGmGTj9wMBX4JZ0/rX6WbrwKCWGDFQjidGprfkTCtDSH/
+ yzJJVVCfn+KnaGI/c+4yTuH51JbXUOWswcvdg2H1qIv8LQM4Xv8vfWdf7CTYCdYwrMmlmPcU
+ frcAKDVfmotHrbJUMQqCKhJU/QRg==
+X-Talos-CUID: 9a23:ony5YG7vz6yiXtnflNss7hZXPd87b1rmkVT0H3TgNzpGcbm2RgrF
+X-Talos-MUID: 9a23:SFDHQAtt6sne8KGq+s2nvhc6CsxG2qWUKEkswbYDhZKbCRBREmLI
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.02,226,1688418000"; 
+   d="scan'208,217";a="9181175"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+Received: from mail-vk1-f177.google.com ([209.85.221.177])
+  by athi-ecisp-rat01.safaricombusiness.co.ke with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 20 May 2024 17:02:06 +0300
+Received: by mail-vk1-f177.google.com with SMTP id 71dfb90a1353d-4df3f7b93a7so836896e0c.1
+        for <info@petcomtrainingcollege.com>; Mon, 20 May 2024 07:02:05 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1716213663; x=1716818463; darn=petcomtrainingcollege.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=NInenL+AiAuDID4UfubSUEUstutqwne9zgZ+vc9gifs=;
+        b=PYT2l7ZLdoNXJThvU5WX0HTYYnpzS4X6foHL1utwAk9cC0aDGGgtJfQ1j/4SElo7pS
+         uCtrYcy0AD/bH2Bbp0oCZa/umZv3fVclFriUl3Ck5YNieA9oa7dfHH86bVkPEJI/IO3j
+         R4QzDgX9yMoT0MfoSi3/nqaXRyYdB/hNkf2JqoZEu77//lniaVV/1cRLxOsUkOMi1/ll
+         4QXvH03PhVFflEs8jmRyvJhO096kOZzRogxErMQF8ir7nN1kQ0SjNARDaBaWfWtkDLOD
+         sEj+BSy4jBoE1eCLBbBzNZuL+P/XDBoLW0dsx1KdhzTcqZO64Vnc5KKM7oIQhHYPPE6z
+         G9CQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1716213663; x=1716818463;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=NInenL+AiAuDID4UfubSUEUstutqwne9zgZ+vc9gifs=;
+        b=dTrOq/8NHVItjHlPlCu+RL/oICdcNEADc4NKOz97qgBOfJqvAJognYxS/uHL4imXWm
+         8otH9l4/+b5iHpC0wTXydDDedu9XvSBsxA9N2I0cqDQssX1K6lak61m95v3ZkEI14N9x
+         9HRF3ZLZt8Wsv9VpTOYQ4/iOihBf/lpTx3PtUjRvna9H1GGKZzFQq5Tf8VoNNrwE3Zou
+         CbXJOX/l6HVRJvl2dQu2zmueQ6wmZoQKFSdTsyu/2Lbnz84YWUmpuHEISL1sUjFhJ0Lq
+         FAZONN4C9XxNnXurZ+tsnF7m7XUGzLW/xf4b4Hncm2+oIkLSjGRIKJAmDXIHdhI43AIg
+         3H7w==
+X-Gm-Message-State: AOJu0YwydUQxnMTkUscblWXrh12au3AzyvZYtWcfKNE4DUvOudvAJTps
+	nA4PgHJus3QeB2s8eaaVRcCQwNQIpodnaoT5UeqaaXjFziCiItqLrzoZMpCem/Mc7rFQd1ffOmN
+	1Nbh/vQ4I3GUu95sEFCAwnDtql7dngtDomJA=
+X-Google-Smtp-Source: AGHT+IHK7aNdqPVHmDWXiEsYNNNDczpcylIctp8kh1SMcYXC8VX4fAM5PI7+fRp9r+kstUxHo5VjiHknV6YP2kM8OhQ=
+X-Received: by 2002:a05:6122:1da2:b0:4d8:9541:41a0 with SMTP id
+ 71dfb90a1353d-4df8835acc0mr26027387e0c.12.1716213662187; Mon, 20 May 2024
+ 07:01:02 -0700 (PDT)
+MIME-Version: 1.0
+From: philomenah wanjiru <philomenahwanjiru24@gmail.com>
+Date: Mon, 20 May 2024 17:00:49 +0300
+Message-ID: <CAO1rF1up=gTuQUjxku729q_uuYj9abt0V4u-_ioXO-VAZikxxw@mail.gmail.com>
+Subject: hello there
+To: info@petcomtrainingcollege.com
+Content-Type: multipart/alternative; boundary="000000000000b18ab90618e32175"
+
+--000000000000b18ab90618e32175
+Content-Type: text/plain; charset="UTF-8"
+
+this body of content
+
+--000000000000b18ab90618e32175
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr">this body of content</div>
+
+--000000000000b18ab90618e32175--
